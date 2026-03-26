@@ -22,7 +22,7 @@
 
   .game-card{width:100%;padding:14px 18px;background:linear-gradient(135deg,#5a4830,#3a2e20);border:1px solid #6a5840;border-radius:10px;cursor:pointer;text-align:left;margin-bottom:8px;transition:all .25s;color:inherit;display:block;position:relative}
   .game-card:hover{border-color:#8a7850;background:linear-gradient(135deg,#6a5840,#4a3e30);transform:translateY(-1px)}
-  .game-card-inner{display:flex;align-items:center;gap:12px}
+  .game-card-inner{display:flex;align-items:center;gap:12px;padding-right:70px}
   .game-card-icon{font-size:28px;flex-shrink:0}
   .game-card-title{font-family:'Playfair Display',serif;font-size:15px;font-weight:700;color:#d4a745}
   .game-card-sub{font-size:12px;color:#a08c70;margin-top:1px}
@@ -44,19 +44,13 @@
   .drop-zone-text{font-size:14px;color:#a08c70}.drop-zone-text strong{color:#d4a745}
   .drop-zone-hint{font-size:12px;color:#6a5a42;margin-top:6px}
 
-  .github-section{margin-top:20px;padding:16px;background:rgba(0,0,0,.25);border:1px solid #3a3020;border-radius:10px}
-  .github-row{display:flex;gap:8px;margin-top:8px;align-items:center;flex-wrap:wrap}
-  .github-input{flex:1;min-width:200px;padding:8px 12px;background:rgba(0,0,0,.3);border:1px solid #4a3c28;border-radius:6px;color:#e8dcc8;font-family:inherit;font-size:13px;outline:none;transition:border .2s}
-  .github-input:focus{border-color:#d4a745}
-  .github-input::placeholder{color:#6a5a42}
-  .github-btn{padding:8px 16px;background:linear-gradient(135deg,#5a4830,#3a2e20);color:#d4a745;border:1px solid #6a5840;border-radius:6px;cursor:pointer;font-size:13px;font-family:inherit;font-weight:700;transition:all .2s;white-space:nowrap}
-  .github-btn:hover{background:linear-gradient(135deg,#6a5840,#4a3e30)}
-  .github-btn:disabled{opacity:.5;cursor:default}
-  .github-hint{font-size:11px;color:#6a5a42;margin-top:8px;line-height:1.6}
-  .github-status{font-size:12px;margin-top:8px;padding:6px 10px;border-radius:6px}
-  .status-ok{background:rgba(90,170,90,.12);color:#8aba8a;border:1px solid rgba(90,170,90,.2)}
-  .status-err{background:rgba(200,60,60,.12);color:#cc8080;border:1px solid rgba(200,60,60,.2)}
-  .status-loading{background:rgba(212,167,69,.1);color:#c4a060;border:1px solid rgba(212,167,69,.2)}
+  .sync-bar{margin-top:16px;padding:12px 16px;border-radius:8px;font-size:12px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  .sync-bar.ok{background:rgba(90,170,90,.1);border:1px solid rgba(90,170,90,.2);color:#8aba8a}
+  .sync-bar.err{background:rgba(200,60,60,.1);border:1px solid rgba(200,60,60,.2);color:#cc8080}
+  .sync-bar.loading{background:rgba(212,167,69,.08);border:1px solid rgba(212,167,69,.2);color:#c4a060}
+  .sync-btn{padding:5px 14px;background:linear-gradient(135deg,#5a4830,#3a2e20);color:#d4a745;border:1px solid #6a5840;border-radius:6px;cursor:pointer;font-size:12px;font-family:inherit;font-weight:700;transition:all .2s;white-space:nowrap}
+  .sync-btn:hover{background:linear-gradient(135deg,#6a5840,#4a3e30)}
+  .sync-btn:disabled{opacity:.5;cursor:default}
 
   .error-msg{margin-top:12px;padding:10px 14px;background:rgba(200,60,60,.15);border:1px solid rgba(200,60,60,.3);border-radius:8px;font-size:13px;color:#e8a0a0}
 
@@ -139,7 +133,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.9/babel.min.js"></script>
 <script type="text/babel">
-const {useState,useCallback,useMemo,useEffect,useRef}=React;
+const {useState,useCallback,useEffect,useRef}=React;
 
 /* ═══════ CHESS ENGINE ═══════ */
 const IB=[["r","n","b","q","k","b","n","r"],["p","p","p","p","p","p","p","p"],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null],["P","P","P","P","P","P","P","P"],["R","N","B","Q","K","B","N","R"]];
@@ -154,36 +148,60 @@ function pPGN(pgn){let c=pgn.replace(/\{[^}]*\}/g,"").replace(/\([^)]*\)/g,"").r
 function bBS(pgn){const sans=pPGN(pgn),states=[IB.map(r=>[...r])],moves=[];let cur=IB.map(r=>[...r]),lF=null,lT=null;for(let i=0;i<sans.length;i++){const isW=i%2===0,parsed=pSAN(cur,sans[i],isW,lF,lT);if(!parsed){console.warn("Parse fail:",sans[i],i);break}cur=aM(cur,parsed);states.push(cur);moves.push({...parsed,san:sans[i]});lF=parsed.from;lT=parsed.to}return{states,moves}}
 
 /* ═══════ STORAGE ═══════ */
-const STORAGE_KEY = "chess_analyzer_library";
-const GITHUB_KEY = "chess_analyzer_github";
+const LIB_KEY="chess_analyzer_lib_v2";
+function getLib(){try{return JSON.parse(localStorage.getItem(LIB_KEY)||"[]")}catch{return[]}}
+function saveLib(lib){localStorage.setItem(LIB_KEY,JSON.stringify(lib))}
+function makeId(g){return(g.info.white+"-vs-"+g.info.black+"-"+g.info.date).toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/-+$/,"")}
+function addToLib(game,source="local"){
+  const lib=getLib(),id=makeId(game);
+  const idx=lib.findIndex(g=>g.id===id);
+  const entry={id,source,data:game};
+  if(idx>=0)lib[idx]=entry;else lib.push(entry);
+  saveLib(lib);return lib;
+}
+function rmFromLib(id){const lib=getLib().filter(g=>g.id!==id);saveLib(lib);return lib}
 
-function getLibrary() {
-  try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]"); } catch { return []; }
+/* ═══════ GITHUB AUTO-DETECT ═══════ */
+function detectGitHubRepo(){
+  // If hosted on *.github.io, derive the repo info
+  const host=window.location.hostname;
+  const path=window.location.pathname.replace(/\/index\.html$/,"").replace(/\/$/,"");
+  if(host.endsWith(".github.io")){
+    const user=host.replace(".github.io","");
+    const repo=path.split("/").filter(Boolean)[0]||"";
+    if(repo)return{user,repo};
+  }
+  return null;
 }
-function saveLibrary(lib) { localStorage.setItem(STORAGE_KEY, JSON.stringify(lib)); }
-function addToLibrary(game, source="local") {
-  const lib = getLibrary();
-  const id = game.info.white.toLowerCase().replace(/\s+/g,"-") + "-vs-" + game.info.black.toLowerCase().replace(/\s+/g,"-") + "-" + (game.info.date||"").replace(/\D+/g,"-").replace(/-+$/,"");
-  const exists = lib.findIndex(g => g.id === id);
-  const entry = { id, source, data: game };
-  if (exists >= 0) lib[exists] = entry; else lib.push(entry);
-  saveLibrary(lib);
-  return lib;
+
+async function fetchGitHubPartidas(user,repo){
+  // Use GitHub API to list files in partidas/ folder — no index.json needed
+  const apiUrl=`https://api.github.com/repos/${user}/${repo}/contents/partidas`;
+  const res=await fetch(apiUrl);
+  if(!res.ok)throw new Error("No se encontró la carpeta partidas/ en el repositorio");
+  const files=await res.json();
+  if(!Array.isArray(files))throw new Error("Respuesta inesperada de GitHub API");
+  
+  const jsonFiles=files.filter(f=>f.name.endsWith(".json")&&f.name!=="index.json");
+  const games=[];
+  
+  for(const f of jsonFiles){
+    try{
+      // Fetch raw content via GitHub Pages (same origin, faster)
+      const rawUrl=`https://${user}.github.io/${repo}/partidas/${f.name}`;
+      const r=await fetch(rawUrl);
+      if(!r.ok)continue;
+      const game=await r.json();
+      if(game.pgn&&game.analysis&&game.info)games.push(game);
+    }catch(e){console.warn("Error cargando",f.name,e)}
+  }
+  return games;
 }
-function removeFromLibrary(id) {
-  const lib = getLibrary().filter(g => g.id !== id);
-  saveLibrary(lib);
-  return lib;
-}
-function getGitHubConfig() {
-  try { return JSON.parse(localStorage.getItem(GITHUB_KEY) || "null"); } catch { return null; }
-}
-function saveGitHubConfig(cfg) { localStorage.setItem(GITHUB_KEY, JSON.stringify(cfg)); }
 
 /* ═══════ IMMORTAL GAME ═══════ */
-const IMMORTAL={info:{title:"La Partida Inmortal",white:"Adolf Anderssen",black:"Lionel Kieseritzky",event:"Torneo de Londres",date:"1851",result:"1-0",description:"La partida más famosa de la historia del ajedrez. Anderssen sacrificó un alfil, ambas torres y la dama para dar un mate espectacular solo con piezas menores."},pgn:"1. e4 e5 2. f4 exf4 3. Bc4 Qh4+ 4. Kf1 b5 5. Bxb5 Nf6 6. Nf3 Qh6 7. d3 Nh5 8. Nh4 Qg5 9. Nf5 c6 10. g4 Nf6 11. Rg1 cxb5 12. h4 Qg6 13. h5 Qg5 14. Qf3 Ng8 15. Bxf4 Qf6 16. Nc3 Bc5 17. Nd5 Qxb2 18. Bd6 Bxg1 19. e5 Qxa1+ 20. Ke2 Na6 21. Nxg7+ Kd8 22. Qf6+ Nxf6 23. Be7#",analysis:[{san:"e4",title:"1. e4 — La apertura clásica",explanation:"Anderssen abre con e4, controlando el centro y liberando alfil y dama. La apertura más popular: agresiva, directa y ambiciosa.",pros:"Control central, desarrollo rápido.",cons:"Ligera debilidad en d4."},{san:"e5",title:"1... e5 — Respuesta simétrica",explanation:"Kieseritzky disputa el centro con su peón de rey. Ambos luchan por el dominio central.",pros:"Igualdad central, desarrollo natural del alfil f8.",cons:"El peón e5 puede ser objetivo si blancas juegan f4."},{san:"f4",title:"2. f4 — ¡El Gambito de Rey!",explanation:"El legendario Gambito de Rey. Sacrifica material por abrir la columna f y ganar tiempo. La apertura más romántica del siglo XIX.",pros:"Columna f abierta, iniciativa, dominio central.",cons:"Debilita diagonal e1-h4, expone al rey."},{san:"exf4",title:"2... exf4 — Aceptando el gambito",explanation:"Kieseritzky acepta. Ventaja de un peón, pero blancas ganan tiempo y líneas abiertas.",pros:"Ventaja material (+1 peón).",cons:"Pierde tiempo si no consolida."},{san:"Bc4",title:"3. Bc4 — Apuntando a f7",explanation:"Alfil apunta a f7, el punto más débil del negro. Desarrollo rápido con presión directa.",pros:"Desarrollo con amenaza, presión f7.",cons:"No recupera peón inmediatamente."},{san:"Qh4+",title:"3... Qh4+ — ¡Jaque agresivo!",explanation:"Dama a h4 con jaque. Aprovecha la debilidad de la diagonal e1-h4 y fuerza al rey a moverse.",pros:"Impide enroque, dama activa.",cons:"Dama expuesta tempranamente."},{san:"Kf1",title:"4. Kf1 — El rey pierde el enroque",explanation:"Rey a f1, pierde enroque para siempre. Anderssen acepta: su plan es atacar.",pros:"Sale del jaque.",cons:"Sin enroque, rey vulnerable."},{san:"b5",title:"4... b5!? — Contra-gambito audaz",explanation:"¡Kieseritzky ofrece su propio gambito! b5 desvía al alfil de c4.",pros:"Ataca al alfil, gana tempo.",cons:"Debilita flanco de dama."},{san:"Bxb5",title:"5. Bxb5 — Aceptando el contra-gambito",explanation:"Captura en b5. Alfil desplazado pero mantiene ventaja de desarrollo.",pros:"Material extra, diagonales.",cons:"Alfil lejos de flanco de rey."},{san:"Nf6",title:"5... Nf6 — Desarrollo con ataque",explanation:"Caballo a f6 atacando e4. Desarrollo natural con presión.",pros:"Desarrollo, ataque a e4.",cons:"Ninguna significativa."},{san:"Nf3",title:"6. Nf3 — Expulsando a la dama",explanation:"Caballo a f3 atacando la dama. Desarrollo con tempo.",pros:"Desarrollo con tempo.",cons:"Ninguna significativa."},{san:"Qh6",title:"6... Qh6 — La dama se retira",explanation:"Dama a h6, vigilando f4 y la diagonal d2-h6.",pros:"Dama activa, defiende f4.",cons:"Dos tiempos perdidos."},{san:"d3",title:"7. d3 — Consolidando el centro",explanation:"Refuerza e4, abre diagonal para alfil c1.",pros:"Defiende e4, libera alfil c1.",cons:"Algo lenta."},{san:"Nh5",title:"7... Nh5 — El caballo busca aventura",explanation:"Caballo a h5 para defender f4 y amenazar Ng3+. En el borde es vulnerable.",pros:"Defiende f4, amenaza Ng3+.",cons:"Caballo en el borde."},{san:"Nh4",title:"8. Nh4 — ¡Caballo contra caballo!",explanation:"Caballo a h4 apuntando a f5, casilla dominante.",pros:"Amenaza Nf5, control de g6.",cons:"Caballo en banda, pero con destino claro."},{san:"Qg5",title:"8... Qg5 — La dama presiona",explanation:"Dama a g5 atacando Nh4.",pros:"Ataca Nh4.",cons:"Tercera jugada de dama."},{san:"Nf5",title:"9. Nf5 — ¡Caballo dominante!",explanation:"Caballo en f5, posición increíble. Controla e7, g7, d6, h6.",pros:"Posición dominante, múltiples amenazas.",cons:"Podría ser expulsado con g6."},{san:"c6",title:"9... c6 — Intentando expulsar al alfil",explanation:"c6 ataca al alfil b5 y gana espacio. Consume un tempo valioso.",pros:"Ataca alfil, gana espacio.",cons:"No desarrolla, pierde tempo."},{san:"g4",title:"10. g4! — ¡Rompiendo defensas!",explanation:"¡Brillante! g4 ataca Nh5 y abre líneas en flanco de rey.",pros:"Ataca Nh5, abre columna g.",cons:"Debilita flanco de rey propio."},{san:"Nf6",title:"10... Nf6 — Retirada forzada",explanation:"Caballo vuelve a f6 perdiendo tiempos (f6-h5-f6).",pros:"Vuelve a casilla natural.",cons:"Dos tiempos perdidos."},{san:"Rg1",title:"11. Rg1! — La torre entra en juego",explanation:"Torre en columna g semiabierta. Apunta a g7 y al rey negro.",pros:"Torre activa, presión sobre g7.",cons:"Ninguna significativa."},{san:"cxb5",title:"11... cxb5 — Captura tardía",explanation:"Captura el alfil. Material a favor del negro, pero ataque blanco es imparable.",pros:"Gana alfil.",cons:"Pierde tempo para defensa."},{san:"h4",title:"12. h4! — ¡Más leña al fuego!",explanation:"h4 ataca la dama y amenaza h5.",pros:"Ataca dama, amenaza h5.",cons:"Debilitamiento propio."},{san:"Qg6",title:"12... Qg6 — La dama se esconde",explanation:"Cuarta jugada de dama. Desarrollo negro desastroso.",pros:"Evita ser atrapada.",cons:"Cuarta jugada de dama."},{san:"h5",title:"13. h5! — ¡Acorralando a la dama!",explanation:"Peón a h5 atacando la dama. Sin casillas cómodas.",pros:"Ataque a dama, dominio espacial.",cons:"Peón avanzado pero seguro."},{san:"Qg5",title:"13... Qg5 — Volviendo a g5",explanation:"La dama vuelve a g5. Solo juega con dama y caballos.",pros:"Dama activa.",cons:"Quinta jugada de dama."},{san:"Qf3",title:"14. Qf3! — La dama blanca en acción",explanation:"Dama a f3 apuntando a f6 y diagonal a8-h1. Coordinación total.",pros:"Desarrollo con amenazas.",cons:"Ninguna significativa."},{san:"Ng8",title:"14... Ng8 — ¡El caballo vuelve a casa!",explanation:"Caballo vuelve a g8. Humillante: tres tiempos perdidos.",pros:"Evita pérdida de material.",cons:"Retroceso total."},{san:"Bxf4",title:"15. Bxf4 — Recuperando el gambito",explanation:"Alfil captura f4, recupera peón del gambito. Desarrollo superior y ataque feroz.",pros:"Recupera material, alfil activo.",cons:"Ninguna."},{san:"Qf6",title:"15... Qf6 — Buscando defensa",explanation:"Dama a f6 bloqueando columna f. Desesperado.",pros:"Bloquea columna f.",cons:"Sexta jugada de dama."},{san:"Nc3",title:"16. Nc3 — Desarrollo completo",explanation:"Último caballo. Todas las blancas activas; negro tiene 4 piezas sin mover.",pros:"Desarrollo completo, amenaza Nd5.",cons:"Ninguna."},{san:"Bc5",title:"16... Bc5 — Primer desarrollo tardío",explanation:"Alfil a c5, apuntando a f2 y g1. Primera pieza menor que mueve.",pros:"Desarrollo, presión f2/g1.",cons:"Demasiado tarde."},{san:"Nd5",title:"17. Nd5! — ¡Caballo en el corazón!",explanation:"Caballo a d5 dominando el centro. Amenaza dama, controla c7 y e7.",pros:"Posición dominante.",cons:"Ninguna."},{san:"Qxb2",title:"17... Qxb2! — Captura materialista",explanation:"Dama captura b2 amenazando torre a1. Ventaja material enorme, posición desastrosa.",pros:"Gana peón, amenaza torre.",cons:"Dama alejada de la defensa."},{san:"Bd6",title:"18. Bd6!! — ¡EL PRIMER GRAN SACRIFICIO!",explanation:"¡¡INCREÍBLE!! Bd6 IGNORA la amenaza a la torre. Corta comunicación entre piezas negras y bloquea escape del rey.",pros:"Bloquea escape del rey, combinación letal.",cons:"Permite Qxa1+ (¡a propósito!)."},{san:"Bxg1",title:"18... Bxg1 — Capturando la torre",explanation:"Captura la torre. Ventaja material descomunal. Pero Anderssen ha visto la combinación histórica.",pros:"Gana torre.",cons:"Alfil atrapado en g1."},{san:"e5",title:"19. e5!! — ¡¡SEGUNDO GRAN SACRIFICIO!!",explanation:"¡¡OBRA MAESTRA!! e5 corta la defensa de la dama sobre f6. Ha regalado AMBAS TORRES.",pros:"Abre diagonal, amenaza mortal.",cons:"Dos torres menos, pero ataque compensa."},{san:"Qxa1+",title:"19... Qxa1+ — ¡La segunda torre cae!",explanation:"Captura segunda torre con jaque. Pero piezas negras completamente descoordinadas.",pros:"Captura segunda torre.",cons:"Dama atrapada en a1."},{san:"Ke2",title:"20. Ke2! — El rey se aparta con calma",explanation:"Rey a e2 con absoluta tranquilidad. Las piezas restantes bastan para el mate.",pros:"Sale del jaque.",cons:"Rey expuesto, pero ataque más rápido."},{san:"Na6",title:"20... Na6 — Desarrollo tardío",explanation:"Caballo a a6. Demasiado tarde y lejos.",pros:"Desarrollo.",cons:"Demasiado lento."},{san:"Nxg7+",title:"21. Nxg7+! — ¡El caballo arrasa!",explanation:"Captura g7 con jaque. Demolición de la última barrera de peones.",pros:"Jaque, destruye estructura.",cons:"Ninguna."},{san:"Kd8",title:"21... Kd8 — El rey huye",explanation:"Rey a d8, única casilla. No puede ir a f8 por Bd6, ni a d7 por Nd5.",pros:"Evita amenazas en e8.",cons:"Rey expuesto."},{san:"Qf6+",title:"22. Qf6+!! — ¡¡¡SACRIFICIO DE DAMA!!!",explanation:"¡¡¡LA JUGADA MÁS FAMOSA!!! SACRIFICA LA DAMA. Tras ambas torres, ahora la dama. Va a dar mate solo con piezas menores. ¡Pura poesía!",pros:"Fuerza captura, mate imparable.",cons:"Se pierde la dama... ¡pero es mate en una!"},{san:"Nxf6",title:"22... Nxf6 — Captura obligada",explanation:"Captura forzada. Negro tiene ventaja material aplastante. Pero es irrelevante.",pros:"Gana la dama.",cons:"Abre e7 para el alfil: ¡MATE!"},{san:"Be7#",title:"23. Be7# — ¡¡¡JAQUE MATE!!! ✦",explanation:"¡¡¡MATE!!! Alfil a e7. Rey en d8 no escapa: Nd5 cubre c7, Ng7 cubre e8. Mate con piezas menores tras sacrificar AMBAS TORRES y la DAMA.",pros:"JAQUE MATE. La victoria más bella de la historia.",cons:"Ninguno. Es perfecta."}]};
+const IMMORTAL={info:{title:"La Partida Inmortal",white:"Adolf Anderssen",black:"Lionel Kieseritzky",event:"Torneo de Londres",date:"1851",result:"1-0",description:"La partida más famosa de la historia del ajedrez. Anderssen sacrificó un alfil, ambas torres y la dama para dar un mate espectacular solo con piezas menores."},pgn:"1. e4 e5 2. f4 exf4 3. Bc4 Qh4+ 4. Kf1 b5 5. Bxb5 Nf6 6. Nf3 Qh6 7. d3 Nh5 8. Nh4 Qg5 9. Nf5 c6 10. g4 Nf6 11. Rg1 cxb5 12. h4 Qg6 13. h5 Qg5 14. Qf3 Ng8 15. Bxf4 Qf6 16. Nc3 Bc5 17. Nd5 Qxb2 18. Bd6 Bxg1 19. e5 Qxa1+ 20. Ke2 Na6 21. Nxg7+ Kd8 22. Qf6+ Nxf6 23. Be7#",analysis:[{san:"e4",title:"1. e4 — La apertura clásica",explanation:"Anderssen abre con e4, controlando el centro y liberando alfil y dama. La apertura más popular: agresiva, directa y ambiciosa.",pros:"Control central, desarrollo rápido.",cons:"Ligera debilidad en d4."},{san:"e5",title:"1... e5 — Respuesta simétrica",explanation:"Kieseritzky disputa el centro con su peón de rey.",pros:"Igualdad central, desarrollo natural del alfil f8.",cons:"Peón e5 puede ser objetivo si blancas juegan f4."},{san:"f4",title:"2. f4 — ¡El Gambito de Rey!",explanation:"El legendario Gambito de Rey. Sacrifica material por abrir columna f y ganar tiempo. La apertura más romántica del siglo XIX.",pros:"Columna f abierta, iniciativa, dominio central.",cons:"Debilita diagonal e1-h4, expone al rey."},{san:"exf4",title:"2... exf4 — Aceptando el gambito",explanation:"Kieseritzky acepta. Ventaja de un peón, pero blancas ganan tiempo y líneas abiertas.",pros:"Ventaja material (+1 peón).",cons:"Pierde tiempo si no consolida."},{san:"Bc4",title:"3. Bc4 — Apuntando a f7",explanation:"Alfil apunta a f7, el punto más débil del negro. Desarrollo rápido con presión.",pros:"Desarrollo con amenaza, presión f7.",cons:"No recupera peón inmediatamente."},{san:"Qh4+",title:"3... Qh4+ — ¡Jaque agresivo!",explanation:"Dama a h4 con jaque. Aprovecha debilidad diagonal e1-h4 y fuerza al rey a moverse.",pros:"Impide enroque, dama activa.",cons:"Dama expuesta tempranamente."},{san:"Kf1",title:"4. Kf1 — El rey pierde el enroque",explanation:"Rey a f1, pierde enroque. Anderssen acepta: su plan es atacar.",pros:"Sale del jaque.",cons:"Sin enroque, rey vulnerable."},{san:"b5",title:"4... b5!? — Contra-gambito audaz",explanation:"¡Kieseritzky ofrece su propio gambito! b5 desvía al alfil de c4.",pros:"Ataca al alfil, gana tempo.",cons:"Debilita flanco de dama."},{san:"Bxb5",title:"5. Bxb5 — Aceptando el contra-gambito",explanation:"Captura en b5. Alfil desplazado pero mantiene ventaja de desarrollo.",pros:"Material extra, diagonales.",cons:"Alfil lejos de flanco de rey."},{san:"Nf6",title:"5... Nf6 — Desarrollo con ataque",explanation:"Caballo a f6 atacando e4. Desarrollo natural con presión.",pros:"Desarrollo, ataque a e4.",cons:"Ninguna significativa."},{san:"Nf3",title:"6. Nf3 — Expulsando a la dama",explanation:"Caballo a f3 atacando la dama. Desarrollo con tempo.",pros:"Desarrollo con tempo.",cons:"Ninguna significativa."},{san:"Qh6",title:"6... Qh6 — La dama se retira",explanation:"Dama a h6, vigilando f4 y diagonal d2-h6.",pros:"Dama activa, defiende f4.",cons:"Dos tiempos perdidos."},{san:"d3",title:"7. d3 — Consolidando el centro",explanation:"Refuerza e4, abre diagonal para alfil c1.",pros:"Defiende e4, libera alfil c1.",cons:"Algo lenta."},{san:"Nh5",title:"7... Nh5 — El caballo busca aventura",explanation:"Caballo a h5 para defender f4 y amenazar Ng3+. En el borde es vulnerable.",pros:"Defiende f4, amenaza Ng3+.",cons:"Caballo en el borde."},{san:"Nh4",title:"8. Nh4 — ¡Caballo contra caballo!",explanation:"Caballo a h4 apuntando a f5, casilla dominante.",pros:"Amenaza Nf5, control de g6.",cons:"Caballo en banda, con destino claro."},{san:"Qg5",title:"8... Qg5 — La dama presiona",explanation:"Dama a g5 atacando Nh4.",pros:"Ataca Nh4.",cons:"Tercera jugada de dama."},{san:"Nf5",title:"9. Nf5 — ¡Caballo dominante!",explanation:"Caballo en f5, posición increíble. Controla e7, g7, d6, h6.",pros:"Posición dominante, múltiples amenazas.",cons:"Podría ser expulsado con g6."},{san:"c6",title:"9... c6 — Intentando expulsar al alfil",explanation:"c6 ataca al alfil b5 y gana espacio.",pros:"Ataca alfil, gana espacio.",cons:"No desarrolla, pierde tempo."},{san:"g4",title:"10. g4! — ¡Rompiendo defensas!",explanation:"¡Brillante! g4 ataca Nh5 y abre líneas en flanco de rey.",pros:"Ataca Nh5, abre columna g.",cons:"Debilita flanco de rey propio."},{san:"Nf6",title:"10... Nf6 — Retirada forzada",explanation:"Caballo vuelve a f6 perdiendo tiempos (f6-h5-f6).",pros:"Vuelve a casilla natural.",cons:"Dos tiempos perdidos."},{san:"Rg1",title:"11. Rg1! — La torre entra en juego",explanation:"Torre en columna g semiabierta. Apunta a g7 y al rey.",pros:"Torre activa, presión sobre g7.",cons:"Ninguna significativa."},{san:"cxb5",title:"11... cxb5 — Captura tardía",explanation:"Captura el alfil. Ventaja material pero ataque blanco imparable.",pros:"Gana alfil.",cons:"Pierde tempo para defensa."},{san:"h4",title:"12. h4! — ¡Más leña al fuego!",explanation:"h4 ataca la dama y amenaza h5.",pros:"Ataca dama, amenaza h5.",cons:"Debilitamiento propio."},{san:"Qg6",title:"12... Qg6 — La dama se esconde",explanation:"Cuarta jugada de dama. Desarrollo negro desastroso.",pros:"Evita ser atrapada.",cons:"Cuarta jugada de dama."},{san:"h5",title:"13. h5! — ¡Acorralando a la dama!",explanation:"Peón a h5 atacando la dama. Sin casillas cómodas.",pros:"Ataque a dama, dominio espacial.",cons:"Peón avanzado pero seguro."},{san:"Qg5",title:"13... Qg5 — Volviendo a g5",explanation:"La dama vuelve a g5. Solo juega con dama y caballos.",pros:"Dama activa.",cons:"Quinta jugada de dama."},{san:"Qf3",title:"14. Qf3! — La dama blanca en acción",explanation:"Dama a f3 apuntando a f6 y diagonal a8-h1. Coordinación total.",pros:"Desarrollo con amenazas.",cons:"Ninguna significativa."},{san:"Ng8",title:"14... Ng8 — ¡El caballo vuelve a casa!",explanation:"Caballo vuelve a g8. Tres tiempos perdidos.",pros:"Evita pérdida de material.",cons:"Retroceso total."},{san:"Bxf4",title:"15. Bxf4 — Recuperando el gambito",explanation:"Alfil captura f4, recupera peón del gambito. Desarrollo superior.",pros:"Recupera material, alfil activo.",cons:"Ninguna."},{san:"Qf6",title:"15... Qf6 — Buscando defensa",explanation:"Dama a f6 bloqueando columna f. Desesperado.",pros:"Bloquea columna f.",cons:"Sexta jugada de dama."},{san:"Nc3",title:"16. Nc3 — Desarrollo completo",explanation:"Último caballo. Todas blancas activas; negro tiene 4 piezas sin mover.",pros:"Desarrollo completo, amenaza Nd5.",cons:"Ninguna."},{san:"Bc5",title:"16... Bc5 — Primer desarrollo tardío",explanation:"Alfil a c5, apuntando a f2 y g1.",pros:"Desarrollo, presión f2/g1.",cons:"Demasiado tarde."},{san:"Nd5",title:"17. Nd5! — ¡Caballo en el corazón!",explanation:"Caballo a d5 dominando el centro. Amenaza dama, controla c7 y e7.",pros:"Posición dominante.",cons:"Ninguna."},{san:"Qxb2",title:"17... Qxb2! — Captura materialista",explanation:"Dama captura b2 amenazando torre a1. Ventaja material enorme.",pros:"Gana peón, amenaza torre.",cons:"Dama alejada de la defensa."},{san:"Bd6",title:"18. Bd6!! — ¡PRIMER GRAN SACRIFICIO!",explanation:"¡¡INCREÍBLE!! Bd6 IGNORA la amenaza a la torre. Corta comunicación y bloquea escape del rey.",pros:"Bloquea escape del rey, combinación letal.",cons:"Permite Qxa1+ (¡a propósito!)."},{san:"Bxg1",title:"18... Bxg1 — Capturando la torre",explanation:"Captura la torre. Ventaja material descomunal. Pero Anderssen ve la combinación.",pros:"Gana torre.",cons:"Alfil atrapado en g1."},{san:"e5",title:"19. e5!! — ¡¡SEGUNDO GRAN SACRIFICIO!!",explanation:"¡¡OBRA MAESTRA!! e5 corta la defensa de la dama. Ha regalado AMBAS TORRES.",pros:"Abre diagonal, amenaza mortal.",cons:"Dos torres menos, pero ataque compensa."},{san:"Qxa1+",title:"19... Qxa1+ — ¡La segunda torre cae!",explanation:"Captura segunda torre con jaque. Piezas negras completamente descoordinadas.",pros:"Captura segunda torre.",cons:"Dama atrapada en a1."},{san:"Ke2",title:"20. Ke2! — El rey se aparta con calma",explanation:"Rey a e2 con tranquilidad. Las piezas restantes bastan para mate.",pros:"Sale del jaque.",cons:"Rey expuesto, pero ataque más rápido."},{san:"Na6",title:"20... Na6 — Desarrollo tardío",explanation:"Caballo a a6. Demasiado tarde y lejos.",pros:"Desarrollo.",cons:"Demasiado lento."},{san:"Nxg7+",title:"21. Nxg7+! — ¡El caballo arrasa!",explanation:"Captura g7 con jaque. Demolición de la última barrera.",pros:"Jaque, destruye estructura.",cons:"Ninguna."},{san:"Kd8",title:"21... Kd8 — El rey huye",explanation:"Rey a d8, única casilla.",pros:"Evita amenazas en e8.",cons:"Rey expuesto."},{san:"Qf6+",title:"22. Qf6+!! — ¡¡¡SACRIFICIO DE DAMA!!!",explanation:"¡¡¡LA JUGADA MÁS FAMOSA!!! SACRIFICA LA DAMA. Va a dar mate solo con piezas menores.",pros:"Fuerza captura, mate imparable.",cons:"Se pierde la dama... ¡pero es mate en una!"},{san:"Nxf6",title:"22... Nxf6 — Captura obligada",explanation:"Captura forzada. Ventaja material aplastante del negro. Pero irrelevante.",pros:"Gana la dama.",cons:"Abre e7: ¡MATE!"},{san:"Be7#",title:"23. Be7# — ¡¡¡JAQUE MATE!!! ✦",explanation:"¡¡¡MATE!!! Alfil a e7. Nd5 cubre c7, Ng7 cubre e8. Mate tras sacrificar AMBAS TORRES y la DAMA.",pros:"JAQUE MATE. La victoria más bella de la historia.",cons:"Ninguno. Es perfecta."}]};
 
-/* ═══════ MATERIAL BALANCE ═══════ */
+/* ═══════ MATERIAL ═══════ */
 function MatBal({board}){
   const init={P:8,R:2,N:2,B:2,Q:1,K:1,p:8,r:2,n:2,b:2,q:1,k:1},cur={};
   for(const row of board)for(const p of row)if(p)cur[p]=(cur[p]||0)+1;
@@ -202,11 +220,44 @@ function App(){
   const[autoPlay,setAutoPlay]=useState(false);
   const[error,setError]=useState(null);
   const[dragOver,setDragOver]=useState(false);
-  const[library,setLibrary]=useState(getLibrary());
-  const[ghUrl,setGhUrl]=useState(getGitHubConfig()||"");
-  const[ghStatus,setGhStatus]=useState(null);
-  const[ghLoading,setGhLoading]=useState(false);
+  const[library,setLibrary]=useState(getLib());
+  const[syncStatus,setSyncStatus]=useState(null);
+  const[syncing,setSyncing]=useState(false);
   const fileRef=useRef();
+  const ghInfo=useRef(detectGitHubRepo());
+
+  // Auto-sync on load if on GitHub Pages
+  useEffect(()=>{
+    const gh=ghInfo.current;
+    if(!gh)return;
+    setSyncing(true);
+    setSyncStatus({type:"loading",msg:"Cargando partidas desde GitHub..."});
+    fetchGitHubPartidas(gh.user,gh.repo).then(games=>{
+      if(games.length>0){
+        games.forEach(g=>addToLib(g,"github"));
+        setLibrary(getLib());
+        setSyncStatus({type:"ok",msg:`${games.length} partida${games.length!==1?"s":""} sincronizada${games.length!==1?"s":""} desde GitHub`});
+      }else{
+        setSyncStatus({type:"ok",msg:"Carpeta partidas/ vacía o sin archivos válidos"});
+      }
+    }).catch(e=>{
+      setSyncStatus({type:"err",msg:"Error: "+e.message});
+    }).finally(()=>setSyncing(false));
+  },[]);
+
+  function manualSync(){
+    const gh=ghInfo.current;
+    if(!gh)return;
+    setSyncing(true);
+    setSyncStatus({type:"loading",msg:"Sincronizando..."});
+    fetchGitHubPartidas(gh.user,gh.repo).then(games=>{
+      games.forEach(g=>addToLib(g,"github"));
+      setLibrary(getLib());
+      setSyncStatus({type:"ok",msg:`${games.length} partida${games.length!==1?"s":""} sincronizada${games.length!==1?"s":""}`});
+    }).catch(e=>{
+      setSyncStatus({type:"err",msg:e.message});
+    }).finally(()=>setSyncing(false));
+  }
 
   function loadGame(data,save=false,source="local"){
     try{
@@ -214,7 +265,7 @@ function App(){
       if(moves.length===0)throw new Error("No se pudieron parsear las jugadas.");
       setGameData(data);setBoardData({states,moves});
       setStep(0);setAutoPlay(false);setError(null);setScreen("viewer");
-      if(save){const lib=addToLibrary(data,source);setLibrary(lib);}
+      if(save){const lib=addToLib(data,source);setLibrary(lib);}
     }catch(e){setError("Error: "+e.message)}
   }
 
@@ -232,44 +283,7 @@ function App(){
   function handleDrop(e){e.preventDefault();setDragOver(false);handleFile(e.dataTransfer.files[0])}
   function deleteGame(id){
     if(!confirm("¿Eliminar esta partida de la biblioteca?"))return;
-    const lib=removeFromLibrary(id);setLibrary(lib);
-  }
-
-  async function syncGitHub(){
-    const url=ghUrl.trim();
-    if(!url)return;
-    saveGitHubConfig(url);
-    setGhLoading(true);setGhStatus(null);
-    try{
-      let base=url.replace(/\/+$/,"");
-      // Convert github.com URL to raw content URL
-      const ghMatch=base.match(/github\.com\/([^/]+)\/([^/]+)/);
-      let rawBase;
-      if(ghMatch){
-        const[,user,repo]=ghMatch;
-        // Try GitHub Pages first, then raw
-        rawBase=`https://${user}.github.io/${repo}/partidas`;
-      }else{
-        rawBase=base+"/partidas";
-      }
-      const indexRes=await fetch(rawBase+"/index.json");
-      if(!indexRes.ok)throw new Error("No se encontró partidas/index.json");
-      const index=await indexRes.json();
-      if(!Array.isArray(index.games))throw new Error("index.json debe tener un array 'games'");
-      let loaded=0;
-      for(const filename of index.games){
-        try{
-          const res=await fetch(rawBase+"/"+filename);
-          if(!res.ok)continue;
-          const game=await res.json();
-          if(game.pgn&&game.analysis&&game.info){addToLibrary(game,"github");loaded++}
-        }catch(e){console.warn("Error cargando",filename,e)}
-      }
-      setLibrary(getLibrary());
-      setGhStatus({ok:true,msg:`Sincronizado: ${loaded} partida${loaded!==1?"s":""} cargada${loaded!==1?"s":""}`});
-    }catch(e){
-      setGhStatus({ok:false,msg:e.message});
-    }finally{setGhLoading(false)}
+    setLibrary(rmFromLib(id));
   }
 
   useEffect(()=>{
@@ -292,14 +306,9 @@ function App(){
     window.addEventListener("keydown",hk);return()=>window.removeEventListener("keydown",hk);
   },[screen,boardData,step,goTo]);
 
-  // Auto-sync GitHub on load
-  useEffect(()=>{
-    const cfg=getGitHubConfig();
-    if(cfg){setGhUrl(cfg);/* auto sync on first load disabled to avoid delays */}
-  },[]);
-
   /* ── HOME ── */
   if(screen==="home"){
+    const gh=ghInfo.current;
     return(
       <div className="home">
         <div className="home-inner">
@@ -307,7 +316,6 @@ function App(){
           <h1 className="home-title">Chess Analyzer</h1>
           <p className="home-sub">Análisis didáctico de partidas de ajedrez, jugada a jugada</p>
 
-          {/* Built-in */}
           <div className="section-label">Partida incluida</div>
           <button className="game-card" onClick={()=>loadGame(IMMORTAL)}>
             <div className="game-card-inner">
@@ -321,10 +329,9 @@ function App(){
             <span className="game-card-badge badge-builtin">INCLUIDA</span>
           </button>
 
-          {/* Library */}
-          {library.length>0 && (
+          {library.length>0&&(
             <div style={{marginTop:20}}>
-              <div className="section-label">Tu biblioteca ({library.length} partida{library.length!==1?"s":""})</div>
+              <div className="section-label">Tu biblioteca ({library.length})</div>
               {library.map(g=>(
                 <button key={g.id} className="game-card" onClick={()=>loadGame(g.data)}>
                   <div className="game-card-inner">
@@ -344,48 +351,42 @@ function App(){
             </div>
           )}
 
-          {/* Upload */}
-          <div className="separator"><div className="separator-line"/><span>Cargar nueva partida</span><div className="separator-line"/></div>
+          {/* GitHub sync status */}
+          {gh&&(
+            <div style={{marginTop:16}}>
+              {syncStatus&&(
+                <div className={`sync-bar ${syncStatus.type}`}>
+                  <span style={{flex:1}}>{syncStatus.type==="loading"?"⏳":syncStatus.type==="ok"?"✓":"✕"} {syncStatus.msg}</span>
+                  <button className="sync-btn" onClick={manualSync} disabled={syncing}>
+                    {syncing?"...":"↻ Resincronizar"}
+                  </button>
+                </div>
+              )}
+              {!syncStatus&&(
+                <div className="sync-bar ok" style={{color:"#7a9ad4",borderColor:"rgba(100,140,220,.2)",background:"rgba(100,140,220,.08)"}}>
+                  <span style={{flex:1}}>Conectado a GitHub: {gh.user}/{gh.repo}</span>
+                  <button className="sync-btn" onClick={manualSync} disabled={syncing}>↻ Sincronizar</button>
+                </div>
+              )}
+            </div>
+          )}
+
+          <div className="separator"><div className="separator-line"/><span>Cargar archivo local</span><div className="separator-line"/></div>
           <div className={`drop-zone ${dragOver?"active":""}`} onDragOver={e=>{e.preventDefault();setDragOver(true)}} onDragLeave={()=>setDragOver(false)} onDrop={handleDrop} onClick={()=>fileRef.current?.click()}>
             <input ref={fileRef} type="file" accept=".json" style={{display:"none"}} onChange={e=>handleFile(e.target.files[0])}/>
             <div className="drop-zone-icon">📂</div>
             <div className="drop-zone-text">Arrastra un <strong>.json</strong> aquí o haz clic para seleccionar</div>
             <div className="drop-zone-hint">Se guardará automáticamente en tu biblioteca</div>
           </div>
-
           {error&&<div className="error-msg">{error}</div>}
 
-          {/* GitHub sync */}
-          <div className="github-section">
-            <div className="section-label" style={{marginBottom:4}}>Sincronizar con GitHub</div>
-            <div style={{fontSize:12,color:"#8a7a62",marginBottom:8}}>
-              Conecta un repositorio para compartir partidas entre dispositivos.
-            </div>
-            <div className="github-row">
-              <input className="github-input" placeholder="https://github.com/tu-usuario/chess-library" value={ghUrl} onChange={e=>setGhUrl(e.target.value)}/>
-              <button className="github-btn" onClick={syncGitHub} disabled={ghLoading||!ghUrl.trim()}>
-                {ghLoading?"Cargando...":"Sincronizar"}
-              </button>
-            </div>
-            {ghStatus&&(
-              <div className={`github-status ${ghStatus.ok?"status-ok":"status-err"}`}>{ghStatus.msg}</div>
-            )}
-            <div className="github-hint">
-              <strong style={{color:"#a08c70"}}>Estructura del repo:</strong> Crea una carpeta <span className="code-inline">partidas/</span> con tus archivos .json y un <span className="code-inline">partidas/index.json</span> con el formato:<br/>
-              <code style={{color:"#d4a745",fontSize:11}}>{'{"games":["kasparov-vs-topalov-1999.json","morphy-vs-duke-1858.json"]}'}</code>
-            </div>
-          </div>
-
-          {/* Instructions */}
           <div className="instructions">
-            <div className="instructions-title">Cómo generar un análisis</div>
+            <div className="instructions-title">Cómo funciona</div>
             <div className="instructions-body">
-              <span className="step-num">1.</span> Abre <strong>prompt-analisis-ajedrez.md</strong><br/>
-              <span className="step-num">2.</span> Copia el prompt → pégalo en Claude / ChatGPT / Gemini<br/>
-              <span className="step-num">3.</span> Sustituye <span className="code-inline">[PEGAR PGN AQUÍ]</span> por tu PGN<br/>
-              <span className="step-num">4.</span> Descarga el .json que genera el LLM<br/>
-              <span className="step-num">5.</span> Cárgalo aquí o súbelo a tu repo de GitHub<br/>
-              <span className="step-num">⌨</span> En el visor usa las flechas <strong>← →</strong> del teclado
+              <span className="step-num">GitHub:</span> Sube archivos .json a la carpeta <strong>partidas/</strong> del repo. Se cargan automáticamente.<br/>
+              <span className="step-num">Local:</span> Arrastra un .json aquí. Se guarda en el navegador.<br/>
+              <span className="step-num">Generar:</span> Usa el prompt <strong>prompt-analisis-ajedrez.md</strong> en Claude/ChatGPT/Gemini.<br/>
+              <span className="step-num">⌨</span> Flechas <strong>← →</strong> del teclado en el visor.
             </div>
           </div>
         </div>
@@ -434,7 +435,6 @@ function App(){
           </div>
           <div className="mc">Jugada {step} de {total}{step>0&&<span className={`tb ${isWT?"w":"b"}`}>{isWT?"♔ Blancas":"♚ Negras"}</span>}</div>
         </div>
-
         <div className="rp">
           <div className="ml">
             <div className="pl">Lista de jugadas</div>

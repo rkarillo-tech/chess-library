@@ -1,0 +1,427 @@
+{
+"info": {
+"title": "Boleslavsky desmantela el enroque con un ataque modelo en la Siciliana",
+"white": "Boleslavsky Isaak",
+"black": "Lisitsin Georgy",
+"event": "Leningrad",
+"date": "1956",
+"result": "1-0",
+"description": "Esta partida es un ejemplo magnífico de ataque en la Siciliana Dragón con enroques opuestos. Boleslavsky combina una concesión posicional en el centro con un avance demoledor de los peones del flanco de rey, abriendo columnas decisivas contra el monarca negro."
+},
+"pgn": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Be3 Bg7 7. f3 O-O 8. Qd2 Nc6 9. O-O-O Nxd4 10. Bxd4 Qa5 11. Kb1 e5 12. Be3 Be6 13. a3 Rfd8 14. Nb5 Qa4 15. c4 Bxc4 16. Nc3 Qb3 17. Bxc4 Qxc4 18. Bg5 Qe6 19. Bxf6 Qxf6 20. Nd5 Qh4 21. Qe2 Bf8 22. Qf1 Rac8 23. g3 Qg5 24. h4 Qh6 25. g4 g5 26. hxg5 Qxg5 27. Rh5 Qg6 28. g5 h6 29. Rxh6 Qxg5 30. Rh5",
+"analysis": [
+{
+"san": "e4",
+"title": "1. e4 — La apertura clásica",
+"explanation": "Boleslavsky abre con el peón de rey para ocupar el centro y liberar rápidamente la dama y el alfil de f1. Es una jugada activa que busca iniciativa desde el primer momento. También prepara un desarrollo flexible hacia estructuras abiertas o semiabiertas.",
+"pros": "Control central, desarrollo rápido y planteamiento activo.",
+"cons": "La casilla d4 requerirá apoyo posterior."
+},
+{
+"san": "c5",
+"title": "1... c5 — La Defensa Siciliana",
+"explanation": "Lisitsin elige la Siciliana, una defensa combativa que lucha por el centro desde el flanco. En lugar de copiar con ...e5, busca crear desequilibrio estructural y juego dinámico. Es ideal para posiciones complejas y de contragolpe.",
+"pros": "Desequilibra la posición, presiona d4 y evita simetría cómoda.",
+"cons": "Cede algo de espacio central inicial."
+},
+{
+"san": "Nf3",
+"title": "2. Nf3 — Desarrollo natural",
+"explanation": "El caballo sale a una casilla ideal, controla e5 y d4 y prepara el avance central d4. Además, acerca una pieza al centro sin comprometer la estructura. Es la continuación más lógica y flexible.",
+"pros": "Desarrollo rápido, control central y apoyo a d4.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "d6",
+"title": "2... d6 — Estructura siciliana sólida",
+"explanation": "Las negras refuerzan la casilla e5 y preparan el desarrollo del alfil de c8 y del caballo de f6. Es un esquema sólido, típico de muchas variantes sicilianas. Mantiene la estructura compacta mientras el negro completa su desarrollo.",
+"pros": "Solidez central, apoyo a ...Nf6 y flexibilidad.",
+"cons": "El alfil de c8 tarda más en activarse."
+},
+{
+"san": "d4",
+"title": "3. d4 — Golpe central temático",
+"explanation": "Las blancas abren el centro en el momento correcto, invitando a una estructura típica de Siciliana abierta. Esta jugada busca aprovechar la ventaja de desarrollo potencial. También abre líneas para piezas que pronto ocuparán casillas activas.",
+"pros": "Abre líneas, lucha por el centro y acelera la actividad de piezas.",
+"cons": "Entrega temporalmente el peón central para abrir la posición."
+},
+{
+"san": "cxd4",
+"title": "3... cxd4 — Aceptando la Siciliana abierta",
+"explanation": "Lisitsin captura en d4 y entra en las estructuras principales de la Siciliana. Aclara la tensión central y obliga al blanco a recapturar con pieza. Con ello, el negro gana una semiabierta columna c para futuras operaciones.",
+"pros": "Aclara el centro y obtiene una columna semiabierta útil.",
+"cons": "Ayuda a desarrollar una pieza blanca al recapturar."
+},
+{
+"san": "Nxd4",
+"title": "4. Nxd4 — Recaptura activa",
+"explanation": "El caballo recaptura ocupando una casilla central excelente. Desde d4 controla casillas clave como b5, c6, e6 y f5. Además, el blanco desarrolla sin perder tiempo.",
+"pros": "Centraliza una pieza, recupera el peón y gana actividad.",
+"cons": "El caballo puede convertirse en objetivo de tiempos con ...Nc6."
+},
+{
+"san": "Nf6",
+"title": "4... Nf6 — Presión inmediata sobre e4",
+"explanation": "Las negras desarrollan el caballo y atacan el peón de e4, obligando al blanco a defenderlo o avanzar. Es una forma clásica de ganar tiempos en la apertura. También prepara el enroque corto.",
+"pros": "Desarrollo con amenaza, presión sobre e4 y preparación del enroque.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Nc3",
+"title": "5. Nc3 — Refuerzo central",
+"explanation": "El segundo caballo blanco sale y defiende e4, manteniendo la armonía del desarrollo. La pieza también influye en d5, una casilla crítica en la Siciliana. El blanco sigue construyendo una posición de máxima flexibilidad.",
+"pros": "Desarrollo natural, defensa de e4 y control de d5.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "g6",
+"title": "5... g6 — Camino al Dragón",
+"explanation": "Las negras preparan el fiancheto del alfil de rey, rasgo típico del Dragón. El alfil en g7 ejercerá gran presión sobre la diagonal larga. A cambio, el negro asume una estructura que puede ser atacada si el flanco de rey se abre.",
+"pros": "Activa el alfil por la gran diagonal y da carácter dinámico a la posición.",
+"cons": "Puede dejar el enroque expuesto a ataques de peones."
+},
+{
+"san": "Be3",
+"title": "6. Be3 — Desarrollo clásico contra el Dragón",
+"explanation": "El alfil se desarrolla a una casilla muy útil, donde sostiene d4 y controla c5 y h6. Además, prepara el esquema típico con Qd2 y enroque largo. Es una construcción muy lógica frente al fiancheto negro.",
+"pros": "Desarrollo armónico y preparación del plan de ataque estándar.",
+"cons": "El alfil puede ser objeto de saltos como ...Ng4 si no se refuerza."
+},
+{
+"san": "Bg7",
+"title": "6... Bg7 — El alfil entra en juego",
+"explanation": "El alfil negro se coloca en la gran diagonal y apunta al centro y al ala de dama blanca. Esta pieza suele ser el alma del contrajuego en el Dragón. Su potencia dependerá de que el negro logre abrir líneas.",
+"pros": "Gran actividad a largo alcance y presión sobre el centro.",
+"cons": "Puede quedar limitado si el centro se estabiliza desfavorablemente."
+},
+{
+"san": "f3",
+"title": "7. f3 — El esquema yugoslavo",
+"explanation": "Esta jugada refuerza e4, evita ideas como ...Ng4 sobre el alfil de e3 y prepara el asalto de peones con g4 y h4. Es una jugada multipropósito, muy instructiva y típica contra el Dragón. Boleslavsky muestra desde ya su intención de atacar al rey negro.",
+"pros": "Sostiene el centro, corta recursos tácticos negros y prepara ataque de peones.",
+"cons": "Retrasa algo el desarrollo y debilita ligeramente casillas oscuras."
+},
+{
+"san": "O-O",
+"title": "7... O-O — Seguridad antes de la tormenta",
+"explanation": "El negro asegura el rey y conecta sus torres antes de que se abra la posición. En el Dragón esto es casi obligatorio, aunque también define el sector donde recibirá el ataque. A partir de aquí, el tiempo será vital para ambos bandos.",
+"pros": "Rey seguro por ahora y mejor coordinación de torres.",
+"cons": "Fija el objetivo del futuro ataque blanco."
+},
+{
+"san": "Qd2",
+"title": "8. Qd2 — Coordinación total del ataque",
+"explanation": "La dama se coloca detrás del alfil de e3 y prepara el enroque largo. También crea ideas de Bh6 o sacrificios en h-file si se abren columnas. Es una jugada típica y muy poderosa en este esquema.",
+"pros": "Conecta piezas del ataque, prepara O-O-O y refuerza casillas clave.",
+"cons": "La dama puede quedar expuesta a tiempos si el negro se activa rápido."
+},
+{
+"san": "Nc6",
+"title": "8... Nc6 — Desarrollo y presión",
+"explanation": "El caballo sale a una casilla natural, aumenta la presión sobre d4 y controla b4 y e5. El negro completa su desarrollo menor antes de comenzar el contrajuego. Es una jugada muy saludable.",
+"pros": "Desarrollo lógico, presión central y apoyo al plan ...d5.",
+"cons": "Puede ser cambiado y dejar la estructura algo rígida."
+},
+{
+"san": "O-O-O",
+"title": "9. O-O-O — Enroques opuestos, ataque asegurado",
+"explanation": "El blanco enroca largo y confirma el plan estratégico de la partida: atacar en el flanco de rey mientras el negro buscará contrajuego en el ala de dama. En posiciones con enroques opuestos, el tiempo vale más que el material. Esta decisión da máxima claridad al plan blanco.",
+"pros": "Conecta torres y da vía libre a los peones del flanco de rey.",
+"cons": "El rey blanco se convierte en objetivo de la columna c y del ala de dama."
+},
+{
+"san": "Nxd4",
+"title": "9... Nxd4 — Simplificación oportuna",
+"explanation": "Lisitsin cambia el caballo central blanco para reducir su presión sobre d5 y e6. Además, intenta aliviar algo el espacio del blanco antes de que el ataque se ponga en marcha. En el Dragón, reducir piezas atacantes suele ser una defensa útil.",
+"pros": "Reduce presión blanca y simplifica una pieza activa enemiga.",
+"cons": "Ayuda al alfil blanco a centralizarse en la recaptura."
+},
+{
+"san": "Bxd4",
+"title": "10. Bxd4 — Centralización del alfil",
+"explanation": "El alfil recaptura y ocupa una casilla excelente en el centro. Desde d4 controla diagonales importantes y participa tanto en ataque como en defensa. El blanco conserva una posición muy armónica.",
+"pros": "Pieza activa, buena centralización y coordinación con la dama.",
+"cons": "El alfil puede ser molestado por avances centrales negros."
+},
+{
+"san": "Qa5",
+"title": "10... Qa5 — Contrajuego sobre el ala de dama",
+"explanation": "La dama negra mira hacia el enroque blanco y aumenta la presión sobre c3 y a3. Es una maniobra temática contra el enroque largo. El negro busca demostrar que también puede atacar con rapidez.",
+"pros": "Presiona el ala de dama blanca y crea amenazas latentes.",
+"cons": "La dama puede quedar expuesta a tiempos si el blanco gana iniciativa."
+},
+{
+"san": "Kb1",
+"title": "11. Kb1 — Profilaxis de alto nivel",
+"explanation": "Boleslavsky aparta al rey de la columna c y de posibles jaques o tácticas en b-file y c-file. Es una jugada profiláctica excelente: antes de atacar, asegura la propia retaguardia. Además, deja a la torre de d1 libre para participar sin preocupaciones tácticas.",
+"pros": "Mejora la seguridad del rey y neutraliza motivos tácticos en la columna c.",
+"cons": "Consume un tiempo sin crear amenaza directa."
+},
+{
+"san": "e5",
+"title": "11... e5 — Golpe central liberador",
+"explanation": "El negro gana espacio en el centro y busca expulsar o incomodar al alfil de d4. También libera la casilla e6 para piezas y da más aire a su posición. Es una reacción activa y correcta ante el plan ofensivo blanco.",
+"pros": "Gana espacio, activa piezas y disputa la iniciativa central.",
+"cons": "Debilita d5, una casilla que pronto será muy importante."
+},
+{
+"san": "Be3",
+"title": "12. Be3 — Repliegue útil",
+"explanation": "El alfil vuelve a e3 sin perder coordinación con la dama y el esquema de ataque. Desde allí sigue sosteniendo casillas clave y no estorba la futura expansión de peones. Es un retroceso que mantiene toda la armonía blanca.",
+"pros": "Conserva la pieza activa y mantiene intacto el plan ofensivo.",
+"cons": "Cede temporalmente el centro al negro."
+},
+{
+"san": "Be6",
+"title": "12... Be6 — Desarrollo final del alfil",
+"explanation": "El negro saca el alfil a una casilla centralizada, donde ayuda a controlar d5 y refuerza el ala de dama. También apoya una posible ...d5 futura. Es una jugada lógica, aunque pronto será molestada por el plan blanco.",
+"pros": "Desarrollo armónico y apoyo al centro.",
+"cons": "El alfil puede convertirse en objetivo de cambios o maniobras blancas."
+},
+{
+"san": "a3",
+"title": "13. a3 — Aire para el rey y control de b4",
+"explanation": "Boleslavsky juega una útil jugada de espera que controla b4 y dificulta la entrada de piezas negras por el ala de dama. También da al rey una casilla de escape potencial y estabiliza el enroque largo. En ataques de flancos opuestos, estos detalles defensivos importan mucho.",
+"pros": "Controla b4, mejora la seguridad del rey y limita piezas negras.",
+"cons": "Es un tiempo que no contribuye directamente al ataque."
+},
+{
+"san": "Rfd8",
+"title": "13... Rfd8 — Preparando ...d5",
+"explanation": "La torre se centraliza y apoya la ruptura ...d5, que es el gran sueño liberador del negro en muchas Sicilianas. También refuerza el peón de d6 y coordina mejor las piezas mayores. Lisitsin intenta activarse antes de quedar bajo ataque directo.",
+"pros": "Centraliza una torre y prepara la ruptura liberadora ...d5.",
+"cons": "La torre queda algo alineada con futuras tácticas sobre d6."
+},
+{
+"san": "Nb5",
+"title": "14. Nb5 — Interferencia estratégica",
+"explanation": "Una jugada muy fuerte: el caballo salta a b5 para interferir los planes negros y mirar de cerca d6 y c7. Además, dificulta seriamente la ruptura ...d5. El blanco no ataca todavía con peones porque primero quiere restringir al rival.",
+"pros": "Presiona d6 y c7, frena ...d5 y gana espacio estratégico.",
+"cons": "El caballo en el borde tiene menos rutas de retirada."
+},
+{
+"san": "Qa4",
+"title": "14... Qa4 — La dama busca actividad",
+"explanation": "La dama se desplaza a una casilla agresiva, donde mantiene presión sobre el ala de dama blanca. Sin embargo, también puede quedar algo expuesta si el blanco gana tiempos contra ella. El negro intenta compensar su falta de espacio con actividad táctica.",
+"pros": "Mantiene presión sobre el enroque largo y evita simplificaciones cómodas.",
+"cons": "La dama queda más vulnerable a ataques de piezas menores y peones."
+},
+{
+"san": "c4",
+"title": "15. c4 — Sacrificio posicional brillante",
+"explanation": "Esta es una jugada profunda: Boleslavsky entrega un peón para impedir que el negro logre la ruptura ...d5 en buenas condiciones. Además, gana espacio, expulsa líneas de la dama negra y prepara la instalación duradera del caballo en d5. No es un sacrificio táctico inmediato, sino una inversión estratégica.",
+"pros": "Gana espacio, fija el centro negro y refuerza el dominio de d5.",
+"cons": "Entrega un peón y exige compensación posicional real."
+},
+{
+"san": "Bxc4",
+"title": "15... Bxc4 — Aceptando el peón",
+"explanation": "Lisitsin acepta el peón y gana material, pero permite al blanco ejecutar su plan de restricción. El alfil sale de e6 y deja vacantes ciertas casillas importantes. A veces aceptar material implica conceder coordinación o seguridad.",
+"pros": "Gana un peón y obtiene ventaja material momentánea.",
+"cons": "Ayuda al blanco a ganar tiempo y a desalojar piezas clave."
+},
+{
+"san": "Nc3",
+"title": "16. Nc3 — El caballo reagrupa con ganancia estratégica",
+"explanation": "El caballo vuelve al centro, ataca la dama negra y mantiene la mira sobre d5. El detalle fino es que el blanco no lamenta haber movido dos veces el caballo porque cada maniobra ha servido para restringir el juego rival. La coordinación blanca mejora mientras la dama negra debe seguir buscando casilla.",
+"pros": "Gana un tiempo sobre la dama y refuerza el control central.",
+"cons": "El caballo ha consumido varios tiempos en la apertura."
+},
+{
+"san": "Qb3",
+"title": "16... Qb3 — Dama activa pero expuesta",
+"explanation": "La dama encuentra una casilla activa desde la que toca la torre de d1 y el ala de dama. Sin embargo, se interna en territorio enemigo y puede verse obligada a nuevos desplazamientos. Es un intento práctico de mantener contrajuego.",
+"pros": "Presión táctica sobre el ala de dama blanca y buena actividad aparente.",
+"cons": "La dama queda adelantada y susceptible a ser desalojada."
+},
+{
+"san": "Bxc4",
+"title": "17. Bxc4 — Recuperando coordinación",
+"explanation": "El blanco elimina al alfil activo de c4, reduciendo el potencial defensivo negro y simplificando hacia una estructura donde su ventaja posicional será más importante. También disminuye el número de defensores del rey negro. Es una recaptura muy lógica.",
+"pros": "Elimina una pieza activa y simplifica favorablemente.",
+"cons": "Devuelve parte del material, aunque con buena compensación posicional."
+},
+{
+"san": "Qxc4",
+"title": "17... Qxc4 — La dama centraliza",
+"explanation": "La dama negra recaptura y permanece activa, pero sigue siendo una pieza algo expuesta. El negro conserva el peón de ventaja y espera que la actividad compense sus dificultades posicionales. Sin embargo, la presión blanca sobre d5 está a punto de crecer.",
+"pros": "Conserva el peón extra y mantiene actividad central de la dama.",
+"cons": "La dama sigue siendo objetivo de tiempos y maniobras blancas."
+},
+{
+"san": "Bg5",
+"title": "18. Bg5 — Clavada con idea concreta",
+"explanation": "El alfil sale con fuerza y clava el caballo de f6, pieza que podría disputar o controlar d5. Esta jugada tiene un propósito muy concreto: impedir que ese caballo escape o se reorganice. El blanco empieza a transformar su compensación intangible en dominio visible.",
+"pros": "Clava una pieza defensora y aumenta la presión sobre el centro negro.",
+"cons": "El alfil puede quedar expuesto a ...Be7 o ...h6 en otras posiciones."
+},
+{
+"san": "Qe6",
+"title": "18... Qe6 — Repliegue defensivo",
+"explanation": "La dama se retira a una casilla más segura, donde además coordina con la defensa del rey. El negro intenta conservar su material extra y reorganizarse. Aun así, la pérdida de tiempos de la dama beneficia al blanco en una posición de ataque.",
+"pros": "Reduce la exposición de la dama y mejora la coordinación defensiva.",
+"cons": "Pierde iniciativa y deja al blanco seguir mejorando sus piezas."
+},
+{
+"san": "Bxf6",
+"title": "19. Bxf6 — Cambiando al defensor clave",
+"explanation": "Boleslavsky elimina el caballo de f6, que era un importante defensor del ala de rey y una pieza que podía cuestionar el dominio blanco sobre d5. A veces cambiar una pieza activa vale más que conservar la pareja de alfiles. El blanco facilita así la instalación del caballo en d5.",
+"pros": "Elimina un defensor importante y refuerza el control de d5.",
+"cons": "Entrega el alfil y reduce material atacante inmediato."
+},
+{
+"san": "Qxf6",
+"title": "19... Qxf6 — Recaptura obligada",
+"explanation": "La dama negra recaptura y conserva el equilibrio material favorable. Desde f6 también vigila algunas casillas del flanco de rey. Sin embargo, la dama defensora puede terminar estorbando a sus propias piezas si el ataque blanco se acelera.",
+"pros": "Recupera material y mantiene presencia defensiva en el ala de rey.",
+"cons": "La dama puede convertirse en objetivo del avance de peones blancos."
+},
+{
+"san": "Nd5",
+"title": "20. Nd5 — El caballo llega al puesto soñado",
+"explanation": "Aquí se revela la idea estratégica del blanco: el caballo se instala en una casilla avanzada, central y prácticamente inatacable por peones. Desde d5 domina gran parte del tablero, mira f6, c7 y e7, y estorba toda la coordinación negra. Esta pieza justifica con creces el sacrificio previo de peón.",
+"pros": "Caballo dominante, control de casillas críticas y gran restricción rival.",
+"cons": "La compensación blanca depende mucho de mantener ese dominio."
+},
+{
+"san": "Qh4",
+"title": "20... Qh4 — Frenar los peones enemigos",
+"explanation": "Lisitsin coloca la dama en h4 para intentar frenar g-pawn y h-pawn, o al menos dificultar la avalancha blanca. Es un recurso defensivo creativo: la dama actúa como bloqueadora. Pero también se acerca a la zona donde puede ser atacada por piezas y peones.",
+"pros": "Intenta frenar el ataque blanco y activa la dama en defensa.",
+"cons": "La dama puede quedar atrapada en tareas pasivas o ser atacada por peones."
+},
+{
+"san": "Qe2",
+"title": "21. Qe2 — Preparación paciente",
+"explanation": "La dama se recoloca para apoyar el flanco de rey y evitar detalles tácticos molestos. El blanco no se precipita: prepara mejor el avance de peones y mantiene control sobre casillas centrales. Es una jugada de coordinación, no de efecto inmediato.",
+"pros": "Mejora la coordinación y prepara avances de peones más seguros.",
+"cons": "No crea una amenaza directa inmediata."
+},
+{
+"san": "Bf8",
+"title": "21... Bf8 — Reforzando el enroque",
+"explanation": "El alfil retrocede para defender el rey, cubrir casillas oscuras y ayudar a contener la presión. Es una confesión de que el negro ya está pensando más en resistir que en generar contrajuego. La pieza queda pasiva, pero cumple una función defensiva necesaria.",
+"pros": "Aumenta la defensa del rey y controla casillas sensibles.",
+"cons": "El alfil pierde actividad y queda reducido a tareas defensivas."
+},
+{
+"san": "Qf1",
+"title": "22. Qf1 — Sutileza preparatoria",
+"explanation": "Una jugada muy fina: la dama se coloca detrás de los peones del flanco de rey para apoyar g3 y h4 sin permitir que la dama negra bloquee fácilmente el ataque. Boleslavsky mejora la coordinación antes de abrir líneas. Es una lección de preparación precisa.",
+"pros": "Apoya el avance de peones y evita recursos defensivos de la dama negra.",
+"cons": "La dama se vuelve temporalmente pasiva en apariencia."
+},
+{
+"san": "Rac8",
+"title": "22... Rac8 — Actividad en la columna abierta",
+"explanation": "El negro lleva una torre a la columna c, intentando crear contrajuego sobre el enroque largo y ganar algo de actividad. Es una reacción lógica en posiciones de ataque recíproco. Sin embargo, puede ser demasiado lenta frente a la tormenta que se avecina.",
+"pros": "Toma una columna abierta y busca contrajuego en el ala de dama.",
+"cons": "Puede llegar tarde si el rey negro queda bajo ataque inmediato."
+},
+{
+"san": "g3",
+"title": "23. g3 — Comienza la avalancha",
+"explanation": "El peón g avanza y gana espacio, preparando h4 y g4-g5 según convenga. Además, corta casillas a la dama negra y prepara abrir columnas sobre el rey enemigo. El blanco por fin convierte su superioridad posicional en ataque directo.",
+"pros": "Gana espacio, restringe la dama negra y prepara abrir líneas.",
+"cons": "Debilita algunas casillas oscuras del propio enroque."
+},
+{
+"san": "Qg5",
+"title": "23... Qg5 — Mantener el bloqueo",
+"explanation": "La dama negra se reubica para seguir controlando el avance de los peones enemigos y evitar que el ataque entre con demasiada facilidad. Sin embargo, se ve obligada a jugar un rol puramente defensivo. Cuando la dama defiende sola, suele ser mala señal.",
+"pros": "Intenta contener los peones de ataque y mantener contacto con el rey.",
+"cons": "La dama queda atada a la defensa y pierde capacidad de contrajuego."
+},
+{
+"san": "h4",
+"title": "24. h4 — Ganando espacio a la dama",
+"explanation": "Las blancas atacan a la dama negra y ganan un tiempo muy valioso para seguir el ataque. Además, el peón h se convierte en una futura palanca para abrir la columna h. Es una jugada agresiva y muy coherente con toda la estrategia previa.",
+"pros": "Gana tiempo sobre la dama y prepara la apertura de la columna h.",
+"cons": "Avanza peones del enroque y compromete aún más la estructura propia, aunque aquí está justificado."
+},
+{
+"san": "Qh6",
+"title": "24... Qh6 — La dama se aferra a la defensa",
+"explanation": "La dama se retira a h6 para seguir bloqueando y defendiendo el flanco de rey. El negro resiste con recursos concretos, pero cada retroceso de dama muestra la fuerza del plan blanco. La defensa ya está muy tensa.",
+"pros": "Mantiene la defensa del flanco de rey y controla casillas de entrada.",
+"cons": "La dama queda muy pasiva y susceptible a ser desbordada."
+},
+{
+"san": "g4",
+"title": "25. g4 — Abrir líneas a toda costa",
+"explanation": "Boleslavsky continúa la expansión de peones y amenaza romper con g5. En ataques con enroques opuestos, los peones avanzados son arietes que abren columnas para torres y dama. La presión blanca ya es muy difícil de contener.",
+"pros": "Gana más espacio, amenaza g5 y aumenta la fuerza del ataque.",
+"cons": "Fija aún más el compromiso estructural del flanco blanco."
+},
+{
+"san": "g5",
+"title": "25... g5 — Cierre desesperado",
+"explanation": "Lisitsin busca bloquear el avance blanco cerrando la estructura. Es una decisión comprensible: si no puede impedir el ataque, intenta al menos fijar peones. Pero ese cierre también crea objetivos fijos y puede abrir líneas por intercambio.",
+"pros": "Intenta frenar el avance directo de los peones blancos.",
+"cons": "Debilita casillas y facilita rupturas tácticas con hxg o g5."
+},
+{
+"san": "hxg5",
+"title": "26. hxg5 — Abrir la columna h",
+"explanation": "El blanco no duda en cambiar para abrir líneas contra el rey enemigo. La apertura de la columna h es un objetivo clásico en el ataque siciliano con enroques opuestos. Ahora las torres podrán entrar en acción decisiva.",
+"pros": "Abre líneas, crea contacto directo con el enroque negro y acelera el ataque.",
+"cons": "Reduce peones de cobertura propios, aunque el blanco juega a la iniciativa."
+},
+{
+"san": "Qxg5",
+"title": "26... Qxg5 — Dama activa en defensa",
+"explanation": "La dama negra captura y trata de mantenerse como principal pieza defensiva. El negro gana material adicional y elimina un peón atacante. Pero el problema no es el material: son las columnas abiertas y la falta de coordinación defensiva.",
+"pros": "Gana un peón y elimina una pieza de ataque importante.",
+"cons": "La dama queda sobrecargada defendiendo demasiadas cosas."
+},
+{
+"san": "Rh5",
+"title": "27. Rh5 — La torre entra por la quinta",
+"explanation": "Una jugada muy fuerte: la torre se activa lateralmente, ataca a la dama y prepara maniobras sobre h-file o g5. En ataques al rey, una torre en la quinta fila puede ser tan peligrosa como una pieza menor avanzada. El blanco intensifica la presión sin dar respiro.",
+"pros": "Gana tiempo sobre la dama y coloca la torre en una casilla muy agresiva.",
+"cons": "La torre puede quedar avanzada si el ataque se frena, aunque aquí no ocurre."
+},
+{
+"san": "Qg6",
+"title": "27... Qg6 — Intento de sostener la defensa",
+"explanation": "La dama vuelve a una casilla defensiva desde donde protege el rey y vigila h7 y g7. Lisitsin sigue resistiendo con la dama como pieza de contención principal. Pero la posición negra está cada vez más cargada de amenazas tácticas.",
+"pros": "Mantiene cobertura sobre el rey y evita entradas inmediatas.",
+"cons": "La dama sigue pasiva y con pocas opciones de contrajuego."
+},
+{
+"san": "g5",
+"title": "28. g5 — El golpe de ruptura",
+"explanation": "Este avance es decisivo: el blanco gana espacio, ataca la estructura negra y crea amenazas tácticas inmediatas como Nf6+. El peón en g5 también corta casillas a la dama y a las piezas defensoras. La avalancha de peones ha cumplido su función estratégica.",
+"pros": "Abre más líneas, crea amenazas directas y restringe la defensa negra.",
+"cons": "El peón puede convertirse en objetivo si el ataque no culmina, pero aquí la iniciativa manda."
+},
+{
+"san": "h6",
+"title": "28... h6 — Defensa forzada",
+"explanation": "Las negras intentan limitar la invasión de la torre blanca y dar una casilla a su rey o estructura. Es una jugada necesaria para no colapsar inmediatamente. Aun así, también crea nuevas debilidades tácticas en las casillas oscuras.",
+"pros": "Intenta frenar la entrada por h-file y dar algo de resistencia.",
+"cons": "Debilita el entorno del rey y no resuelve las amenazas de fondo."
+},
+{
+"san": "Rxh6",
+"title": "29. Rxh6 — Sacrificio temático de demolición",
+"explanation": "La torre entra sacrificándose o entregándose tácticamente para destruir los últimos peones protectores del rey negro. Es un recurso clásico: cuando el rey enemigo está corto de defensores, abrir una columna vale muchísimo. Aquí la jugada fuerza a la dama negra a alejarse de tareas defensivas ideales.",
+"pros": "Abre líneas definitivas contra el rey y crea amenazas de mate inmediatas.",
+"cons": "Entrega material si el ataque no funciona, pero el cálculo lo justifica."
+},
+{
+"san": "Qxg5",
+"title": "29... Qxg5 — Defensa material, no posicional",
+"explanation": "Lisitsin acepta material y elimina un peón peligroso, pero no consigue apagar el incendio. El problema del negro ya no es cuánto material tiene, sino la exposición del rey y la coordinación rota de sus piezas. La defensa llega demasiado tarde.",
+"pros": "Recoge material y elimina un peón avanzado blanco.",
+"cons": "No evita la entrada decisiva de las piezas pesadas blancas."
+},
+{
+"san": "Rh5",
+"title": "30. Rh5 — Reagrupación ganadora",
+"explanation": "La torre vuelve a h5 y confirma que toda la operación tenía un sentido táctico profundo. Desde esta casilla prepara una red de mate con la dama entrando por h1 o h3 según la respuesta negra. La coordinación entre peones avanzados, caballo dominante y torre activa resulta definitiva.",
+"pros": "Amenaza mate o ganancia decisiva, mantiene la iniciativa total y coordina el remate.",
+"cons": "Ninguna significativa."
+}
+]
+}

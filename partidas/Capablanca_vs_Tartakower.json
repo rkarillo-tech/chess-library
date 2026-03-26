@@ -1,0 +1,777 @@
+{
+"info": {
+"title": "Capablanca exprime una mínima ventaja contra Tartakower",
+"white": "Capablanca Jose Raul",
+"black": "Tartakower Saviely",
+"event": "It (Men) New York USA",
+"date": "1924",
+"result": "1-0",
+"description": "Esta partida es un modelo clásico de cómo convertir una ventaja microscópica en un final ganado mediante profilaxis, mejor colocación de piezas y técnica impecable. Capablanca neutraliza el juego activo de la Defensa Holandesa, mejora gradualmente su posición y luego ejecuta un final de torres memorable."
+},
+"pgn": "1. d4 e6 2. Nf3 f5 3. c4 Nf6 4. Bg5 Be7 5. Nc3 O-O 6. e3 b6 7. Bd3 Bb7 8. O-O Qe8 9. Qe2 Ne4 10. Bxe7 Nxc3 11. bxc3 Qxe7 12. a4 Bxf3 13. Qxf3 Nc6 14. Rfb1 Rae8 15. Qh3 Rf6 16. f4 Na5 17. Qf3 d6 18. Re1 Qd7 19. e4 fxe4 20. Qxe4 g6 21. g3 Kf8 22. Kg2 Rf7 23. h4 d5 24. cxd5 exd5 25. Qxe8+ Qxe8 26. Rxe8+ Kxe8 27. h5 Rf6 28. hxg6 hxg6 29. Rh1 Kf8 30. Rh7 Rc6 31. g4 Nc4 32. g5 Ne3+ 33. Kf3 Nf5 34. Bxf5 gxf5 35. Kg3 Rxc3+ 36. Kh4 Rf3 37. g6 Rxf4+ 38. Kg5 Re4 39. Kf6 Kg8 40. Rg7+ Kh8 41. Rxc7 Re8 42. Kxf5 Re4 43. Kf6 Rf4+ 44. Ke5 Rg4 45. g7+ Kg8 46. Rxa7 Rg1 47. Kxd5 Rc1 48. Kd6 Rc2 49. d5 Rc1 50. Rc7 Ra1 51. Kc6 Rxa4 52. d6 Rd4 53. d7 Rc4+ 54. Kb7 Rd4 55. Kc8",
+"analysis": [
+{
+"san": "d4",
+"title": "1. d4 — Control central sobrio",
+"explanation": "Capablanca abre con 1.d4 para reclamar espacio en el centro y preparar un desarrollo armónico. El peón de d4 controla e5 y c5, dos casillas importantes para restringir a las piezas negras. Además, esta apertura suele conducir a posiciones estratégicas donde la técnica pesa mucho.",
+"pros": "Gana espacio central, abre la diagonal del alfil de c1 y permite un desarrollo flexible.",
+"cons": "No crea amenazas directas inmediatas y exige jugar con precisión estratégica."
+},
+{
+"san": "e6",
+"title": "1... e6 — Flexibilidad francesa-holandesa",
+"explanation": "Tartakower responde con 1...e6, una jugada flexible que sostiene la futura ruptura ...d5 o, como en la partida, ...f5. Mantiene opciones de transposición y evita comprometerse demasiado pronto. También libera el alfil de f8, aunque de momento queda algo contenido.",
+"pros": "Mantiene flexibilidad de estructura y prepara un esquema sólido.",
+"cons": "El alfil de c8 puede quedar temporalmente encerrado si las negras no encuentran buen desarrollo."
+},
+{
+"san": "Nf3",
+"title": "2. Nf3 — Desarrollo natural",
+"explanation": "Las blancas desarrollan una pieza hacia el centro y refuerzan el peón de d4. El caballo en f3 ayuda a controlar e5 y g5 y facilita un enroque rápido. También mantiene abiertas varias estructuras de peón posibles.",
+"pros": "Desarrollo rápido, mayor control central y preparación del enroque.",
+"cons": "Reduce la posibilidad de empujar e2-e4 de un solo golpe sin preparación."
+},
+{
+"san": "f5",
+"title": "2... f5 — La Defensa Holandesa",
+"explanation": "Con ...f5, las negras adoptan la Defensa Holandesa y buscan luchar activamente por la casilla e4. Es una elección ambiciosa que aspira a iniciativa en el flanco de rey. A cambio, debilita algo la diagonal del rey negro y casillas como e6 y g6.",
+"pros": "Lucha por e4 y plantea un juego desequilibrado con posibilidades de ataque.",
+"cons": "Debilita el flanco de rey y puede dejar agujeros estratégicos."
+},
+{
+"san": "c4",
+"title": "3. c4 — Más espacio y presión",
+"explanation": "Capablanca amplía su control central con c4, consolidando d5 como casilla sensible para las negras. Esta expansión también dificulta que el negro iguale cómodamente con ...d5. Es una jugada típica de esquemas contra la Holandesa cuando las blancas quieren espacio.",
+"pros": "Gana terreno, sostiene el centro y limita contrajuego central negro.",
+"cons": "El peón de c4 puede convertirse en objetivo si las negras logran presionarlo."
+},
+{
+"san": "Nf6",
+"title": "3... Nf6 — Desarrollo y presión sobre e4",
+"explanation": "El caballo sale a su casilla natural, ayuda a controlar e4 y prepara el enroque. Las negras siguen un plan estándar de la Holandesa: desarrollo rápido y búsqueda de actividad sobre el flanco de rey. También impide de momento un avance blanco e2-e4 demasiado cómodo.",
+"pros": "Desarrolla pieza, refuerza el centro y prepara el enroque.",
+"cons": "No resuelve aún los problemas de coordinación del ala de dama."
+},
+{
+"san": "Bg5",
+"title": "4. Bg5 — Clavada activa",
+"explanation": "El alfil blanco sale con iniciativa y clava el caballo de f6 respecto a la dama negra potencialmente situada en d8 y al control de e5. Además, dificulta algunos esquemas agresivos negros porque el caballo de f6 pierde libertad. Es una jugada activa y muy lógica contra la Holandesa.",
+"pros": "Desarrolla con ganancia de tiempo estratégica y molesta la coordinación negra.",
+"cons": "El alfil puede ser cuestionado más adelante con ...Be7 y ...h6."
+},
+{
+"san": "Be7",
+"title": "4... Be7 — Romper la clavada",
+"explanation": "Tartakower responde de forma clásica, interponiendo el alfil para reducir la incomodidad de la clavada. Con ello prepara el enroque y mantiene su estructura flexible. Es una reacción sana y sólida.",
+"pros": "Facilita el enroque y neutraliza parte de la presión sobre f6.",
+"cons": "El alfil de e7 queda algo pasivo comparado con esquemas más activos."
+},
+{
+"san": "Nc3",
+"title": "5. Nc3 — Más desarrollo, más e4",
+"explanation": "Capablanca desarrolla otra pieza y aumenta la presión sobre la casilla e4. El caballo de c3 también apunta a b5 y d5, casillas típicas en estructuras cerradas o semiabiertas. Las blancas completan un despliegue muy natural.",
+"pros": "Desarrollo armonioso, refuerzo central y apoyo a posibles rupturas.",
+"cons": "Puede quedar expuesto a ...Ne4 y cambios que alteren la estructura blanca."
+},
+{
+"san": "O-O",
+"title": "5... O-O — Seguridad del rey",
+"explanation": "Las negras priorizan la seguridad del rey y conectan parcialmente sus piezas. En la Holandesa, enrocar pronto es importante porque el avance ...f5 puede generar futuras debilidades. Además, el rey sale del centro antes de que éste se abra.",
+"pros": "Pone a salvo al rey y mejora la coordinación general.",
+"cons": "El flanco de rey ya muestra debilidades por ...f5, así que el refugio no es perfecto."
+},
+{
+"san": "e3",
+"title": "6. e3 — Estructura sólida",
+"explanation": "Las blancas sostienen d4, abren la diagonal del alfil de f1 y preparan un desarrollo completo sin asumir riesgos. Esta jugada encaja con un plan posicional: terminar el desarrollo y luego elegir el momento exacto para romper en el centro. También mantiene muy estable la cadena de peones.",
+"pros": "Refuerza d4, libera el alfil y consolida la posición.",
+"cons": "El alfil de c1 aún no tiene máxima actividad."
+},
+{
+"san": "b6",
+"title": "6... b6 — Fiancheto correctivo",
+"explanation": "Tartakower prepara ...Bb7 para dar vida al alfil de casillas claras y aumentar presión sobre e4. En la Holandesa, este desarrollo ayuda a compensar la rigidez creada por ...e6. También ofrece apoyo adicional al centro desde la gran diagonal.",
+"pros": "Desarrolla el alfil por una diagonal larga y mejora la coordinación.",
+"cons": "Debilita ligeramente casillas oscuras del ala de dama y consume un tiempo."
+},
+{
+"san": "Bd3",
+"title": "7. Bd3 — Pieza activa hacia el rey",
+"explanation": "El alfil blanco se coloca en una diagonal muy útil, mirando h7 y sosteniendo futuras ideas centrales o de ataque. Desde d3, también apoya una posible ruptura e3-e4. Capablanca desarrolla con sentido multipropósito: centro, rey enemigo y coordinación.",
+"pros": "Desarrollo activo, apoyo a e4 y presión potencial sobre h7.",
+"cons": "Puede ser cambiado, lo que alteraría la pareja de alfiles."
+},
+{
+"san": "Bb7",
+"title": "7... Bb7 — El alfil entra en juego",
+"explanation": "El alfil negro se activa por la diagonal a8-h1, complementando el plan de luchar por e4. Esto da más coherencia al esquema holandés de Tartakower. Sin embargo, su influencia dependerá de que el centro no se bloquee desfavorablemente.",
+"pros": "Mejora la actividad del alfil y aumenta la presión sobre el centro blanco.",
+"cons": "Si el centro se cierra o cambia, el alfil puede chocar contra su propia estructura."
+},
+{
+"san": "O-O",
+"title": "8. O-O — Desarrollo completado del rey",
+"explanation": "Capablanca enroca y deja a su rey a salvo antes de emprender operaciones centrales o en el flanco. Es un momento ideal: las piezas blancas ya están razonablemente coordinadas. Ahora podrá pensar en planes de profilaxis y ruptura.",
+"pros": "Seguridad del rey y conexión inicial de las torres.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Qe8",
+"title": "8... Qe8 — Idea típica de ataque holandés",
+"explanation": "La dama se desplaza a e8 con la idea temática de ir a h5 y organizar un ataque sobre el rey blanco. Es un plan conocido en la Holandesa, a menudo combinado con ...Ng4. Tartakower muestra intenciones activas, pero revela su esquema con bastante claridad.",
+"pros": "Prepara una maniobra ofensiva típica contra el enroque blanco.",
+"cons": "La dama puede quedar algo artificial y perder tiempos si el blanco reacciona con precisión."
+},
+{
+"san": "Qe2",
+"title": "9. Qe2 — Profilaxis fina",
+"explanation": "Esta es una jugada muy capablanquiana: no ataca directamente, pero corta ideas negras antes de que aparezcan. La dama defiende e4, coordina mejor las piezas y dificulta el plan ...Qh5 porque ahora e4 ganaría fuerza inmediata. Es una forma elegante de responder a una amenaza posicional con una mejora propia.",
+"pros": "Refuerza el centro, frena el ataque negro y mejora la coordinación.",
+"cons": "La dama ocupa una casilla que a veces podría necesitar otra pieza."
+},
+{
+"san": "Ne4",
+"title": "9... Ne4 — Buscar simplificación activa",
+"explanation": "Al ver frenado su plan directo de ataque, Tartakower busca actividad central con ...Ne4. El caballo entra en una casilla avanzada y propone cambios que pueden alterar la estructura blanca. Es una reacción lógica para no quedarse pasivo.",
+"pros": "Centraliza una pieza y fuerza decisiones a las blancas.",
+"cons": "El caballo puede ser cambiado y ayudar al blanco a obtener objetivos estructurales."
+},
+{
+"san": "Bxe7",
+"title": "10. Bxe7 — Cambio con criterio estructural",
+"explanation": "Capablanca decide eliminar el alfil de e7, reduciendo la coordinación negra en el flanco de rey y simplificando la posición. El cambio también ayuda a que la idea agresiva negra pierda mordiente. En posiciones estratégicas, cambiar la pieza adecuada es tan importante como desarrollar.",
+"pros": "Reduce potencial ofensivo negro y aclara la posición a favor de la técnica blanca.",
+"cons": "Entrega la pareja de alfiles."
+},
+{
+"san": "Nxc3",
+"title": "10... Nxc3 — Alterar la estructura rival",
+"explanation": "Las negras cambian en c3 para doblar potencialmente peones blancos y obtener una debilidad fija. Es una decisión muy temática: si no puede atacar al rey, intenta crear un defecto estructural. Aun así, toda debilidad debe evaluarse junto con las líneas que se abren a cambio.",
+"pros": "Provoca una estructura blanca imperfecta y simplifica.",
+"cons": "Cede un caballo centralizado y permite que se abra la columna b."
+},
+{
+"san": "bxc3",
+"title": "11. bxc3 — Debilidad aceptada, compensación dinámica",
+"explanation": "Capablanca recaptura con el peón b, aceptando peones doblados pero abriendo la columna b para sus torres. Esta es la esencia del ajedrez posicional: una debilidad puede compensarse con actividad. Además, el centro blanco sigue sano y sus piezas tendrán buenas casillas.",
+"pros": "Abre la columna b, mantiene el centro y conserva buena actividad de piezas.",
+"cons": "Deja peones doblados en la columna c y una estructura algo menos estética."
+},
+{
+"san": "Qxe7",
+"title": "11... Qxe7 — Recuperación tranquila",
+"explanation": "La dama negra recaptura y restablece el material, quedando en una casilla central razonable. Tartakower ha logrado inducir una imperfección estructural, pero la posición blanca sigue muy sólida. Ahora el problema negro será igualar la actividad de las torres blancas.",
+"pros": "Completa los cambios y centraliza la dama.",
+"cons": "La dama puede ser objeto de futuros tiempos si las blancas ganan iniciativa."
+},
+{
+"san": "a4",
+"title": "12. a4 — Profilaxis en el ala de dama",
+"explanation": "Una jugada muy profunda: impide la intrusión de la dama negra por a3 y restringe recursos activos en el ala de dama. También prepara ideas como Rfb1 sin permitir contrajuego molesto. No gana material ni ataca nada de inmediato, pero mejora la posición blanca y limita la negra.",
+"pros": "Evita contrajuego, gana espacio en el ala de dama y apoya planes de torre.",
+"cons": "Puede crear un punto de fijación en b4 si la estructura cambia."
+},
+{
+"san": "Bxf3",
+"title": "12... Bxf3 — Cambio práctico",
+"explanation": "Tartakower decide cambiar el alfil por el caballo para reducir presión y dañar levemente la coordinación blanca. También elimina un defensor importante del centro. Sin embargo, entregar un alfil en posiciones relativamente abiertas puede ser una concesión a largo plazo.",
+"pros": "Reduce piezas activas blancas y simplifica la defensa.",
+"cons": "Cede el alfil, lo que puede notarse en el final."
+},
+{
+"san": "Qxf3",
+"title": "13. Qxf3 — Dama centralizada y activa",
+"explanation": "La dama blanca recaptura hacia una casilla muy útil desde la que controla la diagonal a8-h1 y coordina con las torres. Capablanca elige la pieza que mejor mantiene la armonía general. La recaptura también evita deformaciones adicionales en la estructura.",
+"pros": "Centraliza la dama, mantiene estructura y domina diagonales clave.",
+"cons": "La dama puede ser objetivo de pequeños tempos si el negro se activa."
+},
+{
+"san": "Nc6",
+"title": "13... Nc6 — Desarrollo final del caballo",
+"explanation": "El caballo se desarrolla y aumenta la presión sobre e5 y d4. Las negras intentan completar el despliegue antes de que las blancas concreten su ventaja de espacio y actividad. Es una jugada sana, aunque ya se nota cierta falta de iniciativa real.",
+"pros": "Desarrollo natural, más control central y mejor coordinación.",
+"cons": "El caballo puede ser desplazado o quedar sin buenas casillas en el futuro."
+},
+{
+"san": "Rfb1",
+"title": "14. Rfb1 — Tomar la columna abierta",
+"explanation": "Capablanca coloca una torre en la columna b abierta, explotando la compensación obtenida por sus peones doblados. El detalle importante es usar la torre de f, dejando la de a aún flexible. Las torres deben ir donde hay líneas abiertas; aquí el principio se cumple de forma ejemplar.",
+"pros": "Activa la torre en una columna abierta y presiona el ala de dama negra.",
+"cons": "Compromete momentáneamente la torre de f a tareas laterales."
+},
+{
+"san": "Rae8",
+"title": "14... Rae8 — Centralización de torres",
+"explanation": "Tartakower pone una torre en la columna e, preparando defender e6 y quizá jugar ...e5 en condiciones favorables. También mejora la coordinación entre torres y dama. Es un intento lógico de buscar contrajuego central.",
+"pros": "Centraliza una torre y apoya una posible liberación con ...e5.",
+"cons": "La otra torre queda todavía poco activa."
+},
+{
+"san": "Qh3",
+"title": "15. Qh3 — Profilaxis y flexibilidad ofensiva",
+"explanation": "La dama se desplaza a h3 con una doble idea: impedir cómodamente ...e5 y dejar preparada la posibilidad de f4, fijando un fuerte control sobre e5. También mira al flanco de rey y puede apoyar avances de peón allí. Es una jugada sutil, típica de un gran estratega.",
+"pros": "Frena ...e5, mejora la coordinación ofensiva y apoya futuros avances de peón.",
+"cons": "La dama queda algo alejada del ala de dama durante unos tiempos."
+},
+{
+"san": "Rf6",
+"title": "15... Rf6 — Defensa activa y ataque latente",
+"explanation": "La torre sube a f6 con idea de reforzar el ala de rey y quizá colaborar en maniobras ofensivas. En la Holandesa, levantar la torre puede ser natural, pero aquí resulta algo artificial porque las blancas dominan mejor el centro. La torre negra asume una función híbrida entre defensa y ataque.",
+"pros": "Refuerza el flanco de rey y mantiene opciones dinámicas.",
+"cons": "La torre puede quedar expuesta y poco coordinada si el centro se abre."
+},
+{
+"san": "f4",
+"title": "16. f4 — Ganar espacio y fijar e5",
+"explanation": "Capablanca juega una expansión central-flanqueadora muy instructiva. Con f4, refuerza e5 como casilla fuerte, limita la ruptura ...e5 y gana terreno. Además, la cadena de peones blanca empieza a restringir notablemente a las piezas negras.",
+"pros": "Gana espacio, restringe ...e5 y crea una base para futuras operaciones.",
+"cons": "Debilita algo la diagonal a7-g1 y casillas como e3."
+},
+{
+"san": "Na5",
+"title": "16... Na5 — Buscar contrajuego periférico",
+"explanation": "El caballo salta a a5 con intención de tocar c4 o b3 y reorientarse hacia casillas activas. Es una forma de evitar la pasividad total en el centro. Sin embargo, el borde del tablero ofrece menos influencia inmediata.",
+"pros": "Busca casillas activas y evita el amontonamiento de piezas negras.",
+"cons": "En a5 el caballo está alejado del centro y puede quedar mal colocado."
+},
+{
+"san": "Qf3",
+"title": "17. Qf3 — Recolocación precisa",
+"explanation": "La dama vuelve a f3, desde donde domina la gran diagonal y coordina mejor con el centro y el ala de rey. Este retroceso es en realidad una mejora: la pieza encuentra una casilla más útil sin haber perdido el hilo del plan. Capablanca optimiza antes de romper.",
+"pros": "Mejora la actividad de la dama, controla diagonales y coordina con e4.",
+"cons": "Supone un tiempo de maniobra, aunque bien justificado."
+},
+{
+"san": "d6",
+"title": "17... d6 — Estructura sólida pero contenida",
+"explanation": "Las negras refuerzan e5 y consolidan su centro, evitando rupturas inmediatas desfavorables. Es una jugada prudente, pero también bastante pasiva. La estructura negra queda firme, aunque con menos posibilidades de liberación.",
+"pros": "Refuerza el centro y da solidez a la posición.",
+"cons": "Cede iniciativa y deja a las negras en una postura más defensiva."
+},
+{
+"san": "Re1",
+"title": "18. Re1 — La torre vuelve al centro",
+"explanation": "Con el trabajo en la columna b cumplido por el momento, una torre blanca se recentraliza para apoyar e4. Este es un principio esencial: las piezas deben reubicarse según cambian las necesidades de la posición. La ruptura central ya se anuncia con claridad.",
+"pros": "Apoya e4, mejora la centralización y aumenta la flexibilidad táctica.",
+"cons": "Reduce momentáneamente la presión directa sobre la columna b."
+},
+{
+"san": "Qd7",
+"title": "18... Qd7 — Preparar defensa y coordinación",
+"explanation": "La dama se sitúa en d7 para conectar mejor las piezas y vigilar casillas centrales. También apoya posibles cambios de damas o defensa del ala de rey. Es una jugada razonable, aunque reactiva frente al plan blanco.",
+"pros": "Mejora la coordinación defensiva y controla casillas importantes.",
+"cons": "No genera contrajuego propio ni resuelve la falta de espacio."
+},
+{
+"san": "e4",
+"title": "19. e4 — La ruptura temática",
+"explanation": "Capablanca finalmente rompe en el centro cuando sus piezas están idealmente colocadas. Al abrir líneas, favorece a sus piezas más activas y al rey mejor resguardado estratégicamente. Esta jugada resume toda la fase previa de preparación.",
+"pros": "Abre la posición a favor de la mejor coordinación blanca y gana iniciativa.",
+"cons": "Aclara el centro; si estuviera mal calculada, podría dejar peones débiles."
+},
+{
+"san": "fxe4",
+"title": "19... fxe4 — Aceptar la apertura",
+"explanation": "Tartakower decide capturar para no permitir que el blanco avance aún más con e5. Al hacerlo, abre la columna f y define la estructura central. Es una respuesta natural, aunque la apertura de líneas favorece a las piezas blancas más activas.",
+"pros": "Elimina un peón avanzado blanco y evita mayor expansión central.",
+"cons": "Abre líneas que benefician al bando mejor coordinado."
+},
+{
+"san": "Qxe4",
+"title": "20. Qxe4 — Recuperación con centralización",
+"explanation": "La dama blanca recaptura ocupando una casilla central muy fuerte. Desde e4 presiona ambos flancos, controla diagonales y mantiene la iniciativa. Además, deja a las negras bajo vigilancia táctica permanente.",
+"pros": "Centraliza la dama, recupera el peón y conserva la iniciativa.",
+"cons": "La dama expuesta en el centro puede ser objeto de ataques si el negro consigue actividad."
+},
+{
+"san": "g6",
+"title": "20... g6 — Casillas oscuras a cambio de seguridad",
+"explanation": "Las negras refuerzan el flanco de rey, limitan ideas sobre h7 y crean una casilla de escape potencial para el rey o piezas. Es una jugada defensiva comprensible, pero debilita casillas oscuras como f6 y h6. En finales, esas debilidades pueden pesar mucho.",
+"pros": "Contiene amenazas inmediatas sobre el rey y estabiliza la estructura.",
+"cons": "Debilita casillas oscuras y puede crear objetivos fijos."
+},
+{
+"san": "g3",
+"title": "21. g3 — Seguridad antes del ataque",
+"explanation": "Capablanca refuerza las casillas oscuras, controla f4-h4 y prepara el rey para una posición muy sólida. Antes de atacar, asegura que no haya contrajuego táctico del rival. Es una jugada de consolidación extremadamente instructiva.",
+"pros": "Fortalece el flanco de rey, da seguridad al rey y prepara h4.",
+"cons": "Puede oscurecer un poco al alfil si aún estuviera en c1, pero aquí no es relevante."
+},
+{
+"san": "Kf8",
+"title": "21... Kf8 — Rey hacia mayor solidez",
+"explanation": "Tartakower mejora la seguridad del rey y lo acerca al centro de cara a un posible final. Al mismo tiempo, libera la casilla g8 para alguna pieza o maniobra defensiva. Es una jugada prudente, aunque indica que las negras ya piensan más en resistir que en atacar.",
+"pros": "Mejora la seguridad y prepara una posible transición al final.",
+"cons": "El rey aún pierde tiempos mientras las blancas mejoran su plan."
+},
+{
+"san": "Kg2",
+"title": "22. Kg2 — Rey listo para el final",
+"explanation": "Capablanca responde del mismo modo: mejora la colocación del rey antes de la simplificación. Esta jugada conecta aún más las piezas y evita tácticas sobre la diagonal c7-h2. En el ajedrez de alto nivel, el rey activo empieza mucho antes del final puro.",
+"pros": "Mayor seguridad y preparación para un final favorable.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Rf7",
+"title": "22... Rf7 — Reagrupación defensiva",
+"explanation": "La torre vuelve a una casilla más sólida, defendiendo séptima fila y colaborando con el rey. Tartakower reconoce que el levantamiento previo no produjo contrajuego suficiente. Es una maniobra defensiva útil, aunque pasiva.",
+"pros": "Refuerza la defensa y coordina mejor con el rey.",
+"cons": "La torre pierde tiempos y las negras siguen sin plan activo claro."
+},
+{
+"san": "h4",
+"title": "23. h4 — Ganar espacio en el flanco de rey",
+"explanation": "Las blancas empiezan a fijar la estructura enemiga del ala de rey. Este avance prepara h5 o cambios favorables que generen objetivos. Capablanca combina consolidación y restricción, dos rasgos clásicos de su estilo.",
+"pros": "Gana espacio, fija peones negros y crea futuras palancas.",
+"cons": "Avanza un peón del enroque, lo que siempre implica una mínima exposición."
+},
+{
+"san": "d5",
+"title": "23... d5 — Contrajuego central liberador",
+"explanation": "Tartakower intenta liberar su posición en el momento oportuno, abriendo el centro antes de quedar completamente estrangulado. La idea es activa y busca simplificaciones. Sin embargo, el cambio de damas resultante favorece la técnica blanca.",
+"pros": "Busca contrajuego central y simplificación defensiva.",
+"cons": "Abre líneas cuando las blancas están mejor coordinadas."
+},
+{
+"san": "cxd5",
+"title": "24. cxd5 — Aclarar favorablemente",
+"explanation": "Capablanca acepta el desafío central y cambia en d5 para fijar la estructura. Con ello facilita transiciones al final y limita las opciones dinámicas negras. Cuando se posee una pequeña ventaja estable, simplificar puede ser muy fuerte.",
+"pros": "Reduce contrajuego, fija objetivos y acerca un final favorable.",
+"cons": "Cede la tensión central, lo que podría permitir cierta actividad defensiva."
+},
+{
+"san": "exd5",
+"title": "24... exd5 — Estructura definida",
+"explanation": "Las negras recapturan y crean una estructura simétrica en apariencia, pero con piezas peor colocadas. El peón de d5 será un punto a vigilar. Tartakower aspira a que el cambio de damas reduzca el peligro, aunque no elimina la ventaja blanca.",
+"pros": "Recupera el peón y clarifica la posición.",
+"cons": "Deja un peón central que puede convertirse en objetivo y un final incómodo."
+},
+{
+"san": "Qxe8+",
+"title": "25. Qxe8+ — Simplificación exacta",
+"explanation": "Capablanca cambia damas en el momento preciso para entrar en un final donde su mejor estructura funcional y actividad de piezas pesarán más. El jaque obliga a una respuesta concreta y evita cualquier complicación innecesaria. Es una decisión muy práctica.",
+"pros": "Fuerza la simplificación y conduce a un final técnicamente favorable.",
+"cons": "Renuncia a cualquier opción de ataque directo con damas."
+},
+{
+"san": "Qxe8",
+"title": "25... Qxe8 — Cambio obligado",
+"explanation": "La recaptura es forzada y lleva a un final de torres y piezas menores. Las negras esperan que la reducción de material facilite la defensa. Pero en realidad el tipo de final beneficia la actividad blanca.",
+"pros": "Evita problemas tácticos y reduce material atacante enemigo.",
+"cons": "Entra en un final donde la pasividad puede ser muy peligrosa."
+},
+{
+"san": "Rxe8+",
+"title": "26. Rxe8+ — Actividad de torre con jaque",
+"explanation": "La torre blanca recaptura con jaque, obligando al rey negro a participar en el final desde una posición algo incómoda. Capablanca mantiene la iniciativa incluso al simplificar. La actividad de torre es el valor central del final que se avecina.",
+"pros": "Activa la torre, gana un tiempo con jaque y conserva la iniciativa.",
+"cons": "Entrega una torre activa por simplificación ulterior, aunque la secuencia está bien calculada."
+},
+{
+"san": "Kxe8",
+"title": "26... Kxe8 — El rey entra en el final",
+"explanation": "El rey negro recaptura porque es la única forma de mantener el equilibrio material. En principio, centralizar el rey en el final es bueno. El problema es que las piezas negras siguen menos coordinadas y el rey no podrá sostener todos los frentes.",
+"pros": "Centraliza el rey y completa la simplificación.",
+"cons": "El rey puede quedar sobrecargado defendiendo demasiadas debilidades."
+},
+{
+"san": "h5",
+"title": "27. h5 — Fijar para atacar",
+"explanation": "Capablanca sigue fiel al plan iniciado con h4: ahora fija la estructura del ala de rey y busca crear objetivos sobre g6 y h7. En finales, fijar peones rivales en casillas vulnerables es un método muy fuerte. La jugada también prepara cambios que abrirán columnas para la torre.",
+"pros": "Fija debilidades, gana espacio y prepara apertura de líneas.",
+"cons": "Si el ataque no prosperara, el peón avanzado podría quedar aislado."
+},
+{
+"san": "Rf6",
+"title": "27... Rf6 — Defensa lateral",
+"explanation": "La torre negra intenta sostener el ala de rey desde una posición activa. Defiende g6 y mantiene vigilancia sobre la sexta fila. Es una defensa lógica, aunque algo forzada por la presión blanca.",
+"pros": "Refuerza el ala de rey y busca actividad defensiva.",
+"cons": "La torre queda atada a tareas defensivas y no genera contrajuego real."
+},
+{
+"san": "hxg6",
+"title": "28. hxg6 — Abrir una columna útil",
+"explanation": "Capablanca decide cambiar para abrir líneas y crear un peón potencialmente pasado en la columna g. En finales de torres, abrir columnas hacia el rey y la estructura rival suele ser decisivo. El cambio también clarifica dónde estarán los objetivos negros.",
+"pros": "Abre líneas, crea desequilibrios favorables y debilita la estructura negra.",
+"cons": "Entrega el peón h, reduciendo material de ala si no se obtiene algo concreto."
+},
+{
+"san": "hxg6",
+"title": "28... hxg6 — Recaptura obligada",
+"explanation": "Las negras recapturan para no quedar con un peón de menos y mantener cerrada, en lo posible, la penetración blanca. Sin embargo, la estructura del ala de rey queda más vulnerable. El peón de g6 puede convertirse en objetivo y la columna h se abre.",
+"pros": "Mantiene el material y recupera el control del ala de rey.",
+"cons": "La estructura queda más débil y la torre blanca tendrá nuevas vías de invasión."
+},
+{
+"san": "Rh1",
+"title": "29. Rh1 — Torre a la columna abierta",
+"explanation": "La torre blanca ocupa de inmediato la columna h abierta, un principio fundamental en finales. Desde allí amenaza invadir la séptima fila y atacar peones retrasados. La actividad de la torre empieza a superar claramente la de su homóloga negra.",
+"pros": "Toma una columna abierta y prepara invasión decisiva.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Kf8",
+"title": "29... Kf8 — Rey a la defensa",
+"explanation": "El rey se repliega para ayudar a contener la invasión por la columna h. Tartakower entiende que el problema principal ya no es el centro, sino la actividad de la torre blanca. Es una defensa necesaria, aunque pasiva.",
+"pros": "Ayuda a la defensa del ala de rey y coordina con la torre.",
+"cons": "El rey queda algo atado y con poca capacidad de actividad ofensiva."
+},
+{
+"san": "Rh7",
+"title": "30. Rh7 — La torre en séptima",
+"explanation": "Esta es una jugada clásica de manual: la torre entra en séptima fila, donde ataca peones aún en su casilla de origen y restringe al rey enemigo. En finales de torres, dominar la séptima suele equivaler a una ventaja enorme. Capablanca obtiene máxima actividad con una sola pieza.",
+"pros": "Ataca peones, restringe al rey negro y crea amenazas duraderas.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Rc6",
+"title": "30... Rc6 — Contrajuego por la tercera columna",
+"explanation": "La torre negra busca actividad lateral y quizá presión sobre c3 o la sexta fila. Defender pasivamente sería aún peor, así que Tartakower intenta generar amenazas. En finales, la actividad de la torre suele ser la mejor defensa disponible.",
+"pros": "Busca contrajuego activo y presión sobre peones blancos.",
+"cons": "No impide del todo la iniciativa blanca y puede quedar sobrepasada."
+},
+{
+"san": "g4",
+"title": "31. g4 — Expandir y crear ruptura",
+"explanation": "Capablanca sigue ganando espacio y prepara g5 para expulsar piezas o fijar peones. Esta expansión no es solo de peones: crea rutas para el rey y peones pasados futuros. La ventaja blanca se va haciendo concreta sin precipitación.",
+"pros": "Gana espacio, crea amenazas de avance y restringe aún más al negro.",
+"cons": "Avanzar peones del ala puede dejar casillas débiles si se pierde el control."
+},
+{
+"san": "Nc4",
+"title": "31... Nc4 — El caballo busca actividad real",
+"explanation": "Ahora sí el caballo negro encuentra una casilla activa, desde donde toca e3, b2 y d2. Tartakower intenta compensar su inferioridad estructural con actividad de piezas. Es probablemente su mejor recurso práctico.",
+"pros": "Centraliza el caballo y activa amenazas tácticas potenciales.",
+"cons": "Puede ser expulsado por el avance de peones blancos."
+},
+{
+"san": "g5",
+"title": "32. g5 — Ganancia de espacio con amenaza",
+"explanation": "El peón avanza y amenaza crear una avalancha con f5 o ganar tiempos sobre la torre negra. Además, restringe casillas del caballo y fija aún más la estructura enemiga. La idea blanca es combinar actividad de torre con peones avanzados.",
+"pros": "Restringe piezas negras, gana espacio y crea amenazas concretas.",
+"cons": "El peón puede convertirse en objetivo si el blanco pierde la iniciativa."
+},
+{
+"san": "Ne3+",
+"title": "32... Ne3+ — Jaque activo intermedio",
+"explanation": "El caballo negro aprovecha su actividad para dar un jaque útil y ganar tiempo. Este tipo de recurso es típico en finales: buscar jaques intermedios antes de defender pasivamente. Tartakower intenta descoordinar al rey blanco y generar contrajuego.",
+"pros": "Gana un tiempo con jaque y activa aún más el caballo.",
+"cons": "El caballo puede quedar expuesto si no encuentra continuación sólida."
+},
+{
+"san": "Kf3",
+"title": "33. Kf3 — Rey hacia el centro activo",
+"explanation": "Capablanca no se limita a esquivar el jaque: mejora la posición del rey. En f3, el monarca apoya peones, controla e4 y g4, y se acerca a la zona crítica. La actividad del rey es un recurso esencial en finales, y aquí será decisiva.",
+"pros": "Centraliza el rey y aumenta el apoyo a peones y piezas.",
+"cons": "El rey queda algo más expuesto a nuevos jaques, aunque controlables."
+},
+{
+"san": "Nf5",
+"title": "33... Nf5 — Reagrupación defensiva",
+"explanation": "El caballo vuelve a una casilla defensiva importante para frenar peones y sostener g7. También mira e3 y d4, buscando puntos de apoyo. Tartakower intenta resistir reorganizando sus pocas piezas activas.",
+"pros": "Buena casilla defensiva y control de puntos clave.",
+"cons": "Sigue siendo una pieza sola tratando de cubrir demasiadas funciones."
+},
+{
+"san": "Bxf5",
+"title": "34. Bxf5 — Eliminar al mejor defensor",
+"explanation": "Capablanca cambia el caballo negro porque era la pieza más activa y la mejor defensora de la posición. Este cambio es muy instructivo: en finales, eliminar la pieza rival mejor colocada suele valer más que conservar material abstracto. Tras ello, la torre blanca y el rey ganarán libertad total.",
+"pros": "Suprime el principal defensor negro y simplifica hacia un final favorable.",
+"cons": "Entrega el alfil, entrando en un final de torres puro con peones."
+},
+{
+"san": "gxf5",
+"title": "34... gxf5 — Estructura dañada pero necesaria",
+"explanation": "Las negras recapturan con el peón, manteniendo el equilibrio material. Sin embargo, la estructura del ala de rey queda seriamente deformada y con peones vulnerables. A partir de aquí, la torre negra tendrá que defender defectos estructurales permanentes.",
+"pros": "Mantiene el material y abre la columna g para cierta actividad.",
+"cons": "Crea peones débiles y deja casillas muy sensibles alrededor del rey."
+},
+{
+"san": "Kg3",
+"title": "35. Kg3 — El rey inicia la maniobra decisiva",
+"explanation": "Capablanca lleva el rey hacia el flanco de rey con una idea profunda: apoyar al peón pasado y crear amenazas directas contra el monarca rival. Este paso parece tranquilo, pero es el inicio de una secuencia brillante. En finales, el rey activo puede equivaler a una pieza adicional.",
+"pros": "Activa el rey de forma decisiva y prepara invasión por f4-f6 o h-file.",
+"cons": "Permite contrajuego temporal sobre el peón c3."
+},
+{
+"san": "Rxc3+",
+"title": "35... Rxc3+ — Contrajuego material inmediato",
+"explanation": "La torre negra captura un peón con jaque, buscando compensar su inferioridad posicional con material y actividad. Es la defensa más activa posible: en finales malos, la torre debe atacar peones desde lejos. Tartakower intenta cambiar la narrativa de la posición.",
+"pros": "Gana un peón, activa la torre y da jaque.",
+"cons": "Aleja la torre de la defensa del rey y del ala de rey."
+},
+{
+"san": "Kh4",
+"title": "36. Kh4 — Mantener el rumbo",
+"explanation": "El rey blanco continúa su marcha sin distraerse por la pérdida del peón. En h4 queda listo para apoyar g6 y acercarse a g5-f6. Capablanca valora más la actividad del rey y del peón pasado que el material estático.",
+"pros": "Conserva la iniciativa y mantiene vivo el plan de peón pasado.",
+"cons": "El rey se acerca a posibles jaques laterales, aunque el cálculo lo permite."
+},
+{
+"san": "Rf3",
+"title": "36... Rf3 — Torre activa detrás de los peones",
+"explanation": "La torre negra vuelve al flanco de rey para crear amenazas y frenar el avance blanco. Desde f3 puede dar jaques laterales y vigilar g3-g6. Es una defensa activa correcta, aunque puede llegar un tiempo tarde.",
+"pros": "Activa la torre y aumenta recursos de jaque y bloqueo.",
+"cons": "No resuelve la peligrosa actividad del rey blanco."
+},
+{
+"san": "g6",
+"title": "37. g6 — Nace el peón pasado",
+"explanation": "Capablanca avanza sin vacilar y crea un peón pasado muy avanzado, un activo enorme en finales. Un peón pasado es uno que no tiene peones rivales delante ni en columnas adyacentes que lo detengan. Este peón obliga a la torre negra a una defensa casi exclusiva.",
+"pros": "Crea una amenaza concreta de coronación y restringe la torre rival.",
+"cons": "El peón puede caer si no va acompañado por el rey y la torre."
+},
+{
+"san": "Rxf4+",
+"title": "37... Rxf4+ — Buscar contrajuego por material",
+"explanation": "Las negras capturan otro peón con jaque para obtener el máximo material posible mientras frenan la iniciativa blanca. Es una decisión práctica: si no puede parar bien el peón pasado, al menos reduce peones enemigos y crea jaques. Sin embargo, cada captura aleja más la torre negra del peón g.",
+"pros": "Gana material y mantiene iniciativa táctica con jaques.",
+"cons": "Puede quedar mal colocada respecto al peón pasado y al rey blanco."
+},
+{
+"san": "Kg5",
+"title": "38. Kg5 — Rey agresivo y coordinado",
+"explanation": "El rey entra en una casilla muy activa desde la cual apoya al peón g y amenaza penetraciones decisivas. En finales de torres, la coordinación rey-peón pasado suele ser letal. Capablanca muestra sangre fría: no corre tras peones, va tras la posición ganadora.",
+"pros": "Apoya el peón pasado, amenaza infiltración y aumenta la presión.",
+"cons": "El rey queda avanzado y requiere cálculo preciso frente a jaques."
+},
+{
+"san": "Re4",
+"title": "38... Re4 — La torre intenta cortar",
+"explanation": "La torre se coloca detrás o al lado de las rutas del rey blanco para frenarlo y mantener opciones de jaque. La idea es cortar al monarca y sostener la octava fila. Es un recurso defensivo correcto, aunque la coordinación blanca ya es superior.",
+"pros": "Mejora las posibilidades de jaque y control de casillas críticas.",
+"cons": "No ataca directamente al peón g y concede progreso al rey blanco."
+},
+{
+"san": "Kf6",
+"title": "39. Kf6 — El rey alcanza la casilla soñada",
+"explanation": "Una jugada magnífica: el rey llega a f6, desde donde apoya la coronación, amenaza mates y sirve de escudo contra jaques. Este tipo de centralización extrema solo es posible cuando todas las piezas están perfectamente coordinadas. Aquí se ve la profundidad del plan iniciado muchas jugadas antes.",
+"pros": "Rey idealmente colocado, apoyo total al peón g y amenazas directas.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Kg8",
+"title": "39... Kg8 — Defensa pasiva necesaria",
+"explanation": "El rey negro debe mantenerse cerca de la esquina para evitar motivos de mate inmediatos y ayudar a contener el peón pasado. Es una defensa obligada y bastante pasiva. La comparación entre ambos reyes ya es muy reveladora.",
+"pros": "Evita amenazas directas de mate y mantiene cierta vigilancia sobre la octava.",
+"cons": "El rey queda totalmente restringido."
+},
+{
+"san": "Rg7+",
+"title": "40. Rg7+ — Jaque de precisión",
+"explanation": "La torre blanca da jaque y obliga al rey negro a una colocación aún más incómoda. Al mismo tiempo, la torre se sitúa detrás del peón pasado, una técnica ideal en finales. Capablanca coordina torre y rey con exactitud de estudio.",
+"pros": "Gana un tiempo, mejora la torre y aumenta la presión sobre el rey.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Kh8",
+"title": "40... Kh8 — Única resistencia",
+"explanation": "El rey negro se esconde en h8, prácticamente confinado por la torre blanca y la posición del peón g. Es una defensa forzada para evitar males mayores inmediatos. Pero cuanto más pasivo el rey, peor suelen ser los finales de torre.",
+"pros": "Evita líneas más peligrosas y mantiene la defensa viva.",
+"cons": "El rey queda encerrado en la última fila."
+},
+{
+"san": "Rxc7",
+"title": "41. Rxc7 — Cobro de peones con iniciativa",
+"explanation": "Capablanca aprovecha para capturar en c7, ganando material sin aflojar la presión sobre el rey rival. La torre en séptima muestra toda su fuerza: ataca peones lejanos mientras mantiene restringido al monarca enemigo. Es conversión técnica pura.",
+"pros": "Gana un peón, mantiene actividad máxima y mejora el final ganado.",
+"cons": "La torre se aleja temporalmente del peón g, aunque la coordinación del rey lo compensa."
+},
+{
+"san": "Re8",
+"title": "41... Re8 — Buscar bloqueo trasero",
+"explanation": "La torre negra vuelve a e8 para intentar frenar la coronación del peón g desde atrás o lateralmente. En finales de torres, colocarse detrás del peón pasado es a menudo la mejor defensa. Tartakower encuentra un recurso correcto, aunque insuficiente.",
+"pros": "Mejora las posibilidades defensivas contra el peón pasado.",
+"cons": "Sigue muy atada y no puede generar amenazas reales propias."
+},
+{
+"san": "Kxf5",
+"title": "42. Kxf5 — El rey también gana peones",
+"explanation": "Ahora que el plan principal está asegurado, el rey blanco recoge el peón de f5. Es un ejemplo perfecto de conversión: primero se inmoviliza al rival, luego se ganan peones. Cada peón extra reduce las posibilidades defensivas negras.",
+"pros": "Gana material y aumenta la ventaja en el final.",
+"cons": "Abandona momentáneamente la casilla f6, aunque sin peligro real."
+},
+{
+"san": "Re4",
+"title": "42... Re4 — Mantener actividad mínima",
+"explanation": "La torre negra intenta conservar casillas de jaque y actividad sobre el rey blanco. En finales inferiores, una torre activa es la única esperanza. Tartakower insiste correctamente en complicar y evitar una defensa puramente pasiva.",
+"pros": "Conserva actividad y opciones de jaque lateral.",
+"cons": "No detiene el avance del rey blanco hacia el ala de dama."
+},
+{
+"san": "Kf6",
+"title": "43. Kf6 — Regreso al puesto dominante",
+"explanation": "El rey vuelve a la casilla dominante, combinando amenaza de mate y apoyo al peón g. Capablanca no pierde la armonía: cada movimiento del rey cumple varias funciones. Esa multifuncionalidad es sello de la técnica magistral.",
+"pros": "Restaura máxima coordinación entre rey, torre y peón pasado.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Rf4+",
+"title": "43... Rf4+ — Jaque molesto pero insuficiente",
+"explanation": "La torre negra intenta ganar tiempos con jaque y cortar el rey blanco. Es un recurso defensivo obligatorio. Sin embargo, cuando el rey atacante tiene refugios y apoyo, estos jaques rara vez bastan.",
+"pros": "Consigue un jaque útil y mantiene resistencia práctica.",
+"cons": "No cambia la valoración estratégica del final."
+},
+{
+"san": "Ke5",
+"title": "44. Ke5 — Hacia los peones del ala de dama",
+"explanation": "Capablanca cambia de frente y lleva el rey hacia el ala de dama, donde quedan más peones que capturar. Esta es la esencia del dominio en finales: una pieza muy activa permite atacar un sector y luego el otro. El rey blanco parece una pieza de más.",
+"pros": "Amenaza capturar más peones y aumenta la ventaja material futura.",
+"cons": "Se expone a jaques laterales, aunque el cálculo favorece al blanco."
+},
+{
+"san": "Rg4",
+"title": "44... Rg4 — Perseguir el peón pasado",
+"explanation": "La torre negra busca atacar el peón g desde detrás o lateralmente y mantener su mejor opción defensiva. Es correcto concentrarse en el peón más peligroso. Pero hacerlo deja más desprotegidos los peones del ala de dama.",
+"pros": "Ataca el principal activo blanco y mantiene la lucha.",
+"cons": "Permite al rey blanco seguir cosechando peones en el otro flanco."
+},
+{
+"san": "g7+",
+"title": "45. g7+ — El peón fuerza concesiones",
+"explanation": "El peón pasado avanza con jaque, obligando al rey negro a una respuesta concreta. Este es el ideal del peón pasado: no solo amenaza coronar, también gana tiempos y descoordina las piezas rivales. Capablanca exprime su valor máximo.",
+"pros": "Gana un tiempo con jaque y acerca decisivamente la coronación.",
+"cons": "El peón queda muy avanzado y puede ser objetivo, aunque con ganancia táctica."
+},
+{
+"san": "Kg8",
+"title": "45... Kg8 — Mantener control sobre la coronación",
+"explanation": "El rey negro vuelve a g8 para estar más cerca de la casilla de promoción y coordinar con la torre. Es prácticamente obligado. La defensa negra se reduce ya a frenar ese peón todo lo que pueda.",
+"pros": "Se acerca a la zona crítica de la promoción.",
+"cons": "Sigue pasivo y atado por completo al peón blanco."
+},
+{
+"san": "Rxa7",
+"title": "46. Rxa7 — Un peón más cae",
+"explanation": "La torre blanca recoge otro peón, ahora en a7, ampliando aún más la ventaja material. La idea es muy fuerte: mientras la torre negra está esclavizada por el peón g, la torre blanca saquea el ala de dama. Es el principio de dos debilidades en su forma más pura.",
+"pros": "Gana material adicional y crea un final cada vez más fácil de convertir.",
+"cons": "Aleja la torre del peón pasado, aunque el negro sigue sobrecargado."
+},
+{
+"san": "Rg1",
+"title": "46... Rg1 — Torre detrás del peón",
+"explanation": "Tartakower coloca su torre detrás del peón pasado, la mejor ubicación teórica para intentar frenarlo. Llega tarde, pero es el recurso correcto. La defensa aún existe, aunque ya bajo gran presión material.",
+"pros": "Se ajusta al principio defensivo de situarse detrás del peón pasado.",
+"cons": "No puede defender al mismo tiempo todos los peones del ala de dama."
+},
+{
+"san": "Kxd5",
+"title": "47. Kxd5 — El rey sigue sumando",
+"explanation": "El rey blanco captura el peón de d5 y elimina otro objetivo central. A estas alturas, la superioridad de actividad es abrumadora. Capablanca convierte actividad en material de forma metódica.",
+"pros": "Gana otro peón y simplifica aún más el final.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Rc1",
+"title": "47... Rc1 — Actividad lateral de último recurso",
+"explanation": "La torre negra se desplaza a c1 para hostigar al rey o generar jaques laterales. En finales perdidos, la actividad constante de la torre es esencial para mantener problemas prácticos. Tartakower defiende con recursos correctos, aunque insuficientes.",
+"pros": "Mantiene actividad y crea posibilidades de jaque o bloqueo.",
+"cons": "Llega tarde frente a la masa de ventajas blancas."
+},
+{
+"san": "Kd6",
+"title": "48. Kd6 — Rey profundamente infiltrado",
+"explanation": "El rey blanco sigue avanzando sin oposición real. Desde d6 controla casillas críticas y apoya el futuro avance del peón d. Cuando un rey alcanza la sexta fila en el final, suele ser señal de dominio total.",
+"pros": "Máxima actividad del rey y apoyo directo a peones pasados futuros.",
+"cons": "Puede recibir algún jaque lateral, pero sin consecuencias serias."
+},
+{
+"san": "Rc2",
+"title": "48... Rc2 — Torre activa detrás de las líneas",
+"explanation": "Las negras intentan mantener la torre lo más activa posible, quizá atacando c3 o cortando al rey. Es correcto luchar por columnas abiertas y actividad. Sin embargo, la torre sola no compensa la mala posición del rey y la pérdida de peones.",
+"pros": "Actividad máxima disponible para la torre en una posición difícil.",
+"cons": "No puede contener a la vez al rey blanco y los peones pasados."
+},
+{
+"san": "d5",
+"title": "49. d5 — Crear un segundo peón pasado",
+"explanation": "Capablanca avanza el peón d y genera una nueva amenaza de promoción. Ahora las negras deben ocuparse de dos peones pasados potenciales, una tarea casi imposible para una sola torre. Este es el golpe técnico definitivo.",
+"pros": "Crea un peón pasado, gana espacio y multiplica las amenazas.",
+"cons": "Si estuviera mal apoyado podría caer, pero aquí está bien respaldado."
+},
+{
+"san": "Rc1",
+"title": "49... Rc1 — Repetir el bloqueo a distancia",
+"explanation": "La torre vuelve a c1 para seguir controlando la columna y mantener jaques o presión lateral. Es una defensa insistente y lógica. Pero la torre negra va siendo arrastrada de un lado a otro por las amenazas múltiples.",
+"pros": "Mantiene resistencia y vigilancia sobre el avance blanco.",
+"cons": "Defensa puramente reactiva y sin contrajuego duradero."
+},
+{
+"san": "Rc7",
+"title": "50. Rc7 — Torre activa detrás del peón d",
+"explanation": "La torre blanca se coloca de manera ideal para apoyar el avance del peón pasado y cortar al rey negro. Además, desde séptima sigue atacando lateralmente si es necesario. Actividad de torre y peón pasado vuelven a coordinarse de forma ejemplar.",
+"pros": "Apoya el peón d, mantiene actividad y limita la torre rival.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Ra1",
+"title": "50... Ra1 — Amenaza sobre el ala de dama",
+"explanation": "Tartakower busca contrajuego capturando peones del ala de dama o dando jaques laterales. Es el recurso práctico estándar: atacar peones lejanos cuando no se puede frenar el centro. La torre negra al menos obliga al blanco a calcular con precisión.",
+"pros": "Genera contrajuego material y crea amenazas sobre a4 o c4.",
+"cons": "Abandona aún más el control del peón d."
+},
+{
+"san": "Kc6",
+"title": "51. Kc6 — Rey escolta el peón decisivo",
+"explanation": "El rey blanco se coloca en una casilla ideal para apoyar d6-d7 y además proteger a su torre. Capablanca usa el rey como verdadera pieza ofensiva. La coordinación blanca es superior en todos los sectores.",
+"pros": "Apoya el peón pasado, protege piezas y corta la torre negra.",
+"cons": "Permite a la torre negra capturar en a4, aunque el cálculo está a favor del blanco."
+},
+{
+"san": "Rxa4",
+"title": "51... Rxa4 — Último intento de contrajuego material",
+"explanation": "La torre negra captura el peón de a4 para reducir la ventaja material blanca y crear esperanzas de tablas prácticas. Es comprensible: en posiciones perdidas, todo peón cuenta. Pero el problema principal ya no es el material, sino el peón pasado d y la actividad del rey blanco.",
+"pros": "Gana material y mantiene recursos prácticos.",
+"cons": "No afecta el plan principal blanco de promoción por la columna d."
+},
+{
+"san": "d6",
+"title": "52. d6 — El peón pasado llega a sexta",
+"explanation": "El peón d avanza y se convierte en la principal fuerza de la posición. En sexta fila, apoyado por rey y torre, un peón pasado suele ser casi decisivo. Tartakower ya está prácticamente perdido porque su torre no puede con todas las amenazas.",
+"pros": "Peón pasado muy avanzado, amenaza d7 y coronación cercana.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Rd4",
+"title": "52... Rd4 — Bloqueo desesperado",
+"explanation": "La torre negra se coloca detrás o delante del peón para intentar frenarlo desde la columna d. Es el recurso defensivo más natural. Sin embargo, el rey blanco está tan bien colocado que el bloqueo será temporal.",
+"pros": "Intenta bloquear el peón pasado y ganar tiempos defensivos.",
+"cons": "La torre queda atada al peón y sin libertad operativa."
+},
+{
+"san": "d7",
+"title": "53. d7 — Un paso de la gloria",
+"explanation": "El peón vuelve a avanzar y llega a séptima fila, el momento más crítico de cualquier peón pasado. Ahora la amenaza de promoción es inmediata y obliga a las negras a jugar casi exclusivamente contra él. La fuerza combinada de rey, torre y peón es ya irresistible.",
+"pros": "Amenaza coronación inmediata y paraliza totalmente a las negras.",
+"cons": "El peón puede requerir apoyo táctico exacto, aunque aquí está garantizado."
+},
+{
+"san": "Rc4+",
+"title": "53... Rc4+ — Jaque de último recurso",
+"explanation": "Tartakower da un jaque intermedio para intentar sacar al rey blanco de la zona de apoyo al peón. Es un recurso típico y correcto cuando la defensa directa no basta. La esperanza negra es forzar alguna imprecisión.",
+"pros": "Gana un tiempo con jaque y complica la técnica rival.",
+"cons": "No altera la fuerza objetiva del peón en séptima."
+},
+{
+"san": "Kb7",
+"title": "54. Kb7 — Rey perfectamente colocado",
+"explanation": "El rey se refugia en una casilla donde sigue apoyando al peón d y además protege rutas de promoción. Capablanca evita jaques molestos sin aflojar la presión. Es una jugada muy precisa y elegante.",
+"pros": "Mantiene el apoyo al peón y neutraliza el jaque enemigo.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Rd4",
+"title": "54... Rd4 — Persistir en el bloqueo",
+"explanation": "La torre negra vuelve a la columna d, obligada a mantenerse frente al peón. No hay ya plan alternativo viable. La defensa se reduce a retrasar lo inevitable.",
+"pros": "Sigue frenando momentáneamente la promoción.",
+"cons": "La torre está completamente pasiva y sobrecargada."
+},
+{
+"san": "Kc8",
+"title": "55. Kc8 — Triangulación ganadora del rey",
+"explanation": "El rey blanco llega a c8 y decide la lucha: apoya la promoción, corta al rey negro y deja a la torre negra sin defensa suficiente. La coronación del peón d será inevitable. Es un final modélico de coordinación perfecta entre rey, torre y peón pasado.",
+"pros": "Asegura la promoción del peón y liquida toda resistencia negra.",
+"cons": "Ninguna significativa."
+}
+]
+}

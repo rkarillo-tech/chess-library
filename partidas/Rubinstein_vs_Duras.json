@@ -1,0 +1,553 @@
+{
+"info": {
+"title": "Rubinstein vs Duras, Vienna 1908",
+"white": "Rubinstein Akiba",
+"black": "Duras Oldrich",
+"event": "Vienna",
+"date": "1908",
+"result": "1-0",
+"description": "Una partida clásica de Akiba Rubinstein que combina táctica precisa en el medio juego con una técnica ejemplar en el final. Es especialmente instructiva por la secuencia táctica iniciada con 11.Nce5 y por la conversión de la ventaja mediante peones pasados ligados y una torre muy activa."
+},
+"pgn": "1. d4 d5 2. Nf3 c5 3. e3 Nf6 4. dxc5 Qa5+ 5. Nbd2 Qxc5 6. a3 Qc7 7. c4 dxc4 8. Nxc4 Nc6 9. b4 Bg4 10. Bb2 b5 11. Nce5 Nxe5 12. Nxe5 Bxd1 13. Bxb5+ Nd7 14. Bxd7+ Qxd7 15. Nxd7 Bh5 16. Ne5 Rc8 17. g4 Bg6 18. Nxg6 hxg6 19. Bd4 a6 20. Kd2 f6 21. Rac1 Rxc1 22. Rxc1 e5 23. Bc5 Rxh2 24. Bxf8 Kxf8 25. Ke2 e4 26. Rc6 Rg2 27. Rxa6 Rxg4 28. Ra7 Rg1 29. b5 Rb1 30. a4 g5 31. Rb7 Ra1 32. b6 Rxa4 33. Ra7 Rb4 34. b7 g4 35. Ra8+ Kf7 36. b8=Q Rxb8 37. Rxb8 Ke6 38. Re8+ Kf5 39. Kf1",
+"analysis": [
+{
+"san": "d4",
+"title": "1. d4 — Toma de espacio central",
+"explanation": "Las blancas comienzan con un movimiento que reclama espacio en el centro y abre la diagonal del alfil de c1. Es una elección muy sólida que suele conducir a estructuras estratégicas ricas. Además, prepara un desarrollo armonioso sin comprometerse demasiado pronto.",
+"pros": "Gana espacio, controla e5 y c5, facilita el desarrollo.",
+"cons": "Puede convertirse en objetivo de presión con ...c5 o ...e5."
+},
+{
+"san": "d5",
+"title": "1... d5 — Respuesta simétrica y firme",
+"explanation": "Las negras contestan ocupando también el centro y evitando que las blancas disfruten de una ventaja espacial sin oposición. Es una respuesta clásica y muy fiable. Mantiene abiertas varias defensas de peón de dama.",
+"pros": "Iguala presencia central, estructura sana, desarrollo natural.",
+"cons": "La estructura puede volverse algo rígida si las negras no generan contrajuego."
+},
+{
+"san": "Nf3",
+"title": "2. Nf3 — Desarrollo flexible",
+"explanation": "Rubinstein desarrolla una pieza hacia una casilla activa y refuerza el control de e5 y d4. La jugada evita definir todavía el peón c, lo que conserva opciones estratégicas. También prepara un rápido enroque.",
+"pros": "Desarrollo natural, refuerzo central, flexibilidad.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "c5",
+"title": "2... c5 — Desafío inmediato al centro",
+"explanation": "Duras ataca el peón de d4 desde un costado, una idea temática contra 1.d4. Así busca cuestionar el centro blanco y crear contrajuego dinámico. También puede transponer a esquemas del Gambito de Dama Aceptado o estructuras afines.",
+"pros": "Presión activa sobre d4, contrajuego temprano, lucha por el centro.",
+"cons": "Si se ejecuta mal, puede ceder demasiado espacio central."
+},
+{
+"san": "e3",
+"title": "3. e3 — Sostén del centro",
+"explanation": "Las blancas refuerzan d4 y abren la diagonal del alfil de f1. Es una jugada sobria que prioriza la solidez y la coordinación. Además, prepara la recaptura en c4 o un desarrollo tranquilo según la estructura.",
+"pros": "Refuerza d4, abre líneas, mantiene una estructura compacta.",
+"cons": "El alfil de c1 queda algo restringido de momento."
+},
+{
+"san": "Nf6",
+"title": "3... Nf6 — Desarrollo y presión",
+"explanation": "Las negras desarrollan una pieza con buen sentido clásico, controlando e4 y apoyando el centro. El caballo también prepara el enroque y puede apoyar futuras rupturas como ...e5. Es una continuación completamente natural.",
+"pros": "Desarrollo rápido, control de casillas centrales, prepara el enroque.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "dxc5",
+"title": "4. dxc5 — Captura práctica del peón",
+"explanation": "Rubinstein decide tomar en c5 y aceptar un pequeño reto estratégico: conservar o devolver el peón según convenga. La jugada desvía momentáneamente un peón negro del centro y obliga a las negras a mostrar cómo recuperarlo. También puede inducir una salida temprana de la dama negra.",
+"pros": "Gana un peón temporal, provoca definición temprana, incomoda el plan negro.",
+"cons": "Entrega el centro y puede ayudar al desarrollo rival si el peón se recupera fácilmente."
+},
+{
+"san": "Qa5+",
+"title": "4... Qa5+ — Recuperación activa pero prematura",
+"explanation": "La dama sale muy pronto para dar jaque y recuperar el peón de c5. Aunque la idea material es lógica, exponer la dama en la apertura suele ser arriesgado porque concede tiempos de desarrollo al rival. Rubinstein podrá desarrollar piezas atacando o ganando coordinación.",
+"pros": "Amenaza recuperar el peón, introduce una molestia táctica inmediata.",
+"cons": "Desarrollo prematuro de la dama, posible pérdida de tiempos, menor seguridad estratégica."
+},
+{
+"san": "Nbd2",
+"title": "5. Nbd2 — Bloqueo útil y desarrollo",
+"explanation": "Las blancas responden al jaque desarrollando una pieza, una receta ideal en la apertura. El caballo sostiene c4 y e4, y además deja la otra torre y el alfil listos para entrar en juego. Rubinstein neutraliza la molestia sin hacer concesiones.",
+"pros": "Desarrollo con ganancia de tiempo, refuerza el centro, mejora la coordinación.",
+"cons": "El caballo puede estorbar temporalmente al alfil de c1."
+},
+{
+"san": "Qxc5",
+"title": "5... Qxc5 — Recuperación del peón",
+"explanation": "La dama negra recupera el peón y restablece la igualdad material. Sin embargo, la pieza más poderosa del bando negro sigue expuesta a tempos de desarrollo. Las negras igualan en material, pero no necesariamente en armonía.",
+"pros": "Recupera el peón, elimina un peón avanzado blanco.",
+"cons": "La dama sigue siendo blanco de futuras ganancias de tiempo."
+},
+{
+"san": "a3",
+"title": "6. a3 — Profilaxis y preparación",
+"explanation": "Una jugada muy útil: evita saltos molestos de piezas negras a b4 y prepara una posible expansión con b4. Rubinstein piensa en términos posicionales, ganando espacio en el flanco de dama. También da una casilla de escape al alfil o a la dama si fuera necesario.",
+"pros": "Controla b4, prepara b4, restringe ideas negras.",
+"cons": "Es un tempo lateral; no desarrolla pieza directamente."
+},
+{
+"san": "Qc7",
+"title": "6... Qc7 — Repliegue de la dama",
+"explanation": "Las negras retiran la dama a una casilla más segura, donde todavía apoya c5 y e5. La retirada reconoce que la dama en c5 podía quedar demasiado expuesta. Aun así, el tiempo invertido por la dama ya ha dado cierta ventaja de desarrollo a las blancas.",
+"pros": "Coloca la dama en una casilla más segura, mantiene influencia central.",
+"cons": "La dama ha movido varias veces en la apertura."
+},
+{
+"san": "c4",
+"title": "7. c4 — Construcción de un gran centro",
+"explanation": "Rubinstein avanza el peón c para ganar espacio y desafiar la estructura negra. La jugada crea un centro de peones fuerte y restringe las opciones del rival. Además, abre posibilidades de desarrollo para el alfil de c1.",
+"pros": "Más espacio, iniciativa central, limita al rival.",
+"cons": "Puede dejar casillas débiles si el centro es atacado y liquidado."
+},
+{
+"san": "dxc4",
+"title": "7... dxc4 — Entrega del centro por simplificación",
+"explanation": "Las negras cambian en c4 y eliminan un peón avanzado, pero a cambio permiten que las blancas desarrollen una pieza con recaptura. Estratégicamente, es una decisión discutible porque reduce la tensión central a favor del mejor desarrollo blanco. Rubinstein aprovechará ese tiempo con precisión.",
+"pros": "Elimina un peón avanzado, simplifica la posición.",
+"cons": "Cede presencia central y ayuda al desarrollo blanco."
+},
+{
+"san": "Nxc4",
+"title": "8. Nxc4 — Recaptura activa",
+"explanation": "El caballo llega a una casilla excelente, central y flexible. Desde c4 controla casillas clave como e5, d6 y b6, y además queda bien coordinado con el resto del ejército. Es una recaptura ideal: recupera material y mejora una pieza.",
+"pros": "Desarrollo activo, buena centralización, coordinación.",
+"cons": "El caballo puede ser cuestionado por ...b5."
+},
+{
+"san": "Nc6",
+"title": "8... Nc6 — Desarrollo temático",
+"explanation": "Las negras desarrollan el caballo y aumentan la presión sobre d4 y e5. La pieza se coloca en una casilla natural, apoyando tanto juego central como expansión en el flanco de dama. Es una reacción sensata ante la buena colocación blanca.",
+"pros": "Desarrollo, control central, refuerzo de la coordinación.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "b4",
+"title": "9. b4 — Ganancia de espacio",
+"explanation": "Las blancas aprovechan la preparación previa con a3 para avanzar el peón b y ganar terreno. El movimiento apoya al caballo de c4, limita a la dama negra y prepara un eventual desarrollo activo del alfil de b2. También marca una clara superioridad espacial en el flanco de dama.",
+"pros": "Gana espacio, apoya al caballo, restringe piezas negras.",
+"cons": "Puede crear debilidades en a3-c3 si el flanco se abre."
+},
+{
+"san": "Bg4",
+"title": "9... Bg4 — Desarrollo con clavada",
+"explanation": "El alfil sale con una idea activa: clavar el caballo de f3 y presionar la coordinación blanca. Esto añade un componente táctico a la posición y busca frenar momentáneamente la libertad de las blancas. Sin embargo, no resuelve el problema general de espacio y desarrollo.",
+"pros": "Desarrollo activo, crea una clavada, genera presión táctica.",
+"cons": "El alfil puede quedar expuesto si la posición se abre."
+},
+{
+"san": "Bb2",
+"title": "10. Bb2 — Alfil a la gran diagonal",
+"explanation": "Rubinstein coloca el alfil en una diagonal larga y muy influyente. Desde b2, la pieza mira al centro y al enroque largo potencial de las negras, y apoya ideas tácticas futuras. La armonía de las piezas blancas empieza a ser notable.",
+"pros": "Desarrollo elegante, presión diagonal, coordinación ofensiva.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "b5",
+"title": "10... b5 — Expulsión ambiciosa del caballo",
+"explanation": "Las negras intentan ganar espacio y atacar el caballo de c4, pero el avance debilita casillas y alarga demasiado el flanco de dama. Esta jugada parece activa, aunque en realidad deja cabos tácticos sueltos. Rubinstein lo aprovecha con una combinación brillante.",
+"pros": "Gana espacio, cuestiona el caballo blanco.",
+"cons": "Debilita casillas, compromete la estructura y permite recursos tácticos del rival."
+},
+{
+"san": "Nce5",
+"title": "11. Nce5 — Centralización táctica brillante",
+"explanation": "En lugar de retirar pasivamente el caballo atacado, Rubinstein lo centraliza en e5 y abre una secuencia táctica de gran profundidad. El caballo apunta a c6, d7 y f7, y sobre todo coordina con el alfil de b2 y la posible presión sobre la dama negra. Es una jugada activa, valiente y muy precisa.",
+"pros": "Iniciativa táctica, centralización fuerte, aumenta la presión sobre puntos sensibles.",
+"cons": "Exige cálculo exacto; si la táctica fallara, el caballo avanzado podría quedar vulnerable."
+},
+{
+"san": "Nxe5",
+"title": "11... Nxe5 — Aceptación del reto",
+"explanation": "Las negras capturan el caballo central para reducir la presión inmediata. Materialmente parece razonable, pero no elimina el trasfondo táctico de la posición. De hecho, permite a Rubinstein continuar su idea con una segunda oleada táctica.",
+"pros": "Elimina una pieza muy activa, simplifica parcialmente.",
+"cons": "No resuelve las amenazas de fondo y abre líneas favorables al blanco."
+},
+{
+"san": "Nxe5",
+"title": "12. Nxe5 — Recaptura que mantiene la iniciativa",
+"explanation": "El otro caballo entra en e5 y conserva toda la energía de la posición blanca. Ahora el caballo centralizado, el alfil de b2 y la mala colocación de la dama negra crean amenazas concretas. Rubinstein demuestra que su combinación no dependía de una sola pieza, sino de la coordinación total.",
+"pros": "Mantiene la presión, re-centraliza una pieza, conserva la iniciativa.",
+"cons": "El caballo puede ser objetivo, aunque la táctica blanca lo justifica."
+},
+{
+"san": "Bxd1",
+"title": "12... Bxd1 — Ganancia material aparente",
+"explanation": "Las negras capturan la dama blanca y parecen salir ganando material de forma decisiva. Sin embargo, la codicia táctica no siempre coincide con la evaluación real de la posición. El rey negro queda en el centro y las piezas negras descoordinadas, factores que Rubinstein explota de inmediato.",
+"pros": "Gana la dama blanca, ventaja material aparente.",
+"cons": "Descuida la seguridad del rey y la actividad rival; materialmente no basta si la posición colapsa."
+},
+{
+"san": "Bxb5+",
+"title": "13. Bxb5+ — Jaque intermedio demoledor",
+"explanation": "Esta jugada intermedia es el corazón de la combinación. El alfil captura en b5 con jaque, abre líneas y obliga al rey negro a permanecer expuesto. Rubinstein muestra un principio táctico esencial: en posiciones abiertas, la actividad y la seguridad del rey pueden valer más que el material bruto.",
+"pros": "Da jaque, abre líneas, explota al rey en el centro, mantiene la iniciativa.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Nd7",
+"title": "13... Nd7 — Defensa forzada",
+"explanation": "Las negras interponen el caballo para cubrir el jaque y evitar males mayores inmediatos. La jugada es forzada en esencia, pero revela la falta de coordinación del bando negro. Además, deja el caballo clavado y expuesto a nuevas simplificaciones favorables al blanco.",
+"pros": "Bloquea el jaque, gana un respiro defensivo.",
+"cons": "Pieza mal coordinada, posición todavía muy pasiva y peligrosa."
+},
+{
+"san": "Bxd7+",
+"title": "14. Bxd7+ — Eliminación del defensor",
+"explanation": "Rubinstein sigue la lógica del ataque: quitar piezas que sostienen al rey enemigo. Al capturar en d7 con jaque, fuerza nuevas concesiones y simplifica hacia una posición donde su compensación material es muy concreta. Es una combinación de táctica y transición al final.",
+"pros": "Elimina un defensor, mantiene el jaque, simplifica favorablemente.",
+"cons": "Entrega el alfil activo, aunque con justificación táctica completa."
+},
+{
+"san": "Qxd7",
+"title": "14... Qxd7 — Recaptura obligada",
+"explanation": "La dama negra recaptura y por fin participa en la defensa, pero llega tarde para resolver todos los problemas. La estructura y la coordinación negras siguen resentidas. Además, la dama se verá afectada por la siguiente captura del caballo blanco.",
+"pros": "Recupera material, centraliza la dama, reduce el peligro inmediato.",
+"cons": "La dama queda expuesta y no compensa del todo la vulnerabilidad posicional."
+},
+{
+"san": "Nxd7",
+"title": "15. Nxd7 — Conversión precisa de la táctica",
+"explanation": "El caballo blanco elimina la dama negra y transforma la combinación en una ventaja material/posicional tangible. Tras la secuencia, las blancas han conseguido una compensación excelente y, sobre todo, un final favorable. Rubinstein calcula no solo la táctica inmediata, sino la calidad de la posición resultante.",
+"pros": "Gana la dama negra, simplifica a un final favorable, mantiene actividad.",
+"cons": "El caballo puede quedar algo alejado, pero está bien justificado."
+},
+{
+"san": "Bh5",
+"title": "15... Bh5 — Reorganización del alfil",
+"explanation": "Las negras retiran el alfil a una casilla segura, intentando preservar material y mantener piezas activas. En finales o transiciones al final, conservar piezas puede ofrecer resistencia. Sin embargo, la iniciativa estratégica ya favorece claramente a Rubinstein.",
+"pros": "Conserva el alfil, mantiene presencia en la diagonal.",
+"cons": "No resuelve los problemas estructurales ni la falta de coordinación."
+},
+{
+"san": "Ne5",
+"title": "16. Ne5 — Caballo central dominante",
+"explanation": "El caballo vuelve a una casilla central magnífica desde la que controla entradas, bloquea y observa ambos flancos. Rubinstein mejora su pieza más activa y dificulta el desarrollo rival. En posiciones simplificadas, una buena pieza central suele ser un factor decisivo.",
+"pros": "Centralización fuerte, control de casillas clave, presión sostenida.",
+"cons": "Puede ser cuestionado por peones o piezas, aunque no de forma cómoda."
+,
+    {
+      "san": "Rc8",
+      "title": "16... Rc8 — Activación en columna abierta",
+      "explanation": "Las negras buscan contrajuego ocupando una columna abierta con la torre, una idea correcta en principio. La actividad de las torres es vital cuando el material se ha simplificado. No obstante, Rubinstein reaccionará de forma muy instructiva, obligando al negro a decidir.",
+      "pros": "Activa la torre, disputa una columna abierta, genera contrajuego.",
+      "cons": "La torre puede ser cambiada, reduciendo el potencial activo negro."
+    },
+    {
+      "san": "g4",
+      "title": "17. g4 — Expulsión del alfil y ganancia de espacio",
+      "explanation": "Las blancas avanzan en el flanco de rey para atacar al alfil negro y ganar espacio. Es una jugada enérgica, coherente con la ventaja de actividad y el hecho de que el rey negro no puede contraatacar fácilmente. Además, restringe las casillas del alfil rival.",
+      "pros": "Gana espacio, expulsa una pieza rival, impone iniciativa.",
+      "cons": "Debilita algunas casillas alrededor del propio rey."
+    },
+    {
+      "san": "Bg6",
+      "title": "17... Bg6 — Repliegue forzado",
+      "explanation": "El alfil retrocede para conservarse y seguir influyendo en diagonales importantes. Es la respuesta natural, aunque el alfil queda más pasivo y el avance blanco ha ganado espacio útil. La defensa negra sigue siendo laboriosa.",
+      "pros": "Mantiene el alfil vivo, conserva una pieza de largo alcance.",
+      "cons": "Cede terreno y queda más pasivo."
+    },
+    {
+      "san": "Nxg6",
+      "title": "18. Nxg6 — Cambio estratégico bien elegido",
+      "explanation": "Rubinstein elimina uno de los alfiles negros para reducir aún más el contrajuego. En finales o semiefinales, la simplificación hacia un escenario favorable es una técnica clásica. Además, evita que la pareja de alfiles dé recursos defensivos a Duras.",
+      "pros": "Reduce el contrajuego, elimina la pareja de alfiles, simplifica favorablemente.",
+      "cons": "Entrega un caballo activo y abre la columna h para la torre negra."
+    },
+    {
+      "san": "hxg6",
+      "title": "18... hxg6 — Recaptura estructuralmente comprometida",
+      "explanation": "Las negras recuperan la pieza y mantienen el equilibrio material inmediato, pero su estructura de peones se altera. El peón g pasado a g6 y la semicolumna h abierta generan tanto oportunidades como debilidades. Rubinstein valorará mejor estos factores en el final.",
+      "pros": "Recupera material, abre una columna semiabierta para la torre.",
+      "cons": "Peones debilitados, casillas oscuras más sensibles, rey potencialmente más expuesto."
+    },
+    {
+      "san": "Bd4",
+      "title": "19. Bd4 — Alfil centralizado y dominante",
+      "explanation": "El alfil blanco ocupa una casilla muy fuerte en el centro, desde donde controla diagonales largas y restringe el juego negro. Rubinstein busca no solo actividad, sino también frenar las rupturas rivales. La pieza coordina muy bien con torre y rey en la futura fase final.",
+      "pros": "Excelente centralización, control de diagonales, restricción del rival.",
+      "cons": "Puede ser objeto de un avance de peón como ...e5."
+    },
+    {
+      "san": "a6",
+      "title": "19... a6 — Prevención y espacio",
+      "explanation": "Las negras ganan una casilla de respiro y controlan b5, reduciendo posibles invasiones blancas. Es una jugada útil, aunque algo lenta frente a la energía de las piezas blancas. No cambia la evaluación estratégica general.",
+      "pros": "Controla b5, gana espacio, evita saltos o entradas incómodas.",
+      "cons": "Tempo algo lento en una posición que exige actividad más directa."
+    },
+    {
+      "san": "Kd2",
+      "title": "20. Kd2 — El rey marcha al centro",
+      "explanation": "Rubinstein entiende a la perfección que la partida se encamina a un final y activa su rey de inmediato. En el final, el rey deja de ser una pieza pasiva y se convierte en una fuerza central. Esta transición temprana es muy instructiva.",
+      "pros": "Activa el rey, mejora la coordinación final, prepara apoyo a peones y torres.",
+      "cons": "Renuncia al enroque, aunque aquí ya no es relevante."
+    },
+    {
+      "san": "f6",
+      "title": "20... f6 — Preparación de ...e5",
+      "explanation": "Las negras apoyan el avance ...e5 para expulsar al alfil central de d4. La idea estratégica es correcta: cuestionar la pieza más fuerte del rival. Sin embargo, también endurece la estructura y crea nuevas debilidades oscuras.",
+      "pros": "Prepara ...e5, gana espacio, desafía al alfil blanco.",
+      "cons": "Debilita casillas oscuras y puede rigidizar la estructura."
+    },
+    {
+      "san": "Rac1",
+      "title": "21. Rac1 — Dominio de la columna abierta",
+      "explanation": "Rubinstein coloca la torre en la columna c y plantea un problema práctico al rival: cambiar torres o ceder el control de la línea abierta. Es una jugada técnica de gran calidad, típica de un maestro del final. La torre activa vale más que la pasividad del rey recapturando.",
+      "pros": "Ocupa la columna abierta, mejora la torre, fuerza decisiones incómodas.",
+      "cons": "Ninguna significativa."
+    },
+    {
+      "san": "Rxc1",
+      "title": "21... Rxc1 — Cambio defensivo",
+      "explanation": "Las negras deciden cambiar torres para aliviar la presión en la columna abierta. Es comprensible, porque permitir a la torre blanca dominar c1-c7 podía ser muy desagradable. Aun así, Rubinstein demuestra que incluso tras el cambio conserva la iniciativa.",
+      "pros": "Reduce la presión inmediata, simplifica una fuente de actividad blanca.",
+      "cons": "Entrega la columna abierta y facilita la activación de la torre blanca restante."
+    },
+    {
+      "san": "Rxc1",
+      "title": "22. Rxc1 — Recaptura activa con la torre",
+      "explanation": "Rubinstein recaptura con la torre, no con el rey, conservando una pieza activa y bien colocada. Es un detalle técnico muy instructivo: en el final, la torre debe buscar actividad, no quedar atada a tareas defensivas pasivas. La coordinación blanca mejora aún más.",
+      "pros": "Mantiene la torre activa, controla la columna, mejor técnica de final.",
+      "cons": "Ninguna significativa."
+    },
+    {
+      "san": "e5",
+      "title": "22... e5 — Expulsión del alfil central",
+      "explanation": "Las negras finalmente ejecutan la idea preparada con ...f6 y atacan al alfil blanco. Esto gana espacio y cuestiona una pieza muy poderosa. Sin embargo, también fija peones y crea casillas que la torre blanca podrá explotar más tarde.",
+      "pros": "Gana espacio, ataca al alfil, activa el centro negro.",
+      "cons": "Fija la estructura y puede dejar casillas débiles detrás de la cadena."
+    },
+    {
+      "san": "Bc5",
+      "title": "23. Bc5 — Reubicación activa del alfil",
+      "explanation": "El alfil se retira a una casilla fuerte, desde donde sigue molestando y observa rutas de invasión. No es una retirada pasiva, sino una mejora relativa: controla casillas críticas y dificulta la coordinación negra. Rubinstein siempre busca que cada retirada mantenga utilidad.",
+      "pros": "Mantiene actividad, presiona diagonales, evita simplificaciones favorables al negro.",
+      "cons": "La pieza puede quedar táctica o estratégicamente expuesta a cambios."
+    },
+    {
+      "san": "Rxh2",
+      "title": "23... Rxh2 — Captura de peón con contrajuego",
+      "explanation": "Las negras usan su torre para capturar en h2 y generar actividad lateral, un recurso típico en finales de torre. La idea es obtener peones y compensación dinámica. Pero la torre negra también se aleja del centro y permite a Rubinstein continuar con precisión.",
+      "pros": "Gana un peón, activa la torre, crea amenazas laterales.",
+      "cons": "La torre puede quedar mal colocada respecto al teatro principal de la lucha."
+    },
+    {
+      "san": "Bxf8",
+      "title": "24. Bxf8 — Eliminación del último alfil",
+      "explanation": "Rubinstein cambia su alfil por la pieza menor que aún podía ofrecer resistencia defensiva. Al reducir el material, hace que la actividad de su torre y la mayoría de peones pesen más. Es un cambio práctico y muy acorde con su ventaja posicional.",
+      "pros": "Elimina una pieza defensiva importante, simplifica favorablemente, reduce contrajuego.",
+      "cons": "Entrega el alfil, con lo que la posición se acerca a un final de torres puro."
+    },
+    {
+      "san": "Kxf8",
+      "title": "24... Kxf8 — El rey recaptura y centraliza",
+      "explanation": "Las negras recuperan el alfil con el rey, que al mismo tiempo queda más centralizado para el final. En términos de técnica de finales, esto es correcto. Aun así, la torre blanca será más activa y los peones blancos tendrán mejor proyección.",
+      "pros": "Recupera material, centraliza el rey.",
+      "cons": "El rey puede quedar expuesto a jaques laterales si la torre blanca se activa."
+    },
+    {
+      "san": "Ke2",
+      "title": "25. Ke2 — Rey cada vez más activo",
+      "explanation": "Rubinstein continúa con su plan centralizador. El rey blanco se acerca a los peones y a las casillas críticas, preparado para apoyar rupturas y contener la torre rival. La técnica clásica de final vuelve a aparecer con claridad.",
+      "pros": "Mejora el rey, apoya el centro y el flanco de dama, coordina con la torre.",
+      "cons": "Ninguna significativa."
+    },
+    {
+      "san": "e4",
+      "title": "25... e4 — Peón avanzado y espacio",
+      "explanation": "Las negras avanzan su peón para ganar espacio y tratar de limitar al rey blanco. También crean un peón más avanzado que puede servir de distracción. Pero el avance deja casillas detrás y no resuelve el problema principal: la actividad superior de las blancas.",
+      "pros": "Gana espacio, restringe algo al rey blanco, crea un peón avanzado.",
+      "cons": "Fija debilidades y puede ser objetivo más adelante."
+    },
+    {
+      "san": "Rc6",
+      "title": "26. Rc6 — Invasión activa de la torre",
+      "explanation": "La torre blanca penetra en sexta fila, una ubicación muy activa desde la que puede atacar peones laterales y dar jaques si hace falta. Rubinstein prioriza la actividad sobre la defensa pasiva. En finales de torres, esta filosofía suele decidir la partida.",
+      "pros": "Torre muy activa, presión sobre peones débiles, iniciativa sostenida.",
+      "cons": "La torre se aleja de algunos peones propios, aunque con buena compensación."
+    },
+    {
+      "san": "Rg2",
+      "title": "26... Rg2 — Actividad lateral defensiva",
+      "explanation": "Las negras colocan la torre en la segunda fila para atacar peones y buscar contrajuego. La segunda fila es una plataforma clásica de incursión en finales de torre. Sin embargo, Rubinstein tiene mejores objetivos en el flanco de dama.",
+      "pros": "Actividad de torre, amenazas sobre peones, contrajuego práctico.",
+      "cons": "No frena la creación de peones pasados blancos en el flanco de dama."
+    },
+    {
+      "san": "Rxa6",
+      "title": "27. Rxa6 — Concreción material en el flanco de dama",
+      "explanation": "La torre blanca captura un peón importante y empieza a crear una mayoría pasada en el flanco de dama. Rubinstein entiende que la ventaja se convertirá mejor allí, donde tiene peones avanzables y apoyo del rey. Es una jugada muy técnica y concreta.",
+      "pros": "Gana un peón, crea mayoría peligrosa, mantiene la torre activa.",
+      "cons": "Permite a la torre negra recoger peones del flanco de rey."
+    },
+    {
+      "san": "Rxg4",
+      "title": "27... Rxg4 — Contrajuego material",
+      "explanation": "Las negras toman otro peón y equilibran el material visible. Pero el balance real no está solo en los peones contados, sino en la calidad de los peones restantes. Rubinstein tendrá peones pasados ligados en el flanco de dama, un factor muy poderoso.",
+      "pros": "Recupera material, mantiene activa la torre.",
+      "cons": "No impide la formación del peón pasado blanco decisivo."
+    },
+    {
+      "san": "Ra7",
+      "title": "28. Ra7 — Torre en séptima",
+      "explanation": "La torre blanca ocupa la séptima fila, una posición clásica de máxima actividad. Desde allí ataca peones, limita al rey negro y coordina futuros avances de los peones del flanco de dama. Rubinstein sigue principios de final casi de manual.",
+      "pros": "Dominio de la séptima, gran actividad, presión múltiple.",
+      "cons": "Ninguna significativa."
+    },
+    {
+      "san": "Rg1",
+      "title": "28... Rg1 — Torre activa desde atrás",
+      "explanation": "Las negras reubican la torre para seguir dando jaques o atacando peones desde la retaguardia. Es una defensa activa, la mejor clase de defensa en finales de torres. Aun así, la estructura blanca en el flanco de dama será difícil de contener.",
+      "pros": "Mantiene actividad, opción de jaques laterales o desde atrás.",
+      "cons": "La torre negra sigue lejos del frente principal de peones pasados."
+    },
+    {
+      "san": "b5",
+      "title": "29. b5 — Inicio del plan ganador",
+      "explanation": "Rubinstein avanza el peón b para crear un peón pasado protegido y ganar espacio. El avance obliga a las piezas negras a concentrarse en detener esos peones, reduciendo su libertad. Es el comienzo claro de la fase de conversión.",
+      "pros": "Crea amenaza de peón pasado, gana espacio, fuerza defensa rival.",
+      "cons": "Compromete la estructura si el avance fracasara, aunque aquí está bien calculado."
+    },
+    {
+      "san": "Rb1",
+      "title": "29... Rb1 — Bloqueo desde la retaguardia",
+      "explanation": "La torre negra se coloca detrás del peón b, un método teóricamente correcto para luchar contra peones pasados. Colocarse detrás del peón pasado rival es una regla muy conocida en finales de torre. Sin embargo, el apoyo del otro peón blanco hará difícil la tarea defensiva.",
+      "pros": "Aplicación de un principio correcto, presión directa sobre el peón b.",
+      "cons": "La torre queda atada a la defensa y pierde flexibilidad."
+    },
+    {
+      "san": "a4",
+      "title": "30. a4 — Segundo peón pasado en preparación",
+      "explanation": "Las blancas apoyan el peón b y preparan la creación de peones pasados ligados, una de las armas más temibles del final. Rubinstein no se conforma con un solo peón avanzado: construye una masa coordinada. Esto aumenta enormemente las exigencias defensivas para la torre negra.",
+      "pros": "Apoya b5, gana espacio, prepara peones pasados ligados.",
+      "cons": "Puede dejar algunas casillas débiles detrás, aunque el beneficio es mucho mayor."
+    },
+    {
+      "san": "g5",
+      "title": "30... g5 — Búsqueda de contrajuego lejano",
+      "explanation": "Las negras intentan activar su mayoría de peones del flanco de rey para compensar la peligrosa masa blanca del flanco de dama. Es una reacción lógica: crear amenazas propias. No obstante, sus peones avanzan más lento que el plan blanco.",
+      "pros": "Genera contrajuego, gana espacio, crea posibles peones móviles.",
+      "cons": "No frena la amenaza principal y puede debilitar al rey negro."
+    },
+    {
+      "san": "Rb7",
+      "title": "31. Rb7 — Torre detrás del peón pasado",
+      "explanation": "La torre blanca se coloca detrás de sus peones avanzados, otro principio fundamental del final. Desde b7 sostiene el avance y vigila la séptima fila. Rubinstein coordina a la perfección piezas y peones.",
+      "pros": "Apoya el peón b, mantiene gran actividad, aplica un principio técnico excelente.",
+      "cons": "Ninguna significativa."
+    },
+    {
+      "san": "Ra1",
+      "title": "31... Ra1 — Presión lateral sobre la base",
+      "explanation": "La torre negra intenta atacar desde un ángulo distinto y ganar tiempo sobre los peones blancos. La idea es molestar la base de la cadena y no quedar pasivamente detrás del peón. Aun así, Rubinstein ya tiene calculada la continuación crítica.",
+      "pros": "Actividad lateral, presión sobre peones, búsqueda de contrajuego práctico.",
+      "cons": "No consigue detener ambos peones pasados a la vez."
+    },
+    {
+      "san": "b6",
+      "title": "32. b6 — Avance decidido del peón pasado",
+      "explanation": "Rubinstein empuja el peón hasta sexta, acercándolo a la coronación y obligando a la torre negra a una defensa casi exclusiva. El avance reduce el margen de maniobra de las negras. A partir de aquí, toda la partida gira alrededor del peón b.",
+      "pros": "Peón muy avanzado, amenaza de promoción, restringe totalmente a la torre negra.",
+      "cons": "El peón puede convertirse en un objetivo único si el resto del ejército no lo apoya."
+    },
+    {
+      "san": "Rxa4",
+      "title": "32... Rxa4 — Captura práctica de material",
+      "explanation": "Las negras toman el peón a4 para reducir la masa blanca y eliminar uno de los peones pasados ligados. Es una defensa práctica: si no pueden parar ambos, al menos intentan dejar solo uno. Sin embargo, Rubinstein ya ha previsto que un peón bien apoyado basta.",
+      "pros": "Elimina un peón pasado potencial, gana material.",
+      "cons": "La torre negra sigue sin resolver el problema del peón b avanzado."
+    },
+    {
+      "san": "Ra7",
+      "title": "33. Ra7 — Renovación de la actividad decisiva",
+      "explanation": "La torre vuelve a la séptima fila, ofreciendo implícitamente cambios muy favorables a las blancas y apoyando la carrera del peón. Rubinstein no se obsesiona con salvar todo; prioriza la coronación. La actividad de la torre convierte cada amenaza de peón en algo concreto.",
+      "pros": "Apoya la promoción, controla séptima fila, mantiene la iniciativa.",
+      "cons": "Ninguna significativa."
+    },
+    {
+      "san": "Rb4",
+      "title": "33... Rb4 — Bloqueo frontal del peón",
+      "explanation": "Las negras sitúan la torre frente al peón para tratar de detenerlo directamente. Es una defensa obligada y bastante activa. Aun así, el apoyo lateral de la torre blanca y la cercanía del peón harán muy difícil la contención.",
+      "pros": "Bloquea el avance inmediato, crea resistencia práctica.",
+      "cons": "La torre queda muy pasiva y vulnerable a tácticas de desviación."
+    },
+    {
+      "san": "b7",
+      "title": "34. b7 — Peón a un paso de coronar",
+      "explanation": "El peón alcanza séptima, la casilla crítica desde la que la promoción es una amenaza permanente. Esto obliga a las negras a jugar casi exclusivamente contra ese peón, dejando de lado otras ideas. Rubinstein ha convertido su ventaja posicional en una amenaza inmediata y forzante.",
+      "pros": "Amenaza de coronación inmediata, enorme restricción del rival, ventaja casi decisiva.",
+      "cons": "El plan blanco depende ahora mucho de la coordinación precisa de la torre."
+    },
+    {
+      "san": "g4",
+      "title": "34... g4 — Último intento de contrajuego",
+      "explanation": "Las negras avanzan su peón g para crear distracción y posibles jaques o amenazas en el flanco de rey. Es un recurso típico cuando un bando está cerca de perder por un peón pasado rival: crear una carrera paralela. Pero llega tarde frente a la amenaza concreta b8=D.",
+      "pros": "Genera contrajuego, activa peones lejanos.",
+      "cons": "No impide la coronación blanca y deja más debilitado el flanco de rey."
+    },
+    {
+      "san": "Ra8+",
+      "title": "35. Ra8+ — Jaque de apoyo",
+      "explanation": "La torre blanca da jaque y mejora todavía más la coordinación con el peón b7. El jaque obliga al rey negro a una casilla determinada y reduce sus opciones defensivas. Es una jugada de gran precisión técnica.",
+      "pros": "Da jaque, mejora la torre, apoya la promoción del peón.",
+      "cons": "Ninguna significativa."
+    },
+    {
+      "san": "Kf7",
+      "title": "35... Kf7 — Reubicación obligada del rey",
+      "explanation": "El rey negro se aparta del jaque y trata de acercarse a la zona de la acción. Sin embargo, llega tarde para frenar el peón avanzado. Las blancas mantienen la iniciativa de forma completamente forzante.",
+      "pros": "Escapa del jaque, intenta mejorar la posición del rey.",
+      "cons": "No resuelve la amenaza principal de promoción."
+    },
+    {
+      "san": "b8=Q",
+      "title": "36. b8=Q — Coronación inevitable",
+      "explanation": "El peón culmina su viaje y se transforma en dama, coronando el plan estratégico de Rubinstein. En finales, un peón pasado muy avanzado y bien apoyado suele decidir por sí solo. Aquí la promoción es la consecuencia lógica de toda la técnica previa.",
+      "pros": "Gana una dama nueva, ventaja material decisiva, culmina el plan ganador.",
+      "cons": "La nueva dama será capturada, aunque eso forma parte de una secuencia favorable calculada."
+    },
+    {
+      "san": "Rxb8",
+      "title": "36... Rxb8 — Eliminación forzada de la dama nueva",
+      "explanation": "Las negras se ven obligadas a entregar su torre por la dama recién coronada. Es la única forma de evitar perder de inmediato. Aun así, la simplificación resultante deja a Rubinstein en un final ganado.",
+      "pros": "Evita una derrota instantánea, reduce el poder ofensivo inmediato blanco.",
+      "cons": "Entrega la torre y entra en un final claramente inferior."
+    },
+    {
+      "san": "Rxb8",
+      "title": "37. Rxb8 — Recaptura exacta",
+      "explanation": "La torre blanca recaptura y transforma la secuencia en un final superior técnicamente sencillo. El material y la actividad del rey blanco favorecen claramente a Rubinstein. Es una continuación forzada y muy limpia.",
+      "pros": "Consolida la ventaja material, mantiene actividad de torre, simplifica a un final ganado.",
+      "cons": "Ninguna significativa."
+    },
+    {
+      "san": "Ke6",
+      "title": "37... Ke6 — Intento de centralización defensiva",
+      "explanation": "Las negras activan el rey buscando acercarse a la torre blanca o a los peones residuales. Es lo correcto en el final, pero la posición ya es demasiado difícil. La torre blanca tiene tiempo y espacio para dar jaques y mejorar al rey.",
+      "pros": "Rey más activo, mejores opciones defensivas prácticas.",
+      "cons": "La actividad llega tarde y no compensa la inferioridad."
+    },
+    {
+      "san": "Re8+",
+      "title": "38. Re8+ — Jaque técnico",
+      "explanation": "Rubinstein da un jaque útil que empuja al rey negro a una casilla menos cómoda y mantiene la iniciativa. En finales ganados, los jaques no solo acosan: también mejoran la colocación relativa de las piezas. Es una maniobra limpia y segura.",
+      "pros": "Mantiene la iniciativa, obliga al rey rival, técnica precisa.",
+      "cons": "Ninguna significativa."
+    },
+    {
+      "san": "Kf5",
+      "title": "38... Kf5 — Rey activo por necesidad",
+      "explanation": "El rey negro se adelanta con la esperanza de crear dificultades prácticas. Un rey activo siempre ofrece más resistencia que uno pasivo. Pero frente a una técnica de élite, esa actividad no bastará.",
+      "pros": "Máxima actividad del rey, posibilidades prácticas de resistencia.",
+      "cons": "Puede quedar expuesto a jaques o a la coordinación del rey blanco."
+    },
+    {
+      "san": "Kf1",
+      "title": "39. Kf1 — Consolidación final",
+      "explanation": "Rubinstein mejora la posición del rey y asegura la coordinación total de sus piezas antes de rematar. Es una jugada sobria y técnica, típica de un gran finalista: no busca brillantez innecesaria, sino control absoluto. Las negras abandonaron porque la posición resultante ya no ofrece salvación real.",
+      "pros": "Centraliza y protege, consolida la ventaja, reduce cualquier contrajuego restante.",
+      "cons": "Ninguna significativa."
+    }
+  ]
+}

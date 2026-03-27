@@ -1,0 +1,791 @@
+{
+"info": {
+"title": "Tarrasch vs Thorold, Manchester 1890 — Iniciativa, séptima fila y técnica magistral en el final",
+"white": "Tarrasch Siegbert",
+"black": "Thorold, E.",
+"event": "?",
+"date": "1890",
+"result": "1-0",
+"description": "Esta partida muestra varias virtudes clásicas del ajedrez de Tarrasch: desarrollo rápido, explotación táctica de una clavada, ocupación de la séptima fila y conversión técnica de una pequeña ventaja material. Es especialmente instructiva por cómo un peón de más se transforma, mediante actividad de torre y rey, en una victoria totalmente controlada."
+},
+"pgn": "1. e4 e6 2. d4 d5 3. Nd2 c5 4. exd5 Qxd5 5. Ngf3 cxd4 6. Bc4 Qh5 7. O-O Nc6 8. Nb3 e5 9. Nxe5 Qxd1 10. Rxd1 Nxe5 11. Re1 f6 12. f4 Bb4 13. Bd2 Bxd2 14. Nxd2 Bf5 15. fxe5 O-O-O 16. Bd3 Bxd3 17. cxd3 fxe5 18. Rac1+ Kb8 19. Rxe5 Nf6 20. Rce1 Rhe8 21. Rxe8 Nxe8 22. Re7 a6 23. Nb3 b6 24. Nxd4 Rxd4 25. Rxe8+ Kc7 26. Re3 Kd7 27. Kf2 g6 28. Rh3 h5 29. Ke3 Rd6 30. d4 Re6+ 31. Kd3 Re1 32. Rg3 Re6 33. Re3 Rd6 34. Re5 Rf6 35. a4 Rf2 36. Re2 Rf6 37. b4 Rf1 38. Re5 Rf2 39. Rg5 Rf6 40. h3 Kd6 41. Ke4 Re6+ 42. Re5 Rf6 43. d5 Kd7 44. Rg5 Kd6 45. Rg3 Ke7 46. Rf3 Rd6 47. Ke5 Rd8 48. d6+ Kd7 49. Rf7+ Kc8 50. Rc7+ Kb8 51. Rc2 Re8+ 52. Kf6 b5 53. d7 Rh8 54. Ke7 Rh7+ 55. Kd6 Rh8 56. Re2",
+"analysis": [
+{
+"san": "e4",
+"title": "1. e4 — Apertura clásica y directa",
+"explanation": "Las blancas ocupan el centro inmediatamente y abren líneas para la dama y el alfil de f1. Es una jugada que busca iniciativa y desarrollo rápido. Tarrasch elige un comienzo muy principista, acorde con su estilo claro y activo.",
+"pros": "Gana espacio central, libera piezas y favorece un desarrollo enérgico.",
+"cons": "Puede ser atacado pronto por ...d5 o ...c5."
+},
+{
+"san": "e6",
+"title": "1... e6 — La Francesa, sólida y resistente",
+"explanation": "Las negras preparan ...d5 para disputar el centro blanco de forma compacta. También abren la diagonal del alfil de f8, aunque el de c8 queda temporalmente encerrado. Es una elección estratégica: aceptar menos espacio a cambio de una estructura firme.",
+"pros": "Prepara ...d5, construye una estructura sólida y define un plan claro.",
+"cons": "Encierra provisionalmente al alfil de c8."
+},
+{
+"san": "d4",
+"title": "2. d4 — Doble ocupación del centro",
+"explanation": "Las blancas refuerzan e4 y toman más espacio central. Con dos peones en el centro, pueden aspirar a una ventaja espacial o a un rápido desarrollo. Esta es la continuación natural más fuerte tras 1.e4.",
+"pros": "Domina el centro, gana espacio y facilita el desarrollo coordinado.",
+"cons": "El centro adelantado puede convertirse en objetivo si no se sostiene bien."
+},
+{
+"san": "d5",
+"title": "2... d5 — Contrarrestar el centro sin demora",
+"explanation": "Las negras desafían el centro blanco de inmediato, siguiendo la idea principal de la Defensa Francesa. La lucha deja de ser abstracta y pasa a ser concreta: ¿podrán las blancas mantener su espacio? Thorold juega con lógica clásica.",
+"pros": "Disputa el centro, iguala presencia y define la tensión principal de la apertura.",
+"cons": "Puede quedar algo apretado si las blancas conservan ambos peones centrales."
+},
+{
+"san": "Nd2",
+"title": "3. Nd2 — La Variante Tarrasch",
+"explanation": "El caballo se desarrolla sin bloquear el peón c, lo que da flexibilidad para c3 o c4 según convenga. Además evita algunas líneas muy teóricas de 3.Nc3. Tarrasch valora aquí la elasticidad estructural por encima de la presión inmediata.",
+"pros": "Desarrollo flexible, mantiene libre el peón c y evita algunas clavadas incómodas.",
+"cons": "El caballo en d2 es algo menos activo que en c3."
+},
+{
+"san": "c5",
+"title": "3... c5 — Golpe temático contra el centro",
+"explanation": "Las negras atacan la base del centro blanco, especialmente el peón de d4. Esta ruptura es esencial en la Francesa: si no se desafía el centro, las blancas conservan demasiado espacio. Thorold juega el plan correcto y más activo.",
+"pros": "Ataca d4, gana espacio en el flanco de dama y activa el contrajuego negro.",
+"cons": "Cede la casilla d5 en algunos esquemas si luego simplifica mal."
+},
+{
+"san": "exd5",
+"title": "4. exd5 — Aclarar el centro",
+"explanation": "Las blancas deciden simplificar pronto y eliminar la tensión central. Esto conduce a una estructura más abierta, donde el desarrollo rápido puede ser importante. Tarrasch no busca encerrar al rival, sino jugar con piezas activas.",
+"pros": "Aclara la posición, reduce la tensión y puede favorecer el desarrollo rápido.",
+"cons": "Entrega el peón e central y reduce parte de su ventaja de espacio."
+},
+{
+"san": "Qxd5",
+"title": "4... Qxd5 — Recaptura activa con la dama",
+"explanation": "Las negras recuperan el peón con la dama y mantienen intacta su estructura. La dama sale pronto, lo que conlleva riesgo de ser atacada, pero a cambio centraliza una pieza fuerte. La jugada es práctica y correcta si se resiste la pérdida de tiempos posterior.",
+"pros": "Recupera material, centraliza la dama y conserva la estructura de peones.",
+"cons": "La dama queda expuesta a ataques de desarrollo."
+},
+{
+"san": "Ngf3",
+"title": "5. Ngf3 — Desarrollo con ganancia potencial de tiempos",
+"explanation": "Las blancas desarrollan una pieza y atacan indirectamente la dama negra al preparar Bc4. Tarrasch acepta un peón momentáneamente en el aire para acelerar el despliegue de sus piezas. Es una decisión muy instructiva: la actividad puede valer más que un peón temporal.",
+"pros": "Desarrolla una pieza, prepara Bc4 y genera iniciativa contra la dama negra.",
+"cons": "Permite que las negras ganen un peón temporalmente con ...cxd4."
+},
+{
+"san": "cxd4",
+"title": "5... cxd4 — Captura material, pero cediendo tiempos",
+"explanation": "Las negras aceptan el peón y obligan a las blancas a demostrar compensación dinámica. Materialmente parece agradable, pero la dama negra seguirá siendo un objetivo y las piezas blancas saldrán con rapidez. Thorold entra en una posición donde la coordinación será más importante que el peón ganado.",
+"pros": "Gana un peón temporal y simplifica el centro.",
+"cons": "Permite a las blancas desarrollar con iniciativa sobre la dama."
+},
+{
+"san": "Bc4",
+"title": "6. Bc4 — Desarrollo con ataque",
+"explanation": "El alfil sale a una diagonal activa y ataca directamente la dama en d5. Esta es la compensación por el peón: una pieza desarrollada con ganancia de tiempo. Además, el alfil mira puntos sensibles como f7 y colabora con el enroque rápido.",
+"pros": "Desarrolla, gana un tiempo sobre la dama y aumenta la iniciativa blanca.",
+"cons": "El alfil puede convertirse en objetivo si la dama encuentra una casilla activa."
+},
+{
+"san": "Qh5",
+"title": "6... Qh5 — Retirada conservando actividad",
+"explanation": "La dama se aparta del ataque y desde h5 aún observa el ala de rey y la diagonal hacia e2. No es una casilla central, pero evita perder más tiempos por ahora. Thorold intenta mantener el peón extra sin quedar completamente pasivo.",
+"pros": "Salva la dama y conserva algo de actividad táctica.",
+"cons": "La dama queda algo alejada del centro y puede estorbar el desarrollo natural."
+},
+{
+"san": "O-O",
+"title": "7. O-O — Seguridad y conexión",
+"explanation": "Las blancas enrocan enseguida, quitan al rey del centro y conectan sus torres. Con ello completan una parte esencial de la compensación por el peón: mejor desarrollo y mayor coordinación. En posiciones abiertas, el rey seguro es un activo enorme.",
+"pros": "Asegura al rey, activa una torre y mejora la coordinación general.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Nc6",
+"title": "7... Nc6 — Desarrollo natural",
+"explanation": "Las negras desarrollan el caballo y refuerzan el control sobre d4 y e5. También facilitan el posible enroque largo si la posición lo permite. La jugada es sana, aunque todavía deben resolver el problema de la dama adelantada.",
+"pros": "Desarrolla una pieza, mejora el control central y ayuda a la coordinación.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Nb3",
+"title": "8. Nb3 — Recuperar el peón atacando",
+"explanation": "El caballo se recoloca para atacar el peón de d4, sumándose al alfil y a la dama potencialmente activa. Esta maniobra es muy típica: el caballo no solo se retira, sino que lo hace hacia una casilla útil. Tarrasch apunta a demostrar que el peón negro en d4 no podrá sostenerse.",
+"pros": "Ataca d4, mejora la coordinación y conserva la iniciativa.",
+"cons": "El caballo se aleja del centro por un momento."
+},
+{
+"san": "e5",
+"title": "8... e5 — Contraataque central ambicioso",
+"explanation": "Las negras ganan espacio y sostienen indirectamente su estructura. Sin embargo, este avance también deja casillas sensibles y exige mucha precisión táctica. Thorold busca actividad, pero Tarrasch detecta que la jugada contiene defectos concretos.",
+"pros": "Gana espacio, controla d4 y limita algunas piezas blancas.",
+"cons": "Debilita casillas y permite una táctica inmediata basada en Nxe5."
+},
+{
+"san": "Nxe5",
+"title": "9. Nxe5 — Sacrificio táctico y cálculo preciso",
+"explanation": "Las blancas toman en e5, explotando la sobrecarga y la mala colocación de la dama negra. Tarrasch sacrifica momentáneamente material porque ha calculado que la actividad de sus piezas y una clavada posterior le permitirán recuperarlo. Es una jugada muy instructiva sobre la fuerza del desarrollo frente al material.",
+"pros": "Abre líneas, inicia una secuencia táctica favorable y aprovecha la mala coordinación negra.",
+"cons": "Requiere cálculo exacto; si la táctica fallara, las blancas quedarían con material de menos."
+},
+{
+"san": "Qxd1",
+"title": "9... Qxd1 — Cambiar damas para apagar el fuego",
+"explanation": "Las negras deciden simplificar, llevándose la dama blanca y entrando en un final temprano. La idea es reducir el ataque rival y aferrarse al material. Sin embargo, incluso sin damas la actividad de las piezas blancas seguirá siendo muy molesta.",
+"pros": "Simplifica la posición y reduce el potencial de ataque directo de las blancas.",
+"cons": "No elimina la clavada y la descoordinación de las piezas negras."
+},
+{
+"san": "Rxd1",
+"title": "10. Rxd1 — Recaptura activa con torre",
+"explanation": "La torre blanca ocupa la columna abierta y recaptura de la forma más activa posible. Además, la ausencia de damas hace que la iniciativa blanca se traduzca ahora en dominio de líneas abiertas. Tarrasch entra en el final con piezas mejor colocadas.",
+"pros": "Activa la torre, controla la columna d y mantiene la iniciativa.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Nxe5",
+"title": "10... Nxe5 — Recuperar el material",
+"explanation": "Las negras eliminan el caballo avanzado y restauran el equilibrio material aparente. Pero la posición importa más que el conteo inmediato: el caballo negro queda vulnerable a una clavada, y las torres blancas están listas para actuar. Thorold iguala material, no actividad.",
+"pros": "Recupera material y elimina una pieza activa blanca.",
+"cons": "El caballo queda sujeto a una táctica posicional con Re1 y f4."
+},
+{
+"san": "Re1",
+"title": "11. Re1 — La clavada como recurso estratégico",
+"explanation": "La torre se coloca frente al rey negro y clava el caballo de e5. La idea es muy profunda: no se trata de ganar de inmediato, sino de preparar f4 para expulsar o capturar esa pieza. Tarrasch convierte una ventaja dinámica en un problema concreto para las negras.",
+"pros": "Clava una pieza enemiga, gana tiempos y prepara recuperar el material.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "f6",
+"title": "11... f6 — Defensa necesaria, pero debilitadora",
+"explanation": "Las negras sostienen el caballo y dan una casilla de escape al rey o al propio caballo en algunas variantes. Sin embargo, el avance debilita el entorno del rey y casillas como e6 y g6. Es una defensa forzada más que una mejora real de la posición.",
+"pros": "Defiende el caballo de e5 y evita pérdidas tácticas inmediatas.",
+"cons": "Debilita la estructura del rey y crea casillas sensibles."
+},
+{
+"san": "f4",
+"title": "12. f4 — Expulsión del caballo clavado",
+"explanation": "Las blancas concretan la idea iniciada con Re1: atacan el caballo de e5 y amenazan abrir líneas muy favorables. Además, el peón f gana espacio y puede apoyar futuras rupturas. Tarrasch sigue jugando con energía, sin permitir reorganización negra.",
+"pros": "Ataca el caballo, gana espacio y mantiene la iniciativa táctica.",
+"cons": "Puede debilitar algo el ala de rey si la posición se cerrara, cosa improbable aquí."
+},
+{
+"san": "Bb4",
+"title": "12... Bb4 — Desarrollo con recurso táctico",
+"explanation": "Las negras desarrollan el alfil y atacan la torre blanca de e1, buscando contrajuego activo. No es solo una jugada de desarrollo: intenta complicar y quizá forzar repeticiones. Thorold defiende con actividad, la mejor receta en posiciones difíciles.",
+"pros": "Desarrolla una pieza, ataca la torre y crea problemas prácticos.",
+"cons": "No resuelve del todo la vulnerabilidad del caballo de e5."
+},
+{
+"san": "Bd2",
+"title": "13. Bd2 — Respuesta precisa y sobria",
+"explanation": "Las blancas interponen el alfil, defienden la torre y evitan entrar en una secuencia de jaques o ataques repetidos sobre la torre. La jugada también invita al cambio del alfil activo negro, lo que reducirá el contrajuego rival. Es un ejemplo de sangre fría en medio de complicaciones.",
+"pros": "Neutraliza el ataque sobre la torre, mantiene la presión y facilita simplificaciones favorables.",
+"cons": "El alfil de c1 queda comprometido al cambio."
+},
+{
+"san": "Bxd2",
+"title": "13... Bxd2 — Simplificar para reducir la presión",
+"explanation": "Las negras cambian su alfil por el de d2, intentando aliviar la tensión táctica. A veces en una posición inferior conviene cambiar piezas activas del rival. Sin embargo, Tarrasch recapturará mejorando la coordinación de su caballo.",
+"pros": "Reduce piezas en el tablero y elimina un defensor útil de la torre blanca.",
+"cons": "Entrega un alfil activo y facilita la recaptura blanca con pieza bien colocada."
+},
+{
+"san": "Nxd2",
+"title": "14. Nxd2 — Recaptura centralizadora",
+"explanation": "El caballo recaptura y se coloca en una casilla útil, desde donde puede apoyar e4, f3 y c4. Las blancas han simplificado sin perder la iniciativa y mantienen la presión sobre el centro negro. La coordinación blanca sigue siendo superior.",
+"pros": "Recupera material, mejora una pieza y conserva la iniciativa.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Bf5",
+"title": "14... Bf5 — Actividad del alfil restante",
+"explanation": "Las negras desarrollan el alfil a una casilla activa, apuntando a d3 y quizá a e4. Intentan compensar sus debilidades con actividad de piezas. Es una jugada útil, aunque la iniciativa blanca todavía pesa más.",
+"pros": "Desarrolla una pieza, aumenta la actividad y crea cierta presión sobre casillas blancas.",
+"cons": "El alfil puede ser cambiado más adelante en condiciones favorables para las blancas."
+},
+{
+"san": "fxe5",
+"title": "15. fxe5 — Recuperación material con apertura de líneas",
+"explanation": "Las blancas capturan el caballo y recuperan la pieza sacrificada antes. Con ello restablecen la igualdad material, pero además abren columnas y diagonales que favorecen a sus piezas activas. Tarrasch ha demostrado que su combinación estaba bien fundada.",
+"pros": "Recupera material, abre líneas y conserva piezas mejor coordinadas.",
+"cons": "Entrega el peón f, lo que puede dejar alguna debilidad estructural menor."
+},
+{
+"san": "O-O-O",
+"title": "15... O-O-O — Enroque largo muy práctico",
+"explanation": "Las negras eligen el enroque largo, buscando poner a salvo al rey y activar la torre de a8 de una vez. En finales tempranos o posiciones sin damas, el rey puede estar razonablemente seguro en el flanco de dama. Thorold encuentra aquí la mejor forma de reorganizarse.",
+"pros": "Activa la torre, mejora la seguridad del rey y coordina mejor las piezas mayores.",
+"cons": "El rey queda en un sector donde la columna c puede abrirse."
+},
+{
+"san": "Bd3",
+"title": "16. Bd3 — Propuesta de simplificación favorable",
+"explanation": "Las blancas desarrollan el alfil a una casilla central activa y además ofrecen cambiar el alfil negro de f5. La idea es reducir una pieza activa rival y facilitar la superioridad de torre y rey en el final. Tarrasch prioriza calidad de piezas sobre fuegos artificiales.",
+"pros": "Desarrolla, centraliza y busca eliminar una pieza activa negra.",
+"cons": "El alfil puede desaparecer, dejando a las blancas con juego más técnico que táctico."
+},
+{
+"san": "Bxd3",
+"title": "16... Bxd3 — Cambio lógico del alfil activo",
+"explanation": "Las negras aceptan el cambio para no dejar al alfil blanco dominar desde d3. Además, eliminan una pieza que podría apoyar la invasión en séptima o el juego sobre la columna c. Es una decisión comprensible, aunque el final resultante sigue favoreciendo a las blancas.",
+"pros": "Simplifica la posición y reduce la actividad potencial blanca.",
+"cons": "Abre la columna c o d para las torres blancas tras la recaptura."
+},
+{
+"san": "cxd3",
+"title": "17. cxd3 — Estructura dañada, pero columna abierta",
+"explanation": "Las blancas recapturan con el peón, aceptando un peón aislado o retrasado, pero obteniendo una columna abierta para la torre. En finales, la actividad de torres suele pesar más que pequeñas imperfecciones estructurales. Tarrasch transforma una concesión aparente en un recurso dinámico.",
+"pros": "Abre una columna para la torre y mantiene el material equilibrado.",
+"cons": "La estructura blanca queda algo menos compacta."
+},
+{
+"san": "fxe5",
+"title": "17... fxe5 — Recuperación central y simplificación",
+"explanation": "Las negras recuperan en e5 y dejan el centro más despejado. Con menos piezas menores en el tablero, la actividad de las torres será decisiva. Thorold intenta llegar a un final defendible, aunque la colocación blanca de piezas es algo mejor.",
+"pros": "Recupera material, simplifica y mejora la estructura central negra.",
+"cons": "Abre más líneas donde la mayor actividad blanca puede sentirse."
+},
+{
+"san": "Rac1+",
+"title": "18. Rac1+ — Activación inmediata con jaque",
+"explanation": "La torre entra en la columna c con jaque, ganando un tiempo muy valioso. Además, impide que el rey negro use el centro cómodamente en el final. Tarrasch entiende que la iniciativa en finales se construye con actividad constante de las torres.",
+"pros": "Activa la torre, gana un tiempo con jaque y limita al rey negro.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Kb8",
+"title": "18... Kb8 — Refugio razonable para el rey",
+"explanation": "El rey se aparta del centro y busca una casilla segura en el borde, donde será menos vulnerable a los jaques de torre. Es una defensa correcta, aunque algo pasiva. Las negras aceptan que el rey no podrá participar tan libremente como el blanco en el final.",
+"pros": "Evita jaques inmediatos y mejora la seguridad del rey.",
+"cons": "El rey queda más alejado del centro, importante en el final."
+},
+{
+"san": "Rxe5",
+"title": "19. Rxe5 — Peón ganado con torre activa",
+"explanation": "Las blancas capturan en e5 y obtienen un peón, pero lo más importante es que la torre sigue muy activa. Tarrasch no solo cuenta material: coloca su torre en una casilla central desde donde puede invadir más adelante. La ventaja blanca ya empieza a tener forma concreta.",
+"pros": "Gana un peón y mantiene la torre muy activa.",
+"cons": "La torre puede ser objeto de ataques de piezas menores si se coordinaran bien."
+},
+{
+"san": "Nf6",
+"title": "19... Nf6 — Centralizar el caballo y defender",
+"explanation": "Las negras desarrollan el caballo a una casilla útil, desde donde ataca e4 y g4 y ayuda a coordinar las torres. Buscan poner freno a la actividad blanca. Es una buena reacción práctica ante la desventaja material.",
+"pros": "Mejora el caballo, aporta defensa y controla casillas importantes.",
+"cons": "No cuestiona de inmediato la torre activa blanca."
+},
+{
+"san": "Rce1",
+"title": "20. Rce1 — Duplicar actividad en la columna e",
+"explanation": "La segunda torre entra en juego y refuerza la primera, aumentando la presión sobre e8 y e-file en general. Tarrasch coordina sus torres con precisión, un rasgo clásico de buen ajedrez de final. La ventaja de un peón se apoya en superioridad de actividad.",
+"pros": "Coordina torres, domina líneas abiertas y mantiene la iniciativa.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Rhe8",
+"title": "20... Rhe8 — Oponer torres en la columna",
+"explanation": "Las negras disputan la columna e con la torre de h8, buscando reducir la presión blanca. Es una defensa natural y necesaria. Thorold intenta simplificar hacia un final donde el peón de menos quizá no sea decisivo.",
+"pros": "Disputa la columna, coordina torres y busca cambios defensivos.",
+"cons": "La actividad blanca sigue siendo superior."
+},
+{
+"san": "Rxe8",
+"title": "21. Rxe8 — Simplificar con ventaja",
+"explanation": "Las blancas cambian una torre porque el final resultante les beneficia: peón de más y mejor actividad. Cambiar cuando se tiene ventaja material suele ser correcto si no se pierde actividad. Tarrasch sigue una técnica muy limpia.",
+"pros": "Simplifica hacia un final favorable y reduce el contrajuego negro.",
+"cons": "Entrega una torre activa, aunque por buenas razones."
+},
+{
+"san": "Nxe8",
+"title": "21... Nxe8 — Recaptura obligada",
+"explanation": "El caballo recaptura y mantiene el equilibrio de material pesado. Sin embargo, el caballo queda algo pasivo comparado con la torre blanca que pronto invadirá la séptima fila. Las negras resisten, pero con espacio de maniobra reducido.",
+"pros": "Recupera material y mantiene piezas menores en juego.",
+"cons": "El caballo queda menos activo que la torre blanca."
+},
+{
+"san": "Re7",
+"title": "22. Re7 — Torre en séptima, máxima actividad",
+"explanation": "La torre blanca ocupa la séptima fila, una de las posiciones más poderosas para una torre. Desde allí ataca peones, corta al rey enemigo y paraliza la coordinación negra. Esta jugada resume un principio esencial: en el final, la actividad de torre vale oro.",
+"pros": "Domina la séptima, ataca peones y restringe severamente al rival.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "a6",
+"title": "22... a6 — Crear aire y controlar b5",
+"explanation": "Las negras avanzan el peón a6 para quitarle al caballo blanco el salto a b5 y dar algo de espacio al rey o a la torre. Es una jugada útil, pero defensiva. Thorold intenta reducir los puntos de invasión de las piezas blancas.",
+"pros": "Controla b5 y da algo de flexibilidad al ala de dama.",
+"cons": "No resuelve la presión sobre la séptima fila."
+},
+{
+"san": "Nb3",
+"title": "23. Nb3 — Reagrupar el caballo hacia casillas activas",
+"explanation": "El caballo se dirige a casillas como a5 o d4, desde donde puede apoyar el ataque a peones débiles. Tarrasch mejora poco a poco cada pieza sin precipitarse. En posiciones ventajosas, la paciencia coordinada suele ser más fuerte que la codicia inmediata.",
+"pros": "Mejora la pieza, apoya futuras invasiones y mantiene la presión.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "b6",
+"title": "23... b6 — Frenar la entrada del caballo",
+"explanation": "Las negras defienden a5 y evitan el salto molesto del caballo blanco. Es una jugada profiláctica útil, pero crea nuevas debilidades potenciales en casillas oscuras. Toda defensa tiene un precio, y aquí ese precio es estructural.",
+"pros": "Impide Na5 y sostiene el ala de dama.",
+"cons": "Debilita casillas y deja peones más vulnerables a la torre blanca."
+},
+{
+"san": "Nxd4",
+"title": "24. Nxd4 — Convertir presión en material",
+"explanation": "Las blancas capturan en d4 y ganan un peón o eliminan un defensor importante, concretando la ventaja creada por su actividad. La jugada muestra que la séptima fila no es solo estética: crea amenazas reales sobre toda la posición. Tarrasch recoge el fruto de su dominio posicional.",
+"pros": "Gana material o elimina un defensor clave y aumenta la ventaja blanca.",
+"cons": "El caballo puede quedar expuesto a una recaptura activa."
+},
+{
+"san": "Rxd4",
+"title": "24... Rxd4 — Contrajuego activo de torre",
+"explanation": "Las negras recapturan con la torre, tratando de mantener actividad y no quedar pasivamente defendiendo. En finales, una torre activa es a menudo la mejor esperanza del bando inferior. Thorold entiende que quedarse inmóvil sería peor.",
+"pros": "Mantiene la torre activa y reduce la presencia del caballo blanco.",
+"cons": "La torre puede ser atacada o dejar otros peones indefensos."
+},
+{
+"san": "Rxe8+",
+"title": "25. Rxe8+ — Simplificación precisa",
+"explanation": "Las blancas eliminan el caballo y siguen reduciendo el material enemigo en condiciones favorables. La jugada además da jaque, ganando un tiempo y mejorando la técnica de conversión. Tarrasch muestra cómo una ventaja pequeña se transforma con cambios selectivos.",
+"pros": "Reduce piezas defensoras, mantiene la iniciativa y simplifica hacia un final ganador.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Kc7",
+"title": "25... Kc7 — Centralización defensiva del rey",
+"explanation": "Las negras activan el rey hacia el centro, donde será más útil en el final. Es una reacción correcta: cuando falta material, el rey debe colaborar más. Sin embargo, la actividad blanca sigue marcando el ritmo.",
+"pros": "Acerca el rey al centro y mejora sus opciones defensivas.",
+"cons": "El rey puede ser cortado por la torre blanca si esta mantiene actividad."
+},
+{
+"san": "Re3",
+"title": "26. Re3 — Técnica superior, no avaricia",
+"explanation": "En vez de lanzarse a capturar peones laterales, la torre blanca se repliega a una casilla desde donde protege su peón pasado y limita la actividad de la torre rival. Es una jugada muy instructiva: en finales ganadores, primero se asegura la ventaja, luego se amplía. Tarrasch evita contrajuego innecesario.",
+"pros": "Protege el peón importante, conserva actividad y restringe la torre negra.",
+"cons": "Renuncia temporalmente a capturar peones laterales."
+},
+{
+"san": "Kd7",
+"title": "26... Kd7 — Seguir acercando el rey",
+"explanation": "Las negras intentan activar aún más el rey y colaborar con la torre en la defensa. Es un plan lógico, porque el rey es una pieza ofensiva y defensiva en el final. Aun así, la colocación blanca sigue siendo más armoniosa.",
+"pros": "Centraliza el rey y mejora la coordinación defensiva.",
+"cons": "No genera contrajuego inmediato."
+},
+{
+"san": "Kf2",
+"title": "27. Kf2 — El rey blanco entra en escena",
+"explanation": "Tarrasch activa el rey, acercándolo al centro y a su peón pasado. En finales de torres, la cooperación entre rey y torre suele decidir la lucha. La jugada además libera a la torre para tareas más activas.",
+"pros": "Centraliza el rey, apoya peones y mejora la coordinación con la torre.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "g6",
+"title": "27... g6 — Dar aire y fijar casillas",
+"explanation": "Las negras consolidan su estructura del ala de rey y evitan temas tácticos inmediatos sobre f7 o h7. También preparan quizá ...h5. Es una jugada útil, aunque crea un futuro objetivo en g6 si la torre blanca cambia de frente.",
+"pros": "Fortalece el ala de rey y evita algunas amenazas tácticas.",
+"cons": "Puede dejar el peón g como objetivo futuro."
+},
+{
+"san": "Rh3",
+"title": "28. Rh3 — Cambiar de objetivo con la torre",
+"explanation": "La torre blanca se desplaza al ala de rey para presionar h7 y, sobre todo, provocar ...h5, debilitando g6. Es una maniobra muy técnica: crear una nueva debilidad en el sector opuesto. Tarrasch juega al ajedrez de dos alas.",
+"pros": "Amenaza peones del ala de rey y fuerza nuevas debilidades.",
+"cons": "La torre abandona temporalmente la tercera fila o la columna e."
+},
+{
+"san": "h5",
+"title": "28... h5 — Defensa forzada con concesión",
+"explanation": "Las negras expulsan o limitan la presión directa sobre h7, pero a cambio fijan el peón g6 como futura debilidad. Muchas jugadas defensivas en finales consisten en elegir qué debilidad aceptar. Thorold resuelve un problema inmediato creando otro a largo plazo.",
+"pros": "Evita amenazas inmediatas sobre h7 y gana algo de espacio.",
+"cons": "Debilita g6 y fija una estructura vulnerable en el ala de rey."
+},
+{
+"san": "Ke3",
+"title": "29. Ke3 — Cambio de guardia ejemplar",
+"explanation": "El rey blanco avanza y asume la tarea de defender el peón pasado, liberando a la torre para actuar. Además se acerca al centro, donde su influencia será máxima. Esta es una jugada de gran nivel técnico: cada pieza recibe la función más útil posible.",
+"pros": "Centraliza el rey, libera la torre y apoya el avance del peón pasado.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Rd6",
+"title": "29... Rd6 — Bloqueo del peón pasado",
+"explanation": "La torre negra intenta frenar el peón y mantener una posición activa a la vez. Colocarse delante del peón pasado enemigo es una defensa típica, aunque idealmente la torre preferiría estar detrás. Thorold hace lo que puede para limitar el plan blanco.",
+"pros": "Bloquea el peón pasado y mantiene cierta actividad defensiva.",
+"cons": "La torre puede ser expulsada por el rey o por maniobras de torre."
+},
+{
+"san": "d4",
+"title": "30. d4 — Avanzar con apoyo completo",
+"explanation": "Las blancas empujan el peón pasado cuando ya cuentan con apoyo del rey y suficiente actividad de torre. El peón gana espacio y restringe las piezas negras. Tarrasch demuestra que no basta con tener un peón pasado: hay que impulsarlo en el momento justo.",
+"pros": "Gana espacio, fortalece el peón pasado y aumenta la presión sobre la torre negra.",
+"cons": "Si no estuviera bien apoyado, podría convertirse en objetivo."
+},
+{
+"san": "Re6+",
+"title": "30... Re6+ — Jaque activo para ganar tiempos",
+"explanation": "Las negras intentan usar su torre activamente, dando jaque y buscando colocarse detrás o al lado de los peones blancos. En finales inferiores, el jaque lateral es un recurso defensivo fundamental. Thorold lucha por actividad, no solo por resistencia pasiva.",
+"pros": "Gana un tiempo con jaque y mantiene a la torre activa.",
+"cons": "No cambia la superioridad estructural blanca."
+},
+{
+"san": "Kd3",
+"title": "31. Kd3 — El rey sigue coordinando el avance",
+"explanation": "El rey se recoloca sin perder contacto con el peón pasado ni con el centro. Desde d3, además, ayuda a expulsar la torre negra de casillas activas. Tarrasch mantiene la serenidad y no permite que los jaques lo desorganicen.",
+"pros": "Mantiene el apoyo al peón y mejora el control central.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Re1",
+"title": "31... Re1 — Buscar contrajuego por detrás",
+"explanation": "La torre negra intenta situarse detrás de los peones blancos, un principio fundamental en finales de torre. Si logra atacar la retaguardia, puede complicar mucho la conversión blanca. Thorold elige el plan defensivo correcto en concepto.",
+"pros": "Intenta colocarse detrás de los peones enemigos y generar contrajuego.",
+"cons": "La torre sigue atada a tareas defensivas urgentes."
+},
+{
+"san": "Rg3",
+"title": "32. Rg3 — Defensa y ataque a la vez",
+"explanation": "La torre blanca protege su propio peón g y al mismo tiempo mantiene presión sobre el ala de rey negra. Es una jugada muy fina, porque cumple funciones dobles sin perder actividad. Tarrasch muestra economía de medios: una pieza, varias tareas.",
+"pros": "Defiende el peón g, conserva actividad y amenaza futuras capturas sobre g6.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Re6",
+"title": "32... Re6 — Regresar para sostener g6",
+"explanation": "Las negras deben volver para defender el peón g, confirmando que la maniobra blanca sobre el ala de rey fue exitosa. La torre negra no consigue plena libertad y se ve obligada a reaccionar. Eso es precisamente lo que busca el bando fuerte: restringir la movilidad rival.",
+"pros": "Defiende g6 y mantiene la torre en juego.",
+"cons": "Pierde la casilla detrás de los peones blancos y cede la iniciativa."
+},
+{
+"san": "Re3",
+"title": "33. Re3 — Ofrecer el cambio en el momento ideal",
+"explanation": "La torre blanca vuelve a e3 proponiendo el cambio de torres, sabiendo que el final de peones resultante sería muy favorable. Es una maniobra psicológica y estratégica a la vez: el rival no puede aceptar, pero su torre queda condicionada. Tarrasch usa la amenaza de cambio como herramienta de restricción.",
+"pros": "Domina la columna, amenaza un cambio favorable y limita a la torre negra.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Rd6",
+"title": "33... Rd6 — Negarse al cambio y seguir bloqueando",
+"explanation": "Las negras no pueden cambiar torres y deben seguir defendiendo pasivamente el peón pasado. La torre mantiene el bloqueo, pero su movilidad es escasa. El bando inferior a menudo se ve obligado a esta clase de defensa rígida.",
+"pros": "Mantiene el bloqueo y evita un final de peones perdido.",
+"cons": "La torre queda pasiva y muy restringida."
+},
+{
+"san": "Re5",
+"title": "34. Re5 — Mantener la presión con flexibilidad",
+"explanation": "La torre blanca se recoloca activamente, lista para presionar tanto en el ala de rey como sobre la quinta fila. Tarrasch mejora su pieza sin debilitar su estructura. En finales ganadores, la torre fuerte suele cambiar de columna o fila manteniendo siempre varias amenazas.",
+"pros": "Conserva actividad, presiona lateralmente y mantiene la iniciativa.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Rf6",
+"title": "34... Rf6 — La torre busca peones blancos",
+"explanation": "Las negras intentan pasar al ataque contra peones blancos, una defensa activa muy típica. Si el bando inferior logra generar amenazas serias, puede compensar la pasividad estructural. Thorold entiende bien ese principio, aunque la posición quizá ya no lo permita del todo.",
+"pros": "Activa la torre y crea amenazas potenciales sobre peones blancos.",
+"cons": "Puede abandonar funciones defensivas críticas si se aleja demasiado."
+},
+{
+"san": "a4",
+"title": "35. a4 — Asegurar el flanco de dama",
+"explanation": "Las blancas adelantan el peón para quitarlo de la segunda fila y reducir la exposición a ataques laterales de la torre negra. También preparan b5 en algunas circunstancias o fijan mejor la estructura. Es una jugada profiláctica excelente en final de torres.",
+"pros": "Reduce el contrajuego negro sobre el ala de dama y gana espacio.",
+"cons": "Puede crear un objetivo avanzado si la torre negra llegara detrás, algo poco probable aquí."
+},
+{
+"san": "Rf2",
+"title": "35... Rf2 — Invasión activa en segunda fila",
+"explanation": "La torre negra logra entrar en la segunda fila, que suele ser una fuente importante de contrajuego. Desde allí puede atacar peones y molestar al rey blanco. Thorold encuentra una de las pocas formas activas de seguir en la partida.",
+"pros": "Activa mucho la torre y amenaza peones desde detrás o desde el lateral.",
+"cons": "La torre puede ser expulsada si las blancas coordinan bien rey y torre."
+},
+{
+"san": "Re2",
+"title": "36. Re2 — Desalojar a la torre intrusa",
+"explanation": "Las blancas contestan con firmeza y expulsan la torre negra de la segunda fila. Es una jugada muy práctica: antes de seguir progresando, eliminan la principal fuente de contrajuego rival. Tarrasch no permite aventuras innecesarias.",
+"pros": "Neutraliza la invasión, mantiene la seguridad de los peones y conserva la iniciativa.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Rf6",
+"title": "36... Rf6 — Repetir la defensa activa",
+"explanation": "Las negras regresan a f6, donde la torre puede defender g6 y seguir pendiente de los peones blancos. Es una casilla útil, aunque no resuelve el problema central de la posición: el peón pasado blanco y el rey activo. Thorold sigue resistiendo con recursos razonables.",
+"pros": "Mantiene actividad y defiende puntos sensibles.",
+"cons": "No logra auténtico contrajuego estable."
+},
+{
+"san": "b4",
+"title": "37. b4 — Fijar y ampliar la estructura ganadora",
+"explanation": "Las blancas avanzan el peón b para sostener mejor el ala de dama y evitar que la torre negra ataque varios peones a la vez desde atrás. Además, ganan espacio y limitan casillas del rey negro. Tarrasch mejora cada detalle antes del remate final.",
+"pros": "Gana espacio, fija la estructura y reduce futuros objetivos para la torre negra.",
+"cons": "El peón avanzado podría ser atacable solo si la torre rival lograra gran actividad."
+},
+{
+"san": "Rf1",
+"title": "37... Rf1 — Insistir en la actividad máxima",
+"explanation": "La torre negra sigue intentando mantenerse activa y quizás encontrar jaques laterales o entradas por la primera fila. En finales de torre, la pasividad absoluta suele ser mortal, por eso Thorold persiste en buscar oportunidades. Aun así, las blancas tienen la situación bajo control.",
+"pros": "Mantiene la torre activa y conserva recursos de acoso.",
+"cons": "No ataca el verdadero punto fuerte blanco: la coordinación rey-peón-torre."
+},
+{
+"san": "Re5",
+"title": "38. Re5 — Volver a una casilla flexible",
+"explanation": "La torre blanca se instala otra vez activamente y controla tanto el centro como el ala de rey. Tarrasch no se obsesiona con una sola maniobra: adapta su torre según las necesidades cambiantes. La flexibilidad es un rasgo clave en finales técnicamente ganadores.",
+"pros": "Mantiene actividad máxima, controla el centro y puede cambiar de frente rápidamente.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Rf2",
+"title": "38... Rf2 — La torre negra persiste",
+"explanation": "Thorold vuelve a buscar la segunda fila, intentando lo único que puede darle opciones prácticas: actividad. La idea es correcta en concepto, pero la posición blanca ya está demasiado coordinada. El bando débil insiste porque no tiene otra fuente real de resistencia.",
+"pros": "Busca contrajuego directo y presión sobre peones.",
+"cons": "La torre sigue entrando y saliendo sin cambiar la evaluación."
+},
+{
+"san": "Rg5",
+"title": "39. Rg5 — Doble función perfecta",
+"explanation": "La torre blanca ataca g6 y al mismo tiempo defiende su propio peón g. Es una maniobra refinada, donde una sola pieza cumple misión ofensiva y defensiva a la vez. Tarrasch aprieta la posición sin correr riesgos.",
+"pros": "Ataca una debilidad, defiende un peón propio y mantiene la iniciativa.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Rf6",
+"title": "39... Rf6 — Defensa obligada del peón g",
+"explanation": "La torre negra debe volver a defender g6, lo que demuestra la eficacia de la maniobra blanca. Cada vez que la torre negra defiende, deja de atacar. Esa es la lógica de la restricción en finales.",
+"pros": "Sostiene g6 y evita pérdidas inmediatas.",
+"cons": "La torre queda nuevamente pasiva y reactiva."
+},
+{
+"san": "h3",
+"title": "40. h3 — Jugada útil de espera",
+"explanation": "Las blancas hacen una jugada profiláctica y tranquila, quitando posibles casillas de jaque y mejorando la seguridad del rey. En posiciones ganadoras, saber esperar es tan importante como saber atacar. Tarrasch no se precipita: primero reduce al mínimo el contrajuego rival.",
+"pros": "Mejora la seguridad del rey, evita recursos tácticos y mantiene la posición sana.",
+"cons": "No progresa materialmente de inmediato."
+},
+{
+"san": "Kd6",
+"title": "40... Kd6 — El rey negro busca centralizarse",
+"explanation": "Las negras intentan mejorar el rey, que en el final debe participar activamente. Desde d6 podría apoyar a la torre y presionar el peón pasado. Es una maniobra necesaria, aunque puede llegar demasiado tarde.",
+"pros": "Centraliza el rey y mejora la coordinación defensiva.",
+"cons": "El rey sigue limitado por la actividad superior blanca."
+},
+{
+"san": "Ke4",
+"title": "41. Ke4 — El rey blanco se impone en el centro",
+"explanation": "Las blancas llevan el rey a una casilla dominante desde la que protege peones, controla entradas y colabora en el avance decisivo. En finales, el rey activo es a menudo la pieza más fuerte. Tarrasch entiende que ahora es el monarca quien debe liderar la conversión.",
+"pros": "Domina el centro, apoya peones y reduce el contrajuego negro.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Re6+",
+"title": "41... Re6+ — Jaque para incomodar al rey",
+"explanation": "Las negras recurren otra vez al jaque lateral, un recurso estándar defensivo en finales de torre. La intención es alejar al rey blanco de sus peones o ganar tiempos para reorganizar la defensa. Thorold sigue usando correctamente los pocos recursos activos que le quedan.",
+"pros": "Gana un tiempo con jaque y trata de descoordinar al rey blanco.",
+"cons": "No obtiene mejoras estructurales ni cambia la superioridad blanca."
+},
+{
+"san": "Re5",
+"title": "42. Re5 — Interponer con actividad",
+"explanation": "La torre blanca bloquea el jaque colocándose en una casilla central fuerte, sin ceder la iniciativa. En vez de apartar al rey, Tarrasch usa su torre para mantener la presión y cortar líneas enemigas. Es una jugada elegante y muy técnica.",
+"pros": "Mantiene la coordinación, evita el jaque y conserva una torre muy activa.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Rf6",
+"title": "42... Rf6 — Mantener el contacto con el ala de rey",
+"explanation": "Las negras regresan otra vez a f6, protegiendo g6 y vigilando puntos de entrada. Su defensa es coherente, pero el hecho de repetir posiciones favorables al blanco indica que no encuentran un plan liberador. La iniciativa sigue firmemente en manos de Tarrasch.",
+"pros": "Defiende debilidades y mantiene actividad razonable.",
+"cons": "La torre está condenada a la pasividad funcional."
+},
+{
+"san": "d5",
+"title": "43. d5 — El peón pasado avanza en el momento exacto",
+"explanation": "Las blancas empujan su peón pasado cuando el rey está perfectamente colocado y la torre negra está atada a otras tareas. El avance gana espacio, restringe al rey negro y acerca la posibilidad de ruptura decisiva. Esta es la clase de timing que distingue la buena técnica de la mera ventaja.",
+"pros": "Aumenta la fuerza del peón pasado, gana espacio y limita al rival.",
+"cons": "El peón se adelanta más y necesita apoyo continuo."
+},
+{
+"san": "Kd7",
+"title": "43... Kd7 — Reorganización defensiva",
+"explanation": "El rey negro se acerca al peón pasado, intentando contenerlo. Es la reacción lógica: los finales de peones y torres giran alrededor del peón pasado más avanzado. Thorold busca bloquear o al menos controlar la carrera futura.",
+"pros": "Acerca el rey al teatro principal de la lucha.",
+"cons": "Sigue a la defensiva y no logra activar el resto de sus fuerzas."
+},
+{
+"san": "Rg5",
+"title": "44. Rg5 — Despejar e5 para el rey y seguir presionando",
+"explanation": "La torre vuelve a g5, atacando g6 y dejando libre la casilla e5 para que el rey blanco avance. Además, prepara una futura maniobra por g3-f3. Tarrasch coordina rey y torre con un propósito muy concreto.",
+"pros": "Mantiene presión sobre g6, libera e5 para el rey y conserva actividad.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Kd6",
+"title": "44... Kd6 — Acercamiento máximo al peón pasado",
+"explanation": "Las negras insisten en que el rey debe estar delante o cerca del peón pasado enemigo. Es una reacción correcta y prácticamente obligada. Sin embargo, la torre blanca sigue obligando a la torre negra a tareas defensivas incómodas.",
+"pros": "Centraliza el rey y mejora la capacidad de bloqueo.",
+"cons": "El rey negro sigue sin coordinarse bien con una torre activa."
+},
+{
+"san": "Rg3",
+"title": "45. Rg3 — Preparación de la maniobra decisiva",
+"explanation": "La torre blanca se retira a g3 con la idea de pasar a f3, desde donde la amenaza de cambio de torres expulsará a la torre negra de la columna abierta. Es una jugada profunda: a veces el progreso decisivo llega no por táctica directa, sino por cambiar la ubicación ideal de una pieza. Tarrasch prepara el remate con paciencia magistral.",
+"pros": "Prepara Rf3, conserva presión lateral y mejora la coordinación estratégica.",
+"cons": "No gana material de inmediato."
+},
+{
+"san": "Ke7",
+"title": "45... Ke7 — Intentar mantenerse cerca del centro",
+"explanation": "Las negras llevan el rey a e7 para colaborar mejor en la defensa del peón pasado y quizá apoyar un cambio de torres favorable si se diera. Es una casilla activa, pero el plan blanco está mejor calculado. Thorold se mantiene cerca de la acción, aunque sin iniciativa.",
+"pros": "Centraliza el rey y refuerza el control sobre casillas clave.",
+"cons": "No evita la maniobra blanca de Rf3."
+},
+{
+"san": "Rf3",
+"title": "46. Rf3 — Amenaza de cambio devastadora",
+"explanation": "La torre blanca llega a f3 y amenaza cambiar torres en condiciones que dejarían un final de peones ganado para las blancas. Esta amenaza obliga a la torre negra a abandonar la columna abierta, un triunfo estratégico notable. Tarrasch usa la simple posibilidad de un cambio como arma de expulsión.",
+"pros": "Domina la columna, amenaza un cambio favorable y obliga a la torre negra a retroceder.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Rd6",
+"title": "46... Rd6 — Retirada forzada",
+"explanation": "La torre negra debe abandonar la columna abierta porque cambiar sería ruinoso. Es un momento instructivo: el bando débil no puede conservar todas las funciones a la vez. Thorold cede una línea importante por pura necesidad.",
+"pros": "Evita el cambio inmediato de torres y sigue vigilando el peón pasado.",
+"cons": "Pierde la única columna abierta y queda más pasiva."
+},
+{
+"san": "Ke5",
+"title": "47. Ke5 — Rey y peón, la pareja decisiva",
+"explanation": "El rey blanco avanza con energía y apoya directamente al peón d. Ahora la amenaza de penetración es muy seria y el peón pasado está listo para dar un salto decisivo. Tarrasch culmina la coordinación ideal de sus piezas.",
+"pros": "Centraliza al máximo el rey, apoya el peón pasado y aumenta la presión decisiva.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Rd8",
+"title": "47... Rd8 — Bloqueo desesperado desde atrás",
+"explanation": "Las negras intentan colocarse detrás del peón pasado, el mejor método defensivo teórico. Sin embargo, llegan algo tarde y con el rey blanco ya demasiado activo. La defensa es correcta en concepto, pero insuficiente en la práctica.",
+"pros": "Se coloca detrás del peón pasado y mejora la defensa técnica.",
+"cons": "La actividad blanca de rey y torre supera esta medida defensiva."
+},
+{
+"san": "d6+",
+"title": "48. d6+ — El avance que fuerza la decisión",
+"explanation": "Las blancas empujan con jaque, ganando un tiempo y obligando al rey negro a una casilla concreta. Este avance acerca mucho la coronación y además limita las respuestas defensivas. Es una jugada muy bonita porque combina técnica y táctica.",
+"pros": "Gana un tiempo con jaque, acerca la promoción y restringe al rey negro.",
+"cons": "El peón queda muy avanzado y debe calcularse con precisión, aunque aquí está justificado."
+},
+{
+"san": "Kd7",
+"title": "48... Kd7 — Única resistencia razonable",
+"explanation": "Las negras colocan el rey delante del peón o lo más cerca posible, siguiendo el principio defensivo básico. Sin embargo, la coordinación blanca hace que incluso esta defensa sea insuficiente. Thorold resiste, pero ya bajo una presión casi terminal.",
+"pros": "Intenta contener el peón pasado con el rey.",
+"cons": "El rey queda sujeto a jaques y maniobras de torre."
+},
+{
+"san": "Rf7+",
+"title": "49. Rf7+ — Jaque activo y ganancia de casillas",
+"explanation": "La torre blanca entra con jaque, empujando al rey enemigo hacia posiciones menos favorables. Además corta rutas de escape y refuerza el avance del peón d. Tarrasch mantiene la máxima actividad en el momento crítico.",
+"pros": "Da jaque, gana tiempos y mejora la coordinación con el peón pasado.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Kc8",
+"title": "49... Kc8 — Forzado hacia el borde",
+"explanation": "El rey negro debe retroceder hacia el flanco de dama, alejándose de la defensa central. Eso favorece claramente a las blancas, pues el peón pasado queda menos controlado por el rey enemigo. La presión blanca está logrando el efecto deseado.",
+"pros": "Evita amenazas inmediatas de mate o pérdida rápida.",
+"cons": "El rey queda peor situado para defender el peón pasado."
+},
+{
+"san": "Rc7+",
+"title": "50. Rc7+ — Mantener al rey negro cortado",
+"explanation": "La torre cambia de casilla con jaque, manteniendo al rey negro encerrado y preparando una red decisiva. En finales ganadores, la torre fuerte suele alternar jaques y cortes de rey con gran flexibilidad. Tarrasch no deja respirar al rival.",
+"pros": "Da jaque, corta al rey y acerca el final decisivo.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Kb8",
+"title": "50... Kb8 — Último refugio en el borde",
+"explanation": "El rey negro se mete aún más en la esquina, donde su capacidad defensiva disminuye mucho. Aunque evita el mate inmediato, queda mal colocado frente a la torre blanca activa y al peón pasado. Las negras están al límite.",
+"pros": "Evita el mate inmediato.",
+"cons": "El rey queda casi totalmente pasivo."
+},
+{
+"san": "Rc2",
+"title": "51. Rc2 — Forzar el cambio de torres",
+"explanation": "La torre blanca se coloca de modo que el cambio de torres sea casi inevitable o decisivamente favorable. Esta jugada resume toda la técnica previa: primero se domina, luego se fuerza la simplificación correcta. Tarrasch ha preparado cuidadosamente este momento.",
+"pros": "Amenaza un cambio ganador de torres y consolida la ventaja decisiva.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Re8+",
+"title": "51... Re8+ — Jaque desesperado",
+"explanation": "Las negras intentan usar el último recurso práctico: los jaques de torre. La idea es ganar tiempos o provocar un error técnico del rival. Es una defensa natural, aunque ya insuficiente frente a la precisión blanca.",
+"pros": "Gana un tiempo con jaque y mantiene la torre activa por última vez.",
+"cons": "No cambia el hecho de que el cambio de torres o el avance del peón son decisivos."
+},
+{
+"san": "Kf6",
+"title": "52. Kf6 — El rey blanco penetra con decisión",
+"explanation": "El rey entra en una casilla muy activa, apoyando la promoción del peón y amenazando capturas en f7 o g6 según el caso. Esta penetración es posible porque la torre blanca ha hecho el trabajo previo de restricción. El rey pasa ahora a ser la pieza dominante.",
+"pros": "Maximiza la actividad del rey y apoya tácticamente el peón pasado.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "b5",
+"title": "52... b5 — Intento final de crear contrajuego",
+"explanation": "Las negras avanzan un peón del ala de dama para generar algún recurso de distracción o un futuro peón pasado. En posiciones perdidas, crear contrajuego lejano es a menudo la única esperanza. Pero aquí el peón d blanco está demasiado avanzado y fuerte.",
+"pros": "Busca contrajuego en el ala de dama y crea una amenaza potencial a largo plazo.",
+"cons": "Llega demasiado tarde y no afecta al teatro principal de la partida."
+},
+{
+"san": "d7",
+"title": "53. d7 — El peón alcanza la séptima fila",
+"explanation": "El peón pasado llega a la séptima, donde su fuerza crece enormemente. Ahora ya no es solo una ventaja posicional: es una amenaza de promoción inmediata que condiciona toda la defensa negra. Tarrasch ha convertido un pequeño plus en una amenaza irresistible.",
+"pros": "Amenaza coronar, paraliza a las piezas negras y acerca el final.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Rh8",
+"title": "53... Rh8 — Bloqueo lateral desesperado",
+"explanation": "Las negras intentan controlar la octava fila desde el lateral para evitar la coronación inmediata. Es una resistencia ingeniosa, pero la actividad del rey y la torre blanca la superan. Thorold mantiene la lucha con el mejor recurso disponible.",
+"pros": "Evita la promoción inmediata y mantiene viva la defensa.",
+"cons": "La torre queda muy pasiva y expuesta a maniobras decisivas."
+},
+{
+"san": "Ke7",
+"title": "54. Ke7 — El rey escolta la coronación",
+"explanation": "El rey blanco se coloca delante o al lado del peón pasado, apoyándolo directamente y limitando aún más la torre enemiga. Este es un principio de manual: un peón pasado avanzado necesita el respaldo del rey. La posición negra se vuelve prácticamente sin esperanza.",
+"pros": "Apoya al peón, corta al rey rival y acerca la victoria inmediata.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Rh7+",
+"title": "54... Rh7+ — Último intento de jaque lateral",
+"explanation": "La torre negra da jaque buscando alejar al rey blanco del peón o ganar un tiempo de salvación. Los jaques laterales son un recurso clásico, pero funcionan solo si el rey no está demasiado activo. Aquí ya llegan tarde.",
+"pros": "Intenta descoordinar rey y peón y ganar un tiempo.",
+"cons": "No cambia la fuerza del peón pasado ni la mala situación del rey negro."
+},
+{
+"san": "Kd6",
+"title": "55. Kd6 — Mantener el control sin apresurarse",
+"explanation": "El rey blanco se recoloca de manera segura, sin soltar la coordinación con la torre y el peón. Tarrasch evita cualquier táctica y sigue avanzando con precisión. En finales ganadores, la seguridad del método importa más que la rapidez.",
+"pros": "Mantiene la coordinación, evita recursos tácticos y conserva la ventaja decisiva.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Rh8",
+"title": "55... Rh8 — Persistencia defensiva",
+"explanation": "Las negras vuelven a la columna h para seguir controlando la promoción desde el lateral. Ya no tienen plan activo real; solo intentan retrasar lo inevitable. Es una defensa tenaz, aunque insuficiente.",
+"pros": "Sigue impidiendo la promoción inmediata.",
+"cons": "La torre está completamente pasiva y el rey negro no ayuda."
+},
+{
+"san": "Re2",
+"title": "56. Re2 — Remate técnico final",
+"explanation": "La torre blanca se recoloca de forma decisiva, preparada para apoyar la coronación o forzar el cambio de torres en condiciones ganadoras. La posición negra ya no puede sostenerse: el rey blanco domina, el peón d está imparable y la torre negra no dispone de contrajuego real. Por eso las negras abandonan aquí.",
+"pros": "Consolida todas las amenazas ganadoras y elimina cualquier recurso práctico negro.",
+"cons": "Ninguna significativa."
+}
+]
+}

@@ -1,0 +1,434 @@
+{
+"info": {
+"title": "Domenech vs Flohr, Rosas 1935 — Restricción posicional y sacrificio de calidad de efecto retardado",
+"white": "Domenech Rafael",
+"black": "Flohr Salo",
+"event": "Rosas",
+"date": "1935",
+"result": "0-1",
+"description": "Esta partida es una magnífica demostración del ajedrez técnico de Flohr. Las negras explotan pequeñas debilidades creadas en la apertura, dominan la columna d y culminan con un brillante sacrificio de calidad que transforma una ventaja posicional en un final ganador."
+},
+"pgn": "1. e4 c5 2. Nf3 e6 3. c4 Nc6 4. d4 cxd4 5. Nxd4 Nf6 6. Nxc6 dxc6 7. Qxd8+ Kxd8 8. f3 e5 9. Be3 Kc7 10. a3 Nd7 11. Nd2 a5 12. Be2 a4 13. Kf2 Bc5 14. Bxc5 Nxc5 15. Rac1 Be6 16. Rhd1 Rhd8 17. Ke3 Rd7 18. g3 Rad8 19. f4 exf4+ 20. gxf4 Rd3+ 21. Bxd3 Rxd3+ 22. Kf2 Bg4 23. e5 Bxd1 24. Rxd1 Ne6 25. f5 Nd4 26. f6 gxf6 27. exf6 Nb3 28. Ke2 Rxd2+ 29. Rxd2 Nxd2 30. Kxd2 Kd6",
+"analysis": [
+{
+"san": "e4",
+"title": "1. e4 — Ocupación clásica del centro",
+"explanation": "Las blancas comienzan con una jugada muy ambiciosa que gana espacio y abre líneas para la dama y el alfil de f1. Es una forma directa de luchar por el centro y suele conducir a posiciones activas. Domenech elige un planteamiento abierto y natural desde el primer momento.",
+"pros": "Gana espacio central, abre líneas para piezas y permite un desarrollo rápido.",
+"cons": "Puede ser objeto de presión inmediata por parte de las negras con ...c5 o ...e5."
+},
+{
+"san": "c5",
+"title": "1... c5 — La respuesta siciliana",
+"explanation": "Las negras responden de manera asimétrica y ambiciosa, atacando la casilla d4 sin copiar el centro blanco. La Siciliana busca crear desequilibrios desde el comienzo y luchar por la iniciativa en el flanco de dama. Flohr elige una defensa dinámica, pero basada en fundamentos posicionales muy sólidos.",
+"pros": "Disputa el centro desde un flanco, crea desequilibrio y suele dar buen contrajuego.",
+"cons": "No ocupa directamente el centro y puede dejar a las negras con menos espacio si no reaccionan bien."
+},
+{
+"san": "Nf3",
+"title": "2. Nf3 — Desarrollo natural y control central",
+"explanation": "El caballo sale a su mejor casilla, donde apoya d4 y e5, y además prepara un rápido enroque. Es la continuación más lógica tras 1.e4 en muchas aperturas abiertas y semiabiertas. Las blancas desarrollan sin debilidades ni compromisos estructurales.",
+"pros": "Desarrolla una pieza, apoya el centro y facilita el enroque.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "e6",
+"title": "2... e6 — Flexibilidad y preparación central",
+"explanation": "Las negras preparan desarrollar el alfil de f8 y sostienen la idea de ...d5 en algunos esquemas o de un desarrollo sólido en la Siciliana. Esta jugada también mantiene cierta elasticidad en la estructura y evita comprometerse demasiado pronto. Flohr construye una posición robusta y adaptable.",
+"pros": "Libera el alfil, refuerza el centro potencial y mantiene flexibilidad estratégica.",
+"cons": "Encierra temporalmente al alfil de c8."
+},
+{
+"san": "c4",
+"title": "3. c4 — Búsqueda de estructura Maroczy con un coste",
+"explanation": "Las blancas intentan establecer una formación espacial al estilo del peón de Maroczy, controlando d5 y ganando terreno en el flanco de dama. Sin embargo, aquí la jugada consume un tiempo que podría haberse dedicado al desarrollo directo. Además, el peón en c4 limita al alfil de f1 y deja futuras debilidades en d3 y d4.",
+"pros": "Gana espacio, controla d5 y crea una estructura ambiciosa.",
+"cons": "Retrasa el desarrollo y restringe al alfil de f1; también deja casillas sensibles detrás del centro."
+},
+{
+"san": "Nc6",
+"title": "3... Nc6 — Desarrollo sencillo y presión sobre d4",
+"explanation": "El caballo negro se desarrolla de forma natural, aumenta la presión sobre d4 y apoya futuras rupturas o cambios centrales. Además, la pieza mira casillas activas como b4 o e5 según evolucione la partida. Flohr continúa con un esquema sano y muy eficaz.",
+"pros": "Desarrolla una pieza, aumenta la presión central y mejora la coordinación.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "d4",
+"title": "4. d4 — Apertura del centro con lógica",
+"explanation": "Las blancas finalmente golpean el centro, buscando aprovechar que tienen más espacio. La jugada es coherente con el esquema previo, aunque quizá llega un tiempo más tarde de lo ideal. Aun así, abrir el juego puede compensar parte del retraso en desarrollo si las piezas logran actividad.",
+"pros": "Disputa el centro, abre líneas y cuestiona la estructura negra.",
+"cons": "Al haber jugado antes c4, algunas casillas detrás del centro pueden quedar más débiles."
+},
+{
+"san": "cxd4",
+"title": "4... cxd4 — Aclarar la tensión central",
+"explanation": "Las negras capturan en d4 y fuerzan a las blancas a definir cómo quieren recapturar. Este cambio abre parcialmente la columna c y simplifica la estructura central, algo que puede favorecer al bando mejor desarrollado. Flohr empieza a modelar la posición hacia un tipo de lucha que conoce bien.",
+"pros": "Aclara el centro, reduce el espacio blanco y prepara una estructura clara de juego.",
+"cons": "Entrega el peón c, lo que puede reducir algo la influencia en el flanco de dama."
+},
+{
+"san": "Nxd4",
+"title": "5. Nxd4 — Recaptura activa con pieza",
+"explanation": "El caballo recupera el peón y se centraliza en una casilla fuerte. Esta recaptura es preferible a una de peón porque mantiene líneas abiertas y desarrolla una pieza con ganancia de actividad. Las blancas conservan una presencia razonable en el centro.",
+"pros": "Recupera material, centraliza una pieza y mantiene el dinamismo.",
+"cons": "El caballo puede convertirse en objetivo de ataques o cambios útiles para las negras."
+},
+{
+"san": "Nf6",
+"title": "5... Nf6 — Presión inmediata sobre e4",
+"explanation": "Las negras desarrollan el caballo con una amenaza clara sobre el peón de e4. Esta jugada obliga a las blancas a tener cuidado con la defensa de su centro y acelera la actividad negra. Flohr combina desarrollo y presión táctica en un solo movimiento.",
+"pros": "Desarrolla una pieza, ataca e4 y acelera la coordinación negra.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Nxc6",
+"title": "6. Nxc6 — Simplificar para evitar molestias",
+"explanation": "Las blancas cambian el caballo centralizado por el caballo negro de c6, probablemente para evitar futuras clavadas o presiones incómodas sobre su centro. Es una decisión práctica, pero renuncia a una pieza activa y entrega a las negras una estructura que pueden elegir modelar a su gusto. A veces simplificar demasiado pronto ayuda al bando que mejor entiende la posición resultante.",
+"pros": "Elimina una pieza activa negra y evita posibles recursos molestos como ...Bb4.",
+"cons": "Entrega un caballo bien colocado y permite a las negras elegir la mejor recaptura estructural."
+},
+{
+"san": "dxc6",
+"title": "6... dxc6 — Recaptura estructuralmente instructiva",
+"explanation": "Las negras no recapturan hacia el centro, sino con el peón d, buscando abrir la columna d. Esta decisión revela un plan profundo: ejercer presión futura sobre casillas debilitadas como d3 y d4. Flohr ve desde muy temprano que la estructura blanca contiene objetivos a largo plazo y prepara sus piezas para atacarlos.",
+"pros": "Abre la columna d, refuerza el centro y crea un plan posicional muy claro.",
+"cons": "Deja peones negros algo menos compactos en apariencia, aunque eso no pesa aquí."
+},
+{
+"san": "Qxd8+",
+"title": "7. Qxd8+ — Cambio de damas para reducir tensión",
+"explanation": "Las blancas cambian damas con la esperanza de disminuir el potencial activo negro y simplificar la posición. A primera vista, quitar damas parece favorable cuando el rival conserva el rey en el centro. Sin embargo, en un final temprano el rey negro puede resultar más activo que vulnerable.",
+"pros": "Reduce el peligro táctico inmediato y simplifica la posición.",
+"cons": "Facilita que el rey negro se centralice pronto y no resuelve las debilidades estratégicas blancas."
+},
+{
+"san": "Kxd8",
+"title": "7... Kxd8 — El rey negro acepta un papel activo",
+"explanation": "Las negras recapturan con el rey y renuncian al enroque, pero en ausencia de damas esto no es grave. De hecho, el monarca negro queda bien situado para participar en el final y apoyar el control central. Flohr entiende que la seguridad del rey depende del tipo de posición, no solo de reglas generales.",
+"pros": "Centraliza el rey, mantiene la estructura intacta y prepara un final activo.",
+"cons": "El rey queda expuesto si el centro se abre de forma táctica, aunque eso aquí es poco probable."
+},
+{
+"san": "f3",
+"title": "8. f3 — Defensa del peón e4 con una concesión",
+"explanation": "Las blancas protegen el peón de e4 y evitan molestias inmediatas sobre el centro. Pero este avance también bloquea todavía más al alfil de f1, que ya estaba incómodo por el peón en c4. Cuando demasiados peones propios ocupan casillas del color de un alfil, esa pieza suele convertirse en un 'alfil malo', es decir, una pieza con poca movilidad.",
+"pros": "Defiende e4 y da solidez inmediata al centro blanco.",
+"cons": "Restringe fuertemente al alfil de f1 y endurece la estructura en casillas blancas."
+},
+{
+"san": "e5",
+"title": "8... e5 — Pequeño avance, gran impacto",
+"explanation": "Las negras fijan el peón de e4, ganan espacio y liberan al alfil de c8, que ahora tendrá una diagonal más útil. Además, aumentan la presión sobre d4, una casilla que puede volverse muy sensible en el futuro. Es una jugada modesta en apariencia, pero muy rica en contenido estratégico.",
+"pros": "Gana espacio, libera el alfil de c8 y fija una debilidad potencial en el centro blanco.",
+"cons": "Compromete algo la estructura central, aunque está bien justificado."
+},
+{
+"san": "Be3",
+"title": "9. Be3 — Desarrollo lógico del alfil activo",
+"explanation": "Las blancas sacan su alfil de casillas negras a una casilla útil, donde mira c5 y b6 y contribuye al control del centro. En contraste con el alfil de f1, esta pieza sí tiene cierta libertad y puede participar en la defensa. Es un desarrollo natural, aunque no cambia el hecho de que el otro alfil sigue restringido.",
+"pros": "Desarrolla una pieza activa y ayuda a coordinar la posición blanca.",
+"cons": "No resuelve el problema del alfil de f1 ni la futura presión sobre la columna d."
+},
+{
+"san": "Kc7",
+"title": "9... Kc7 — Reubicación segura y activa del rey",
+"explanation": "El rey negro se aparta de la columna d potencialmente abierta y se coloca en una casilla útil para el final. Desde c7, además, apoya posibles avances en el flanco de dama y deja espacio para las torres en d8 o e8. Flohr mejora una pieza que muchos considerarían ya suficiente en d8.",
+"pros": "Mejora la seguridad del rey, libera casillas para las torres y apoya la estructura.",
+"cons": "Consume un tiempo, aunque la posición negra le permite ese lujo."
+},
+{
+"san": "a3",
+"title": "10. a3 — Profilaxis imprecisa y nueva debilidad",
+"explanation": "Las blancas juegan un movimiento profiláctico, quizá para evitar un jaque o una clavada en b4. Sin embargo, las negras no necesitaban ese recurso, y el peón avanzado crea una casilla débil en b3. En posiciones estratégicas, una jugada lenta que además debilita una casilla puede tener consecuencias muy duraderas.",
+"pros": "Controla b4 y da una apariencia de seguridad en el flanco de dama.",
+"cons": "Pierde tiempo de desarrollo y crea un hueco en b3 que más adelante será importante."
+},
+{
+"san": "Nd7",
+"title": "10... Nd7 — Preparar un cambio favorable de alfiles",
+"explanation": "El caballo se reagrupa con una idea muy concreta: permitir ...Bc5 y forzar el cambio del alfil bueno blanco. Así, las negras aspiran a dejar a las blancas solamente con su alfil restringido por sus propios peones. Es una maniobra muy profunda, porque apunta no al presente inmediato, sino a la calidad futura de las piezas.",
+"pros": "Prepara ...Bc5, mejora la coordinación y apunta a un cambio muy favorable.",
+"cons": "El caballo retrocede temporalmente, aunque con una idea estratégica clara."
+},
+{
+"san": "Nd2",
+"title": "11. Nd2 — Desarrollo tardío pero razonable",
+"explanation": "Las blancas por fin desarrollan su caballo de dama, buscando apoyar e4-c4 y mejorar la coordinación general. Desde d2, la pieza también puede ayudar a sostener casillas centrales. Aun así, llega algo tarde y ya bajo el peso de un plan negro muy bien encaminado.",
+"pros": "Desarrolla una pieza, mejora la defensa del centro y conecta mejor las piezas blancas.",
+"cons": "No impide el plan negro de restricción ni resuelve las debilidades creadas antes."
+},
+{
+"san": "a5",
+"title": "11... a5 — Preparar la cuña restrictiva",
+"explanation": "Las negras avanzan el peón con la intención de fijarlo en a4, restringiendo el flanco de dama blanco. Este tipo de avance no busca ganar material de inmediato, sino quitar espacio y casillas útiles al rival. Flohr sigue acumulando pequeñas ventajas posicionales.",
+"pros": "Gana espacio, prepara ...a4 y restringe el ala de dama blanca.",
+"cons": "Compromete el peón a, aunque aquí no puede ser atacado con facilidad."
+},
+{
+"san": "Be2",
+"title": "12. Be2 — Desarrollo modesto del alfil restringido",
+"explanation": "Las blancas finalmente desarrollan el alfil de f1, aunque la pieza sigue sin gran influencia por la colocación de sus propios peones. Llevarlo a e2 al menos completa el desarrollo básico y ayuda al futuro enroque artificial del rey. Es una mejora necesaria, pero no especialmente activa.",
+"pros": "Saca al alfil de su casilla inicial y mejora la coordinación básica.",
+"cons": "El alfil sigue siendo pasivo y con poco radio de acción."
+},
+{
+"san": "a4",
+"title": "12... a4 — Restricción fija en el flanco de dama",
+"explanation": "El peón negro se instala en a4 y limita de forma permanente las opciones blancas en el ala de dama. Además, controla b3, precisamente la casilla debilitada por 10.a3. Esta es una idea clásica de restricción: fijar casillas débiles y preparar su futura explotación.",
+"pros": "Gana espacio, fija la debilidad b3 y restringe seriamente el flanco de dama blanco.",
+"cons": "El peón avanzado puede ser un objetivo en otro tipo de posiciones, pero aquí no lo es."
+},
+{
+"san": "Kf2",
+"title": "13. Kf2 — Activación prudente del rey",
+"explanation": "Sin damas sobre el tablero, el rey blanco puede aspirar a ser una pieza activa. Desde f2, protege e3 y g3 y coordina mejor con las torres. Sin embargo, la actividad del rey blanco no compensa la calidad superior de la estructura y las piezas negras.",
+"pros": "Centraliza un poco el rey y mejora la conexión defensiva de las piezas blancas.",
+"cons": "El rey queda algo expuesto si las torres negras dominan las columnas abiertas."
+},
+{
+"san": "Bc5",
+"title": "13... Bc5 — Forzar el cambio del alfil bueno",
+"explanation": "El alfil negro ocupa una diagonal activa y plantea de inmediato el cambio con el alfil más útil de las blancas. Esta es la culminación del plan iniciado con ...Nd7. Si el cambio se produce, las negras quedarán con superioridad en casillas negras y con un rival atado a un alfil poco efectivo.",
+"pros": "Activa el alfil, fuerza un cambio favorable y aumenta el dominio de casillas negras.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Bxc5",
+"title": "14. Bxc5 — Cambio prácticamente obligado",
+"explanation": "Las blancas aceptan el cambio, probablemente porque dejar el alfil negro activo en c5 sería demasiado incómodo. Sin embargo, con ello renuncian a su mejor alfil y se quedan con el que tiene menos libertad. El resultado estratégico favorece claramente a las negras.",
+"pros": "Elimina una pieza activa negra y reduce presión inmediata.",
+"cons": "Entrega el alfil más útil y deja a las blancas con un alfil pasivo."
+},
+{
+"san": "Nxc5",
+"title": "14... Nxc5 — Recaptura ideal y pieza centralizada",
+"explanation": "El caballo recaptura y queda bien situado en una casilla activa, desde donde influye sobre d3, e4 y b3. Las negras mejoran todavía más la calidad de sus piezas mientras las blancas sufren limitaciones estructurales. Es una recaptura muy coherente con todo el plan negro.",
+"pros": "Centraliza el caballo, mantiene la armonía y aumenta la presión sobre casillas débiles.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Rac1",
+"title": "15. Rac1 — La torre busca actividad por la columna c",
+"explanation": "Las blancas colocan una torre en la columna semiabierta c, esperando activar sus piezas mayores y quizá generar contrajuego lateral. Es una jugada lógica desde el punto de vista técnico. Pero la verdadera batalla está en la columna d, donde las negras tendrán ventaja más concreta.",
+"pros": "Activa una torre y mejora la coordinación de piezas mayores.",
+"cons": "No compite por la columna crítica d, que pronto será dominada por las negras."
+},
+{
+"san": "Be6",
+"title": "15... Be6 — El alfil negro toma una gran diagonal de trabajo",
+"explanation": "El alfil sale a una casilla activa desde donde controla diagonales importantes y apoya la presión sobre d5, c4 y b3 según sea necesario. La comparación entre ambos alfiles empieza a ser muy desfavorable para las blancas. Flohr coloca cada pieza en una casilla útil y estable.",
+"pros": "Desarrolla una pieza fuerte, mejora la coordinación y aumenta la presión estratégica.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Rhd1",
+"title": "16. Rhd1 — Intento blanco de pelear por la columna d",
+"explanation": "Las blancas llevan una torre a la columna d, conscientes de que ese sector será fundamental. La jugada es correcta y lógica, porque ignorar esa columna sería todavía peor. Aun así, la coordinación negra y la mejor estructura hacen que esa lucha sea cuesta arriba.",
+"pros": "Disputa la columna d y mejora la actividad de la torre.",
+"cons": "Llega con menos armonía que el despliegue negro en esa misma columna."
+},
+{
+"san": "Rhd8",
+"title": "16... Rhd8 — Responder simétricamente, pero con mejores piezas",
+"explanation": "Las negras contestan ocupando la misma columna con una torre, reforzando la presión sobre los puntos débiles blancos. La diferencia es que sus piezas están mejor situadas y más coordinadas para sostener esa presión. Flohr no solo iguala el despliegue rival: lo supera en calidad.",
+"pros": "Controla la columna d, coordina torres y refuerza el plan central.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Ke3",
+"title": "17. Ke3 — El rey intenta sostener el centro",
+"explanation": "Las blancas acercan el rey al eje del tablero para ayudar en la defensa de d3 y e4, y quizá para participar en el final. En abstracto, centralizar el rey sin damas es una buena idea. El problema es que aquí el monarca debe actuar más como defensor que como pieza activa.",
+"pros": "Centraliza el rey y aporta ayuda defensiva a casillas sensibles.",
+"cons": "El rey queda sometido a posibles clavadas, jaques o presión de torres en la columna d."
+},
+{
+"san": "Rd7",
+"title": "17... Rd7 — Reagrupación flexible antes del doblaje",
+"explanation": "La torre negra se coloca en d7, manteniendo el control de la columna y preparando que la otra torre se sume con máxima eficacia. También deja abierta la posibilidad de maniobras laterales o sacrificios tácticos futuros sobre la tercera fila. Es una jugada de preparación muy fina.",
+"pros": "Mantiene la presión, prepara doblar torres y conserva flexibilidad táctica.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "g3",
+"title": "18. g3 — Buscar casillas negras para liberar piezas",
+"explanation": "Las blancas empiezan un plan lógico: poner peones en casillas negras para liberar al alfil de casillas blancas. De ese modo, el alfil propio tendría más diagonales disponibles. La idea es correcta, aunque llega en una posición ya bastante restringida.",
+"pros": "Mejora potencialmente la movilidad del alfil blanco y fortalece algunas casillas claras.",
+"cons": "Consume tiempos mientras las negras dominan la columna d."
+},
+{
+"san": "Rad8",
+"title": "18... Rad8 — Doblaje completo y dominación de la columna",
+"explanation": "La segunda torre negra entra en la columna d y las negras alcanzan el ideal técnico de doblar torres en una columna abierta. Ahora la presión sobre d3 y d2 es muy fuerte, y las piezas blancas quedan cada vez más atadas. Flohr transforma una ventaja posicional en dominio operativo concreto.",
+"pros": "Dobla torres, domina la columna crítica y multiplica las amenazas.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "f4",
+"title": "19. f4 — Reacción natural que abre nuevas grietas",
+"explanation": "Las blancas continúan su plan de liberar al alfil y ganar algo de espacio. Sin embargo, este avance debilita la estructura y abre líneas que las negras estaban preparadas para explotar. Es una jugada natural desde el punto de vista humano, pero estratégicamente peligrosa en esta posición concreta.",
+"pros": "Gana espacio, intenta activar el alfil y da sensación de contrajuego.",
+"cons": "Debilita la estructura blanca y abre líneas favorables para la actividad negra."
+},
+{
+"san": "exf4+",
+"title": "19... exf4+ — Abrir líneas con jaque",
+"explanation": "Las negras capturan de inmediato para aprovechar que la apertura del centro beneficia a sus piezas mejor colocadas. Además, el jaque obliga a las blancas a recapturar en condiciones concretas. Flohr entiende que cada intercambio estructural debe aumentar la fuerza de sus torres y caballos.",
+"pros": "Abre líneas, da jaque y fuerza a las blancas a una respuesta limitada.",
+"cons": "Cede el peón e, aunque a cambio gana actividad muy superior."
+},
+{
+"san": "gxf4",
+"title": "20. gxf4 — Recaptura obligada que deja líneas abiertas",
+"explanation": "Las blancas recuperan el peón y mantienen el equilibrio material, pero su estructura queda más vulnerable y el rey sigue en una zona sensible. La apertura de la columna g no compensa, porque las negras mandan en el centro y en la columna d. Esta recaptura prepara, sin saberlo, la combinación brillante de Flohr.",
+"pros": "Recupera material y mejora algo la movilidad del alfil de e2.",
+"cons": "Debilita el rey blanco y deja a las torres negras más objetivos tácticos."
+},
+{
+"san": "Rd3+",
+"title": "20... Rd3+ — Sacrificio de calidad de gran profundidad",
+"explanation": "Las negras penetran en d3 con una torre, ofreciendo calidad en apariencia. La idea no es un golpe táctico inmediato aislado, sino una secuencia de simplificación que destroza la coordinación blanca y deja sus peones irremediablemente débiles. Es una jugada brillante porque combina cálculo exacto con comprensión posicional del final resultante.",
+"pros": "Inicia una combinación decisiva, invade una casilla crítica y explota toda la presión acumulada sobre la columna d.",
+"cons": "Entrega material de torre por pieza si el cálculo fuera incorrecto, pero aquí está plenamente justificado."
+},
+{
+"san": "Bxd3",
+"title": "21. Bxd3 — Aceptar el sacrificio por necesidad",
+"explanation": "Las blancas toman la torre porque no hacerlo dejaría una invasión insoportable. Materialmente parece una buena noticia: ganan calidad. Pero la clave en ajedrez es qué piezas sobreviven y cómo quedan colocadas tras la secuencia, y ahí las negras salen favorecidas.",
+"pros": "Gana material inmediato y elimina una torre muy activa.",
+"cons": "Permite la continuación táctica negra que simplifica hacia un final muy favorable."
+},
+{
+"san": "Rxd3+",
+"title": "21... Rxd3+ — Recuperación con iniciativa continua",
+"explanation": "La otra torre recaptura en d3 dando jaque y manteniendo la iniciativa. Las negras han entregado una torre para atraer al alfil blanco a una casilla vulnerable y ahora continúan simplificando en las mejores condiciones. Flohr demuestra que el valor del material depende de la actividad y de la estructura final obtenida.",
+"pros": "Recupera parte del material, mantiene el jaque y sostiene el control absoluto de la posición.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Kf2",
+"title": "22. Kf2 — El rey busca escapar de la presión",
+"explanation": "Las blancas mueven el rey para salir del jaque y tratar de reorganizar su defensa. Pero el monarca sigue atado a la vigilancia de casillas débiles y piezas expuestas. La combinación negra todavía no ha terminado.",
+"pros": "Saca al rey del jaque y mantiene la resistencia material.",
+"cons": "El rey sigue vulnerable y las piezas blancas permanecen mal coordinadas."
+},
+{
+"san": "Bg4",
+"title": "22... Bg4 — El toque táctico que lo une todo",
+"explanation": "El alfil negro se activa con enorme energía, atacando la torre de d1 indirectamente y creando amenazas de simplificación ganadora. Esta jugada demuestra la idea completa del sacrificio previo: las piezas negras se coordinan para obligar a la torre blanca a posiciones pasivas o a perder material. Es un movimiento muy elegante porque no gana por un golpe directo, sino por una red de amenazas.",
+"pros": "Activa el alfil, coordina amenazas tácticas y pone a las blancas cerca del zugzwang.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "e5",
+"title": "23. e5 — Única resistencia práctica",
+"explanation": "Las blancas avanzan el peón para salvarlo de amenazas inmediatas y ganar una casilla de escape táctica. Es una jugada forzada más que activa: la posición blanca ya estaba muy limitada y casi no había buenas opciones. A veces un avance central no busca ventaja, sino evitar una pérdida inmediata.",
+"pros": "Evita algunas capturas directas y mantiene viva la resistencia un poco más.",
+"cons": "No resuelve la red táctica negra y deja otras debilidades estructurales."
+},
+{
+"san": "Bxd1",
+"title": "23... Bxd1 — Simplificación precisa hacia el final ganador",
+"explanation": "Las negras eliminan una torre blanca y convierten la ventaja dinámica en una estructura final superior. La secuencia estaba prevista desde varias jugadas atrás: el sacrificio de calidad no era un gesto brillante aislado, sino un método para llegar aquí. Flohr liquida la posición con exactitud técnica.",
+"pros": "Gana material de vuelta, simplifica con ventaja y mantiene la iniciativa.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Rxd1",
+"title": "24. Rxd1 — Recaptura obligada para seguir luchando",
+"explanation": "Las blancas recuperan el alfil, intentando mantener el equilibrio material lo mejor posible. Sin embargo, tras la serie de cambios, las debilidades de sus peones y la actividad negra pesan mucho más que la contabilidad bruta del material. El final resultante favorece claramente a las negras.",
+"pros": "Recupera material y evita una pérdida inmediata mayor.",
+"cons": "Las piezas blancas quedan peor colocadas y el final sigue siendo muy inferior."
+},
+{
+"san": "Ne6",
+"title": "24... Ne6 — El caballo reagrupa con una misión destructiva",
+"explanation": "El caballo negro se dirige a casillas desde donde atacará peones blancos y explotará agujeros estructurales. Esta jugada es muy instructiva porque muestra que la combinación táctica aún tiene una continuación posicional. Flohr no se conforma con simplificar: coloca la pieza exacta para rematar la estructura rival.",
+"pros": "Reagrupa el caballo hacia casillas fuertes y prepara nuevas debilidades en la cadena blanca.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "f5",
+"title": "25. f5 — Intento desesperado de crear contrajuego",
+"explanation": "Las blancas avanzan el peón para ganar espacio y tratar de crear un peón pasado o al menos una distracción. En posiciones inferiores, generar actividad de peones puede ser la única forma de no quedar estrangulado lentamente. Pero aquí el avance también deja nuevas casillas débiles y no cambia la evaluación profunda del final.",
+"pros": "Busca contrajuego y trata de crear tensión en el ala de rey.",
+"cons": "Debilita más la estructura y da al caballo negro nuevos puntos de invasión."
+},
+{
+"san": "Nd4",
+"title": "25... Nd4 — Salto al corazón de la posición",
+"explanation": "El caballo ocupa una casilla central fortísima, desde donde ataca peones, controla rutas del rey blanco y domina casillas clave. Este es el tipo de centralización que convierte una ventaja pequeña en una gran ventaja práctica. La pieza negra se vuelve el eje de toda la posición.",
+"pros": "Centraliza el caballo, ataca varios objetivos y refuerza el dominio estratégico negro.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "f6",
+"title": "26. f6 — Crear un peón pasado a cualquier precio",
+"explanation": "Las blancas continúan empujando porque ya no pueden competir en actividad de piezas. El objetivo es crear un peón pasado que ofrezca alguna esperanza táctica o de distracción. Es una decisión valiente, aunque forzada por la inferioridad de la posición.",
+"pros": "Genera un peón avanzado y trata de crear contrachances concretos.",
+"cons": "Compromete aún más la estructura y permite una respuesta negra muy eficaz."
+},
+{
+"san": "gxf6",
+"title": "26... gxf6 — Neutralizar el intento blanco",
+"explanation": "Las negras capturan sin vacilar y aceptan una estructura algo alterada porque el final resultante sigue favoreciéndolas claramente. Además, eliminan uno de los pocos recursos activos blancos. Flohr calcula que la carrera de peones posterior le será favorable.",
+"pros": "Elimina el peón avanzado blanco y reduce el contrajuego rival.",
+"cons": "Debilita la estructura del ala de rey, aunque sin consecuencias reales aquí."
+},
+{
+"san": "exf6",
+"title": "27. exf6 — Mantener viva la amenaza de peón pasado",
+"explanation": "Las blancas recuperan y consiguen un peón avanzado en f6, tratando de justificar la secuencia previa. Este peón puede parecer peligroso a primera vista, pero las negras tienen mejor rey y mejor coordinación para controlarlo. A veces un peón pasado no basta si el resto del tablero está perdido.",
+"pros": "Crea un peón avanzado y conserva cierto recurso práctico en el final.",
+"cons": "No compensa la actividad superior del rey y caballo negros."
+},
+{
+"san": "Nb3",
+"title": "27... Nb3 — Ocupación del agujero creado en la apertura",
+"explanation": "El caballo negro salta a b3, precisamente la casilla debilitada por 10.a3. Esta jugada es un ejemplo precioso de cómo una pequeña concesión en la apertura puede ser explotada muchos movimientos después. Flohr planta una pieza en un puesto avanzado excelente, desde donde domina y apoya las simplificaciones decisivas.",
+"pros": "Ocupa una casilla fuerte, explota una debilidad antigua y mejora la coordinación del final.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Ke2",
+"title": "28. Ke2 — El rey intenta sostener la posición",
+"explanation": "Las blancas acercan el rey a la zona central para ayudar en la defensa y en la eventual carrera de peones. Es una reacción lógica en finales, donde el rey debe ser activo. Pero la superioridad negra de tiempos y casillas ya es demasiado grande.",
+"pros": "Centraliza el rey y trata de mejorar las opciones defensivas.",
+"cons": "No cambia la superioridad negra ni evita las simplificaciones favorables."
+},
+{
+"san": "Rxd2+",
+"title": "28... Rxd2+ — Simplificar justo cuando conviene",
+"explanation": "Las negras cambian una torre más y acercan la posición a un final de rey y caballo contra rey y peones con clara ventaja práctica. Cambiar cuando se tiene mejor estructura y mejor actividad suele ser una receta excelente. Flohr elimina defensores y acerca la partida a una carrera de peones ganadora.",
+"pros": "Simplifica hacia un final favorable y reduce el contrajuego blanco.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Rxd2",
+"title": "29. Rxd2 — Recaptura forzada",
+"explanation": "Las blancas deben recapturar para no perder material de inmediato. Con ello se entra en una fase aún más simplificada, donde cada tempo cuenta mucho. El problema es que las negras llegan a ese final con piezas mejor colocadas y peones más rápidos.",
+"pros": "Mantiene el equilibrio material relativo y evita pérdidas inmediatas mayores.",
+"cons": "Entra en un final muy difícil por la actividad superior negra."
+},
+{
+"san": "Nxd2",
+"title": "29... Nxd2 — El caballo remata la secuencia",
+"explanation": "El caballo negro toma en d2 y elimina la última torre blanca. Ahora el final queda prácticamente decidido por la actividad del rey negro y la velocidad de sus peones. La coordinación lograda por Flohr desde el sacrificio de calidad encuentra aquí su conclusión lógica.",
+"pros": "Elimina la última torre blanca, simplifica decisivamente y entra en un final ganador.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Kxd2",
+"title": "30. Kxd2 — El rey captura, pero llega tarde",
+"explanation": "Las blancas recuperan el caballo y tratan de dejar el tablero en un final puro de reyes y peones. Materialmente la lucha parece más simple, pero en realidad está perdida por la carrera de tiempos. El rey blanco no puede estar en todas partes a la vez.",
+"pros": "Recupera material y deja un final claro de calcular.",
+"cons": "El rey blanco pierde tiempos críticos frente al plan de avance negro."
+},
+{
+"san": "Kd6",
+"title": "30... Kd6 — El rey negro toma el mando de la carrera final",
+"explanation": "El rey negro se centraliza con máxima eficacia y se prepara para capturar el peón f y apoyar sus propios peones pasados. En finales de peones, la actividad del rey suele ser el factor decisivo, y aquí Flohr llega antes a todos los puntos importantes. Las blancas abandonan porque la carrera de peones favorece claramente a las negras por varios tiempos.",
+"pros": "Centraliza el rey, gana la carrera de tiempos y asegura un final de peones ganado.",
+"cons": "Ninguna significativa."
+}
+]
+}

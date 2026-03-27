@@ -1,0 +1,336 @@
+{
+"info": {
+"title": "Matisons vs Nimzowitsch, Karlsbad 1929 — Dominio de casillas débiles y restricción posicional",
+"white": "Matisons Hermanis",
+"black": "Nimzowitsch Aaron",
+"event": "Karlsbad",
+"date": "1929",
+"result": "0-1",
+"description": "Esta partida es un modelo clásico del ajedrez posicional de Nimzowitsch. Las negras explotan con paciencia la debilidad de la casilla c4, mejoran la colocación de sus piezas y demuestran cómo una ventaja estratégica puede decidir una partida incluso antes de ganar material."
+},
+"pgn": "1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 Bxc3+ 5. bxc3 d6 6. Qc2 Qe7 7. Ba3 c5 8. g3 b6 9. Bg2 Bb7 10. O-O O-O 11. Nh4 Bxg2 12. Kxg2 Qb7+ 13. Kg1 Qa6 14. Qb3 Nc6 15. Rfd1 Na5 16. Qb5 Qxb5 17. cxb5 Nc4 18. Bc1 a6 19. bxa6 Rxa6 20. dxc5 bxc5 21. Ng2 Nd5 22. Rd3 Rfa8 23. e4 Ne5",
+"analysis": [
+{
+"san": "d4",
+"title": "1. d4 — Ocupación clásica del centro",
+"explanation": "Las blancas comienzan con una jugada muy sólida que gana espacio en el centro y abre líneas para el alfil de c1 y la dama. d4 es ideal para plantear una lucha estratégica, con estructuras de peones ricas en maniobras. Matisons elige una apertura que valora la estabilidad y el control de casillas.",
+"pros": "Gana espacio central, facilita el desarrollo y permite estructuras posicionales sanas.",
+"cons": "Puede conducir a posiciones cerradas donde un pequeño error estratégico pesa mucho."
+},
+{
+"san": "Nf6",
+"title": "1... Nf6 — Desarrollo flexible y control central",
+"explanation": "Las negras desarrollan el caballo hacia una casilla natural desde la que controlan e4 y d5. Además, evitan comprometer todavía su estructura central, lo que encaja muy bien con repertorios flexibles como la India de Dama o la Nimzoindia. Nimzowitsch prepara una lucha por casillas y estructura antes que una ocupación frontal del centro.",
+"pros": "Desarrolla una pieza, controla casillas centrales y mantiene flexibilidad.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "c4",
+"title": "2. c4 — Más espacio y ambición posicional",
+"explanation": "Las blancas refuerzan su presencia central y preparan una gran cadena de peones con d4-c4. La jugada también restringe parcialmente el avance ...d5 en algunas líneas y gana terreno en el ala de dama. Es una continuación muy natural para quien quiere jugar con iniciativa espacial.",
+"pros": "Gana espacio, refuerza el centro y prepara un desarrollo activo de piezas.",
+"cons": "El peón de c4 puede convertirse en objetivo si el centro blanco queda fijado."
+},
+{
+"san": "e6",
+"title": "2... e6 — Estructura sólida y puerta al alfil",
+"explanation": "Las negras sostienen la posibilidad de ...d5 y abren la diagonal del alfil de f8. Es una jugada clásica que encaja perfectamente con la idea de desarrollar el alfil a b4 en la Nimzoindia. Nimzowitsch construye una posición sana y flexible, sin apresurarse.",
+"pros": "Refuerza el centro potencial, libera el alfil y mantiene un esquema muy sólido.",
+"cons": "Encierra temporalmente al alfil de c8."
+},
+{
+"san": "Nc3",
+"title": "3. Nc3 — Desarrollo y apoyo al centro",
+"explanation": "El caballo sale a una casilla natural y apoya d5 y e4. Con esta jugada, las blancas protegen d5 e intensifican la lucha por el centro. Sin embargo, también permiten una respuesta muy concreta: el alfil negro puede clavar este caballo con ...Bb4.",
+"pros": "Desarrolla una pieza, apoya e4 y refuerza el control central.",
+"cons": "Permite la clavada característica de la Nimzoindia."
+},
+{
+"san": "Bb4",
+"title": "3... Bb4 — La clavada típica de la Nimzoindia",
+"explanation": "El alfil clava el caballo de c3 contra el rey futuro o la estructura central, aumentando la presión sobre e4. Esta es la idea distintiva de la Nimzoindia: luchar contra el centro blanco con piezas, no solo con peones. Nimzowitsch muestra desde muy pronto su intención de presionar la estructura rival.",
+"pros": "Desarrolla con iniciativa, presiona el centro blanco y prepara un posible doblaje de peones.",
+"cons": "El alfil puede terminar siendo cambiado y ceder la pareja de alfiles."
+},
+{
+"san": "Nf3",
+"title": "4. Nf3 — Desarrollo sereno y flexible",
+"explanation": "Las blancas desarrollan otra pieza menor y preparan el enroque corto. También refuerzan d4 y e5, manteniendo la posición sana. Es una jugada de desarrollo muy lógica, aunque permite a las negras decidir si cambian en c3.",
+"pros": "Acelera el enroque, mejora el control central y mantiene flexibilidad.",
+"cons": "No cuestiona de inmediato la clavada del alfil negro."
+},
+{
+"san": "Bxc3+",
+"title": "4... Bxc3+ — Cambio estructural con idea profunda",
+"explanation": "Las negras entregan su alfil de casillas blancas para doblar los peones blancos en la columna c. Este es un tema clásico: conceder la pareja de alfiles a cambio de una debilidad estructural duradera. Nimzowitsch valora más la futura debilidad de c4 y c3 que el factor dinámico de los alfiles blancos.",
+"pros": "Daña la estructura de peones blanca y crea un objetivo estratégico a largo plazo.",
+"cons": "Entrega la pareja de alfiles y renuncia a un alfil activo."
+},
+{
+"san": "bxc3",
+"title": "5. bxc3 — Recaptura que trae ventajas y problemas",
+"explanation": "Las blancas recuperan la pieza y aceptan peones doblados en la columna c. A cambio, abren la columna b para una torre y conservan la pareja de alfiles, que puede ser valiosa si la posición se abre. La estructura, sin embargo, queda marcada por una debilidad fija en c4.",
+"pros": "Conserva la pareja de alfiles, abre una columna para la torre y mantiene el material equilibrado.",
+"cons": "Crea peones doblados y deja un peón potencialmente débil en c4."
+},
+{
+"san": "d6",
+"title": "5... d6 — Solidez y control de e5",
+"explanation": "Las negras refuerzan su centro y preparan un desarrollo tranquilo. La jugada también apoya la ruptura ...e5, importante para disputar el espacio blanco. Nimzowitsch sigue una estrategia coherente: primero consolidar, luego atacar los puntos débiles del rival.",
+"pros": "Refuerza el centro, prepara ...e5 y mantiene la estructura negra sin fisuras.",
+"cons": "Puede ser algo modesta si las negras no logran actividad posterior."
+},
+{
+"san": "Qc2",
+"title": "6. Qc2 — Apoyo central y coordinación",
+"explanation": "La dama se coloca detrás del peón c y apoya un eventual e4. También conecta mejor las piezas mayores y retira la dama de posibles tempos molestos. Es una jugada lógica dentro del esquema con peones doblados, donde el centro debe sostenerse con precisión.",
+"pros": "Apoya e4, mejora la coordinación y puede ayudar a defender c4 lateralmente.",
+"cons": "La dama puede quedar algo expuesta a maniobras negras con ganancia de tiempo."
+},
+{
+"san": "Qe7",
+"title": "6... Qe7 — Profilaxis contra e4",
+"explanation": "La dama negra respalda la idea de ...e5, con lo que las negras quieren asegurarse una parte del centro sin dejar puntos débiles. Además, despeja d8 para las torres y mantiene la posición compacta. Nimzowitsch anticipa el plan blanco y se prepara con calma.",
+"pros": "Prepara ...e5, coordina las piezas y mantiene la estructura sólida.",
+"cons": "La dama sale pronto y puede ser un poco pasiva."
+},
+{
+"san": "Ba3",
+"title": "7. Ba3 — Desarrollo activo con dos ideas",
+"explanation": "El alfil sale a una diagonal muy activa, donde presiona la diagonal a3-f8 e incomoda la ruptura ...e5. Además, las blancas sueñan con c5 para disolver los peones doblados y ganar movilidad. Es una jugada ambiciosa, basada en actividad y en la mejora futura de la estructura.",
+"pros": "Desarrolla con iniciativa, dificulta ...e5 y apoya ideas de expansión como c5.",
+"cons": "El alfil puede convertirse en objetivo si las negras fijan la estructura del ala de dama."
+},
+{
+"san": "c5",
+"title": "7... c5 — Fijar la debilidad rival",
+"explanation": "Las negras no solo disputan espacio: fijan el peón de c4 y lo convierten en un objetivo estacionario. En ajedrez posicional, una debilidad es más importante cuando no puede avanzar ni ser defendida con comodidad. Nimzowitsch empieza aquí su plan central: atacar la debilidad de c4 toda la partida.",
+"pros": "Fija el peón de c4, gana espacio y da a las negras un objetivo claro de ataque.",
+"cons": "Compromete algo la estructura del ala de dama si luego no se puede sostener bien."
+},
+{
+"san": "g3",
+"title": "8. g3 — Fianchetto lógico, pero con coste defensivo",
+"explanation": "Las blancas preparan el fianchetto del alfil para controlar la gran diagonal, una idea muy natural en muchas estructuras de d4 y c4. Sin embargo, aquí la jugada tiene un inconveniente estratégico: no ayuda a defender el peón débil de c4. Es un desarrollo estéticamente bueno, pero quizá no el más exacto en esta posición concreta.",
+"pros": "Prepara un alfil fuerte en g2 y mejora el control de diagonales largas.",
+"cons": "No refuerza c4 y puede resultar demasiado lenta ante el plan negro."
+},
+{
+"san": "b6",
+"title": "8... b6 — Contestar al fianchetto con el mismo lenguaje",
+"explanation": "Las negras preparan desarrollar el alfil a b7 para luchar por la gran diagonal. También sostienen c5 y refuerzan el control de las casillas centrales claras. Es una jugada muy armónica con el plan de presión estratégica.",
+"pros": "Prepara ...Bb7, refuerza el ala de dama y disputa la gran diagonal.",
+"cons": "Puede dejar la casilla c6 un poco menos flexible para piezas en algunas líneas."
+},
+{
+"san": "Bg2",
+"title": "9. Bg2 — El alfil entra en juego",
+"explanation": "El alfil se instala en g2, donde ejerce una presión importante sobre el centro y el ala de dama. En posiciones abiertas puede ser una pieza poderosa. Aun así, su influencia no compensa automáticamente la debilidad estructural del peón de c4.",
+"pros": "Desarrolla una pieza activa y controla una diagonal larga importante.",
+"cons": "La pieza es activa, pero no resuelve el problema estratégico principal de la posición."
+},
+{
+"san": "Bb7",
+"title": "9... Bb7 — Igualar diagonales y reforzar el control",
+"explanation": "El alfil negro toma su puesto ideal en la gran diagonal, oponiéndose al alfil blanco de g2. Además, participa indirectamente en el control de e4 y de casillas del centro. Nimzowitsch completa el despliegue de sus piezas hacia una presión estable y acumulativa.",
+"pros": "Desarrolla una pieza fuerte, disputa la diagonal y apoya el control central.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "O-O",
+"title": "10. O-O — El rey blanco se pone a salvo",
+"explanation": "Las blancas enrocan corto, conectan parcialmente sus torres y mejoran la seguridad del rey. En una posición con tensiones estratégicas, conviene retirar al monarca del centro cuanto antes. Es una jugada natural y necesaria.",
+"pros": "Asegura al rey, activa la torre de h1 y completa una fase básica del desarrollo.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "O-O",
+"title": "10... O-O — Seguridad antes de maniobrar",
+"explanation": "Las negras también enrocan y dejan listo el escenario para maniobras de caballos y torres. El rey ya no es una preocupación inmediata, así que Nimzowitsch puede concentrarse plenamente en la explotación de las debilidades blancas. La posición negra luce muy compacta y bien coordinada.",
+"pros": "Asegura al rey y permite a las torres empezar a coordinarse.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Nh4",
+"title": "11. Nh4 — Idea comprensible, ubicación dudosa",
+"explanation": "Las blancas quieren cambiar el alfil negro de b7, que ejerce una influencia muy importante sobre el centro y la diagonal larga. La intención es lógica, pero el caballo en h4 queda en el borde del tablero, donde controla menos casillas y participa peor en la lucha central. Es un ejemplo de plan correcto ejecutado con una pieza mal colocada.",
+"pros": "Amenaza simplificar cambiando un alfil negro muy fuerte.",
+"cons": "Descentraliza el caballo y reduce la capacidad blanca de defender c4 y luchar por el centro."
+},
+{
+"san": "Bxg2",
+"title": "11... Bxg2 — Cambio favorable al bando que domina las casillas",
+"explanation": "Las negras aceptan el cambio y eliminan el alfil de gran diagonal blanco. Aunque entregan una pieza activa, reducen el potencial dinámico de las blancas y facilitan el control de casillas centrales claras. Nimzowitsch entiende que, con debilidades fijas en el rival, menos contrajuego blanco es mejor.",
+"pros": "Reduce el potencial del rival y simplifica hacia una posición favorable estratégicamente.",
+"cons": "Entrega el alfil de casillas negras, una pieza valiosa en posiciones abiertas."
+},
+{
+"san": "Kxg2",
+"title": "12. Kxg2 — Recaptura natural, pero poco activa",
+"explanation": "Las blancas recuperan el alfil, aunque llevar el rey a g2 no mejora la coordinación de piezas. En este tipo de posiciones, recapturar con el caballo podía ser más útil para devolverlo al juego. La elección del rey deja al caballo en h4 aún más marginado.",
+"pros": "Recupera material de forma sencilla y mantiene intacta la estructura de peones.",
+"cons": "No mejora la actividad del caballo y deja al rey algo expuesto a jaques de dama."
+},
+{
+"san": "Qb7+",
+"title": "12... Qb7+ — Jaque útil y mejora de la dama",
+"explanation": "La dama da jaque y aprovecha la colocación del rey blanco para ganar un tiempo. Además, desde b7 la dama presiona la diagonal y puede cambiar rápidamente de frente hacia el ala de dama. Nimzowitsch combina actividad táctica momentánea con un objetivo posicional a largo plazo.",
+"pros": "Gana un tiempo con jaque y mejora la actividad de la dama.",
+"cons": "La dama puede quedar expuesta si no encuentra continuidad."
+},
+{
+"san": "Kg1",
+"title": "13. Kg1 — Retirada pasiva del rey",
+"explanation": "Las blancas apartan el rey del jaque, pero no resuelven ninguno de sus problemas estructurales ni mejoran la coordinación. El caballo sigue fuera de juego y la dama negra gana libertad para presionar sobre el ala de dama. Es una jugada segura, aunque muy poco combativa.",
+"pros": "Quita al rey del jaque y evita riesgos tácticos inmediatos.",
+"cons": "Es pasiva y permite a las negras tomar la iniciativa estratégica con comodidad."
+},
+{
+"san": "Qa6",
+"title": "13... Qa6 — Presión múltiple con la dama",
+"explanation": "La dama negra ataca al alfil de a3 y además mira el peón de e2 o e4 potencial, lo que obliga a las blancas a reaccionar. Es un ejemplo excelente de presión múltiple: una sola pieza crea varias amenazas a la vez. Nimzowitsch obliga a su rival a defenderse mientras él sigue mejorando su posición.",
+"pros": "Ataca dos objetivos, gana la iniciativa y fuerza una respuesta concreta.",
+"cons": "La dama se aleja un poco del rey propio, aunque sin consecuencias aquí."
+},
+{
+"san": "Qb3",
+"title": "14. Qb3 — Defensa y sostén del alfil",
+"explanation": "Las blancas defienden el alfil de a3 y mantienen cierta coordinación sobre la diagonal. También evitan perder tiempos con el retroceso inmediato del alfil. Sin embargo, la dama queda algo sobrecargada y las negras siguen mandando en la posición.",
+"pros": "Defiende el alfil y mantiene el material equilibrado.",
+"cons": "La dama queda pasiva y las blancas siguen sin resolver la mala colocación de sus piezas menores."
+},
+{
+"san": "Nc6",
+"title": "14... Nc6 — Desarrollo con vistas a las casillas clave",
+"explanation": "El caballo se desarrolla a una casilla natural desde donde apoya e5, d4 y b4. También prepara saltos hacia a5 o e5 según convenga al plan negro. Nimzowitsch completa el desarrollo sin perder de vista la futura invasión sobre c4.",
+"pros": "Desarrolla una pieza, aumenta el control central y prepara maniobras activas.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Rfd1",
+"title": "15. Rfd1 — Centralización útil, pero insuficiente",
+"explanation": "Las blancas llevan la torre al centro para apoyar d4 y mejorar la conexión entre piezas. La jugada es sana y además aparta la torre de posibles temas tácticos en la primera fila. Aun así, no cambia el hecho de que las negras tienen un plan más claro y mejores casillas para sus piezas.",
+"pros": "Mejora la coordinación, apoya el centro y da algo más de orden a la posición blanca.",
+"cons": "No corrige la inferioridad posicional ni la debilidad de c4."
+},
+{
+"san": "Na5",
+"title": "15... Na5 — Maniobra hacia la casilla soñada",
+"explanation": "El caballo se dirige hacia c4, una casilla fuerte y estable que las blancas no pueden desalojar con peones. Esta es una idea muy nimzowitschiana: ocupar un punto fuerte antes de atacar la posición enemiga frontalmente. La maniobra también ataca la dama blanca y gana tiempo.",
+"pros": "Amenaza instalar el caballo en c4, gana tiempo sobre la dama y mejora la actividad negra.",
+"cons": "El caballo se va temporalmente al borde, aunque con una ruta muy concreta."
+},
+{
+"san": "Qb5",
+"title": "16. Qb5 — Buscar simplificación para aliviar presión",
+"explanation": "Las blancas responden a la amenaza sobre la dama buscando el cambio de damas. Cuando se está algo peor, simplificar puede ser razonable si con ello se reducen amenazas directas. El problema es que, aun sin damas, la debilidad estructural de c4 seguirá siendo decisiva.",
+"pros": "Propone simplificar y reduce la energía táctica de la posición.",
+"cons": "No elimina el problema estratégico principal y puede facilitar el plan negro de dominación de casillas."
+},
+{
+"san": "Qxb5",
+"title": "16... Qxb5 — Simplificar en el momento justo",
+"explanation": "Las negras aceptan el cambio porque el final resultante favorece claramente a quien tiene mejor estructura y mejores casillas. Sin damas, el peón débil de c4 será todavía más visible y difícil de defender. Nimzowitsch cambia piezas solo cuando eso fortalece su ventaja posicional.",
+"pros": "Entra en un final favorable y hace más importante la debilidad estructural blanca.",
+"cons": "Renuncia a posibles recursos tácticos de la dama, aunque no los necesita."
+},
+{
+"san": "cxb5",
+"title": "17. cxb5 — Recaptura que arregla una cosa y deja otra peor",
+"explanation": "Las blancas recapturan y deshacen sus peones doblados, lo cual parece una mejora estructural. Sin embargo, la casilla c4 sigue siendo débil y ahora las negras podrán explotarla de forma aún más clara. Es una buena ilustración de que no toda mejora superficial resuelve el problema estratégico profundo.",
+"pros": "Desdobla los peones y gana algo de claridad estructural en el ala de dama.",
+"cons": "La casilla c4 sigue siendo muy débil y el peón de b5 puede convertirse en objetivo."
+},
+{
+"san": "Nc4",
+"title": "17... Nc4 — La ocupación magistral de la casilla fuerte",
+"explanation": "El caballo negro aterriza en c4, una casilla avanzada, estable y muy influyente. Desde ahí ataca el alfil de a3, vigila casillas centrales y protege peones negros importantes. Esta jugada es el corazón estratégico de la partida: una pieza fuerte en una casilla fuerte puede decidir toda la lucha.",
+"pros": "Instala una pieza excelente, ataca el alfil, controla casillas clave y no puede ser expulsado por peones.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Bc1",
+"title": "18. Bc1 — Retroceso obligado del alfil",
+"explanation": "El alfil debe retirarse porque no puede sostenerse frente al caballo tan bien colocado. Volver a c1 muestra hasta qué punto la iniciativa negra ha ganado terreno: una pieza blanca desarrollada regresa a su casilla inicial. Las blancas pierden tiempos y espacio al mismo tiempo.",
+"pros": "Conserva el alfil y evita una pérdida material inmediata.",
+"cons": "Retrocede de forma pasiva y confirma la superioridad de la pieza negra en c4."
+},
+{
+"san": "a6",
+"title": "18... a6 — Forzar la apertura de una nueva columna",
+"explanation": "Las negras golpean el peón b5 y obligan a las blancas a decidir. La idea no es solo ganar un peón o cambiar estructura, sino abrir la columna a para las torres negras. Nimzowitsch crea un segundo frente de presión sin abandonar el primero.",
+"pros": "Ataca el peón b5, fuerza concesiones y prepara una columna abierta para las torres.",
+"cons": "Puede ceder temporalmente el peón a, aunque la actividad compensa sobradamente."
+},
+{
+"san": "bxa6",
+"title": "19. bxa6 — Captura forzada con concesión posicional",
+"explanation": "Las blancas toman en a6 para no perder el peón sin nada a cambio. Sin embargo, esta captura abre la columna a y deja un peón aislado que será un futuro objetivo. Muchas veces una decisión forzada también puede beneficiar al rival si encaja con su plan estratégico.",
+"pros": "Evita perder el peón gratuitamente y conserva el equilibrio material inmediato.",
+"cons": "Abre la columna a para las torres negras y crea un peón aislado vulnerable."
+},
+{
+"san": "Rxa6",
+"title": "19... Rxa6 — La torre entra con objetivo claro",
+"explanation": "La torre negra recaptura y se activa enseguida por la columna recién abierta. Desde a6, no solo controla la fila y la columna, sino que apunta al peón aislado del ala de dama blanca. La coordinación negra empieza a ser claramente superior.",
+"pros": "Activa la torre, ocupa una columna abierta y fija un objetivo en el ala de dama.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "dxc5",
+"title": "20. dxc5 — Intento blanco de liberar la posición",
+"explanation": "Las blancas capturan en c5 para alterar la estructura y crear algo de espacio para sus piezas. Es una reacción comprensible: cuando se está restringido, a menudo conviene cambiar la estructura para obtener aire. Pero aquí el cambio también ayuda a las negras a abrir líneas para sus torres y caballos.",
+"pros": "Aclara el centro y busca reducir la presión estructural.",
+"cons": "Abre más líneas favorables a las piezas negras activas."
+},
+{
+"san": "bxc5",
+"title": "20... bxc5 — Recaptura que mejora la movilidad negra",
+"explanation": "Las negras restablecen el equilibrio material y mantienen una estructura muy funcional para sus piezas. El peón en c5 controla d4 y b4, mientras las columnas abiertas siguen favoreciendo a las torres negras. Nimzowitsch acepta con gusto la nueva disposición porque todas sus piezas cooperan mejor que las blancas.",
+"pros": "Conserva el material, abre líneas útiles y mantiene el control de casillas clave.",
+"cons": "El peón de c5 podría ser un objetivo futuro, aunque aquí está bien respaldado."
+},
+{
+"san": "Ng2",
+"title": "21. Ng2 — Regresar al juego, pero demasiado tarde",
+"explanation": "El caballo vuelve desde la banda hacia una casilla más centralizable, lo cual es correcto en abstracto. Sin embargo, este reajuste llega cuando las negras ya dominan la posición y tienen todas las piezas activas. La diferencia entre una pieza bien colocada y una que necesita recolocarse varias veces se siente mucho aquí.",
+"pros": "Mejora la trayectoria futura del caballo y ayuda a coordinar algo mejor las piezas blancas.",
+"cons": "Es lenta y no resuelve la iniciativa negra ni la presión sobre las debilidades."
+},
+{
+"san": "Nd5",
+"title": "21... Nd5 — Centralización dominante",
+"explanation": "El caballo negro ocupa otra casilla central magnífica, donde controla c3, e3, f4 y b4. Ahora ambos caballos negros dominan el tablero desde puntos avanzados, mientras las piezas blancas están restringidas. Esta superioridad de casillas es una lección estratégica muy pura.",
+"pros": "Centraliza una pieza, incrementa la presión y coordina el ejército negro de forma ejemplar.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Rd3",
+"title": "22. Rd3 — Defensa activa, aunque incómoda",
+"explanation": "La torre blanca intenta defender lateralmente y quizá preparar doblarse o cubrir puntos débiles desde la tercera fila. Es una jugada trabajosa, típica de quien está atado a la defensa. Las blancas buscan reorganizarse, pero siguen jugando reactivamente.",
+"pros": "Aporta defensa lateral y trata de mejorar la coordinación de torres.",
+"cons": "La torre queda algo pasiva y la posición blanca continúa muy comprimida."
+},
+{
+"san": "Rfa8",
+"title": "22... Rfa8 — Doblaje ideal en columna abierta",
+"explanation": "La segunda torre negra entra en la columna a, donde ambas torres podrán operar con fuerza. Dobladas en una columna abierta, las torres multiplican su efecto y crean amenazas difíciles de contener. Nimzowitsch transforma una ventaja estática en presión concreta de piezas mayores.",
+"pros": "Dobla torres en columna abierta, aumenta la presión y mejora al máximo la coordinación.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "e4",
+"title": "23. e4 — Reacción central desesperada",
+"explanation": "Las blancas intentan por fin ganar espacio y disputar las casillas centrales dominadas por los caballos negros. La idea tiene lógica: si no se rompe la restricción, la posición se derrumba lentamente. Pero el avance llega tarde y deja nuevas casillas y peones sensibles.",
+"pros": "Gana espacio, cuestiona el dominio central negro y busca liberar las piezas blancas.",
+"cons": "Debilita casillas, crea tensiones difíciles de sostener y no llega a tiempo para igualar."
+},
+{
+"san": "Ne5",
+"title": "23... Ne5 — Remate posicional con precisión táctica",
+"explanation": "El caballo se recoloca a e5 con máxima fuerza, atacando la torre de d3 y aumentando la presión sobre c4 y f3. La jugada combina estrategia y táctica: las piezas negras dominan mejores casillas y además crean amenazas inmediatas. Tras este movimiento, las blancas comprendieron que su posición colapsaba sin necesidad de haber perdido aún material.",
+"pros": "Centraliza aún más el caballo, gana tiempos sobre la torre y crea amenazas tácticas decisivas.",
+"cons": "Ninguna significativa."
+}
+]
+}

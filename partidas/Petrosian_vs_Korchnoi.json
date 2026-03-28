@@ -1,0 +1,329 @@
+{
+"info": {
+"title": "Petrosian vs Korchnoi, URS-ch U18 1946",
+"white": "Petrosian Tigran",
+"black": "Korchnoi Viktor",
+"event": "URS-ch U18",
+"date": "1946.??.??",
+"result": "1-0",
+"description": "Esta partida juvenil entre dos futuros gigantes del ajedrez es una lección magistral de estrategia contra la formación Stonewall. Petrosian neutraliza el ataque típico de las negras, mejora cada una de sus piezas con enorme paciencia y remata con una secuencia táctica basada en la acumulación previa de pequeñas ventajas."
+},
+"pgn": "1. d4 e6 2. Nf3 f5 3. g3 Nf6 4. Bg2 d5 5. O-O Bd6 6. c4 c6 7. b3 O-O 8. Ba3 Bxa3 9. Nxa3 Qe8 10. Nc2 Qh5 11. Qc1 Ne4 12. Nce1 g5 13. Nd3 Nd7 14. Nfe5 Kh8 15. f3 Nd6 16. e4 Nf7 17. cxd5 Ndxe5 18. dxe5 cxd5 19. exd5 exd5 20. f4 Rd8 21. Qc7 b6 22. fxg5 Ba6 23. Nf4",
+"analysis": [
+{
+"san": "d4",
+"title": "1. d4 — Control central desde el primer movimiento",
+"explanation": "Las blancas ocupan el centro con un peón y reclaman espacio en e5 y c5. Esta jugada también abre la diagonal del alfil de c1 y prepara un desarrollo flexible. A diferencia de 1.e4, suele conducir a posiciones más estratégicas, donde la estructura de peones y la maniobra de piezas pesan mucho.",
+"pros": "Gana espacio central, abre líneas y permite un desarrollo armonioso.",
+"cons": "Puede convertirse en objetivo de ataque si el negro logra presionar bien el centro."
+},
+{
+"san": "e6",
+"title": "1... e6 — Preparación sólida y flexible",
+"explanation": "Las negras no definen todavía del todo su estructura, pero preparan ...d5 con buena base. Es una jugada muy útil porque abre la diagonal del alfil de f8 y mantiene varias opciones de apertura. En este caso servirá para entrar en un esquema de Defensa Holandesa con una estructura robusta.",
+"pros": "Refuerza la futura expansión central y mantiene flexibilidad.",
+"cons": "El alfil de c8 seguirá algo limitado mientras no se aclaren los peones centrales."
+},
+{
+"san": "Nf3",
+"title": "2. Nf3 — Desarrollo natural y apoyo al centro",
+"explanation": "El caballo sale a una casilla excelente, desde donde ayuda a sostener d4 y controla e5. También prepara el enroque corto y evita ideas molestas sobre e4. Es una jugada de manual: desarrolla, defiende y mantiene opciones abiertas.",
+"pros": "Desarrolla una pieza, apoya el centro y prepara el enroque.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "f5",
+"title": "2... f5 — La Defensa Holandesa",
+"explanation": "Las negras eligen un planteo combativo, buscando controlar e4 y preparar un posible ataque sobre el flanco de rey. La Holandesa concede ciertas debilidades, pero a cambio ofrece planes agresivos y estructuras muy definidas. Es una defensa ambiciosa que suele recompensar al jugador bien preparado.",
+"pros": "Controla e4 y apunta a un juego activo en el flanco de rey.",
+"cons": "Debilita la diagonal del rey y algunas casillas oscuras, especialmente e6 y g6."
+},
+{
+"san": "g3",
+"title": "3. g3 — Fiancheto contra el esquema agresivo negro",
+"explanation": "Las blancas preparan desarrollar el alfil a g2, donde ejercerá presión sobre el centro y el flanco de dama. Contra la Holandesa, este esquema es muy lógico porque el alfil fianchettado ayuda a vigilar e4 y a contener el ataque negro. Además, refuerza la seguridad del rey tras el enroque.",
+"pros": "Prepara el fiancheto, refuerza el control central y mejora la seguridad del rey.",
+"cons": "Cede algo de tiempo en comparación con un desarrollo más directo."
+},
+{
+"san": "Nf6",
+"title": "3... Nf6 — Desarrollo con presión sobre e4",
+"explanation": "Las negras continúan con una jugada muy natural, desarrollando una pieza y reforzando el control de e4. El caballo también ayuda a sostener un futuro avance ...e5 o a apoyar la formación Stonewall. Todo encaja con la idea de construir una muralla central y luego atacar.",
+"pros": "Desarrolla, mejora el control central y prepara el enroque.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Bg2",
+"title": "4. Bg2 — El alfil entra en la gran diagonal",
+"explanation": "El alfil de rey se activa en una diagonal larga muy importante, desde la que puede presionar el centro y el flanco de dama. En estructuras cerradas, este alfil suele ser una pieza clave para romper o incomodar la posición rival. Además, completa el esquema de fiancheto iniciado con 3.g3.",
+"pros": "Activa una pieza importante y mejora la coordinación blanca.",
+"cons": "Su fuerza dependerá de que la diagonal no quede cerrada por peones."
+},
+{
+"san": "d5",
+"title": "4... d5 — Construcción del muro central",
+"explanation": "Las negras ocupan el centro y perfilan claramente una estructura Stonewall. El peón en d5, junto con f5, da espacio y firmeza, pero también fija ciertas debilidades, como la casilla e5. Cuando una estructura gana espacio pero deja huecos, el rival intentará explotar justamente esas casillas.",
+"pros": "Gana espacio central y consolida un esquema defensivo-ofensivo muy claro.",
+"cons": "Debilita casillas como e5 y puede limitar al alfil de c8."
+},
+{
+"san": "O-O",
+"title": "5. O-O — Seguridad inmediata del rey",
+"explanation": "Las blancas enrocan pronto, cumpliendo uno de los principios básicos de la apertura. Con el rey a salvo, podrán concentrarse en maniobrar contra la estructura negra. Además, la torre de f1 queda mejor situada para participar más adelante en rupturas centrales o presión sobre la columna f.",
+"pros": "Asegura al rey y mejora la coordinación de las torres.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Bd6",
+"title": "5... Bd6 — Desarrollo agresivo del alfil de rey",
+"explanation": "Este alfil es una pieza muy importante en la Stonewall porque apoya el ataque sobre el flanco de rey y mira hacia casillas sensibles cerca del enroque blanco. Desde d6 también ayuda a sostener un eventual ...e5 o presiona h2 en algunas líneas. Precisamente por eso Petrosian buscará neutralizarlo más adelante.",
+"pros": "Desarrolla una pieza activa y apoya planes ofensivos en el flanco de rey.",
+"cons": "Puede convertirse en objetivo de cambio, y si desaparece el ataque negro pierde potencia."
+},
+{
+"san": "c4",
+"title": "6. c4 — Golpe al centro negro",
+"explanation": "Las blancas desafían de inmediato la cadena de peones rival y buscan ganar espacio en el ala de dama. Además, esta jugada abre la posibilidad de cambios que dejen al negro con menos control central. Es una reacción muy típica contra estructuras rígidas: atacar la base o tensar el centro antes de que el rival organice su plan.",
+"pros": "Presiona el centro, gana espacio y prepara rupturas útiles.",
+"cons": "Puede crear un peón aislado o colgante si la tensión se resuelve desfavorablemente."
+},
+{
+"san": "c6",
+"title": "6... c6 — El Stonewall queda completo",
+"explanation": "Las negras refuerzan d5 y consolidan la estructura típica del Muro de Piedra. Con peones en f5, e6, d5 y c6, obtienen gran solidez central y buenas bases para un ataque de flanco. El precio es claro: el alfil de c8 queda encerrado y la estructura se vuelve algo rígida.",
+"pros": "Sostiene el centro y da gran solidez al esquema negro.",
+"cons": "Encierra al alfil de c8 y fija debilidades estratégicas a largo plazo."
+},
+{
+"san": "b3",
+"title": "7. b3 — Preparación flexible del alfil de dama",
+"explanation": "A primera vista parece una jugada rutinaria para fianchetar el alfil de c1. Sin embargo, en manos de Petrosian esta preparación tiene una idea más profunda: controlar las casillas claras y disponer del alfil según las necesidades estratégicas. El movimiento también refuerza c4 y contribuye a un desarrollo muy sólido.",
+"pros": "Prepara el desarrollo del alfil y refuerza la estructura del ala de dama.",
+"cons": "Es algo lenta si el negro pudiera lanzar un ataque rápido."
+},
+{
+"san": "O-O",
+"title": "7... O-O — El rey negro se pone a salvo",
+"explanation": "Las negras completan una fase lógica del desarrollo y dejan sus torres listas para actuar. En la Stonewall, el enroque es esencial antes de lanzar maniobras agresivas con dama, peones y torres sobre el flanco de rey. Con el rey seguro, el negro puede empezar a pensar en el ataque típico del sistema.",
+"pros": "Asegura al rey y mejora la coordinación del conjunto negro.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Ba3",
+"title": "8. Ba3 — Cambio profiláctico del alfil peligroso",
+"explanation": "Petrosian no sigue el plan automático de fianchetar el alfil, sino que busca eliminar el alfil de d6, la pieza de ataque más activa del negro. Esta es una jugada profundamente profiláctica: no solo mejora la posición propia, sino que reduce el potencial del rival. En ajedrez posicional, impedir el plan del oponente suele valer tanto como ejecutar el propio.",
+"pros": "Busca cambiar una pieza atacante clave y debilita el juego ofensivo negro.",
+"cons": "Entrega el alfil de casillas claras, que a veces puede ser una pieza valiosa."
+},
+{
+"san": "Bxa3",
+"title": "8... Bxa3 — Aceptar el cambio estructuralmente favorable",
+"explanation": "Las negras cambian su alfil activo para no permitir que permanezca molestando en la diagonal. Aunque pierden una pieza importante para el ataque, también fuerzan al caballo blanco a recapturar y temporalmente se aseguran de que el alfil blanco desaparezca. La decisión es razonable, pero favorece el plan estratégico blanco.",
+"pros": "Evita molestias inmediatas y simplifica la tensión en el ala de dama.",
+"cons": "Pierde al alfil más útil del esquema Stonewall."
+},
+{
+"san": "Nxa3",
+"title": "9. Nxa3 — Recaptura y reagrupación futura",
+"explanation": "El caballo recupera la pieza y entra en juego, aunque momentáneamente queda en la banda. Petrosian entiende que lo importante no es la estética inmediata, sino la posibilidad de recolocarlo después en mejores casillas. Una pieza mal situada debe ser reubicada con paciencia, y eso es justamente lo que hará.",
+"pros": "Recupera material y mantiene la estructura sana.",
+"cons": "El caballo queda temporalmente mal colocado en el borde."
+},
+{
+"san": "Qe8",
+"title": "9... Qe8 — La dama se alinea con el plan de ataque",
+"explanation": "Esta maniobra es muy típica de la Stonewall: la dama aspira a llegar a h5 o h4 para apoyar un ataque sobre el rey blanco. También deja libre la casilla d8 para una torre o alguna pieza. El negro sigue un plan conocido y coherente, aunque algo previsible.",
+"pros": "Prepara el traslado de la dama al flanco de rey y coordina el ataque.",
+"cons": "La dama abandona el centro y puede perder tiempos si el ataque no prospera."
+},
+{
+"san": "Nc2",
+"title": "10. Nc2 — Reubicación correcta del caballo",
+"explanation": "Petrosian saca el caballo de la banda y lo lleva a una casilla mucho más flexible. Desde c2 podrá apoyar e3, d4, b4 o incluso e1-d3-e5, según lo requiera la posición. Esta jugada enseña una lección importante: antes de buscar tácticas brillantes, conviene mejorar la ubicación de cada pieza.",
+"pros": "Centraliza progresivamente el caballo y aumenta su movilidad futura.",
+"cons": "Consume un tiempo en reubicar una pieza ya desarrollada."
+},
+{
+"san": "Qh5",
+"title": "10... Qh5 — La dama apunta directamente al enroque blanco",
+"explanation": "La dama llega a su casilla de ataque soñada en la Stonewall, mirando h2 y apoyando avances como ...g5. La idea negra es clara: montar una ofensiva de piezas y peones contra el rey blanco. Sin embargo, cuando un plan es tan temático, un gran estratega puede anticiparlo y frenarlo a tiempo.",
+"pros": "Amenaza aumentar la presión sobre el flanco de rey y coordina con ...g5.",
+"cons": "La dama puede quedar expuesta si el blanco encuentra una respuesta profiláctica fuerte."
+},
+{
+"san": "Qc1",
+"title": "11. Qc1 — Profilaxis de gran precisión",
+"explanation": "Esta jugada es muy profunda porque impide o dificulta seriamente el avance ...g5, una pieza central del ataque negro. Además, la dama queda lista para infiltrarse en c7 en el momento oportuno, lo que tendrá enorme importancia táctica más adelante. Petrosian no solo se defiende: coloca una pieza donde sirve a la vez para frenar y para contraatacar.",
+"pros": "Frena el plan atacante negro y prepara una futura invasión por c7.",
+"cons": "La dama queda algo apartada del centro por el momento."
+},
+{
+"san": "Ne4",
+"title": "11... Ne4 — Ocupación del puesto fuerte típico",
+"explanation": "El caballo se instala en e4, una casilla avanzada muy importante en la Stonewall. Desde allí presiona c3, d2 y g3, y sirve de apoyo para el ataque. Estratégicamente es una buena casilla, pero al quedar tan adelantado también puede convertirse en objetivo de maniobras blancas bien calculadas.",
+"pros": "Centraliza un caballo en una casilla fuerte y apoya el ataque.",
+"cons": "Puede ser hostigado o superado si el blanco controla mejor las casillas clave."
+},
+{
+"san": "Nce1",
+"title": "12. Nce1 — Reagrupación estratégica hacia e5",
+"explanation": "Lejos de ser pasiva, esta retirada persigue un objetivo muy concreto: llevar el caballo a d3 y luego a e5, la gran debilidad negra. Es un ejemplo clásico de maniobra estratégica, donde una pieza retrocede para volver más fuerte. También aumenta la sobreprotección del centro blanco, una idea muy nimzowitschiana.",
+"pros": "Reorienta el caballo hacia casillas estratégicas y refuerza la coordinación blanca.",
+"cons": "A primera vista parece una retirada y cede algo de iniciativa temporal."
+},
+{
+"san": "g5",
+"title": "12... g5 — Inicio directo del ataque de peones",
+"explanation": "Las negras avanzan el peón g para ganar espacio y preparar un asalto contra el enroque. En la Stonewall esta jugada es muy temática, pues busca expulsar defensores y abrir columnas para las torres. El problema es que todo avance de peón crea también huecos y puede dejar al rey más expuesto si el ataque no llega a concretarse.",
+"pros": "Gana espacio y acelera el plan ofensivo sobre el flanco de rey.",
+"cons": "Debilita casillas alrededor del rey y puede sobreextender la posición."
+},
+{
+"san": "Nd3",
+"title": "13. Nd3 — El caballo se encamina al puesto ideal",
+"explanation": "El caballo continúa su ruta estratégica y desde d3 controla e5, c5 y f4. Además, ayuda a sostener el centro y colabora en la eventual ruptura e4. Esta maniobra muestra la paciencia blanca: cada pieza se coloca en la mejor casilla antes de abrir la posición.",
+"pros": "Mejora la pieza, presiona casillas clave y prepara saltos hacia e5.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Nd7",
+"title": "13... Nd7 — Refuerzo del centro y apoyo al caballo avanzado",
+"explanation": "Las negras desarrollan el caballo de dama y sostienen mejor e5 y c5, además de reforzar el caballo de e4. Es una jugada lógica dentro del esquema Stonewall, donde las piezas deben respaldarse mutuamente. Sin embargo, la acumulación de piezas detrás de la muralla también puede generar cierta falta de espacio.",
+"pros": "Desarrolla una pieza y fortalece la estructura central negra.",
+"cons": "La posición sigue algo rígida y con pocas casillas naturales para el alfil de c8."
+},
+{
+"san": "Nfe5",
+"title": "14. Nfe5 — Ocupación de la gran debilidad negra",
+"explanation": "El caballo blanco llega a e5, una casilla magnífica creada por la propia estructura de peones negra. Desde allí centraliza la presión, mira c6, d7, f7 y g4, y dificulta el plan rival. En estructuras Stonewall, permitir un caballo enemigo en e5 suele ser muy desagradable.",
+"pros": "Instala una pieza en un puesto fuerte y aumenta la presión estratégica.",
+"cons": "El caballo avanzado puede convertirse en blanco de cambios o maniobras tácticas."
+},
+{
+"san": "Kh8",
+"title": "14... Kh8 — Profilaxis antes de complicaciones tácticas",
+"explanation": "El rey se aparta de la diagonal y de posibles jaques tácticos en la columna f o la diagonal b1-h7. Es una jugada útil en muchos ataques, porque deja la dama y las torres más libres para actuar sin temas de jaque molestos. Aun así, no resuelve los problemas estratégicos creados por el caballo blanco en e5.",
+"pros": "Reduce algunos temas tácticos y mejora la seguridad del rey.",
+"cons": "Es una jugada lenta si el blanco ya está listo para abrir el centro."
+},
+{
+"san": "f3",
+"title": "15. f3 — Expulsión del caballo y preparación de ruptura",
+"explanation": "Las blancas atacan al caballo de e4, cuestionando la pieza más avanzada del negro. Además, preparan e4 con mayor solidez, lo que puede abrir el centro en el momento oportuno. Esta jugada también muestra una idea importante: antes de abrir líneas, conviene desalojar las piezas enemigas bien colocadas.",
+"pros": "Expulsa una pieza central activa y apoya la ruptura e4.",
+"cons": "Debilita un poco las casillas oscuras del enroque blanco."
+},
+{
+"san": "Nd6",
+"title": "15... Nd6 — Repliegue necesario del caballo",
+"explanation": "Las negras retiran el caballo a una casilla segura, desde donde sigue ayudando al centro y controlando e4. Aunque no es una mala casilla, la pieza pierde parte de la influencia agresiva que tenía en e4. El negro empieza a ceder terreno en la lucha por las casillas estratégicas.",
+"pros": "Conserva la pieza y mantiene algo de control central.",
+"cons": "Pierde actividad y deja de presionar tan directamente la posición blanca."
+},
+{
+"san": "e4",
+"title": "16. e4 — La ruptura temática que desafía todo el muro",
+"explanation": "Petrosian abre el centro en el momento exacto, cuando sus piezas están mejor colocadas que las del rival. Esta ruptura ataca la base de la estructura negra y aprovecha que el rey negro, aunque enrocado, puede quedar vulnerable si se abren líneas. Es una jugada enérgica y muy bien preparada por las maniobras previas.",
+"pros": "Abre el centro, desafía la estructura negra y activa las piezas blancas.",
+"cons": "Si se calcula mal, puede dejar peones débiles o permitir contrajuego central."
+},
+{
+"san": "Nf7",
+"title": "16... Nf7 — Defensa prudente ante las complicaciones",
+"explanation": "Las negras evitan aceptar el peón de e4, consciente o inconscientemente de los peligros tácticos que ello entraña. El caballo retrocede a una casilla defensiva desde la que protege g5, e5 y h6, además de cubrir al rey. Aun así, este retroceso confirma que la iniciativa ya está pasando a manos blancas.",
+"pros": "Evita líneas tácticamente peligrosas y refuerza la defensa del rey.",
+"cons": "Es pasiva y cede más libertad de maniobra al blanco."
+},
+{
+"san": "cxd5",
+"title": "17. cxd5 — Cambio que abre líneas favorables",
+"explanation": "Las blancas resuelven la tensión en el centro para abrir la posición cuando sus piezas están mejor coordinadas. Al cambiar en d5, aumentan la actividad de sus piezas y obligan a las negras a decidir cómo recapturar. En posiciones cerradas, abrir líneas en el momento exacto suele ser una de las claves del éxito estratégico.",
+"pros": "Abre líneas, activa piezas y pone a prueba la coordinación negra.",
+"cons": "Entrega un peón central propio y simplifica parcialmente la estructura."
+},
+{
+"san": "Ndxe5",
+"title": "17... Ndxe5 — Captura central con idea de simplificación",
+"explanation": "Las negras usan el caballo de d7 para capturar en e5 y eliminar una pieza muy fuerte del blanco. También intentan simplificar el centro y reducir la presión estratégica. Sin embargo, la recaptura blanca mantendrá la iniciativa gracias a la actividad de sus piezas.",
+"pros": "Elimina un caballo muy fuerte y reduce parte de la presión blanca.",
+"cons": "Descentraliza el caballo y abre nuevas líneas favorables al blanco."
+},
+{
+"san": "dxe5",
+"title": "18. dxe5 — El peón recupera y gana espacio",
+"explanation": "Las blancas recapturan manteniendo un peón avanzado en e5, que restringe piezas negras y abre diagonales. Además, conservan la iniciativa y sostienen la idea de seguir presionando el centro. Un peón avanzado puede ser muy fuerte si está respaldado por piezas activas, como ocurre aquí.",
+"pros": "Recupera material, gana espacio y limita la movilidad rival.",
+"cons": "El peón adelantado puede volverse objetivo si no se sostiene bien."
+},
+{
+"san": "cxd5",
+"title": "18... cxd5 — Las negras restauran el equilibrio material",
+"explanation": "El negro recaptura en d5 y busca recomponer el centro, aunque ahora con más líneas abiertas y una estructura menos compacta. La jugada es forzada y lógica, pero la posición resultante favorece al bando con mejor actividad. En este caso, las piezas blancas tienen más libertad y mejores casillas.",
+"pros": "Recupera material y aclara la estructura central.",
+"cons": "Abre líneas que benefician más a las piezas blancas."
+},
+{
+"san": "exd5",
+"title": "19. exd5 — Transformación favorable del centro",
+"explanation": "Las blancas eliminan otro peón central y continúan desmantelando la estructura Stonewall. Además, dejan un peón negro en d5 susceptible de convertirse en debilidad o de obligar a una recaptura que abra aún más líneas. Petrosian conduce la partida hacia una posición de piezas activas y blancos dominantes.",
+"pros": "Debilita la estructura negra y mantiene la iniciativa.",
+"cons": "Simplifica el centro, lo que podría favorecer al negro si lograra completar el desarrollo."
+},
+{
+"san": "exd5",
+"title": "19... exd5 — Recaptura necesaria, pero con concesiones",
+"explanation": "Las negras restauran el material y colocan un peón en d5, pero ahora ese peón queda más expuesto a presión. Además, la apertura del centro hace que el retraso relativo en desarrollo y la falta de armonía de algunas piezas se noten más. La estructura negra sigue siendo firme, pero ya no tan cómoda.",
+"pros": "Mantiene el equilibrio material y conserva presencia central.",
+"cons": "Deja un peón potencialmente vulnerable y una posición más abierta para las piezas blancas."
+},
+{
+"san": "f4",
+"title": "20. f4 — Descubrir y aumentar la presión",
+"explanation": "Con este avance las blancas atacan indirectamente el peón de d5, al despejar líneas y ganar más espacio. También restringen piezas negras y consolidan la idea de controlar e5 y g5. Es una jugada muy activa: el blanco no se contenta con una pequeña ventaja, sino que la amplía.",
+"pros": "Gana espacio, restringe piezas negras y aumenta la presión sobre d5.",
+"cons": "Debilita algunas casillas del rey, aunque aquí el negro no puede explotarlo bien."
+},
+{
+"san": "Rd8",
+"title": "20... Rd8 — Defensa del peón débil",
+"explanation": "La torre se coloca detrás del peón de d5 para sostenerlo, una aplicación del principio clásico de defender peones desde atrás. También ayuda a conectar mejor las piezas negras y preparar el desarrollo restante. Aun así, la defensa es algo pasiva porque responde a una amenaza blanca en lugar de crear contrajuego propio.",
+"pros": "Defiende el peón de d5 y mejora la coordinación de las torres.",
+"cons": "Es una jugada defensiva que no resuelve el problema general de actividad."
+},
+{
+"san": "Qc7",
+"title": "21. Qc7 — Invasión decisiva en la séptima",
+"explanation": "La dama blanca irrumpe en una casilla potentísima, atacando debilidades, interfiriendo la coordinación negra y creando amenazas tácticas de gran calibre. Esta infiltración fue preparada muchos movimientos antes con 11.Qc1, lo que muestra la profundidad del plan de Petrosian. Cuando una dama entra en séptima fila con apoyo, la posición rival suele volverse extremadamente difícil de defender.",
+"pros": "Infiltra la dama, crea amenazas múltiples y explota la mala coordinación negra.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "b6",
+"title": "21... b6 — Intento de ganar tiempo y desarrollar el alfil",
+"explanation": "Las negras buscan expulsar o limitar la dama blanca y, al mismo tiempo, abrir la diagonal del alfil de c8. Es una defensa práctica: si el alfil consigue desarrollarse, las torres podrían coordinarse mejor. Sin embargo, la posición ya está muy delicada y el blanco conserva la iniciativa total.",
+"pros": "Prepara el desarrollo del alfil y trata de dar aire a la posición negra.",
+"cons": "Crea nuevas debilidades en casillas oscuras y no neutraliza las amenazas blancas."
+},
+{
+"san": "fxg5",
+"title": "22. fxg5 — Eliminación de un peón atacante clave",
+"explanation": "Las blancas capturan el peón g5 y desmontan una pieza esencial del ataque negro sobre el rey. Además, abren la columna f y generan nuevas posibilidades tácticas al desproteger ciertas piezas negras. Esta jugada combina defensa y ataque: neutraliza el plan enemigo y aumenta la actividad propia.",
+"pros": "Desarma el ataque negro y abre líneas favorables para las blancas.",
+"cons": "El peón blanco se adelanta y puede convertirse en objetivo, aunque aquí el factor dinámico domina."
+},
+{
+"san": "Ba6",
+"title": "22... Ba6 — Desarrollo tardío con contrajuego limitado",
+"explanation": "Por fin el alfil de c8 entra en juego, atacando una pieza blanca y conectando mejor a las torres. La jugada intenta mostrar que la posición negra todavía tiene recursos tácticos. Sin embargo, las piezas negras dependen demasiado unas de otras, y esa sobrecarga será explotada de inmediato.",
+"pros": "Desarrolla una pieza atrasada y crea una amenaza concreta sobre el caballo.",
+"cons": "Llega tarde y no corrige la fragilidad táctica de la posición negra."
+},
+{
+"san": "Nf4",
+"title": "23. Nf4 — El golpe final de coordinación y táctica",
+"explanation": "Este movimiento remata la partida porque aumenta la presión sobre casillas clave y explota la sobrecarga de las piezas negras. El caballo entra en una casilla activa, ataca y fuerza a la dama negra a abandonar la defensa del caballo y otras piezas. Es el desenlace típico de una partida bien llevada: la táctica aparece cuando la posición del rival ya está estirada al límite.",
+"pros": "Intensifica la presión, explota la sobrecarga rival y fuerza una posición perdida para las negras.",
+"cons": "Ninguna significativa."
+}
+]
+}

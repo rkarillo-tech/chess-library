@@ -152,9 +152,15 @@
     .viewer-title{font-size:1rem}
     .viewer-sub{font-size:.7rem;margin-top:1px}
     
-    .main-layout{flex-wrap:nowrap;gap:10px;align-items:stretch}
+    .main-layout{flex-wrap:nowrap;gap:10px;align-items:flex-start}
     .board-col{flex:0 0 auto}
-    .info-col{flex:1 1 0;min-width:200px;max-width:none;overflow-y:auto;max-height:calc(100vh - 70px)}
+    .info-col{flex:1 1 0;min-width:200px;max-width:none;overflow-y:auto;max-height:calc(100vh - 70px);gap:8px}
+
+    /* Prevent children from shrinking/overlapping */
+    .info-col>.move-strip,
+    .info-col>.ap,
+    .info-col>.mp,
+    .info-col>.ib{flex-shrink:0}
 
     .cell{width:clamp(28px,6vh,42px);height:clamp(28px,6vh,42px);font-size:clamp(18px,4.5vh,30px)}
     .board-label{width:clamp(28px,6vh,42px);font-size:8px}
@@ -168,15 +174,14 @@
 
     .move-strip{padding:5px 8px}
     .mc2{font-size:10px;padding:2px 4px}
-    .info-col{gap:6px}
     .ap{padding:10px;min-height:0}
     .at{font-size:.9rem;margin-bottom:6px}
     .ax{font-size:.82rem;line-height:1.6;margin-bottom:8px}
-    .pc-row{margin-bottom:0}
-    .mp{padding:5px 8px;margin-top:4px}
-    .ib{padding:5px 8px;font-size:10px}
+    .pc-row{padding-top:8px}
     .tg{font-size:9px;padding:1px 5px}
     .tt{font-size:.78rem;line-height:1.4}
+    .mp{padding:5px 8px}
+    .ib{padding:5px 8px;font-size:10px}
   }
 </style>
 </head>

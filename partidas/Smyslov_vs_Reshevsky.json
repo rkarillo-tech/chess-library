@@ -1,0 +1,735 @@
+{
+"info": {
+"title": "Smyslov vs Reshevsky, Moscow 1948 — Presión central, debilidad en columna abierta y técnica de torre magistral",
+"white": "Smyslov Vassily",
+"black": "Reshevsky Samuel Herman",
+"event": "Moscow RUS",
+"date": "1948-04-11",
+"result": "1-0",
+"description": "Esta partida es un modelo de juego técnico: Smyslov obtiene una pequeña ventaja estratégica en la apertura, la transforma en un final favorable mediante presión sobre una debilidad fija y luego ejecuta con enorme precisión un final de torre. Es especialmente instructiva por cómo una ventaja aparentemente modesta termina siendo decisiva gracias a la coordinación superior de rey, torre y peones."
+},
+"pgn": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 d6 5. c3 Nge7 6. d4 Bd7 7. Bb3 h6 8. Nbd2 Ng6 9. Nc4 Be7 10. O-O O-O 11. Ne3 Bf6 12. Nd5 Re8 13. dxe5 Bxe5 14. Nxe5 dxe5 15. Qf3 Be6 16. Rd1 Bxd5 17. Rxd5 Qe7 18. Qf5 Nf8 19. Be3 Ne6 20. Rad1 Red8 21. g3 Rd6 22. Rxd6 cxd6 23. Qg4 Kh8 24. Bb6 Nb8 25. Bxe6 fxe6 26. Qh4 Qd7 27. Qd8+ Qxd8 28. Bxd8 Nd7 29. Bc7 Nc5 30. Rxd6 Rc8 31. Bb6 Na4 32. Rxe6 Nxb2 33. Rxe5 Nc4 34. Re6 Nxb6 35. Rxb6 Rxc3 36. Rxb7 Rc2 37. h4 Rxa2 38. Kg2 a5 39. h5 a4 40. Ra7 Kg8 41. g4 a3 42. Kg3 Re2 43. Kf3 Ra2 44. Ke3 Kf8 45. f3 Ra1 46. Kf4 a2 47. e5 Kg8 48. Kf5 Rf1 49. Rxa2 Rxf3+ 50. Kg6 Kf8 51. Ra8+ Ke7 52. Ra7+",
+"analysis": [
+{
+"san": "e4",
+"title": "1. e4 — Ocupación clásica del centro",
+"explanation": "Las blancas toman espacio en el centro y abren líneas para la dama y el alfil de f1. Es un comienzo muy directo que busca desarrollo rápido e iniciativa. Smyslov elige una apertura de principios, basada en armonía y control central.",
+"pros": "Gana espacio, abre líneas y facilita el desarrollo.",
+"cons": "El centro adelantado puede ser atacado si no se sostiene bien."
+},
+{
+"san": "e5",
+"title": "1... e5 — Respuesta simétrica y activa",
+"explanation": "Las negras contestan ocupando el centro y manteniendo el equilibrio estructural. Con ello abren también líneas para sus piezas y aceptan una lucha abierta y clásica. Reshevsky no busca esquemas pasivos, sino una disputa central inmediata.",
+"pros": "Iguala presencia central y libera piezas.",
+"cons": "Puede permitir a las blancas imponer planes bien conocidos de la Española."
+},
+{
+"san": "Nf3",
+"title": "2. Nf3 — Desarrollo con presión sobre e5",
+"explanation": "El caballo sale a una casilla natural y ataca el peón e5, obligando a las negras a seguir desarrollándose con cuidado. Además, prepara un enroque rápido. Es una jugada de máxima naturalidad.",
+"pros": "Desarrolla, ataca e5 y mejora la coordinación.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Nc6",
+"title": "2... Nc6 — Defensa natural del peón",
+"explanation": "Las negras defienden e5 con pieza y desarrollan a la vez. El caballo en c6 también apoya futuras rupturas centrales y controla casillas importantes como d4 y b4. Es la continuación más clásica.",
+"pros": "Desarrolla, defiende e5 y controla el centro.",
+"cons": "Puede ser molestado por Bb5, entrando en la Española."
+},
+{
+"san": "Bb5",
+"title": "3. Bb5 — La Ruy López",
+"explanation": "El alfil clava indirectamente el caballo de c6 al poner en cuestión el sostén del peón e5. Más que una amenaza táctica inmediata, es una presión estratégica muy profunda. Smyslov entra en una apertura rica en maniobras y sutilezas.",
+"pros": "Presiona el centro y dificulta el desarrollo negro más libre.",
+"cons": "El alfil puede verse obligado a retroceder tras ...a6."
+},
+{
+"san": "a6",
+"title": "3... a6 — Cuestionar al alfil blanco",
+"explanation": "Las negras expulsan al alfil y ganan espacio en el ala de dama. Esta jugada es típica de la Española: define la posición del alfil blanco y prepara eventualmente ...b5. Reshevsky gana un pequeño tiempo territorial.",
+"pros": "Gana espacio y obliga al alfil a decidirse.",
+"cons": "Dedica un tiempo a un peón en lugar de desarrollar."
+},
+{
+"san": "Ba4",
+"title": "4. Ba4 — Mantener la presión a distancia",
+"explanation": "El alfil se retira conservando influencia sobre la diagonal a4-e8 y sobre el caballo de c6. No abandona el plan estratégico de presionar el centro negro. Es la retirada más flexible y habitual.",
+"pros": "Conserva el alfil y mantiene la presión posicional.",
+"cons": "La pieza queda algo alejada temporalmente de la acción central."
+},
+{
+"san": "d6",
+"title": "4... d6 — Estructura sólida tipo Steinitz",
+"explanation": "Las negras refuerzan e5 y preparan un desarrollo compacto. El inconveniente es que la posición puede quedar algo apretada si no se juega con precisión. Reshevsky elige solidez antes que actividad inmediata.",
+"pros": "Refuerza el centro y da solidez a e5.",
+"cons": "Limita el alfil de c8 y concede algo de espacio."
+},
+{
+"san": "c3",
+"title": "5. c3 — Preparar d4 y construir el centro",
+"explanation": "Las blancas preparan el avance d4, base temática de la Española. También controlan b4 y dan una casilla de retirada al alfil si fuera necesario. Smyslov construye su centro con paciencia.",
+"pros": "Prepara d4 y fortalece la estructura central.",
+"cons": "Retrasa ligeramente el desarrollo de una pieza."
+},
+{
+"san": "Nge7",
+"title": "5... Nge7 — Desarrollo poco usual con idea concreta",
+"explanation": "El caballo se desarrolla por e7 con la idea de ir a g6 y presionar e5 o f4. Es un plan históricamente conocido, pero menos directo que ...Nf6. Reshevsky busca una maniobra estratégica en lugar de una salida estándar.",
+"pros": "Mantiene flexibilidad y prepara ...Ng6.",
+"cons": "Puede resultar algo pasivo y menos activo que ...Nf6."
+},
+{
+"san": "d4",
+"title": "6. d4 — Ruptura central temática",
+"explanation": "Las blancas ocupan plenamente el centro y reclaman más espacio. Esta es la idea principal detrás de c3 en la Española. Smyslov pasa del planteo a la acción central en el momento correcto.",
+"pros": "Gana espacio y abre líneas para las piezas.",
+"cons": "El centro adelantado requerirá buen sostén."
+},
+{
+"san": "Bd7",
+"title": "6... Bd7 — Desarrollo sólido del alfil",
+"explanation": "Las negras desarrollan el alfil a una casilla modesta pero útil, conectando el ala de dama y preparando completar el desarrollo. También dejan libre c8 para la torre en algunas líneas. Es una jugada consistente con el esquema sólido elegido.",
+"pros": "Desarrolla y coordina la posición.",
+"cons": "El alfil no ejerce gran presión desde d7."
+},
+{
+"san": "Bb3",
+"title": "7. Bb3 — Reubicar el alfil hacia la diagonal sensible",
+"explanation": "El alfil se retira a b3, desde donde apunta hacia f7 y mantiene presión latente sobre el enroque negro. También evita quedar mal colocado si el centro se abre. Es una retirada activa, no pasiva.",
+"pros": "Conserva actividad y crea ideas sobre f7.",
+"cons": "Puede convertirse en objetivo de avances de peón si el negro gana tiempos."
+},
+{
+"san": "h6",
+"title": "7... h6 — Prophylaxis contra ideas sobre g5",
+"explanation": "Las negras previenen saltos o clavadas incómodas sobre g5 y además restan fuerza a la amenaza temática de Cg5 contra f7. Es una jugada útil, aunque no mejora directamente el desarrollo. Reshevsky muestra atención profiláctica.",
+"pros": "Controla g5 y reduce motivos tácticos sobre f7.",
+"cons": "Es un tiempo de peón adicional en una posición ya algo restringida."
+},
+{
+"san": "Nbd2",
+"title": "8. Nbd2 — Desarrollo flexible con vistas a c4 y d5",
+"explanation": "El caballo se desarrolla sin bloquear el peón c y prepara saltos hacia c4 o e3, con la vista puesta en d5. Esta maniobra es muy típica en la Española estratégica. Smyslov mejora una pieza con un plan claro de casillas fuertes.",
+"pros": "Desarrolla, mantiene flexibilidad y prepara puestos avanzados.",
+"cons": "El caballo no presiona de inmediato el centro enemigo."
+},
+{
+"san": "Ng6",
+"title": "8... Ng6 — Cumplir la idea del desarrollo previo",
+"explanation": "El caballo llega a g6, donde mira e5 y f4 y puede colaborar en un juego de maniobras. La casilla es útil, aunque el caballo queda algo lateral. Reshevsky completa su plan inicial.",
+"pros": "Activa el caballo hacia casillas útiles y refuerza el centro.",
+"cons": "Desde g6 el caballo puede quedar algo alejado de la lucha central principal."
+},
+{
+"san": "Nc4",
+"title": "9. Nc4 — Buena medida del tiempo",
+"explanation": "Las blancas aprovechan que el negro aún no ha tomado la iniciativa para llevar el caballo a una casilla activa. Desde c4, la pieza apunta a e3, d6 y b6, además de apoyar un futuro salto a d5. Smyslov juega con gran precisión de tempos.",
+"pros": "Centraliza la pieza y aumenta la presión sobre casillas clave.",
+"cons": "El caballo puede ser desafiado más adelante con ...b5 o ...Be6 en otras estructuras."
+},
+{
+"san": "Be7",
+"title": "9... Be7 — Desarrollo sobrio antes del enroque",
+"explanation": "Las negras completan el desarrollo del alfil y preparan el enroque corto. Es una jugada normal en una posición que aún requiere coordinación. Reshevsky sigue un plan prudente.",
+"pros": "Desarrolla y facilita el enroque.",
+"cons": "No resuelve la falta de espacio ni desafía el plan blanco de inmediato."
+},
+{
+"san": "O-O",
+"title": "10. O-O — Seguridad del rey y conexión parcial de torres",
+"explanation": "Las blancas enrocan antes de iniciar operaciones más agudas. El rey queda seguro y la torre de f1 entra potencialmente en juego. Es una jugada de principio, muy necesaria.",
+"pros": "Protege al rey y mejora la coordinación.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "O-O",
+"title": "10... O-O — El rey negro también se pone a salvo",
+"explanation": "Las negras enrocan y completan una fase esencial del desarrollo. Ahora la lucha girará más alrededor de maniobras y rupturas centrales que de seguridad del rey. Reshevsky deja lista su posición para el medio juego.",
+"pros": "Asegura al rey y conecta las torres.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Ne3",
+"title": "11. Ne3 — Reagrupar hacia d5",
+"explanation": "El caballo se dirige a una casilla desde la que puede saltar a d5, el puesto avanzado ideal en esta estructura. En la Española, dominar casillas centrales con piezas suele ser más importante que acciones rápidas de peones. Smyslov sigue un plan muy clásico y fuerte.",
+"pros": "Mejora la maniobra hacia d5 y mantiene máxima flexibilidad.",
+"cons": "Es una jugada de maniobra, no de presión inmediata."
+},
+{
+"san": "Bf6",
+"title": "11... Bf6 — Reubicar el alfil hacia diagonales más activas",
+"explanation": "El alfil negro pasa a f6, donde controla mejor el centro y puede coordinarse con el caballo de g6. También sale de la ruta potencial de una torre en e1. Es una jugada útil, aunque algo lenta.",
+"pros": "Mejora la actividad del alfil y refuerza el control central.",
+"cons": "Puede convertirse en objetivo de cambios favorables para el blanco."
+},
+{
+"san": "Nd5",
+"title": "12. Nd5 — Ocupar el puesto avanzado soñado",
+"explanation": "El caballo blanco llega a d5, una casilla fuerte desde donde domina gran parte del tablero. Desde allí presiona e7, c7, f6 y b6, y además molesta la coordinación negra. Smyslov concreta con éxito toda su maniobra previa.",
+"pros": "Instala una pieza muy fuerte en el centro y restringe al rival.",
+"cons": "El caballo puede volverse blanco de cambios, aunque cambiarlo también suele favorecer al blanco."
+},
+{
+"san": "Re8",
+"title": "12... Re8 — Preparar juego en la columna e",
+"explanation": "Las negras colocan la torre frente al peón e y mejoran la coordinación central. También dejan libre f8 para posibles maniobras defensivas. Es una jugada natural, aunque el blanco dispone de un recurso muy fuerte en el centro.",
+"pros": "Activa la torre y refuerza e5.",
+"cons": "No cuestiona de inmediato la fuerte pieza blanca en d5."
+},
+{
+"san": "dxe5",
+"title": "13. dxe5 — Cambio central muy preciso",
+"explanation": "Las blancas aclaran el centro en el mejor momento, aprovechando la superior colocación de sus piezas. Sea cual sea la recaptura negra, quedarán defectos: estructura, actividad o casillas débiles. Smyslov muestra comprensión táctica y estratégica a la vez.",
+"pros": "Obtiene ventaja estructural o dinámica según la recaptura negra.",
+"cons": "Entrega momentáneamente la tensión central, lo que exige cálculo exacto."
+},
+{
+"san": "Bxe5",
+"title": "13... Bxe5 — Recaptura natural pero no ideal",
+"explanation": "Las negras recuperan con alfil para no dañar tanto su estructura. Sin embargo, esa pieza puede quedar expuesta y el caballo blanco sigue siendo muy fuerte. Reshevsky elige la recaptura más activa, aunque no resuelve los problemas de fondo.",
+"pros": "Recupera material sin doblar peones.",
+"cons": "Mantiene la iniciativa blanca y deja al caballo de d5 muy fuerte."
+},
+{
+"san": "Nxe5",
+"title": "14. Nxe5 — Simplificar conservando la ventaja",
+"explanation": "Las blancas cambian otra pieza central y reducen la resistencia negra, pero lo hacen manteniendo actividad superior. El caballo cumple su labor y desaparece en condiciones favorables. Smyslov busca una ventaja técnica clara, no complicaciones innecesarias.",
+"pros": "Simplifica favorablemente y reduce defensores negros.",
+"cons": "Entrega una pieza central muy activa."
+},
+{
+"san": "dxe5",
+"title": "14... dxe5 — Estructura definida y casillas sensibles",
+"explanation": "Las negras recapturan con peón y abren la columna d y parcialmente la e. A primera vista parece una estructura sana, pero las piezas blancas quedarán mejor colocadas para usar esas columnas y diagonales. El peón e5 también puede convertirse en objetivo.",
+"pros": "Recupera material y mantiene igualdad material inmediata.",
+"cons": "Deja debilidades dinámicas y líneas abiertas favorables al blanco."
+},
+{
+"san": "Qf3",
+"title": "15. Qf3 — La dama entra con gran efecto",
+"explanation": "La dama se activa apuntando a f7, b7 y e5, y además despeja d1 para una torre. Es una jugada de coordinación fina: mejora la pieza mayor y prepara presión por la columna d. Smyslov incrementa la actividad de todo su ejército.",
+"pros": "Activa la dama, presiona e5 y libera d1 para la torre.",
+"cons": "La dama puede convertirse en objetivo si el negro gana tiempos, aunque aquí no es fácil."
+},
+{
+"san": "Be6",
+"title": "15... Be6 — Desarrollo del alfil con idea de cambio",
+"explanation": "Las negras buscan completar el desarrollo y, de paso, disputar diagonales al alfil blanco. También intentan reducir la presión central. Reshevsky trata de cambiar piezas activas del rival para aliviar su posición.",
+"pros": "Desarrolla el alfil y mejora la coordinación defensiva.",
+"cons": "No elimina la presión blanca sobre la columna d."
+},
+{
+"san": "Rd1",
+"title": "16. Rd1 — La torre ocupa la columna abierta",
+"explanation": "Las blancas sitúan la torre en la columna d, donde ejercerá una presión duradera. Este es un principio clásico: cuando hay una columna abierta o semiabierta importante, la torre debe ocuparla. Smyslov traduce su ventaja dinámica en control de líneas.",
+"pros": "Domina la columna d y aumenta la presión sobre la posición negra.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Bxd5",
+"title": "16... Bxd5 — Eliminar la pieza más molesta",
+"explanation": "Las negras cambian el caballo de d5 porque su influencia era muy incómoda. Es una reacción comprensible, aunque el costo es dar mayor vida a los alfiles blancos y a la torre de d1. Reshevsky resuelve un problema local creando otros globales.",
+"pros": "Elimina una pieza muy fuerte del blanco.",
+"cons": "Fortalece la actividad blanca en la columna d y en las diagonales."
+},
+{
+"san": "Rxd5",
+"title": "17. Rxd5 — Recaptura ideal con torre activa",
+"explanation": "La torre blanca recaptura y se coloca en una casilla excelente, desde donde presiona séptima, quinta y la propia columna d. Es una recaptura superior a la de peón porque mantiene la máxima actividad. Smyslov entiende perfectamente la prioridad de las piezas en el medio juego.",
+"pros": "Torre activa, presión central y gran coordinación.",
+"cons": "La torre avanzada puede ser objeto de ataques, aunque está muy bien situada."
+},
+{
+"san": "Qe7",
+"title": "17... Qe7 — Contener la actividad blanca",
+"explanation": "La dama negra se centraliza para defender casillas sensibles y apoyar las torres. También controla la penetración blanca en d7 en algunas líneas. Es una jugada defensiva necesaria.",
+"pros": "Mejora la defensa y coordina la dama con las piezas mayores.",
+"cons": "Sigue reaccionando a las amenazas blancas."
+},
+{
+"san": "Qf5",
+"title": "18. Qf5 — Dama activa y amenazas concretas",
+"explanation": "La dama se coloca en una casilla muy fuerte, desde donde mira d7, f7, h7 y el peón e5. Además, coordina con la torre de d5 para generar dobles ataques. Smyslov aumenta la presión sin permitir simplificaciones cómodas.",
+"pros": "Crea amenazas tácticas y presiona varios puntos débiles a la vez.",
+"cons": "La dama queda expuesta si el negro lograra coordinación activa, algo difícil aquí."
+},
+{
+"san": "Nf8",
+"title": "18... Nf8 — Defensa precisa para cerrar la entrada",
+"explanation": "El caballo vuelve a f8 para impedir que la torre blanca penetre por d7 con efectos decisivos. Es una defensa fea pero necesaria, propia de una posición bajo presión. Reshevsky se ve obligado a la pasividad para no perder de inmediato.",
+"pros": "Evita una penetración táctica muy peligrosa.",
+"cons": "El caballo queda extremadamente pasivo."
+},
+{
+"san": "Be3",
+"title": "19. Be3 — Desarrollo con idea de invasión",
+"explanation": "El alfil blanco se centraliza y toma control de diagonales importantes, especialmente c5 y h6. Con ello refuerza la presión táctica y restringe aún más a las negras. Smyslov sigue mejorando piezas en lugar de forzar acciones prematuras.",
+"pros": "Desarrolla, mejora la coordinación y multiplica amenazas.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Ne6",
+"title": "19... Ne6 — Bloquear casillas de entrada",
+"explanation": "El caballo negro mejora algo su posición y evita en parte que el alfil blanco entre por c5. Es un intento sensato de reorganización defensiva. Aun así, la superioridad blanca en actividad sigue intacta.",
+"pros": "Mejora el caballo y controla casillas clave.",
+"cons": "No resuelve la presión por la columna d ni la pasividad general negra."
+},
+{
+"san": "Rad1",
+"title": "20. Rad1 — Duplicar torres en la columna decisiva",
+"explanation": "Las blancas doblan torres en la columna d, aumentando la presión sobre el punto más sensible de la posición negra. Esta es la forma más natural de explotar una ventaja de actividad. Smyslov convierte una superioridad posicional en una amenaza casi mecánica.",
+"pros": "Dobla torres, domina la columna d y limita al rival.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Red8",
+"title": "20... Red8 — Oponer resistencia en la misma columna",
+"explanation": "Las negras doblan también sus torres para no ceder la columna sin lucha. Es una defensa correcta y prácticamente obligada. Reshevsky intenta resistir con el principio adecuado: oponerse en la línea crítica.",
+"pros": "Refuerza la defensa de la columna d.",
+"cons": "Las torres negras están más pasivas que las blancas."
+},
+{
+"san": "g3",
+"title": "21. g3 — Una jugada tranquila de enorme valor",
+"explanation": "Las blancas dan aire al rey, controlan f4 y, de forma muy sutil, también aseguran h4 para futuras maniobras. Este tipo de jugada profiláctica suele separar la buena técnica de la precipitación. Smyslov mejora la seguridad antes de apretar más.",
+"pros": "Da una casilla de escape al rey, controla f4 y mejora futuras maniobras.",
+"cons": "No crea una amenaza inmediata visible."
+},
+{
+"san": "Rd6",
+"title": "21... Rd6 — Intento de aliviar la presión",
+"explanation": "Las negras buscan reforzar la sexta fila y quizás cambiar alguna torre en condiciones menos malas. Sin embargo, la maniobra es algo desesperada: las blancas no tienen por qué permitir que la defensa se consolide. Reshevsky intenta reorganizarse bajo gran presión.",
+"pros": "Busca coordinación defensiva y sostén adicional.",
+"cons": "No cambia el carácter pasivo de la posición."
+},
+{
+"san": "Rxd6",
+"title": "22. Rxd6 — Cambiar antes de que el rival se estabilice",
+"explanation": "Las blancas eliminan la torre que intentaba reorganizar la defensa. Al simplificar en el momento oportuno, mantienen la iniciativa y dejan a las negras con una debilidad estructural clara. Smyslov no da tiempo al rival a completar su plan.",
+"pros": "Simplifica favorablemente y evita la consolidación negra.",
+"cons": "Entrega una torre muy activa, aunque el resultado estructural compensa."
+},
+{
+"san": "cxd6",
+"title": "22... cxd6 — Debilidad orgánica en columna abierta",
+"explanation": "Las negras recapturan con peón y quedan con un peón retrasado en d6 sobre una columna abierta. Esa será la debilidad central de toda la fase siguiente. Es una recaptura forzada, pero estratégicamente dolorosa.",
+"pros": "Recupera material y mantiene piezas mayores en juego.",
+"cons": "Deja un peón atrasado muy vulnerable en columna abierta."
+},
+{
+"san": "Qg4",
+"title": "23. Qg4 — Sutileza y presión múltiple",
+"explanation": "La dama se activa contra h6 y g7, pero también prepara doblar piezas sobre d6. Es una jugada muy fina porque combina amenaza directa e indirecta. Smyslov no solo ataca el peón débil: limita también el contrajuego rival.",
+"pros": "Amenaza ganar un peón y refuerza el plan sobre d6.",
+"cons": "La dama queda algo expuesta si el negro obtuviera actividad, cosa poco probable."
+},
+{
+"san": "Kh8",
+"title": "23... Kh8 — Apartar al rey de motivos tácticos",
+"explanation": "Las negras retiran el rey a una casilla más segura frente a posibles jaques o sacrificios sobre h6. Es una defensa prudente, aunque pasiva. Reshevsky reduce riesgos inmediatos, pero no resuelve su debilidad principal.",
+"pros": "Mejora la seguridad del rey y evita temas tácticos.",
+"cons": "Pierde un tiempo sin atender el problema de d6."
+},
+{
+"san": "Bb6",
+"title": "24. Bb6 — Jugada muy fuerte de restricción",
+"explanation": "El alfil se coloca en una casilla ideal: impide ...Td8, corta maniobras defensivas y además restringe saltos de caballo como ...Na5. Esta es una jugada de gran clase porque limita el contrajuego antes de atacar el peón débil. Smyslov domina la posición por completo.",
+"pros": "Restringe la defensa negra y prepara ganar el peón d6.",
+"cons": "El alfil puede quedar algo adelantado, aunque está muy bien apoyado."
+},
+{
+"san": "Nb8",
+"title": "24... Nb8 — Maniobra embarazosa pero necesaria",
+"explanation": "El caballo retrocede buscando una ruta hacia d7 para desafiar al alfil blanco. Es una jugada muy poco natural, señal de que la posición negra está seriamente restringida. Reshevsky defiende como puede, pero a costa de gran pasividad.",
+"pros": "Intenta reorganizar la defensa mediante ...Nd7.",
+"cons": "Retrocede mucho y deja a las piezas negras muy pasivas."
+},
+{
+"san": "Bxe6",
+"title": "25. Bxe6 — Eliminar una pieza útil en la defensa",
+"explanation": "Las blancas cambian el alfil negro de e6, que ayudaba a sostener d5 y d6 y a coordinar la defensa. El cambio debilita aún más el control negro de las casillas centrales. Smyslov sigue simplificando en la dirección correcta.",
+"pros": "Reduce defensores y aumenta la debilidad de d6.",
+"cons": "Entrega un alfil activo."
+},
+{
+"san": "fxe6",
+"title": "25... fxe6 — Recaptura que empeora la estructura",
+"explanation": "Las negras recuperan el material, pero a cambio quedan con peones más frágiles y una columna f alterada. Además, la dama negra se mantiene como casi única defensora seria del peón d6. La posición se vuelve más rígida y vulnerable.",
+"pros": "Recupera material y mantiene equilibrio material momentáneo.",
+"cons": "Debilita la estructura y facilita la presión blanca."
+},
+{
+"san": "Qh4",
+"title": "26. Qh4 — Juego astuto para forzar un cambio clave",
+"explanation": "La dama blanca se recoloca con la idea de provocar el cambio de damas o dejar a la dama negra sin buenas casillas. El objetivo estratégico es claro: quitar del tablero a la principal defensora del peón d6. Smyslov combina táctica y finalismo con enorme precisión.",
+"pros": "Presiona para cambiar damas y debilita aún más la defensa de d6.",
+"cons": "No gana material de inmediato."
+},
+{
+"san": "Qd7",
+"title": "26... Qd7 — Única forma razonable de sostener la posición",
+"explanation": "La dama negra busca mantenerse activa y defender puntos sensibles a la vez. Sin embargo, esa casilla permite una secuencia táctica muy fuerte del blanco. Reshevsky resiste, pero la coordinación blanca ya supera a la defensa negra.",
+"pros": "Sostiene la defensa inmediata.",
+"cons": "Permite un cambio de damas muy favorable al blanco."
+},
+{
+"san": "Qd8+",
+"title": "27. Qd8+ — Forzar el cambio sin contemplaciones",
+"explanation": "Las blancas obligan al cambio de damas, cumpliendo exactamente el plan iniciado con Qh4. Una vez desaparece la dama negra, el peón d6 queda mucho más indefenso. Es una jugada enérgica y muy concreta.",
+"pros": "Fuerza el cambio de damas y deja aislada la debilidad de d6.",
+"cons": "Entrega la dama blanca, aunque en condiciones totalmente favorables."
+},
+{
+"san": "Qxd8",
+"title": "27... Qxd8 — Cambio forzado",
+"explanation": "Las negras deben aceptar el cambio, porque evitarlo sería aún peor. Con ello entran en un final donde la debilidad estructural y la mejor actividad blanca pesan mucho. La posición negra pierde su principal recurso dinámico.",
+"pros": "Evita males tácticos inmediatos.",
+"cons": "Entra en un final inferior donde d6 es muy difícil de sostener."
+},
+{
+"san": "Bxd8",
+"title": "28. Bxd8 — Recaptura ideal en el final",
+"explanation": "El alfil blanco recaptura y queda en una gran diagonal, preparado para apoyar la presión sobre d6 y controlar casillas importantes. Las piezas blancas se coordinan de maravilla. Smyslov entra en el final con ventaja técnica muy clara.",
+"pros": "Mejora el alfil y conserva gran actividad en el final.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Nd7",
+"title": "28... Nd7 — Reagrupar para molestar al alfil",
+"explanation": "Las negras intentan por fin usar el caballo para expulsar al alfil molesto y reorganizar la defensa del peón d6. Es un recurso lógico, pero el blanco ya puede recoger frutos concretos. Reshevsky lucha con la mejor idea disponible.",
+"pros": "Mejora el caballo y busca actividad defensiva.",
+"cons": "Llega tarde para salvar la debilidad principal."
+},
+{
+"san": "Bc7",
+"title": "29. Bc7 — Mantener la pieza idealmente colocada",
+"explanation": "El alfil se reubica sin perder actividad y sigue observando el peón d6 y casillas de entrada. Además evita quedar atacado con ganancia de tiempo. Smyslov conserva la presión con elegancia.",
+"pros": "Mantiene la presión y mejora la seguridad del alfil.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Nc5",
+"title": "29... Nc5 — Actividad tardía del caballo",
+"explanation": "El caballo negro por fin encuentra una casilla activa, desde donde mira e4, b3 y d7. Sin embargo, el peón d6 sigue siendo muy vulnerable y la actividad llega con retraso. Reshevsky intenta complicar antes de perder material.",
+"pros": "Activa el caballo y crea algunas amenazas de maniobra.",
+"cons": "No protege suficientemente la debilidad estructural clave."
+},
+{
+"san": "Rxd6",
+"title": "30. Rxd6 — Cobrar la ventaja estratégica",
+"explanation": "Las blancas capturan finalmente el peón retrasado de d6, obteniendo ventaja material directa. Este peón había sido el objetivo de toda la fase previa. Smyslov demuestra una conversión modélica: primero restringe, luego cambia, finalmente gana.",
+"pros": "Gana un peón y confirma la superioridad blanca.",
+"cons": "La torre puede quedar algo expuesta si el negro consigue actividad inmediata."
+},
+{
+"san": "Rc8",
+"title": "30... Rc8 — Activar la torre contra el alfil",
+"explanation": "Las negras colocan la torre en una columna activa para atacar el alfil y buscar contrajuego. En finales con peón de menos, la actividad de torre es el recurso más importante. Reshevsky juega según el principio correcto.",
+"pros": "Activa la torre y crea contrachances prácticas.",
+"cons": "No recupera el peón ni iguala la actividad blanca."
+},
+{
+"san": "Bb6",
+"title": "31. Bb6 — El alfil conserva su papel activo",
+"explanation": "El alfil se retira a una casilla segura desde la que sigue controlando diagonales y apoyando a la torre. Además, mantiene presión sobre puntos del ala de dama. Smyslov reubica sin perder el hilo técnico.",
+"pros": "Conserva actividad y evita tempos de la torre negra.",
+"cons": "No crea una amenaza material inmediata."
+},
+{
+"san": "Na4",
+"title": "31... Na4 — El caballo busca objetivos",
+"explanation": "Las negras trasladan el caballo hacia b2 o c3 para molestar torre y peones blancos. Es una maniobra práctica para compensar el peón de menos con actividad. Reshevsky intenta generar amenazas concretas.",
+"pros": "Crea presión sobre el ala de dama blanca.",
+"cons": "El caballo se aleja del centro y no ayuda al rey."
+},
+{
+"san": "Rxe6",
+"title": "32. Rxe6 — La torre blanca sigue cosechando",
+"explanation": "Las blancas capturan otro peón, aumentando la ventaja material y manteniendo a la torre en una casilla muy activa. Smyslov entiende que, mientras el contrajuego rival esté controlado, puede ampliar la ventaja. La torre blanca domina el tablero.",
+"pros": "Gana otro peón y mantiene enorme actividad.",
+"cons": "La torre avanza mucho, lo que exige precisión frente al contrajuego rival."
+},
+{
+"san": "Nxb2",
+"title": "32... Nxb2 — Contrajuego sobre el ala de dama",
+"explanation": "Las negras capturan un peón blanco y buscan equilibrar parcialmente la cuenta material mediante actividad de caballo. Es una reacción lógica: en posiciones inferiores hay que capturar peones si se puede. Reshevsky sigue luchando con recursos concretos.",
+"pros": "Recupera material y crea actividad al caballo.",
+"cons": "El caballo puede quedar algo alejado de la defensa del rey."
+},
+{
+"san": "Rxe5",
+"title": "33. Rxe5 — Mantener la torre activa y seguir ganando peones",
+"explanation": "La torre blanca captura otro peón y refuerza la ventaja material. Además se mantiene centralizada, lista para cambiar de frente si es necesario. Smyslov prioriza actividad constante sobre acumulación lenta.",
+"pros": "Aumenta la ventaja material y conserva la iniciativa.",
+"cons": "La torre sigue muy adelantada."
+},
+{
+"san": "Nc4",
+"title": "33... Nc4 — El caballo encuentra una casilla activa",
+"explanation": "Desde c4, el caballo negro ataca varios puntos y molesta la coordinación blanca. Es probablemente la mejor forma de mantener contrajuego práctico. Reshevsky demuestra buena técnica defensiva pese a la inferioridad.",
+"pros": "Centraliza el caballo y crea amenazas tácticas.",
+"cons": "No reduce la fuerza de la torre blanca ni la ventaja material."
+},
+{
+"san": "Re6",
+"title": "34. Re6 — Replegar sin perder actividad",
+"explanation": "La torre blanca se recoloca a una casilla segura desde donde sigue dominando filas y columnas. Esta retirada es técnica: evita sobreextensión y mantiene presión sobre peones y piezas. Smyslov nunca sacrifica la actividad por la codicia.",
+"pros": "Mantiene actividad y seguridad de la torre.",
+"cons": "No gana material inmediato en este turno."
+},
+{
+"san": "Nxb6",
+"title": "34... Nxb6 — El caballo elimina al alfil activo",
+"explanation": "Las negras capturan el alfil de b6, reduciendo una pieza muy importante del blanco. Es un alivio defensivo, aunque el blanco sigue con torre muy activa y mayoría favorable. Reshevsky aprovecha su mejor recurso disponible.",
+"pros": "Elimina una pieza activa del blanco y reduce la presión.",
+"cons": "El caballo sigue algo alejado y la ventaja material blanca persiste."
+},
+{
+"san": "Rxb6",
+"title": "35. Rxb6 — Recaptura sencilla y ventaja mantenida",
+"explanation": "Las blancas recuperan el caballo y simplifican a un final de torres con peones donde su mayoría en el ala de rey promete mucho. La torre blanca sigue activa y el rey podrá incorporarse después. Smyslov entra en un final técnicamente muy favorable.",
+"pros": "Mantiene ventaja material y deja una torre muy activa.",
+"cons": "El final de torres siempre requiere precisión, incluso con ventaja."
+},
+{
+"san": "Rxc3",
+"title": "35... Rxc3 — Contrajuego activo de torre",
+"explanation": "Las negras capturan un peón y activan su torre, que es su principal esperanza defensiva. En finales de torre, la actividad puede compensar bastante material. Reshevsky elige el método correcto: torre activa y peones pasados lejanos.",
+"pros": "Recupera peón y activa mucho la torre.",
+"cons": "No evita que la torre blanca siga siendo muy poderosa."
+},
+{
+"san": "Rxb7",
+"title": "36. Rxb7 — La torre blanca se vuelve dominante",
+"explanation": "Las blancas capturan en b7 y colocan la torre en séptima, una posición ideal en finales. Desde allí ataca peones, restringe al rey enemigo y vigila el ala de dama. Smyslov mejora la calidad de su ventaja.",
+"pros": "Gana peón y ocupa la séptima fila.",
+"cons": "La torre queda lejos del ala de rey propia, aunque podrá volver a tiempo."
+},
+{
+"san": "Rc2",
+"title": "36... Rc2 — Actividad máxima de la torre negra",
+"explanation": "La torre negra entra en segunda fila, desde donde puede atacar peones del ala de rey y mantener viva la partida. Es una defensa muy activa y acorde con los principios del final de torres. Reshevsky sigue creando problemas prácticos.",
+"pros": "Invasión activa y presión sobre peones blancos.",
+"cons": "No ataca al rey blanco de forma inmediata."
+},
+{
+"san": "h4",
+"title": "37. h4 — Preparar el plan ganador del ala de rey",
+"explanation": "Las blancas avanzan el peón h para ganar espacio y preparar un refugio para el rey, además de facilitar la futura mayoría móvil del ala de rey. Es una jugada profundamente estratégica. Smyslov ya está pensando en la fase final del plan ganador.",
+"pros": "Gana espacio, apoya el avance del rey y prepara la mayoría del ala de rey.",
+"cons": "Permite que el ala de dama negra avance con su peón a, aunque eso ya era difícil de evitar."
+},
+{
+"san": "Rxa2",
+"title": "37... Rxa2 — El peón pasado negro nace",
+"explanation": "Las negras capturan el peón a2 y crean un peón pasado lejano en el ala de dama. Este será su principal recurso de contrajuego. Reshevsky comprende muy bien que en finales de torre un peón pasado alejado puede generar enormes problemas.",
+"pros": "Gana peón y crea un peón pasado peligroso.",
+"cons": "La torre negra queda atada a sostener ese peón en muchas líneas."
+},
+{
+"san": "Kg2",
+"title": "38. Kg2 — El rey inicia su marcha",
+"explanation": "El rey blanco se acerca al centro y al ala de rey, preparándose para apoyar la mayoría propia y esquivar jaques. En el final de torres, la actividad del rey es decisiva. Smyslov comienza la fase más técnica de la conversión.",
+"pros": "Activa el rey y mejora la coordinación con la torre y los peones.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "a5",
+"title": "38... a5 — Empujar el peón pasado lejano",
+"explanation": "Las negras avanzan su peón pasado para obligar a la torre blanca a vigilarlo constantemente. Es exactamente el tipo de contrajuego que un bando inferior desea tener. Reshevsky acelera su recurso más peligroso.",
+"pros": "Acerca el peón a la coronación y crea una amenaza a largo plazo.",
+"cons": "El peón puede quedar más vulnerable a ataques laterales de la torre blanca."
+},
+{
+"san": "h5",
+"title": "39. h5 — Fijar peones y preparar la penetración del rey",
+"explanation": "Las blancas siguen avanzando su mayoría del ala de rey y fijan la estructura rival. Este peón también servirá de escudo al rey blanco en su futura marcha. Smyslov juega con visión de conjunto, no solo con cálculo local.",
+"pros": "Gana espacio, fija peones negros y prepara un refugio para el rey.",
+"cons": "El peón puede volverse objetivo si la torre negra lograra gran actividad."
+},
+{
+"san": "a4",
+"title": "39... a4 — El peón negro sigue corriendo",
+"explanation": "Las negras continúan con su plan principal: avanzar el peón pasado lo más lejos posible. Así obligan a la torre blanca a elegir casillas muy precisas. Reshevsky maximiza la presión práctica.",
+"pros": "Acerca mucho el peón a la coronación.",
+"cons": "Reduce la flexibilidad del peón y lo fija en una columna clara."
+},
+{
+"san": "Ra7",
+"title": "40. Ra7 — La torre encuentra la casilla ideal",
+"explanation": "La torre blanca se coloca detrás o al costado del peón pasado negro y además domina la séptima fila. Desde allí controla el avance del peón a y mantiene actividad máxima. Es una jugada de libro en finales de torre.",
+"pros": "Vigila el peón pasado y mantiene enorme actividad.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Kg8",
+"title": "40... Kg8 — Esperar y coordinar",
+"explanation": "Las negras mejoran un poco la seguridad del rey y esperan el plan blanco. En finales de torre, el rey también debe intentar acercarse a los peones del ala de rey, aunque aquí la torre blanca restringe mucho. Reshevsky adopta una actitud paciente.",
+"pros": "Mejora la seguridad y prepara posible actividad del rey.",
+"cons": "No crea amenaza inmediata."
+},
+{
+"san": "g4",
+"title": "41. g4 — La mayoría blanca entra en marcha",
+"explanation": "Las blancas avanzan otro peón del ala de rey para crear un frente móvil y construir casillas de refugio para el rey. El objetivo es combinar actividad del rey y amenazas de peones sin permitir jaques molestos. Smyslov ejecuta el plan ganador clásico.",
+"pros": "Gana espacio y prepara la penetración del rey.",
+"cons": "Puede dejar huecos, aunque el blanco controla el ritmo."
+},
+{
+"san": "a3",
+"title": "41... a3 — Máxima presión del peón pasado",
+"explanation": "Las negras llevan el peón a una casilla muy avanzada, obligando a la torre blanca a mantener vigilancia total. El peón pasado lejano sigue siendo la base del contrajuego negro. Reshevsky fuerza al blanco a mostrar precisión técnica.",
+"pros": "Crea una amenaza seria de promoción futura.",
+"cons": "El peón queda completamente fijado como objetivo de la torre blanca."
+},
+{
+"san": "Kg3",
+"title": "42. Kg3 — El rey sigue avanzando con cobertura",
+"explanation": "El rey blanco continúa su marcha hacia el ala de rey, aprovechando la cobertura de sus propios peones. Smyslov sabe que sin rey activo la ventaja podría diluirse. El monarca blanco se convierte en pieza atacante.",
+"pros": "Activa el rey y se acerca al sector decisivo.",
+"cons": "Debe calcularse bien para no permitir jaques molestos."
+},
+{
+"san": "Re2",
+"title": "42... Re2 — La torre busca jaques laterales y presión",
+"explanation": "La torre negra se activa en la segunda fila, desde donde puede dar jaques y atacar peones blancos. Es el contrajuego correcto en este tipo de final. Reshevsky mantiene la partida viva mediante actividad constante.",
+"pros": "Activa la torre y genera amenazas prácticas.",
+"cons": "No libera a la torre de su deber de vigilar indirectamente al peón a."
+},
+{
+"san": "Kf3",
+"title": "43. Kf3 — El rey blanco entra en terreno central",
+"explanation": "Las blancas siguen acercando el rey a los peones negros del ala de rey. El rey blanco ya no se limita a defender: va camino de convertirse en fuerza de ataque decisiva. Smyslov mantiene la sangre fría y el rumbo correcto.",
+"pros": "Centraliza el rey y fortalece el plan ganador.",
+"cons": "Debe cuidarse de jaques laterales."
+},
+{
+"san": "Ra2",
+"title": "43... Ra2 — Volver a la defensa del peón pasado",
+"explanation": "La torre negra regresa a sostener de forma más directa el peón a3. Esto muestra la tensión propia de estos finales: la torre quiere actividad, pero no puede abandonar su peón pasado. Reshevsky debe equilibrar ambas funciones.",
+"pros": "Refuerza la defensa del peón a3.",
+"cons": "Pierde algo de actividad lateral."
+},
+{
+"san": "Ke3",
+"title": "44. Ke3 — Paso a paso hacia la posición ideal",
+"explanation": "El rey blanco sigue el camino planeado, avanzando con cobertura y manteniendo control sobre casillas de jaque. Smyslov actúa con gran paciencia: no se apresura a capturar, sino que mejora su rey primero. Eso es esencial en finales técnicos.",
+"pros": "Activa el rey y mejora la coordinación global.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Kf8",
+"title": "44... Kf8 — El rey negro intenta aproximarse",
+"explanation": "Las negras llevan el rey hacia el centro y el ala de rey, donde pronto se decidirá la lucha. Es un intento lógico de mejorar la defensa. Reshevsky busca que su rey participe más activamente.",
+"pros": "Centraliza el rey y mejora las opciones defensivas.",
+"cons": "Sigue algo alejado del peón pasado y de la torre."
+},
+{
+"san": "f3",
+"title": "45. f3 — Construir refugio y sostener el avance",
+"explanation": "Las blancas refuerzan su estructura y preparan nuevas maniobras de torre y rey sin sufrir jaques incómodos. El peón f servirá como parte del escudo para el monarca. Es una jugada técnica, muy importante aunque poco vistosa.",
+"pros": "Fortalece la estructura y ayuda a crear un refugio contra jaques.",
+"cons": "Reduce algo la movilidad del rey por e3-f3 si se calcula mal, aunque aquí está bien justificada."
+},
+{
+"san": "Ra1",
+"title": "45... Ra1 — La torre negra busca máxima actividad detrás",
+"explanation": "La torre se coloca detrás del peón pasado y también queda lista para jaques laterales. Es una casilla natural para sostener la promoción futura. Reshevsky defiende según los mejores principios del final de torres.",
+"pros": "Sostiene el peón pasado y mantiene actividad potencial.",
+"cons": "La torre queda bastante atada al peón a."
+},
+{
+"san": "Kf4",
+"title": "46. Kf4 — El rey blanco toma la delantera",
+"explanation": "Las blancas avanzan el rey aún más, acercándolo al ala de rey negra y preparando maniobras como Rf5. Smyslov sabe que el rey debe liderar la conquista de los peones rivales. El momento es preciso, porque la torre blanca controla bien el peón pasado.",
+"pros": "Incrementa la actividad del rey y acerca el plan ganador.",
+"cons": "Debe calcularse contra posibles jaques de torre."
+},
+{
+"san": "a2",
+"title": "46... a2 — El peón negro toca la séptima",
+"explanation": "Las negras empujan el peón hasta a2, poniéndolo a un paso de coronar. Esto hace el final muy tenso, porque la torre blanca no puede descuidarse ni un solo tiempo. Reshevsky exprime al máximo su contrajuego.",
+"pros": "Amenaza promoción y aumenta la presión práctica.",
+"cons": "El peón queda totalmente dependiente de la torre negra."
+},
+{
+"san": "e5",
+"title": "47. e5 — Precisión antes que precipitación",
+"explanation": "Las blancas avanzan el peón e para ganar espacio, controlar casillas y preparar mejor la penetración del rey. También evita algunas líneas tácticas desfavorables que surgirían con otras jugadas más rápidas. Smyslov demuestra dominio técnico total.",
+"pros": "Gana espacio, limita al rival y mejora la coordinación del plan.",
+"cons": "Puede dejar casillas detrás del peón más débiles, aunque aquí no importa."
+},
+{
+"san": "Kg8",
+"title": "47... Kg8 — Espera activa del rey negro",
+"explanation": "Las negras mantienen al rey en una zona desde la que puede ayudar con jaques o apoyar a la torre. Es una jugada prudente, aunque pasiva en esencia. Reshevsky espera un error que no llegará.",
+"pros": "Mantiene flexibilidad defensiva.",
+"cons": "No mejora realmente la posición negra."
+},
+{
+"san": "Kf5",
+"title": "48. Kf5 — El rey blanco irrumpe",
+"explanation": "El monarca blanco entra por fin en el territorio decisivo, amenazando apoyar capturas de peones del ala de rey. La coordinación con la torre y los peones propios es excelente. Smyslov pone en marcha la fase final del plan.",
+"pros": "Rey muy activo y amenazas concretas sobre los peones negros.",
+"cons": "Debe medirse con precisión frente a jaques laterales."
+},
+{
+"san": "Rf1",
+"title": "48... Rf1 — Contrajuego mediante jaque y sostén lateral",
+"explanation": "La torre negra busca jaques y además mantiene cierta conexión con la defensa del peón pasado. Es un recurso activo típico en finales de torre. Reshevsky todavía plantea problemas técnicos al blanco.",
+"pros": "Activa la torre y crea jaques potenciales.",
+"cons": "No logra expulsar al rey blanco de la zona crítica."
+},
+{
+"san": "Rxa2",
+"title": "49. Rxa2 — Capturar el peón pasado en el momento justo",
+"explanation": "Las blancas eliminan por fin el peón pasado negro, habiendo preparado antes un rey muy activo y una estructura segura. Con ello desaparece la principal fuente de contrajuego de las negras. Smyslov ha coordinado perfectamente los tiempos del final.",
+"pros": "Elimina la amenaza principal negra y simplifica a un final ganador.",
+"cons": "La torre blanca deja de controlar otras casillas por un instante, lo que exige cálculo."
+},
+{
+"san": "Rxf3+",
+"title": "49... Rxf3+ — Último recurso activo",
+"explanation": "Las negras capturan un peón con jaque para mantener posibilidades prácticas y no resignarse a una defensa pasiva sin peón pasado. Es la reacción correcta: cuanto más activa sea la torre, mayores las esperanzas de tablas. Reshevsky lucha hasta el final.",
+"pros": "Gana un peón con jaque y mantiene algo de actividad.",
+"cons": "No compensa la pérdida del peón pasado ni la actividad superior del rey blanco."
+},
+{
+"san": "Kg6",
+"title": "50. Kg6 — El rey entra definitivamente en ataque",
+"explanation": "El rey blanco se acerca a los peones g y h negros y amenaza apoyar a la torre en la captura de toda la estructura rival del ala de rey. Esta penetración decide prácticamente el final. Smyslov convierte actividad en amenazas concretas de mate y de ganancia de peones.",
+"pros": "Amenaza los peones negros y coordina ataque decisivo.",
+"cons": "Debe evitar algún detalle táctico con jaques, aunque la posición está bajo control."
+},
+{
+"san": "Kf8",
+"title": "50... Kf8 — El rey negro corre a la defensa",
+"explanation": "Las negras intentan acercar el rey al ala de rey para sostener los peones y evitar motivos tácticos de mate. Es una defensa lógica, pero llega tarde porque la torre y el rey blancos ya están demasiado activos. Reshevsky resiste con lo único que queda.",
+"pros": "Mejora la posición del rey y trata de apoyar la defensa final.",
+"cons": "No impide la entrada decisiva de la torre blanca."
+},
+{
+"san": "Ra8+",
+"title": "51. Ra8+ — Jaque de precisión y coordinación",
+"explanation": "La torre blanca da jaque y obliga al rey negro a una colocación menos conveniente, manteniendo además su propia actividad máxima. En finales de torre, la combinación de rey activo y jaques precisos suele ser decisiva. Smyslov exprime al máximo la geometría de sus piezas.",
+"pros": "Da jaque, mejora la actividad de la torre y restringe al rey negro.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Ke7",
+"title": "51... Ke7 — El rey negro sigue buscando resistencia",
+"explanation": "Las negras apartan el rey del jaque y tratan de mantenerse cerca del ala de rey. Aun así, la estructura negra está a punto de caer. Reshevsky prolonga la lucha, pero la evaluación ya es claramente favorable al blanco.",
+"pros": "Mantiene al rey relativamente activo.",
+"cons": "Sigue sometido a la torre blanca y no protege bien todos los peones."
+},
+{
+"san": "Ra7+",
+"title": "52. Ra7+ — Último toque técnico antes de la caída",
+"explanation": "La torre blanca vuelve a dar jaque desde una casilla excelente, manteniendo al rey negro cortado y preparando la captura de los peones del ala de rey. La posición negra ya no puede sostenerse: tras la caída de esos peones, la mayoría blanca decidirá fácilmente. Por eso Reshevsky abandonó aquí.",
+"pros": "Mantiene la iniciativa absoluta, restringe al rey y asegura la ganancia de peones.",
+"cons": "Ninguna significativa."
+}
+]
+}

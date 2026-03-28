@@ -11,7 +11,6 @@
   ::-webkit-scrollbar{width:5px;height:5px}::-webkit-scrollbar-track{background:rgba(0,0,0,.2);border-radius:3px}::-webkit-scrollbar-thumb{background:#8b7355;border-radius:3px}
   a{color:#d4a745;text-decoration:none}a:hover{text-decoration:underline}
 
-  /* ── HOME ── */
   .home{display:flex;flex-direction:column;align-items:center;padding:24px;min-height:100vh}
   .home-inner{max-width:620px;width:100%}
   .home-icon{font-size:48px;text-align:center;margin-bottom:4px}
@@ -22,10 +21,8 @@
   .game-card{width:100%;padding:14px 18px;background:linear-gradient(135deg,#5a4830,#3a2e20);border:1px solid #6a5840;border-radius:10px;cursor:pointer;text-align:left;margin-bottom:8px;transition:all .25s;color:inherit;display:block;position:relative}
   .game-card:hover{border-color:#8a7850;background:linear-gradient(135deg,#6a5840,#4a3e30);transform:translateY(-1px)}
   .game-card-inner{display:flex;align-items:center;gap:12px;padding-right:70px}
-  .game-card-icon{font-size:28px;flex-shrink:0}
-  .game-card-title{font-family:'Playfair Display',serif;font-size:15px;font-weight:700;color:#d4a745}
-  .game-card-sub{font-size:12px;color:#a08c70;margin-top:1px}
-  .game-card-detail{font-size:11px;color:#7a6a52;margin-top:3px}
+  .game-card-icon{font-size:28px;flex-shrink:0}.game-card-title{font-family:'Playfair Display',serif;font-size:15px;font-weight:700;color:#d4a745}
+  .game-card-sub{font-size:12px;color:#a08c70;margin-top:1px}.game-card-detail{font-size:11px;color:#7a6a52;margin-top:3px}
   .game-card-badge{position:absolute;top:8px;right:10px;font-size:10px;padding:2px 8px;border-radius:10px;font-weight:600;letter-spacing:.05em}
   .badge-builtin{background:rgba(212,167,69,.15);color:#d4a745;border:1px solid rgba(212,167,69,.25)}
   .badge-local{background:rgba(90,170,90,.12);color:#6aaa6a;border:1px solid rgba(90,170,90,.2)}
@@ -51,51 +48,49 @@
   .instructions-body{font-size:12px;color:#908070;line-height:1.7}
   .instructions-body strong{color:#b4a48a}
   .step-num{color:#d4a745;font-weight:700}
-  .code-inline{background:rgba(255,255,255,.08);padding:1px 5px;border-radius:3px;color:#d4a745;font-family:monospace;font-size:11px}
 
-  /* ── VIEWER ── */
   .viewer{padding:12px}
   .viewer-header{text-align:center;margin-bottom:10px;position:relative}
   .viewer-title{font-family:'Playfair Display',serif;font-size:clamp(1.1rem,3.5vw,1.8rem);font-weight:900;color:#d4a745;letter-spacing:.03em;text-shadow:0 2px 12px rgba(212,167,69,.3);line-height:1.2}
   .viewer-sub{color:#a08c70;font-size:clamp(.7rem,1.8vw,.85rem);margin-top:2px;font-style:italic}
   .back-btn{position:absolute;left:0;top:0;background:rgba(255,255,255,.06);border:1px solid #3a3020;border-radius:8px;color:#8a7a62;padding:5px 12px;cursor:pointer;font-size:12px;font-family:inherit;transition:all .2s}
   .back-btn:hover{background:rgba(255,255,255,.1);color:#d4a745}
-
-  /* Main layout — desktop/tablet default */
   .main-layout{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;align-items:flex-start;max-width:1100px;margin:0 auto}
   .board-col{flex:0 0 auto;display:flex;flex-direction:column;align-items:center}
   .info-col{flex:1 1 300px;max-width:440px;min-width:260px;display:flex;flex-direction:column;gap:10px}
-
-  /* Board */
   .board-frame{display:inline-block;border:3px solid #5a4830;border-radius:4px;box-shadow:0 8px 32px rgba(0,0,0,.6);padding:2px;background:#3a2e20}
   .board-labels{display:flex;padding-left:20px}
-  .board-label{width:clamp(36px,9vw,58px);text-align:center;font-size:10px;color:#7a6a52;font-weight:600}
+  .board-label{text-align:center;font-size:10px;color:#7a6a52;font-weight:600}
   .board-row{display:flex;align-items:center}
   .rank-label{width:18px;text-align:center;font-size:10px;color:#7a6a52;font-weight:600}
-  .cell{width:clamp(36px,9vw,58px);height:clamp(36px,9vw,58px);display:flex;align-items:center;justify-content:center;font-size:clamp(22px,6vw,40px);position:relative;transition:background .3s;cursor:default;-webkit-user-select:none;user-select:none}
-  .cell.l{background:#d4b98a}.cell.d{background:#8b6b4a}
-  .cell.fl{background:#c9d4a0}.cell.fd{background:#8aab5a}
-  .cell.tl{background:#e8d44d}.cell.td{background:#cdb82a}
-  .cell.wp{color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.5)}.cell.bp{color:#1a1a1a;text-shadow:0 1px 2px rgba(255,255,255,.15)}
+  .cell{display:flex;align-items:center;justify-content:center;position:relative;transition:background .3s;cursor:default;-webkit-user-select:none;user-select:none}
   .dot{position:absolute;top:1px;right:2px;width:6px;height:6px;border-radius:50%;background:#e74c3c;box-shadow:0 0 5px rgba(231,76,60,.7)}
-
-  /* Controls */
-  .controls{display:flex;gap:6px;justify-content:center;margin-top:8px;flex-wrap:wrap}
+  .controls{display:flex;gap:6px;justify-content:center;margin-top:8px;flex-wrap:wrap;align-items:center}
   .cb{padding:6px 12px;border-radius:6px;cursor:pointer;font-size:13px;font-family:inherit;font-weight:700;transition:all .2s;background:linear-gradient(135deg,#5a4830,#3a2e20);color:#d4a745;border:1px solid #6a5840}
   .cb:hover:not(:disabled){background:linear-gradient(135deg,#6a5840,#4a3e30)}.cb:disabled{background:#2a2218;color:#5a4a3a;border-color:#3a3020;cursor:default}
+  .gear-btn{padding:6px 10px;border-radius:6px;cursor:pointer;font-size:15px;font-family:inherit;transition:all .2s;background:none;color:#8a7a62;border:1px solid #3a3020;margin-left:6px}
+  .gear-btn:hover{color:#d4a745;border-color:#6a5840}
+  .gear-btn.active{color:#d4a745;border-color:#d4a745;background:rgba(212,167,69,.1)}
   .move-counter{text-align:center;margin-top:6px;color:#8a7a62;font-size:12px}
   .tb{margin-left:8px;padding:1px 8px;border-radius:10px;font-size:11px}
   .tb.w{color:#e8dcc8;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2)}
   .tb.b{color:#888;background:rgba(0,0,0,.4);border:1px solid rgba(0,0,0,.3)}
-
-  /* Move strip — horizontal scrolling on mobile */
+  .settings-panel{background:rgba(0,0,0,.35);border:1px solid #3a3020;border-radius:8px;padding:10px 12px;margin-top:6px;display:flex;flex-wrap:wrap;gap:12px}
+  .settings-group{display:flex;flex-direction:column;gap:4px}
+  .settings-group-label{font-size:9px;color:#7a6a52;text-transform:uppercase;letter-spacing:.1em;font-weight:700}
+  .settings-options{display:flex;gap:4px;flex-wrap:wrap}
+  .opt-btn{padding:4px 9px;border-radius:5px;cursor:pointer;font-size:11px;font-family:inherit;transition:all .15s;border:1px solid #3a3020;background:rgba(255,255,255,.04);color:#a08c70}
+  .opt-btn:hover{border-color:#6a5840;color:#d4c8aa}
+  .opt-btn.active{background:linear-gradient(135deg,#d4a745,#b8912e);color:#1a1410;border-color:transparent;font-weight:700}
+  .color-swatch{width:22px;height:22px;border-radius:4px;cursor:pointer;border:2px solid #3a3020;transition:all .15s;display:inline-flex;overflow:hidden}
+  .color-swatch:hover{border-color:#8a7a62}
+  .color-swatch.active{border-color:#d4a745;box-shadow:0 0 6px rgba(212,167,69,.4)}
+  .swatch-half{width:50%;height:100%}
   .move-strip{background:rgba(0,0,0,.3);border:1px solid #3a3020;border-radius:8px;padding:8px 10px;overflow-x:auto;overflow-y:hidden;white-space:nowrap;-webkit-overflow-scrolling:touch}
   .move-strip-inner{display:inline-flex;gap:3px;align-items:center}
   .pl{font-size:10px;color:#7a6a52;text-transform:uppercase;letter-spacing:.1em;margin-bottom:6px;font-weight:700}
   .mc2{padding:3px 5px;border-radius:4px;cursor:pointer;font-size:11px;font-family:'Crimson Text',serif;transition:all .15s;border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.05);color:#a08c70;white-space:nowrap;flex-shrink:0}
   .mc2:hover{background:rgba(255,255,255,.1)}.mc2.a{background:linear-gradient(135deg,#d4a745,#b8912e);color:#1a1410;border:none;font-weight:700}
-
-  /* Analysis panel */
   .ap{background:linear-gradient(135deg,rgba(90,72,48,.3),rgba(30,24,16,.5));border:1px solid #4a3c28;border-radius:10px;padding:14px;min-height:120px;box-shadow:inset 0 1px 0 rgba(255,255,255,.05)}
   .at{font-size:clamp(.9rem,2.5vw,1.1rem);font-weight:700;color:#d4a745;margin-bottom:8px;line-height:1.3}
   .ax{font-size:clamp(.82rem,2vw,.9rem);line-height:1.7;color:#d4c8aa;margin-bottom:10px}
@@ -109,79 +104,35 @@
   .rt{font-family:'Playfair Display',serif;font-size:clamp(.9rem,2.5vw,1.1rem);font-weight:700;color:#d4a745}
   .it{font-size:clamp(.82rem,2vw,.9rem);line-height:1.7;color:#c4b49a}.it strong{color:#e8a040}
   .ih{font-size:12px;color:#8a7a62;margin-top:10px;font-style:italic;border-top:1px solid rgba(255,255,255,.08);padding-top:8px}
-
-  /* Material & info */
   .mp{background:rgba(0,0,0,.2);border:1px solid #3a3020;border-radius:8px;padding:8px 10px;font-size:12px}
   .mr{display:flex;align-items:center;gap:6px;margin-top:3px}
   .mlb{color:#8a7a62;font-size:10px;width:70px}
   .mpc{font-size:16px;letter-spacing:2px}.mpc.w{color:#ccc}.mpc.bk{color:#555}
-  .ib{background:rgba(0,0,0,.15);border:1px solid #2a2218;border-radius:8px;padding:8px 10px;font-size:11px;color:#6a5a42}
-  .ib strong{color:#8a7a62}
+  .ib{background:rgba(0,0,0,.15);border:1px solid #2a2218;border-radius:8px;padding:8px 10px;font-size:11px;color:#6a5a42}.ib strong{color:#8a7a62}
   .na{color:#8a7a62;font-size:13px;font-style:italic}
-
-  /* ── MOBILE PORTRAIT ── */
   @media(max-width:680px) and (orientation:portrait){
-    .viewer{padding:8px}
-    .back-btn{position:relative;margin-bottom:8px;display:inline-block}
-    .viewer-header{margin-bottom:8px}
-    .main-layout{gap:8px}
-    .board-col{width:100%}
-    .info-col{min-width:0;width:100%;gap:8px}
-    .board-frame{display:block;margin:0 auto}
-    .cell{width:clamp(38px,11.5vw,48px);height:clamp(38px,11.5vw,48px);font-size:clamp(24px,7.5vw,34px)}
-    .board-label{width:clamp(38px,11.5vw,48px);font-size:9px}
-    .board-labels{padding-left:18px}
-    .rank-label{width:16px;font-size:9px}
-    .controls{gap:4px;margin-top:6px}
-    .cb{padding:6px 10px;font-size:12px}
-    .move-counter{font-size:11px;margin-top:4px}
-    /* Compact material in one row */
-    .mp{padding:6px 8px}
-    .mr{gap:4px;margin-top:2px}
-    .mlb{width:auto;font-size:9px}
-    .mpc{font-size:14px;letter-spacing:1px}
-    .material-row-wrap{display:flex;gap:12px;flex-wrap:wrap}
-    .ib{font-size:10px;padding:6px 8px}
+    .viewer{padding:8px}.back-btn{position:relative;margin-bottom:8px;display:inline-block}
+    .viewer-header{margin-bottom:8px}.main-layout{gap:8px}.board-col{width:100%}
+    .info-col{min-width:0;width:100%;gap:8px}.board-frame{display:block;margin:0 auto}
+    .mp{padding:6px 8px}.ib{font-size:10px;padding:6px 8px}.settings-panel{padding:8px 10px;gap:8px}
   }
-
-  /* ── MOBILE LANDSCAPE ── */
   @media(max-height:500px) and (orientation:landscape){
-    .viewer{padding:6px 10px}
-    .viewer-header{margin-bottom:6px}
+    .viewer{padding:6px 10px}.viewer-header{margin-bottom:6px}
     .back-btn{position:absolute;left:6px;top:4px;padding:3px 8px;font-size:11px}
-    .viewer-title{font-size:1rem}
-    .viewer-sub{font-size:.7rem;margin-top:1px}
-    
+    .viewer-title{font-size:1rem}.viewer-sub{font-size:.7rem;margin-top:1px}
     .main-layout{flex-wrap:nowrap;gap:10px;align-items:flex-start}
     .board-col{flex:0 0 auto}
     .info-col{flex:1 1 0;min-width:200px;max-width:none;overflow-y:auto;max-height:calc(100vh - 70px);gap:8px}
-
-    /* Prevent children from shrinking/overlapping */
-    .info-col>.move-strip,
-    .info-col>.ap,
-    .info-col>.mp,
-    .info-col>.ib{flex-shrink:0}
-
-    .cell{width:clamp(28px,6vh,42px);height:clamp(28px,6vh,42px);font-size:clamp(18px,4.5vh,30px)}
-    .board-label{width:clamp(28px,6vh,42px);font-size:8px}
-    .board-labels{padding-left:14px}
-    .rank-label{width:14px;font-size:8px}
+    .info-col>.move-strip,.info-col>.ap,.info-col>.mp,.info-col>.ib{flex-shrink:0}
     .board-frame{border-width:2px;padding:1px}
-    .controls{gap:3px;margin-top:4px}
-    .cb{padding:4px 8px;font-size:11px}
-    .move-counter{font-size:10px;margin-top:3px}
-    .dot{width:5px;height:5px}
-
-    .move-strip{padding:5px 8px}
-    .mc2{font-size:10px;padding:2px 4px}
-    .ap{padding:10px;min-height:0}
-    .at{font-size:.9rem;margin-bottom:6px}
+    .controls{gap:3px;margin-top:4px}.cb{padding:4px 8px;font-size:11px}
+    .gear-btn{padding:4px 8px;font-size:13px;margin-left:3px}
+    .move-counter{font-size:10px;margin-top:3px}.dot{width:5px;height:5px}
+    .move-strip{padding:5px 8px}.mc2{font-size:10px;padding:2px 4px}
+    .ap{padding:10px;min-height:0}.at{font-size:.9rem;margin-bottom:6px}
     .ax{font-size:.82rem;line-height:1.6;margin-bottom:8px}
-    .pc-row{padding-top:8px}
-    .tg{font-size:9px;padding:1px 5px}
-    .tt{font-size:.78rem;line-height:1.4}
-    .mp{display:none}
-    .ib{display:none}
+    .pc-row{padding-top:8px}.tg{font-size:9px;padding:1px 5px}.tt{font-size:.78rem;line-height:1.4}
+    .mp{display:none}.ib{display:none}.settings-panel{padding:6px 8px;gap:6px}
   }
 </style>
 </head>
@@ -205,6 +156,26 @@ function aM(board,move){const b=cl(board),p=b[move.from[0]][move.from[1]];b[move
 function pPGN(pgn){let c=pgn.replace(/\{[^}]*\}/g,"").replace(/\([^)]*\)/g,"").replace(/\[.*?\]/g,"");c=c.replace(/\d+\.\.\./g,"").replace(/\d+\./g," ").replace(/\s+(1-0|0-1|1\/2-1\/2|\*)\s*$/,"");return c.trim().split(/\s+/).filter(t=>t.length>0&&!["1-0","0-1","1/2-1/2","*"].includes(t))}
 function bBS(pgn){const sans=pPGN(pgn),states=[IB.map(r=>[...r])],moves=[];let cur=IB.map(r=>[...r]),lF=null,lT=null;for(let i=0;i<sans.length;i++){const isW=i%2===0,parsed=pSAN(cur,sans[i],isW,lF,lT);if(!parsed){console.warn("Parse fail:",sans[i],i);break}cur=aM(cur,parsed);states.push(cur);moves.push({...parsed,san:sans[i]});lF=parsed.from;lT=parsed.to}return{states,moves}}
 
+/* ═══════ THEMES ═══════ */
+const PIECE_STYLES=[
+  {id:"classic",name:"Clásico",w:{color:"#fff",textShadow:"0 2px 4px rgba(0,0,0,.6)"},b:{color:"#1a1a1a",textShadow:"0 1px 2px rgba(255,255,255,.2)"}},
+  {id:"gold",name:"Dorado",w:{color:"#f0d060",textShadow:"0 2px 4px rgba(0,0,0,.7),0 0 8px rgba(240,208,96,.3)"},b:{color:"#2a2020",textShadow:"0 1px 3px rgba(255,255,255,.15)"}},
+  {id:"neon",name:"Neón",w:{color:"#00ffcc",textShadow:"0 0 8px rgba(0,255,204,.6),0 2px 3px rgba(0,0,0,.5)"},b:{color:"#ff4488",textShadow:"0 0 8px rgba(255,68,136,.5),0 2px 3px rgba(0,0,0,.5)"}},
+  {id:"elegant",name:"Elegante",w:{color:"#f5f0e8",textShadow:"0 1px 2px rgba(0,0,0,.4),1px 1px 0 rgba(0,0,0,.15)"},b:{color:"#3a2a1a",textShadow:"0 1px 1px rgba(255,255,255,.1)"}},
+  {id:"ice",name:"Hielo",w:{color:"#d0e8ff",textShadow:"0 2px 4px rgba(0,40,80,.5),0 0 6px rgba(180,220,255,.3)"},b:{color:"#1a2a3a",textShadow:"0 1px 3px rgba(100,180,255,.2)"}},
+];
+const BOARD_THEMES=[
+  {id:"classic",name:"Clásico",light:"#d4b98a",dark:"#8b6b4a",fromL:"#c9d4a0",fromD:"#8aab5a",toL:"#e8d44d",toD:"#cdb82a"},
+  {id:"blue",name:"Azul",light:"#dee3e6",dark:"#8ca2ad",fromL:"#b4cfa0",fromD:"#7aab6a",toL:"#f7f769",toD:"#baca2b"},
+  {id:"green",name:"Verde",light:"#ffffdd",dark:"#86a666",fromL:"#d4e8a0",fromD:"#7aab5a",toL:"#f7f769",toD:"#b6cc3a"},
+  {id:"brown",name:"Madera",light:"#f0d9b5",dark:"#b58863",fromL:"#d4d880",fromD:"#a0a040",toL:"#f7ec5a",toD:"#dac62a"},
+  {id:"grey",name:"Gris",light:"#cccccc",dark:"#888888",fromL:"#b4cfa0",fromD:"#7a9a6a",toL:"#f0e060",toD:"#c0b030"},
+  {id:"purple",name:"Morado",light:"#d8c8e0",dark:"#8868a8",fromL:"#c0d0a0",fromD:"#8a9a6a",toL:"#e8d850",toD:"#c0a838"},
+];
+const PREF_KEY="chess_analyzer_prefs";
+function getPrefs(){try{return JSON.parse(localStorage.getItem(PREF_KEY))||{}}catch{return{}}}
+function savePrefs(p){localStorage.setItem(PREF_KEY,JSON.stringify(p))}
+
 /* ═══════ STORAGE ═══════ */
 const LIB_KEY="chess_analyzer_lib_v2";
 function getLib(){try{return JSON.parse(localStorage.getItem(LIB_KEY)||"[]")}catch{return[]}}
@@ -215,144 +186,69 @@ function rmFromLib(id){const lib=getLib().filter(g=>g.id!==id);saveLib(lib);retu
 
 /* ═══════ GITHUB ═══════ */
 function detectGH(){const h=window.location.hostname,p=window.location.pathname.replace(/\/index\.html$/,"").replace(/\/$/,"");if(h.endsWith(".github.io")){const u=h.replace(".github.io",""),r=p.split("/").filter(Boolean)[0]||"";if(r)return{user:u,repo:r}}return null}
-async function fetchGHPartidas(user,repo){
-  const res=await fetch(`https://api.github.com/repos/${user}/${repo}/contents/partidas`);
-  if(!res.ok)throw new Error("No se encontró partidas/ en el repositorio");
-  const files=await res.json();
-  if(!Array.isArray(files))throw new Error("Respuesta inesperada");
-  const jf=files.filter(f=>f.name.endsWith(".json")&&f.name!=="index.json");
-  const games=[];
-  for(const f of jf){try{const r=await fetch(`https://${user}.github.io/${repo}/partidas/${f.name}`);if(!r.ok)continue;const g=await r.json();if(g.pgn&&g.analysis&&g.info)games.push(g)}catch(e){console.warn(e)}}
-  return games;
-}
+async function fetchGHPartidas(user,repo){const res=await fetch(`https://api.github.com/repos/${user}/${repo}/contents/partidas`);if(!res.ok)throw new Error("No se encontró partidas/");const files=await res.json();if(!Array.isArray(files))throw new Error("Respuesta inesperada");const jf=files.filter(f=>f.name.endsWith(".json")&&f.name!=="index.json");const games=[];for(const f of jf){try{const r=await fetch(`https://${user}.github.io/${repo}/partidas/${f.name}`);if(!r.ok)continue;const g=await r.json();if(g.pgn&&g.analysis&&g.info)games.push(g)}catch(e){console.warn(e)}}return games}
 
 /* ═══════ IMMORTAL ═══════ */
-const IMM={info:{title:"La Partida Inmortal",white:"Adolf Anderssen",black:"Lionel Kieseritzky",event:"Torneo de Londres",date:"1851",result:"1-0",description:"La partida más famosa de la historia del ajedrez. Anderssen sacrificó un alfil, ambas torres y la dama para dar un mate espectacular solo con piezas menores."},pgn:"1. e4 e5 2. f4 exf4 3. Bc4 Qh4+ 4. Kf1 b5 5. Bxb5 Nf6 6. Nf3 Qh6 7. d3 Nh5 8. Nh4 Qg5 9. Nf5 c6 10. g4 Nf6 11. Rg1 cxb5 12. h4 Qg6 13. h5 Qg5 14. Qf3 Ng8 15. Bxf4 Qf6 16. Nc3 Bc5 17. Nd5 Qxb2 18. Bd6 Bxg1 19. e5 Qxa1+ 20. Ke2 Na6 21. Nxg7+ Kd8 22. Qf6+ Nxf6 23. Be7#",analysis:[{san:"e4",title:"1. e4 — La apertura clásica",explanation:"Anderssen abre con e4, controlando el centro y liberando alfil y dama.",pros:"Control central, desarrollo rápido.",cons:"Ligera debilidad en d4."},{san:"e5",title:"1... e5 — Respuesta simétrica",explanation:"Kieseritzky disputa el centro con su peón de rey.",pros:"Igualdad central, desarrollo del alfil f8.",cons:"Peón e5 objetivo si blancas juegan f4."},{san:"f4",title:"2. f4 — ¡El Gambito de Rey!",explanation:"El legendario Gambito de Rey. Sacrifica material por columna f y tiempo.",pros:"Columna f, iniciativa, dominio central.",cons:"Debilita diagonal e1-h4."},{san:"exf4",title:"2... exf4 — Aceptando el gambito",explanation:"Kieseritzky acepta. +1 peón pero blancas ganan tiempo.",pros:"Ventaja material.",cons:"Pierde tiempo si no consolida."},{san:"Bc4",title:"3. Bc4 — Apuntando a f7",explanation:"Alfil apunta a f7, punto débil del negro.",pros:"Desarrollo con amenaza.",cons:"No recupera peón."},{san:"Qh4+",title:"3... Qh4+ — ¡Jaque agresivo!",explanation:"Dama a h4 con jaque, fuerza al rey a moverse.",pros:"Impide enroque.",cons:"Dama expuesta."},{san:"Kf1",title:"4. Kf1 — Pierde el enroque",explanation:"Rey a f1, pierde enroque. Plan: atacar.",pros:"Sale del jaque.",cons:"Rey vulnerable."},{san:"b5",title:"4... b5!? — Contra-gambito",explanation:"b5 desvía al alfil de c4.",pros:"Ataca alfil, gana tempo.",cons:"Debilita flanco de dama."},{san:"Bxb5",title:"5. Bxb5 — Acepta contra-gambito",explanation:"Captura en b5. Ventaja de desarrollo.",pros:"Material extra.",cons:"Alfil lejos del flanco de rey."},{san:"Nf6",title:"5... Nf6 — Desarrollo con ataque",explanation:"Caballo a f6 atacando e4.",pros:"Desarrollo, ataque a e4.",cons:"Ninguna significativa."},{san:"Nf3",title:"6. Nf3 — Expulsa a la dama",explanation:"Caballo a f3 atacando la dama. Desarrollo con tempo.",pros:"Desarrollo con tempo.",cons:"Ninguna."},{san:"Qh6",title:"6... Qh6 — Retirada",explanation:"Dama a h6, vigila f4.",pros:"Defiende f4.",cons:"Dos tiempos perdidos."},{san:"d3",title:"7. d3 — Consolida centro",explanation:"Refuerza e4, abre diagonal alfil c1.",pros:"Defiende e4, libera alfil.",cons:"Algo lenta."},{san:"Nh5",title:"7... Nh5 — Aventura",explanation:"Caballo a h5 para defender f4 y amenazar Ng3+.",pros:"Defiende f4.",cons:"Caballo en el borde."},{san:"Nh4",title:"8. Nh4 — ¡Caballo a caballo!",explanation:"Caballo a h4 apuntando a f5.",pros:"Amenaza Nf5.",cons:"Caballo en banda con destino."},{san:"Qg5",title:"8... Qg5 — Presiona",explanation:"Dama a g5 atacando Nh4.",pros:"Ataca Nh4.",cons:"3ª jugada de dama."},{san:"Nf5",title:"9. Nf5 — ¡Dominante!",explanation:"Caballo en f5, controla e7, g7, d6, h6.",pros:"Posición dominante.",cons:"Podría expulsarse con g6."},{san:"c6",title:"9... c6 — Expulsa alfil",explanation:"c6 ataca alfil b5.",pros:"Ataca alfil, espacio.",cons:"No desarrolla."},{san:"g4",title:"10. g4! — ¡Rompe defensas!",explanation:"g4 ataca Nh5 y abre líneas.",pros:"Ataca Nh5, abre columna g.",cons:"Debilita flanco propio."},{san:"Nf6",title:"10... Nf6 — Retirada forzada",explanation:"Caballo vuelve a f6. Tiempos perdidos.",pros:"Casilla natural.",cons:"Dos tiempos perdidos."},{san:"Rg1",title:"11. Rg1! — Torre activa",explanation:"Torre en columna g semiabierta.",pros:"Torre activa, presión g7.",cons:"Ninguna."},{san:"cxb5",title:"11... cxb5 — Captura tardía",explanation:"Gana alfil pero pierde tempo.",pros:"Gana alfil.",cons:"Pierde tempo."},{san:"h4",title:"12. h4! — Más fuego",explanation:"h4 ataca dama y amenaza h5.",pros:"Ataca dama.",cons:"Debilitamiento."},{san:"Qg6",title:"12... Qg6 — Se esconde",explanation:"4ª jugada de dama. Desarrollo desastroso.",pros:"Evita trampa.",cons:"4ª jugada de dama."},{san:"h5",title:"13. h5! — Acorrala",explanation:"Peón a h5 atacando la dama.",pros:"Ataque, dominio espacial.",cons:"Peón avanzado."},{san:"Qg5",title:"13... Qg5 — Vuelve a g5",explanation:"Dama vuelve donde ya estuvo.",pros:"Activa.",cons:"5ª jugada de dama."},{san:"Qf3",title:"14. Qf3! — Dama blanca",explanation:"Dama a f3, coordinación total.",pros:"Amenazas, coordinación.",cons:"Ninguna."},{san:"Ng8",title:"14... Ng8 — Vuelve a casa",explanation:"Caballo a g8. Tres tiempos perdidos.",pros:"Evita pérdida.",cons:"Retroceso total."},{san:"Bxf4",title:"15. Bxf4 — Recupera gambito",explanation:"Alfil captura f4. Desarrollo superior.",pros:"Recupera material, alfil activo.",cons:"Ninguna."},{san:"Qf6",title:"15... Qf6 — Busca defensa",explanation:"Dama a f6, bloquea columna f.",pros:"Bloquea columna f.",cons:"6ª jugada de dama."},{san:"Nc3",title:"16. Nc3 — Desarrollo completo",explanation:"Todas blancas activas; negro 4 piezas sin mover.",pros:"Desarrollo total, amenaza Nd5.",cons:"Ninguna."},{san:"Bc5",title:"16... Bc5 — Desarrollo tardío",explanation:"Alfil a c5, apunta f2/g1.",pros:"Desarrollo.",cons:"Demasiado tarde."},{san:"Nd5",title:"17. Nd5! — ¡En el corazón!",explanation:"Caballo a d5, domina centro.",pros:"Dominante.",cons:"Ninguna."},{san:"Qxb2",title:"17... Qxb2! — Materialista",explanation:"Dama captura b2, amenaza torre a1.",pros:"Gana peón.",cons:"Dama alejada de defensa."},{san:"Bd6",title:"18. Bd6!! — ¡PRIMER SACRIFICIO!",explanation:"¡¡INCREÍBLE!! Ignora amenaza a torre. Corta comunicación y bloquea escape del rey.",pros:"Bloquea escape, combinación letal.",cons:"Permite Qxa1+ (¡a propósito!)."},{san:"Bxg1",title:"18... Bxg1 — Captura torre",explanation:"Captura la torre. Ventaja descomunal, pero Anderssen ve la combinación.",pros:"Gana torre.",cons:"Alfil atrapado en g1."},{san:"e5",title:"19. e5!! — ¡¡SEGUNDO SACRIFICIO!!",explanation:"¡¡OBRA MAESTRA!! Corta defensa de la dama. Ha regalado AMBAS TORRES.",pros:"Abre diagonal, amenaza mortal.",cons:"Dos torres menos, ataque compensa."},{san:"Qxa1+",title:"19... Qxa1+ — 2ª torre cae",explanation:"Captura segunda torre con jaque.",pros:"Captura 2ª torre.",cons:"Dama atrapada en a1."},{san:"Ke2",title:"20. Ke2! — Calma total",explanation:"Rey a e2 con tranquilidad. Piezas restantes bastan.",pros:"Sale del jaque.",cons:"Rey expuesto pero ataque más rápido."},{san:"Na6",title:"20... Na6 — Tarde",explanation:"Caballo a a6. Demasiado tarde y lejos.",pros:"Desarrollo.",cons:"Demasiado lento."},{san:"Nxg7+",title:"21. Nxg7+! — ¡Arrasa!",explanation:"Captura g7 con jaque. Última barrera demolida.",pros:"Jaque, destruye estructura.",cons:"Ninguna."},{san:"Kd8",title:"21... Kd8 — Huye",explanation:"Rey a d8, única casilla.",pros:"Evita amenazas e8.",cons:"Rey expuesto."},{san:"Qf6+",title:"22. Qf6+!! — ¡¡¡SACRIFICIO DE DAMA!!!",explanation:"¡¡¡LA JUGADA MÁS FAMOSA!!! SACRIFICA LA DAMA. Mate con piezas menores. ¡Pura poesía!",pros:"Fuerza captura, mate imparable.",cons:"Pierde dama... ¡pero mate en una!"},{san:"Nxf6",title:"22... Nxf6 — Forzada",explanation:"Captura forzada. Ventaja material aplastante pero irrelevante.",pros:"Gana dama.",cons:"Abre e7: ¡MATE!"},{san:"Be7#",title:"23. Be7# — ¡¡¡JAQUE MATE!!! ✦",explanation:"¡¡¡MATE!!! Alfil a e7. Nd5 cubre c7, Ng7 cubre e8. Mate tras sacrificar AMBAS TORRES y la DAMA.",pros:"JAQUE MATE.",cons:"Perfecta."}]};
+const IMM={info:{title:"La Partida Inmortal",white:"Adolf Anderssen",black:"Lionel Kieseritzky",event:"Torneo de Londres",date:"1851",result:"1-0",description:"La partida más famosa de la historia del ajedrez. Anderssen sacrificó un alfil, ambas torres y la dama para dar un mate espectacular solo con piezas menores."},pgn:"1. e4 e5 2. f4 exf4 3. Bc4 Qh4+ 4. Kf1 b5 5. Bxb5 Nf6 6. Nf3 Qh6 7. d3 Nh5 8. Nh4 Qg5 9. Nf5 c6 10. g4 Nf6 11. Rg1 cxb5 12. h4 Qg6 13. h5 Qg5 14. Qf3 Ng8 15. Bxf4 Qf6 16. Nc3 Bc5 17. Nd5 Qxb2 18. Bd6 Bxg1 19. e5 Qxa1+ 20. Ke2 Na6 21. Nxg7+ Kd8 22. Qf6+ Nxf6 23. Be7#",analysis:[{san:"e4",title:"1. e4 — La apertura clásica",explanation:"Anderssen abre con e4, controlando el centro y liberando alfil y dama.",pros:"Control central, desarrollo rápido.",cons:"Ligera debilidad en d4."},{san:"e5",title:"1... e5 — Respuesta simétrica",explanation:"Kieseritzky disputa el centro con su peón de rey.",pros:"Igualdad central, desarrollo del alfil f8.",cons:"Peón e5 objetivo si blancas juegan f4."},{san:"f4",title:"2. f4 — ¡El Gambito de Rey!",explanation:"El legendario Gambito de Rey. Sacrifica material por columna f y tiempo.",pros:"Columna f, iniciativa, dominio central.",cons:"Debilita diagonal e1-h4."},{san:"exf4",title:"2... exf4 — Aceptando el gambito",explanation:"Kieseritzky acepta. +1 peón pero blancas ganan tiempo.",pros:"Ventaja material.",cons:"Pierde tiempo si no consolida."},{san:"Bc4",title:"3. Bc4 — Apuntando a f7",explanation:"Alfil apunta a f7, punto débil del negro.",pros:"Desarrollo con amenaza.",cons:"No recupera peón."},{san:"Qh4+",title:"3... Qh4+ — ¡Jaque agresivo!",explanation:"Dama a h4 con jaque, fuerza al rey a moverse.",pros:"Impide enroque.",cons:"Dama expuesta."},{san:"Kf1",title:"4. Kf1 — Pierde el enroque",explanation:"Rey a f1, pierde enroque. Plan: atacar.",pros:"Sale del jaque.",cons:"Rey vulnerable."},{san:"b5",title:"4... b5!? — Contra-gambito",explanation:"b5 desvía al alfil de c4.",pros:"Ataca alfil, gana tempo.",cons:"Debilita flanco de dama."},{san:"Bxb5",title:"5. Bxb5 — Acepta contra-gambito",explanation:"Captura en b5. Ventaja de desarrollo.",pros:"Material extra.",cons:"Alfil lejos del flanco de rey."},{san:"Nf6",title:"5... Nf6 — Desarrollo con ataque",explanation:"Caballo a f6 atacando e4.",pros:"Desarrollo, ataque a e4.",cons:"Ninguna significativa."},{san:"Nf3",title:"6. Nf3 — Expulsa a la dama",explanation:"Caballo a f3 atacando la dama. Desarrollo con tempo.",pros:"Desarrollo con tempo.",cons:"Ninguna."},{san:"Qh6",title:"6... Qh6 — Retirada",explanation:"Dama a h6, vigila f4.",pros:"Defiende f4.",cons:"Dos tiempos perdidos."},{san:"d3",title:"7. d3 — Consolida centro",explanation:"Refuerza e4, abre diagonal alfil c1.",pros:"Defiende e4, libera alfil.",cons:"Algo lenta."},{san:"Nh5",title:"7... Nh5 — Aventura",explanation:"Caballo a h5 para defender f4 y amenazar Ng3+.",pros:"Defiende f4.",cons:"Caballo en el borde."},{san:"Nh4",title:"8. Nh4 — ¡Caballo a caballo!",explanation:"Caballo a h4 apuntando a f5.",pros:"Amenaza Nf5.",cons:"Caballo en banda con destino."},{san:"Qg5",title:"8... Qg5 — Presiona",explanation:"Dama a g5 atacando Nh4.",pros:"Ataca Nh4.",cons:"3ª jugada de dama."},{san:"Nf5",title:"9. Nf5 — ¡Dominante!",explanation:"Caballo en f5, controla e7, g7, d6, h6.",pros:"Posición dominante.",cons:"Podría expulsarse con g6."},{san:"c6",title:"9... c6 — Expulsa alfil",explanation:"c6 ataca alfil b5.",pros:"Ataca alfil, espacio.",cons:"No desarrolla."},{san:"g4",title:"10. g4! — ¡Rompe defensas!",explanation:"g4 ataca Nh5 y abre líneas.",pros:"Ataca Nh5, abre columna g.",cons:"Debilita flanco propio."},{san:"Nf6",title:"10... Nf6 — Retirada forzada",explanation:"Caballo vuelve a f6. Tiempos perdidos.",pros:"Casilla natural.",cons:"Dos tiempos perdidos."},{san:"Rg1",title:"11. Rg1! — Torre activa",explanation:"Torre en columna g semiabierta.",pros:"Torre activa, presión g7.",cons:"Ninguna."},{san:"cxb5",title:"11... cxb5 — Captura tardía",explanation:"Gana alfil pero pierde tempo.",pros:"Gana alfil.",cons:"Pierde tempo."},{san:"h4",title:"12. h4! — Más fuego",explanation:"h4 ataca dama y amenaza h5.",pros:"Ataca dama.",cons:"Debilitamiento."},{san:"Qg6",title:"12... Qg6 — Se esconde",explanation:"4ª jugada de dama. Desarrollo desastroso.",pros:"Evita trampa.",cons:"4ª jugada de dama."},{san:"h5",title:"13. h5! — Acorrala",explanation:"Peón a h5 atacando la dama.",pros:"Ataque, dominio espacial.",cons:"Peón avanzado."},{san:"Qg5",title:"13... Qg5 — Vuelve a g5",explanation:"Dama vuelve donde ya estuvo.",pros:"Activa.",cons:"5ª jugada de dama."},{san:"Qf3",title:"14. Qf3! — Dama blanca",explanation:"Dama a f3, coordinación total.",pros:"Amenazas, coordinación.",cons:"Ninguna."},{san:"Ng8",title:"14... Ng8 — Vuelve a casa",explanation:"Caballo a g8. Tres tiempos perdidos.",pros:"Evita pérdida.",cons:"Retroceso total."},{san:"Bxf4",title:"15. Bxf4 — Recupera gambito",explanation:"Alfil captura f4. Desarrollo superior.",pros:"Recupera material, alfil activo.",cons:"Ninguna."},{san:"Qf6",title:"15... Qf6 — Busca defensa",explanation:"Dama a f6, bloquea columna f.",pros:"Bloquea columna f.",cons:"6ª jugada de dama."},{san:"Nc3",title:"16. Nc3 — Desarrollo completo",explanation:"Todas blancas activas; negro 4 piezas sin mover.",pros:"Desarrollo total, amenaza Nd5.",cons:"Ninguna."},{san:"Bc5",title:"16... Bc5 — Desarrollo tardío",explanation:"Alfil a c5, apunta f2/g1.",pros:"Desarrollo.",cons:"Demasiado tarde."},{san:"Nd5",title:"17. Nd5! — ¡En el corazón!",explanation:"Caballo a d5, domina centro.",pros:"Dominante.",cons:"Ninguna."},{san:"Qxb2",title:"17... Qxb2! — Materialista",explanation:"Dama captura b2, amenaza torre a1.",pros:"Gana peón.",cons:"Dama alejada de defensa."},{san:"Bd6",title:"18. Bd6!! — ¡PRIMER SACRIFICIO!",explanation:"¡¡INCREÍBLE!! Ignora amenaza a torre. Corta comunicación y bloquea escape del rey.",pros:"Bloquea escape, combinación letal.",cons:"Permite Qxa1+ (¡a propósito!)."},{san:"Bxg1",title:"18... Bxg1 — Captura torre",explanation:"Captura la torre. Ventaja descomunal, pero Anderssen ve la combinación.",pros:"Gana torre.",cons:"Alfil atrapado en g1."},{san:"e5",title:"19. e5!! — ¡¡SEGUNDO SACRIFICIO!!",explanation:"¡¡OBRA MAESTRA!! Corta defensa de la dama. Ha regalado AMBAS TORRES.",pros:"Abre diagonal, amenaza mortal.",cons:"Dos torres menos, ataque compensa."},{san:"Qxa1+",title:"19... Qxa1+ — 2ª torre cae",explanation:"Captura segunda torre con jaque.",pros:"Captura 2ª torre.",cons:"Dama atrapada en a1."},{san:"Ke2",title:"20. Ke2! — Calma total",explanation:"Rey a e2 con tranquilidad.",pros:"Sale del jaque.",cons:"Rey expuesto pero ataque más rápido."},{san:"Na6",title:"20... Na6 — Tarde",explanation:"Caballo a a6. Demasiado tarde y lejos.",pros:"Desarrollo.",cons:"Demasiado lento."},{san:"Nxg7+",title:"21. Nxg7+! — ¡Arrasa!",explanation:"Captura g7 con jaque. Última barrera demolida.",pros:"Jaque, destruye estructura.",cons:"Ninguna."},{san:"Kd8",title:"21... Kd8 — Huye",explanation:"Rey a d8, única casilla.",pros:"Evita amenazas e8.",cons:"Rey expuesto."},{san:"Qf6+",title:"22. Qf6+!! — ¡¡¡SACRIFICIO DE DAMA!!!",explanation:"¡¡¡LA JUGADA MÁS FAMOSA!!! SACRIFICA LA DAMA. Mate con piezas menores.",pros:"Fuerza captura, mate imparable.",cons:"Pierde dama... ¡pero mate en una!"},{san:"Nxf6",title:"22... Nxf6 — Forzada",explanation:"Captura forzada. Ventaja material aplastante pero irrelevante.",pros:"Gana dama.",cons:"Abre e7: ¡MATE!"},{san:"Be7#",title:"23. Be7# — ¡¡¡JAQUE MATE!!! ✦",explanation:"¡¡¡MATE!!! Alfil a e7. Nd5 cubre c7, Ng7 cubre e8. Mate tras sacrificar AMBAS TORRES y la DAMA.",pros:"JAQUE MATE.",cons:"Perfecta."}]};
 
 /* ═══════ MATERIAL ═══════ */
-function MatBal({board}){
-  const init={P:8,R:2,N:2,B:2,Q:1,K:1,p:8,r:2,n:2,b:2,q:1,k:1},cur={};
-  for(const row of board)for(const p of row)if(p)cur[p]=(cur[p]||0)+1;
-  const wL=[],bL=[];
-  for(const p of["Q","R","B","N","P"]){const n=(init[p]||0)-(cur[p]||0);for(let i=0;i<n;i++)wL.push(PC[p])}
-  for(const p of["q","r","b","n","p"]){const n=(init[p]||0)-(cur[p]||0);for(let i=0;i<n;i++)bL.push(PC[p])}
-  return(<div><div className="mr"><span className="mlb">♚ Capturado:</span><span className="mpc w">{bL.length>0?bL.join(" "):"—"}</span></div><div className="mr"><span className="mlb">♔ Capturado:</span><span className="mpc bk">{wL.length>0?wL.join(" "):"—"}</span></div></div>);
-}
+function MatBal({board}){const init={P:8,R:2,N:2,B:2,Q:1,K:1,p:8,r:2,n:2,b:2,q:1,k:1},cur={};for(const row of board)for(const p of row)if(p)cur[p]=(cur[p]||0)+1;const wL=[],bL=[];for(const p of["Q","R","B","N","P"]){const n=(init[p]||0)-(cur[p]||0);for(let i=0;i<n;i++)wL.push(PC[p])}for(const p of["q","r","b","n","p"]){const n=(init[p]||0)-(cur[p]||0);for(let i=0;i<n;i++)bL.push(PC[p])}return(<div><div className="mr"><span className="mlb">♚ Capturado:</span><span className="mpc w">{bL.length>0?bL.join(" "):"—"}</span></div><div className="mr"><span className="mlb">♔ Capturado:</span><span className="mpc bk">{wL.length>0?wL.join(" "):"—"}</span></div></div>)}
 
 /* ═══════ APP ═══════ */
 function App(){
-  const[screen,setScreen]=useState("home");
-  const[gameData,setGameData]=useState(null);
-  const[boardData,setBoardData]=useState(null);
-  const[step,setStep]=useState(0);
-  const[autoPlay,setAutoPlay]=useState(false);
-  const[error,setError]=useState(null);
-  const[dragOver,setDragOver]=useState(false);
-  const[library,setLibrary]=useState(getLib());
-  const[syncStatus,setSyncStatus]=useState(null);
-  const[syncing,setSyncing]=useState(false);
-  const fileRef=useRef();
-  const moveStripRef=useRef();
-  const ghInfo=useRef(detectGH());
+  const[screen,setScreen]=useState("home");const[gameData,setGameData]=useState(null);const[boardData,setBoardData]=useState(null);
+  const[step,setStep]=useState(0);const[autoPlay,setAutoPlay]=useState(false);const[error,setError]=useState(null);
+  const[dragOver,setDragOver]=useState(false);const[library,setLibrary]=useState(getLib());
+  const[syncStatus,setSyncStatus]=useState(null);const[syncing,setSyncing]=useState(false);const[showSettings,setShowSettings]=useState(false);
+  const prefs=getPrefs();const[pieceStyle,setPieceStyle]=useState(prefs.pieceStyle||"classic");const[boardTheme,setBoardTheme]=useState(prefs.boardTheme||"classic");
+  const fileRef=useRef();const moveStripRef=useRef();const ghInfo=useRef(detectGH());
 
-  // Auto-sync GitHub on load
-  useEffect(()=>{
-    const gh=ghInfo.current;if(!gh)return;
-    setSyncing(true);setSyncStatus({type:"loading",msg:"Cargando partidas desde GitHub..."});
-    fetchGHPartidas(gh.user,gh.repo).then(games=>{
-      if(games.length>0){games.forEach(g=>addToLib(g,"github"));setLibrary(getLib());setSyncStatus({type:"ok",msg:`${games.length} partida${games.length!==1?"s":""} desde GitHub`})}
-      else setSyncStatus({type:"ok",msg:"partidas/ vacía o sin archivos válidos"});
-    }).catch(e=>setSyncStatus({type:"err",msg:e.message})).finally(()=>setSyncing(false));
-  },[]);
+  function setPref(k,v){const p=getPrefs();p[k]=v;savePrefs(p)}
+  function chgPiece(id){setPieceStyle(id);setPref("pieceStyle",id)}
+  function chgBoard(id){setBoardTheme(id);setPref("boardTheme",id)}
+  const bTheme=BOARD_THEMES.find(t=>t.id===boardTheme)||BOARD_THEMES[0];
+  const pStyle=PIECE_STYLES.find(s=>s.id===pieceStyle)||PIECE_STYLES[0];
 
-  function manualSync(){
-    const gh=ghInfo.current;if(!gh)return;
-    setSyncing(true);setSyncStatus({type:"loading",msg:"Sincronizando..."});
-    fetchGHPartidas(gh.user,gh.repo).then(games=>{
-      games.forEach(g=>addToLib(g,"github"));setLibrary(getLib());
-      setSyncStatus({type:"ok",msg:`${games.length} partida${games.length!==1?"s":""} sincronizada${games.length!==1?"s":""}`});
-    }).catch(e=>setSyncStatus({type:"err",msg:e.message})).finally(()=>setSyncing(false));
-  }
-
-  function loadGame(data,save=false,source="local"){
-    try{const{states,moves}=bBS(data.pgn);if(moves.length===0)throw new Error("No se pudieron parsear las jugadas.");
-    setGameData(data);setBoardData({states,moves});setStep(0);setAutoPlay(false);setError(null);setScreen("viewer");
-    if(save){setLibrary(addToLib(data,source))}}catch(e){setError("Error: "+e.message)}
-  }
+  useEffect(()=>{const gh=ghInfo.current;if(!gh)return;setSyncing(true);setSyncStatus({type:"loading",msg:"Cargando partidas..."});fetchGHPartidas(gh.user,gh.repo).then(games=>{if(games.length>0){games.forEach(g=>addToLib(g,"github"));setLibrary(getLib());setSyncStatus({type:"ok",msg:`${games.length} partida${games.length!==1?"s":""} desde GitHub`})}else setSyncStatus({type:"ok",msg:"partidas/ vacía"})}).catch(e=>setSyncStatus({type:"err",msg:e.message})).finally(()=>setSyncing(false))},[]);
+  function manualSync(){const gh=ghInfo.current;if(!gh)return;setSyncing(true);setSyncStatus({type:"loading",msg:"Sincronizando..."});fetchGHPartidas(gh.user,gh.repo).then(games=>{games.forEach(g=>addToLib(g,"github"));setLibrary(getLib());setSyncStatus({type:"ok",msg:`${games.length} sincronizada${games.length!==1?"s":""}`})}).catch(e=>setSyncStatus({type:"err",msg:e.message})).finally(()=>setSyncing(false))}
+  function loadGame(data,save=false,source="local"){try{const{states,moves}=bBS(data.pgn);if(moves.length===0)throw new Error("No se pudieron parsear las jugadas.");setGameData(data);setBoardData({states,moves});setStep(0);setAutoPlay(false);setError(null);setScreen("viewer");if(save){setLibrary(addToLib(data,source))}}catch(e){setError("Error: "+e.message)}}
   function handleFile(file){if(!file)return;const reader=new FileReader();reader.onload=e=>{try{const json=JSON.parse(e.target.result);if(!json.pgn||!json.analysis||!json.info){setError("JSON sin formato correcto.");return}loadGame(json,true,"local")}catch(err){setError("Error JSON: "+err.message)}};reader.readAsText(file)}
   function handleDrop(e){e.preventDefault();setDragOver(false);handleFile(e.dataTransfer.files[0])}
   function deleteGame(id){if(!confirm("¿Eliminar esta partida?"))return;setLibrary(rmFromLib(id))}
 
   useEffect(()=>{if(!autoPlay||!boardData)return;if(step>=boardData.moves.length){setAutoPlay(false);return}const t=setTimeout(()=>setStep(s=>s+1),2800);return()=>clearTimeout(t)},[autoPlay,step,boardData]);
   const goTo=useCallback((s)=>{setStep(s);setAutoPlay(false)},[]);
-
-  // Keyboard nav
   useEffect(()=>{if(screen!=="viewer"||!boardData)return;function hk(e){if(e.key==="ArrowRight")goTo(Math.min(boardData.moves.length,step+1));else if(e.key==="ArrowLeft")goTo(Math.max(0,step-1));else if(e.key==="Home")goTo(0);else if(e.key==="End")goTo(boardData.moves.length)}window.addEventListener("keydown",hk);return()=>window.removeEventListener("keydown",hk)},[screen,boardData,step,goTo]);
+  useEffect(()=>{if(!moveStripRef.current||step===0)return;const a=moveStripRef.current.querySelector(".mc2.a");if(a)a.scrollIntoView({behavior:"smooth",block:"nearest",inline:"center"})},[step]);
 
-  // Auto-scroll move strip to active move
-  useEffect(()=>{
-    if(!moveStripRef.current||step===0)return;
-    const container=moveStripRef.current;
-    const active=container.querySelector(".mc2.a");
-    if(active){active.scrollIntoView({behavior:"smooth",block:"nearest",inline:"center"})}
-  },[step]);
+  const cellSz="clamp(36px,9vw,58px)";
+
+  function getCellBg(r,c,move){
+    const il=(r+c)%2===0,iF=move&&move.from[0]===r&&move.from[1]===c,iT=move&&move.to[0]===r&&move.to[1]===c;
+    if(iF)return il?bTheme.fromL:bTheme.fromD;if(iT)return il?bTheme.toL:bTheme.toD;return il?bTheme.light:bTheme.dark;
+  }
+  function getPieceStyle(piece){return piece===piece.toUpperCase()?pStyle.w:pStyle.b}
 
   /* ── HOME ── */
-  if(screen==="home"){
-    const gh=ghInfo.current;
-    return(
-      <div className="home"><div className="home-inner">
-        <div className="home-icon">♔</div>
-        <h1 className="home-title">Chess Analyzer</h1>
-        <p className="home-sub">Análisis didáctico de partidas, jugada a jugada</p>
-
-        <div className="section-label">Partida incluida</div>
-        <button className="game-card" onClick={()=>loadGame(IMM)}>
-          <div className="game-card-inner"><span className="game-card-icon">♚</span><div><div className="game-card-title">La Partida Inmortal</div><div className="game-card-sub">Anderssen vs Kieseritzky — Londres, 1851</div><div className="game-card-detail">23 jugadas · Gambito de Rey · Sacrificio de dama y torres</div></div></div>
-          <span className="game-card-badge badge-builtin">INCLUIDA</span>
-        </button>
-
-        {library.length>0&&(<div style={{marginTop:20}}>
-          <div className="section-label">Tu biblioteca ({library.length})</div>
-          {library.map(g=>(
-            <button key={g.id} className="game-card" onClick={()=>loadGame(g.data)}>
-              <div className="game-card-inner"><span className="game-card-icon">{g.data.info.result==="1-0"?"♔":g.data.info.result==="0-1"?"♚":"½"}</span><div><div className="game-card-title">{g.data.info.title}</div><div className="game-card-sub">{g.data.info.white} vs {g.data.info.black} — {g.data.info.date}</div><div className="game-card-detail">{g.data.info.result} · {g.data.info.event}</div></div></div>
-              <span className={`game-card-badge ${g.source==="github"?"badge-github":"badge-local"}`}>{g.source==="github"?"GITHUB":"LOCAL"}</span>
-              <button className="delete-btn" onClick={e=>{e.stopPropagation();deleteGame(g.id)}}>Eliminar</button>
-            </button>))}
-        </div>)}
-
-        {gh&&(<div style={{marginTop:16}}>
-          {syncStatus?(<div className={`sync-bar ${syncStatus.type}`}><span style={{flex:1}}>{syncStatus.type==="loading"?"⏳":syncStatus.type==="ok"?"✓":"✕"} {syncStatus.msg}</span><button className="sync-btn" onClick={manualSync} disabled={syncing}>{syncing?"...":"↻ Resincronizar"}</button></div>)
-          :(<div className="sync-bar ok" style={{color:"#7a9ad4",borderColor:"rgba(100,140,220,.2)",background:"rgba(100,140,220,.08)"}}><span style={{flex:1}}>GitHub: {gh.user}/{gh.repo}</span><button className="sync-btn" onClick={manualSync} disabled={syncing}>↻ Sincronizar</button></div>)}
-        </div>)}
-
-        <div className="separator"><div className="separator-line"/><span>Cargar archivo</span><div className="separator-line"/></div>
-        <div className={`drop-zone ${dragOver?"active":""}`} onDragOver={e=>{e.preventDefault();setDragOver(true)}} onDragLeave={()=>setDragOver(false)} onDrop={handleDrop} onClick={()=>fileRef.current?.click()}>
-          <input ref={fileRef} type="file" accept=".json" style={{display:"none"}} onChange={e=>handleFile(e.target.files[0])}/>
-          <div className="drop-zone-icon">📂</div>
-          <div className="drop-zone-text">Arrastra un <strong>.json</strong> o haz clic</div>
-          <div className="drop-zone-hint">Se guarda automáticamente en tu biblioteca</div>
-        </div>
-        {error&&<div className="error-msg">{error}</div>}
-
-        <div className="instructions"><div className="instructions-title">Cómo funciona</div><div className="instructions-body">
-          <span className="step-num">GitHub:</span> Sube .json a <strong>partidas/</strong> en el repo. Se cargan al abrir.<br/>
-          <span className="step-num">Local:</span> Arrastra un .json aquí. Se guarda en el navegador.<br/>
-          <span className="step-num">Generar:</span> Usa <strong>prompt-analisis-ajedrez.md</strong> en Claude/ChatGPT/Gemini.<br/>
-          <span className="step-num">⌨</span> Flechas <strong>← →</strong> en el visor.
-        </div></div>
-      </div></div>
-    );
-  }
+  if(screen==="home"){const gh=ghInfo.current;return(
+    <div className="home"><div className="home-inner">
+      <div className="home-icon">♔</div><h1 className="home-title">Chess Analyzer</h1>
+      <p className="home-sub">Análisis didáctico de partidas, jugada a jugada</p>
+      <div className="section-label">Partida incluida</div>
+      <button className="game-card" onClick={()=>loadGame(IMM)}><div className="game-card-inner"><span className="game-card-icon">♚</span><div><div className="game-card-title">La Partida Inmortal</div><div className="game-card-sub">Anderssen vs Kieseritzky — Londres, 1851</div><div className="game-card-detail">23 jugadas · Gambito de Rey · Sacrificio de dama y torres</div></div></div><span className="game-card-badge badge-builtin">INCLUIDA</span></button>
+      {library.length>0&&(<div style={{marginTop:20}}><div className="section-label">Tu biblioteca ({library.length})</div>{library.map(g=>(<button key={g.id} className="game-card" onClick={()=>loadGame(g.data)}><div className="game-card-inner"><span className="game-card-icon">{g.data.info.result==="1-0"?"♔":g.data.info.result==="0-1"?"♚":"½"}</span><div><div className="game-card-title">{g.data.info.title}</div><div className="game-card-sub">{g.data.info.white} vs {g.data.info.black} — {g.data.info.date}</div><div className="game-card-detail">{g.data.info.result} · {g.data.info.event}</div></div></div><span className={`game-card-badge ${g.source==="github"?"badge-github":"badge-local"}`}>{g.source==="github"?"GITHUB":"LOCAL"}</span><button className="delete-btn" onClick={e=>{e.stopPropagation();deleteGame(g.id)}}>Eliminar</button></button>))}</div>)}
+      {gh&&(<div style={{marginTop:16}}>{syncStatus?(<div className={`sync-bar ${syncStatus.type}`}><span style={{flex:1}}>{syncStatus.type==="loading"?"⏳":syncStatus.type==="ok"?"✓":"✕"} {syncStatus.msg}</span><button className="sync-btn" onClick={manualSync} disabled={syncing}>{syncing?"...":"↻ Resincronizar"}</button></div>):(<div className="sync-bar ok" style={{color:"#7a9ad4",borderColor:"rgba(100,140,220,.2)",background:"rgba(100,140,220,.08)"}}><span style={{flex:1}}>GitHub: {gh.user}/{gh.repo}</span><button className="sync-btn" onClick={manualSync} disabled={syncing}>↻ Sincronizar</button></div>)}</div>)}
+      <div className="separator"><div className="separator-line"/><span>Cargar archivo</span><div className="separator-line"/></div>
+      <div className={`drop-zone ${dragOver?"active":""}`} onDragOver={e=>{e.preventDefault();setDragOver(true)}} onDragLeave={()=>setDragOver(false)} onDrop={handleDrop} onClick={()=>fileRef.current?.click()}><input ref={fileRef} type="file" accept=".json" style={{display:"none"}} onChange={e=>handleFile(e.target.files[0])}/><div className="drop-zone-icon">📂</div><div className="drop-zone-text">Arrastra un <strong>.json</strong> o haz clic</div><div className="drop-zone-hint">Se guarda automáticamente en tu biblioteca</div></div>
+      {error&&<div className="error-msg">{error}</div>}
+      <div className="instructions"><div className="instructions-title">Cómo funciona</div><div className="instructions-body"><span className="step-num">GitHub:</span> Sube .json a <strong>partidas/</strong> en el repo. Se cargan al abrir.<br/><span className="step-num">Local:</span> Arrastra un .json aquí. Se guarda en el navegador.<br/><span className="step-num">Generar:</span> Usa <strong>prompt-analisis-ajedrez.md</strong> en Claude/ChatGPT/Gemini.<br/><span className="step-num">⌨</span> Flechas <strong>← →</strong> en el visor.</div></div>
+    </div></div>
+  );}
 
   /* ── VIEWER ── */
-  const{states,moves}=boardData;
-  const board=states[step];
+  const{states,moves}=boardData;const board=states[step];
   const analysis=(gameData.analysis&&gameData.analysis[step-1])||null;
-  const move=step>0?moves[step-1]:null;
-  const isWT=step%2===1;
-  const total=moves.length;
+  const move=step>0?moves[step-1]:null;const isWT=step%2===1;const total=moves.length;
 
   return(
     <div className="viewer">
@@ -362,64 +258,57 @@ function App(){
         <p className="viewer-sub">{gameData.info.white} vs {gameData.info.black} — {gameData.info.event}, {gameData.info.date}</p>
       </div>
       <div className="main-layout">
-        {/* Board column */}
         <div className="board-col">
           <div className="board-frame">
-            <div className="board-labels">{FL.map(f=><div key={f} className="board-label">{f}</div>)}</div>
+            <div className="board-labels">{FL.map(f=><div key={f} className="board-label" style={{width:cellSz}}>{f}</div>)}</div>
             {board.map((row,r)=>(
               <div key={r} className="board-row">
                 <div className="rank-label">{RKL[r]}</div>
                 {row.map((piece,c)=>{
-                  const il=(r+c)%2===0,iF=move&&move.from[0]===r&&move.from[1]===c,iT=move&&move.to[0]===r&&move.to[1]===c;
-                  let cs="cell";
-                  if(iF)cs+=il?" fl":" fd";else if(iT)cs+=il?" tl":" td";else cs+=il?" l":" d";
-                  if(piece)cs+=piece===piece.toUpperCase()?" wp":" bp";
-                  return(<div key={c} className={cs}>{piece&&PC[piece]}{iT&&<div className="dot"/>}</div>);
+                  const bg=getCellBg(r,c,move);const isTo=move&&move.to[0]===r&&move.to[1]===c;
+                  const ps=piece?getPieceStyle(piece):{};
+                  return(<div key={c} className="cell" style={{width:cellSz,height:cellSz,background:bg,fontSize:"clamp(22px,6vw,40px)",color:ps.color,textShadow:ps.textShadow}}>
+                    {piece&&PC[piece]}{isTo&&<div className="dot"/>}
+                  </div>);
                 })}
                 <div className="rank-label">{RKL[r]}</div>
               </div>
             ))}
-            <div className="board-labels">{FL.map(f=><div key={f} className="board-label">{f}</div>)}</div>
+            <div className="board-labels">{FL.map(f=><div key={f} className="board-label" style={{width:cellSz}}>{f}</div>)}</div>
           </div>
           <div className="controls">
             {[{l:"⏮",a:()=>goTo(0),d:step===0},{l:"◀",a:()=>goTo(Math.max(0,step-1)),d:step===0},{l:autoPlay?"⏸":"▶",a:()=>setAutoPlay(a=>!a),d:step>=total&&!autoPlay},{l:"▶",a:()=>goTo(Math.min(total,step+1)),d:step>=total},{l:"⏭",a:()=>goTo(total),d:step>=total}].map((b,i)=>
               <button key={i} className="cb" onClick={b.a} disabled={b.d}>{b.l}</button>
             )}
+            <button className={`gear-btn ${showSettings?"active":""}`} onClick={()=>setShowSettings(s=>!s)}>⚙</button>
           </div>
+          {showSettings&&(
+            <div className="settings-panel">
+              <div className="settings-group">
+                <div className="settings-group-label">Piezas</div>
+                <div className="settings-options">
+                  {PIECE_STYLES.map(s=><button key={s.id} className={`opt-btn ${pieceStyle===s.id?"active":""}`} onClick={()=>chgPiece(s.id)}>{s.name}</button>)}
+                </div>
+              </div>
+              <div className="settings-group">
+                <div className="settings-group-label">Tablero</div>
+                <div className="settings-options">
+                  {BOARD_THEMES.map(t=>(
+                    <div key={t.id} className={`color-swatch ${boardTheme===t.id?"active":""}`} onClick={()=>chgBoard(t.id)} title={t.name}>
+                      <div className="swatch-half" style={{background:t.light}}/><div className="swatch-half" style={{background:t.dark}}/>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          )}
           <div className="move-counter">{step}/{total}{step>0&&<span className={`tb ${isWT?"w":"b"}`}>{isWT?"♔":"♚"}</span>}</div>
         </div>
-
-        {/* Info column */}
         <div className="info-col">
-          {/* Move strip — horizontal scroll */}
-          <div className="move-strip" ref={moveStripRef}>
-            <div className="move-strip-inner">
-              {moves.map((m,i)=>{
-                const mn=Math.floor(i/2)+1;
-                const label=i%2===0?`${mn}.${m.san}`:`${mn}…${m.san}`;
-                return<button key={i} className={`mc2 ${step===i+1?"a":""}`} onClick={()=>goTo(i+1)}>{label}</button>;
-              })}
-            </div>
-          </div>
-
-          {/* Analysis */}
+          <div className="move-strip" ref={moveStripRef}><div className="move-strip-inner">{moves.map((m,i)=>{const mn=Math.floor(i/2)+1;const label=i%2===0?`${mn}.${m.san}`:`${mn}…${m.san}`;return<button key={i} className={`mc2 ${step===i+1?"a":""}`} onClick={()=>goTo(i+1)}>{label}</button>})}</div></div>
           <div className="ap">
-            {step===0?(<div>
-              <div className="at">{gameData.info.title}</div>
-              <p className="it">{gameData.info.description}</p>
-              <p className="ih">Pulsa ▶ o toca una jugada. Flechas ← → en PC.</p>
-            </div>):analysis?(<div>
-              <div className="at">{analysis.title}</div>
-              <p className="ax">{analysis.explanation}</p>
-              <div className="pc-row">
-                <div className="tr"><span className="tg p">PROS</span><span className="tt p">{analysis.pros}</span></div>
-                <div className="tr"><span className="tg c">CONT</span><span className="tt c">{analysis.cons}</span></div>
-              </div>
-              {step===total&&(<div className="rb"><div className="ri">♔ {gameData.info.result} ♚</div><div className="rt">¡Fin de la partida!</div></div>)}
-            </div>):(<div className="na">Sin análisis para esta jugada.</div>)}
+            {step===0?(<div><div className="at">{gameData.info.title}</div><p className="it">{gameData.info.description}</p><p className="ih">Pulsa ▶ o toca una jugada. Flechas ← → en PC.</p></div>):analysis?(<div><div className="at">{analysis.title}</div><p className="ax">{analysis.explanation}</p><div className="pc-row"><div className="tr"><span className="tg p">PROS</span><span className="tt p">{analysis.pros}</span></div><div className="tr"><span className="tg c">CONT</span><span className="tt c">{analysis.cons}</span></div></div>{step===total&&(<div className="rb"><div className="ri">♔ {gameData.info.result} ♚</div><div className="rt">¡Fin de la partida!</div></div>)}</div>):(<div className="na">Sin análisis para esta jugada.</div>)}
           </div>
-
-          {/* Material + info compact */}
           <div className="mp"><div className="pl">Material</div><MatBal board={board}/></div>
           <div className="ib"><strong>Resultado:</strong> {gameData.info.result} · <strong>Jugadas:</strong> {Math.ceil(total/2)} · <strong>Evento:</strong> {gameData.info.event}</div>
         </div>
@@ -427,7 +316,6 @@ function App(){
     </div>
   );
 }
-
 ReactDOM.createRoot(document.getElementById("app")).render(<App/>);
 </script>
 </body>

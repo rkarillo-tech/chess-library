@@ -63,7 +63,9 @@
   .board-label{text-align:center;font-size:10px;color:#7a6a52;font-weight:600}
   .board-row{display:flex;align-items:center}
   .rank-label{width:18px;text-align:center;font-size:10px;color:#7a6a52;font-weight:600}
-  .cell{display:flex;align-items:center;justify-content:center;position:relative;transition:background .3s;cursor:default;-webkit-user-select:none;user-select:none}
+  :root{--cell:clamp(36px,9vw,58px);--piece-fs:clamp(22px,6vw,40px)}
+  .cell{display:flex;align-items:center;justify-content:center;position:relative;transition:background .3s;cursor:default;-webkit-user-select:none;user-select:none;width:var(--cell);height:var(--cell);font-size:var(--piece-fs)}
+  .board-label{width:var(--cell)}
   .dot{position:absolute;top:1px;right:2px;width:6px;height:6px;border-radius:50%;background:#e74c3c;box-shadow:0 0 5px rgba(231,76,60,.7)}
   .controls{display:flex;gap:6px;justify-content:center;margin-top:8px;flex-wrap:wrap;align-items:center}
   .cb{padding:6px 12px;border-radius:6px;cursor:pointer;font-size:13px;font-family:inherit;font-weight:700;transition:all .2s;background:linear-gradient(135deg,#5a4830,#3a2e20);color:#d4a745;border:1px solid #6a5840}
@@ -111,12 +113,15 @@
   .ib{background:rgba(0,0,0,.15);border:1px solid #2a2218;border-radius:8px;padding:8px 10px;font-size:11px;color:#6a5a42}.ib strong{color:#8a7a62}
   .na{color:#8a7a62;font-size:13px;font-style:italic}
   @media(max-width:680px) and (orientation:portrait){
+    :root{--cell:clamp(38px,11.5vw,48px);--piece-fs:clamp(24px,7.5vw,34px)}
     .viewer{padding:8px}.back-btn{position:relative;margin-bottom:8px;display:inline-block}
     .viewer-header{margin-bottom:8px}.main-layout{gap:8px}.board-col{width:100%}
     .info-col{min-width:0;width:100%;gap:8px}.board-frame{display:block;margin:0 auto}
+    .board-labels{padding-left:18px}.rank-label{width:16px;font-size:9px}.board-label{font-size:9px}
     .mp{padding:6px 8px}.ib{font-size:10px;padding:6px 8px}.settings-panel{padding:8px 10px;gap:8px}
   }
   @media(max-height:500px) and (orientation:landscape){
+    :root{--cell:clamp(28px,6vh,42px);--piece-fs:clamp(18px,4.5vh,30px)}
     .viewer{padding:6px 10px}.viewer-header{margin-bottom:6px}
     .back-btn{position:absolute;left:6px;top:4px;padding:3px 8px;font-size:11px}
     .viewer-title{font-size:1rem}.viewer-sub{font-size:.7rem;margin-top:1px}
@@ -125,6 +130,7 @@
     .info-col{flex:1 1 0;min-width:200px;max-width:none;overflow-y:auto;max-height:calc(100vh - 70px);gap:8px}
     .info-col>.move-strip,.info-col>.ap,.info-col>.mp,.info-col>.ib{flex-shrink:0}
     .board-frame{border-width:2px;padding:1px}
+    .board-labels{padding-left:14px}.rank-label{width:14px;font-size:8px}.board-label{font-size:8px}
     .controls{gap:3px;margin-top:4px}.cb{padding:4px 8px;font-size:11px}
     .gear-btn{padding:4px 8px;font-size:13px;margin-left:3px}
     .move-counter{font-size:10px;margin-top:3px}.dot{width:5px;height:5px}
@@ -221,8 +227,6 @@ function App(){
   useEffect(()=>{if(screen!=="viewer"||!boardData)return;function hk(e){if(e.key==="ArrowRight")goTo(Math.min(boardData.moves.length,step+1));else if(e.key==="ArrowLeft")goTo(Math.max(0,step-1));else if(e.key==="Home")goTo(0);else if(e.key==="End")goTo(boardData.moves.length)}window.addEventListener("keydown",hk);return()=>window.removeEventListener("keydown",hk)},[screen,boardData,step,goTo]);
   useEffect(()=>{if(!moveStripRef.current||step===0)return;const a=moveStripRef.current.querySelector(".mc2.a");if(a)a.scrollIntoView({behavior:"smooth",block:"nearest",inline:"center"})},[step]);
 
-  const cellSz="clamp(36px,9vw,58px)";
-
   function getCellBg(r,c,move){
     const il=(r+c)%2===0,iF=move&&move.from[0]===r&&move.from[1]===c,iT=move&&move.to[0]===r&&move.to[1]===c;
     if(iF)return il?bTheme.fromL:bTheme.fromD;if(iT)return il?bTheme.toL:bTheme.toD;return il?bTheme.light:bTheme.dark;
@@ -260,21 +264,21 @@ function App(){
       <div className="main-layout">
         <div className="board-col">
           <div className="board-frame">
-            <div className="board-labels">{FL.map(f=><div key={f} className="board-label" style={{width:cellSz}}>{f}</div>)}</div>
+            <div className="board-labels">{FL.map(f=><div key={f} className="board-label">{f}</div>)}</div>
             {board.map((row,r)=>(
               <div key={r} className="board-row">
                 <div className="rank-label">{RKL[r]}</div>
                 {row.map((piece,c)=>{
                   const bg=getCellBg(r,c,move);const isTo=move&&move.to[0]===r&&move.to[1]===c;
                   const ps=piece?getPieceStyle(piece):{};
-                  return(<div key={c} className="cell" style={{width:cellSz,height:cellSz,background:bg,fontSize:"clamp(22px,6vw,40px)",color:ps.color,textShadow:ps.textShadow}}>
+                  return(<div key={c} className="cell" style={{background:bg,color:ps.color,textShadow:ps.textShadow}}>
                     {piece&&PC[piece]}{isTo&&<div className="dot"/>}
                   </div>);
                 })}
                 <div className="rank-label">{RKL[r]}</div>
               </div>
             ))}
-            <div className="board-labels">{FL.map(f=><div key={f} className="board-label" style={{width:cellSz}}>{f}</div>)}</div>
+            <div className="board-labels">{FL.map(f=><div key={f} className="board-label">{f}</div>)}</div>
           </div>
           <div className="controls">
             {[{l:"⏮",a:()=>goTo(0),d:step===0},{l:"◀",a:()=>goTo(Math.max(0,step-1)),d:step===0},{l:autoPlay?"⏸":"▶",a:()=>setAutoPlay(a=>!a),d:step>=total&&!autoPlay},{l:"▶",a:()=>goTo(Math.min(total,step+1)),d:step>=total},{l:"⏭",a:()=>goTo(total),d:step>=total}].map((b,i)=>

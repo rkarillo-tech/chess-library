@@ -1,0 +1,497 @@
+{
+"info": {
+"title": "Tartakower vs Frentz, Paris 1933 — Ataque coordinado y final técnico con peones pasados",
+"white": "Tartakower Saviely",
+"black": "Frentz, M..",
+"event": "Paris",
+"date": "1933",
+"result": "1-0",
+"description": "Esta partida es muy instructiva porque muestra cómo una ventaja de desarrollo y seguridad del rey puede transformarse en un ataque directo, y luego en un final ganado con técnica. Tartakower coordina todas sus piezas con gran armonía, fuerza concesiones estructurales y remata con un plan claro de torre activa y peones pasados."
+},
+"pgn": "1. c4 Nf6 2. Nc3 e6 3. e4 d5 4. cxd5 exd5 5. e5 d4 6. exf6 dxc3 7. fxg7 cxd2+ 8. Bxd2 Bxg7 9. Qc2 Nc6 10. Nf3 Bg4 11. O-O-O Bxf3 12. gxf3 Nd4 13. Qe4+ Qe7 14. Qxe7+ Kxe7 15. Bb4+ Ke8 16. Bb5+ c6 17. Rhe1+ Ne6 18. Bc4 Rd8 19. Bxe6 Rxd1+ 20. Kxd1 fxe6 21. Rxe6+ Kd8 22. Re7 Bxb2 23. Rxb7 Bd4 24. Bc5 Kc8 25. Rxa7 Kb8 26. Bxd4 Rd8 27. Rxh7 Rxd4+ 28. Ke2 Ra4 29. h4 Rxa2+ 30. Ke3 Kc8 31. h5 Kd8 32. h6 Ke8 33. Rb7 Kf8 34. h7 Ra3+ 35. Kf4",
+"analysis": [
+{
+"san": "c4",
+"title": "1. c4 — Apertura flexible y de largo alcance",
+"explanation": "Las blancas comienzan con un avance que controla la casilla d5 y prepara un desarrollo flexible. A diferencia de 1.e4 o 1.d4, este planteo no define de inmediato toda la estructura central y permite adaptarse a la respuesta negra. Tartakower busca una posición rica en maniobras y posibilidades transposicionales.",
+"pros": "Controla d5, mantiene flexibilidad y evita comprometer demasiado pronto el centro.",
+"cons": "No ocupa el centro de forma directa con un peón."
+},
+{
+"san": "Nf6",
+"title": "1... Nf6 — Desarrollo natural y presión indirecta",
+"explanation": "Las negras desarrollan una pieza hacia una casilla activa y preparan una lucha flexible por el centro. El caballo controla e4 y d5, y deja abiertas varias estructuras posibles, incluidas transposiciones a defensas indias. Es una respuesta sana y muy práctica.",
+"pros": "Desarrolla una pieza, controla casillas centrales y mantiene opciones abiertas.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Nc3",
+"title": "2. Nc3 — Desarrollo con refuerzo central",
+"explanation": "El caballo se desarrolla a una casilla natural desde donde apoya e4 y d5. Con ello, las blancas preparan una eventual expansión central. Tartakower combina desarrollo rápido con control de casillas importantes.",
+"pros": "Desarrolla una pieza, apoya el centro y mantiene la flexibilidad del peón d.",
+"cons": "Puede permitir a las negras plantear esquemas tipo Nimzo-India o similares si las blancas juegan d4."
+},
+{
+"san": "e6",
+"title": "2... e6 — Estructura sólida y flexible",
+"explanation": "Las negras preparan ...d5 y abren la diagonal del alfil de f8. Es una jugada muy flexible que permite elegir entre un planteo clásico o uno más dinámico según evolucione la posición. Frentz construye una base sólida antes de comprometer más piezas.",
+"pros": "Refuerza el centro potencial, libera el alfil y conserva flexibilidad estratégica.",
+"cons": "Encierra temporalmente al alfil de c8."
+},
+{
+"san": "e4",
+"title": "3. e4 — Tomar el centro con decisión",
+"explanation": "Las blancas ocupan el centro con un segundo peón y ganan espacio. Esta expansión es ambiciosa y busca restringir a las piezas negras. Tartakower convierte una apertura flexible en una posición de centro amplio.",
+"pros": "Gana mucho espacio, controla casillas clave y prepara desarrollo activo.",
+"cons": "El centro adelantado puede convertirse luego en objetivo de rupturas negras."
+},
+{
+"san": "d5",
+"title": "3... d5 — Contraataque central inmediato",
+"explanation": "Las negras responden de forma enérgica, atacando el centro blanco antes de que se consolide demasiado. Esta reacción es muy temática: cuando el rival toma mucho espacio, conviene desafiarlo sin demora. Frentz busca equilibrio dinámico desde el inicio.",
+"pros": "Cuestiona el centro blanco y evita quedar restringido.",
+"cons": "Puede abrir líneas rápidamente, lo que exige precisión en el desarrollo."
+},
+{
+"san": "cxd5",
+"title": "4. cxd5 — Aclarar la tensión central",
+"explanation": "Las blancas capturan en d5 y definen la estructura enseguida. Con ello, abren líneas y fuerzan a las negras a decidir cómo recapturar. Tartakower prefiere una posición concreta en lugar de una tensión prolongada.",
+"pros": "Aclara la posición y puede abrir líneas favorables para el desarrollo.",
+"cons": "Entrega el peón c y reduce parte de la tensión central que podía incomodar al negro."
+},
+{
+"san": "exd5",
+"title": "4... exd5 — Recaptura centralizadora",
+"explanation": "Las negras recapturan con el peón e y mantienen un peón central en d5. La estructura queda simétrica en apariencia, pero con posibilidades tácticas tempranas. Frentz recupera material sin perder control del centro.",
+"pros": "Restaura el equilibrio material y mantiene presencia central.",
+"cons": "Abre la columna e y deja una estructura donde los peones pueden volverse móviles o vulnerables."
+},
+{
+"san": "e5",
+"title": "5. e5 — Ganar espacio y expulsar piezas",
+"explanation": "Las blancas avanzan el peón y restringen a las piezas negras, sobre todo al caballo de f6. Este tipo de avance gana espacio, pero también fija la estructura y crea nuevas casillas detrás del peón. Tartakower elige una continuación muy ambiciosa.",
+"pros": "Gana espacio, restringe piezas negras y fija la estructura a favor del blanco.",
+"cons": "El peón puede quedar sobreextendido si no recibe apoyo suficiente."
+},
+{
+"san": "d4",
+"title": "5... d4 — Avance agresivo y muy concreto",
+"explanation": "Las negras responden con un avance central que gana espacio y ataca el caballo de c3 indirectamente al crear una estructura muy aguda. Además, abren la posibilidad de capturar en c3 y generar peones pasados muy tempranos. Es una jugada valiente y táctica.",
+"pros": "Gana espacio, fija la estructura y crea amenazas concretas en el ala de dama.",
+"cons": "Avanza mucho el peón y puede dejar casillas débiles detrás si la iniciativa se disipa."
+},
+{
+"san": "exf6",
+"title": "6. exf6 — Transformar el centro en táctica",
+"explanation": "Las blancas capturan en f6 y crean un peón pasado muy avanzado en la columna g tras la siguiente secuencia. La jugada también elimina un defensor importante del centro negro. Tartakower entiende que la posición ya no es solo estratégica: es táctica y concreta.",
+"pros": "Gana material temporal, descoordina al negro y crea un peón muy avanzado.",
+"cons": "Abandona el peón e y acepta una estructura poco común."
+},
+{
+"san": "dxc3",
+"title": "6... dxc3 — Contrajuego simétrico y agudo",
+"explanation": "Las negras responden capturando en c3 y crean su propio peón pasado muy avanzado. Esto produce una posición extraordinaria: ambos bandos tienen peones peligrosos cerca de coronar en plena apertura. Frentz busca compensación dinámica inmediata.",
+"pros": "Crea un peón pasado peligroso y obtiene fuerte contrajuego táctico.",
+"cons": "La seguridad del rey negro queda relegada y el desarrollo se retrasa."
+},
+{
+"san": "fxg7",
+"title": "7. fxg7 — Peón pasado a un paso de coronar",
+"explanation": "Las blancas empujan su peón hasta g7, obligando a las negras a prestarle atención urgente. En esta fase tan temprana, un peón en séptima fila es un factor táctico enorme. Tartakower aprovecha al máximo la naturaleza aguda de la posición.",
+"pros": "Crea una amenaza de coronación inmediata y obliga al rival a jugar con precisión.",
+"cons": "El peón puede ser eliminado si el negro logra coordinar sus piezas a tiempo."
+},
+{
+"san": "cxd2+",
+"title": "7... cxd2+ — Jaque intermedio y máxima tensión",
+"explanation": "Las negras siguen empujando su peón pasado y además dan jaque, lo que les permite ganar un tiempo crítico. Esta jugada explota el hecho de que el rey blanco sigue en el centro. Frentz usa el recurso táctico más fuerte disponible.",
+"pros": "Da jaque, gana tiempo y mantiene viva la amenaza de coronación o daño estructural.",
+"cons": "El peón puede caer enseguida si las blancas neutralizan el jaque."
+},
+{
+"san": "Bxd2",
+"title": "8. Bxd2 — El alfil limpia el peligro",
+"explanation": "Las blancas eliminan el peón pasado negro de una vez y desarrollan el alfil. Con ello, reducen el contrajuego inmediato y mejoran su coordinación. Tartakower convierte defensa en desarrollo activo.",
+"pros": "Elimina el peón peligroso y desarrolla una pieza útil.",
+"cons": "El alfil queda algo comprometido en d2 si la posición se abre demasiado rápido."
+},
+{
+"san": "Bxg7",
+"title": "8... Bxg7 — Recuperar el peón pasado blanco",
+"explanation": "Las negras capturan el peón de g7 y restauran el equilibrio material de la secuencia táctica inicial. El alfil queda bien desarrollado, pero la seguridad del rey negro sigue siendo un problema latente. Frentz resuelve una amenaza urgente, aunque su desarrollo aún es delicado.",
+"pros": "Elimina el peón pasado blanco y desarrolla el alfil.",
+"cons": "El rey negro sigue en el centro y la coordinación general es incompleta."
+},
+{
+"san": "Qc2",
+"title": "9. Qc2 — Desarrollo con presión latente",
+"explanation": "La dama blanca se coloca en una casilla activa desde donde mira h7, c7 y la diagonal hacia el enroque largo. También coordina con un futuro enroque largo y con la torre de d1 o e1. Tartakower mejora una pieza mayor sin exponerla demasiado.",
+"pros": "Centraliza la dama, prepara el enroque largo y aumenta la coordinación.",
+"cons": "La dama puede ser objetivo si el negro gana tiempos de desarrollo."
+},
+{
+"san": "Nc6",
+"title": "9... Nc6 — Desarrollo necesario",
+"explanation": "Las negras sacan el caballo a una casilla natural para controlar el centro y acelerar la coordinación. También preparan posibles maniobras de defensa alrededor del rey. Es una jugada lógica en una posición todavía cargada de tensión.",
+"pros": "Desarrolla una pieza y mejora el control central.",
+"cons": "No resuelve directamente el problema de la seguridad del rey."
+},
+{
+"san": "Nf3",
+"title": "10. Nf3 — Desarrollo armonioso y presión central",
+"explanation": "Las blancas desarrollan el caballo a su mejor casilla, refuerzan e5 y d4, y preparan el enroque largo o corto según convenga. Además, aumentan el control de casillas críticas del centro. Tartakower completa el desarrollo con gran naturalidad.",
+"pros": "Desarrolla una pieza, mejora la coordinación y refuerza el centro.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Bg4",
+"title": "10... Bg4 — Desarrollo activo, pero arriesgado",
+"explanation": "Las negras desarrollan el alfil con presión sobre el caballo de f3, pero siguen sin asegurar a su rey. En posiciones abiertas o semiabiertas, descuidar la seguridad del monarca puede ser muy costoso. Frentz busca actividad a cambio de asumir riesgos considerables.",
+"pros": "Desarrolla una pieza con iniciativa y molesta la coordinación blanca.",
+"cons": "No atiende el problema principal del negro: el rey expuesto."
+},
+{
+"san": "O-O-O",
+"title": "11. O-O-O — Enroque largo y señal de ataque",
+"explanation": "Las blancas enrocan largo y colocan al rey a salvo al tiempo que activan la torre de h1 hacia el centro. Además, este enroque deja claro que la partida girará alrededor del rey negro, que sigue en el centro. Tartakower elige el plan más enérgico.",
+"pros": "Asegura al rey, activa la torre y prepara presión central y sobre el rey enemigo.",
+"cons": "El ala de dama blanca también requerirá cierta vigilancia si se abren líneas."
+},
+{
+"san": "Bxf3",
+"title": "11... Bxf3 — Cambio práctico para reducir atacantes",
+"explanation": "Las negras cambian una pieza activa blanca para aliviar la presión potencial sobre su rey. Es una decisión comprensible cuando uno está peor en seguridad. Frentz intenta simplificar antes de que el ataque blanco crezca.",
+"pros": "Elimina un atacante potencial y reduce la presión directa.",
+"cons": "Entrega un alfil activo y ayuda a abrir la columna g para las blancas."
+},
+{
+"san": "gxf3",
+"title": "12. gxf3 — Estructura dañada, pero líneas abiertas",
+"explanation": "Las blancas recapturan y aceptan peones doblados, pero a cambio abren la columna g y ganan nuevas vías de ataque sobre el rey negro. En esta posición, la actividad de piezas y columnas abiertas importa más que la pureza estructural. Tartakower prioriza la iniciativa.",
+"pros": "Abre la columna g y aumenta el potencial atacante.",
+"cons": "Deteriora la estructura de peones del ala de rey."
+},
+{
+"san": "Nd4",
+"title": "12... Nd4 — Salto agresivo, pero optimista",
+"explanation": "Las negras centralizan el caballo y crean amenazas tácticas locales, pero siguen sin resolver la exposición de su rey. Una pieza activa puede compensar algunos problemas, pero no siempre basta cuando el monarca está en el centro. Frentz elige la actividad por encima de la prudencia.",
+"pros": "Centraliza una pieza y crea presión táctica inmediata.",
+"cons": "El plan está mal justificado porque el rey negro sigue muy vulnerable."
+},
+{
+"san": "Qe4+",
+"title": "13. Qe4+ — Jaque centralizador y muy fuerte",
+"explanation": "La dama blanca da jaque desde una casilla central, obligando al negro a responder de manera incómoda. Además, coordina con alfiles y torres para atacar la columna d y las casillas oscuras. Tartakower activa su pieza más poderosa con máxima eficacia.",
+"pros": "Da jaque, centraliza la dama y aumenta la presión sobre el rey negro.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Qe7",
+"title": "13... Qe7 — Interposición forzada",
+"explanation": "Las negras interponen la dama para cortar el jaque y proponer un cambio de damas. Cuando el rey está inseguro, cambiar damas suele ser una idea defensiva natural. Sin embargo, aquí el final resultante seguirá favoreciendo al blanco por actividad y coordinación.",
+"pros": "Bloquea el jaque y ofrece simplificación defensiva.",
+"cons": "La dama negra queda pasiva y el cambio no resuelve todos los problemas."
+},
+{
+"san": "Qxe7+",
+"title": "14. Qxe7+ — Simplificación en condiciones favorables",
+"explanation": "Las blancas aceptan el cambio de damas porque el final resultante les favorece por mejor desarrollo, rey más seguro y piezas más activas. Esta es una decisión muy madura: no siempre hay que mantener damas para atacar. Tartakower entiende que la superioridad blanca persistirá tras la simplificación.",
+"pros": "Elimina recursos defensivos de la dama negra y entra en un final favorable.",
+"cons": "Renuncia a algunas posibilidades de ataque directo con damas sobre el tablero."
+},
+{
+"san": "Kxe7",
+"title": "14... Kxe7 — El rey negro queda expuesto en el final",
+"explanation": "Las negras recapturan con el rey y entran en un final donde el monarca está todavía mal colocado. En muchos finales el rey activo es una virtud, pero aquí su exposición táctica sigue siendo un problema. Frentz debe jugar con mucho cuidado.",
+"pros": "Recupera material y activa al rey en apariencia.",
+"cons": "El rey queda vulnerable a jaques y maniobras tácticas de las piezas blancas."
+},
+{
+"san": "Bb4+",
+"title": "15. Bb4+ — Jaque activo y ganancia de tiempo",
+"explanation": "El alfil entra con jaque y obliga al rey negro a una decisión incómoda. Además, la pieza se activa desde una diagonal fuerte, ejerciendo presión sobre el centro y el ala de rey. Tartakower mantiene la iniciativa incluso en el final.",
+"pros": "Da jaque, activa el alfil y gana un tiempo útil.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Ke8",
+"title": "15... Ke8 — El rey busca una casilla menos vulnerable",
+"explanation": "Las negras encuentran la casilla más resistente disponible, evitando males inmediatos mayores. Aun así, el rey sigue mal coordinado y con pocas piezas desarrolladas para protegerlo. La posición negra continúa siendo delicada.",
+"pros": "Reduce los riesgos tácticos inmediatos.",
+"cons": "El rey sigue incómodo y las piezas negras continúan pasivas."
+},
+{
+"san": "Bb5+",
+"title": "16. Bb5+ — Mantener el rey enemigo bajo fuego",
+"explanation": "El alfil vuelve a dar jaque, obligando a las negras a consumir otro tiempo en defensa. Esto también favorece el despliegue de las torres blancas sobre columnas abiertas o semiabiertas. Tartakower mantiene al rey negro sin respiro.",
+"pros": "Da jaque, conserva la iniciativa y limita la coordinación negra.",
+"cons": "El alfil hace varias jugadas consecutivas, aunque todas muy útiles."
+},
+{
+"san": "c6",
+"title": "16... c6 — Defensa forzada y algo debilitante",
+"explanation": "Las negras bloquean el jaque avanzando el peón c, pero crean nuevas debilidades en casillas oscuras y fijan la estructura. Es una defensa necesaria, aunque poco agradable. Frentz compra tiempo a costa de concesiones.",
+"pros": "Corta el jaque y gana espacio.",
+"cons": "Debilita casillas y fija una estructura menos flexible."
+},
+{
+"san": "Rhe1+",
+"title": "17. Rhe1+ — Todas las piezas al ataque",
+"explanation": "La torre entra en juego con jaque y muestra el principio de coordinación máxima: cuando el rey rival está expuesto, cada pieza debe participar. La torre aprovecha la columna e y obliga a una nueva respuesta defensiva. Tartakower moviliza todo su ejército.",
+"pros": "Activa la torre, da jaque y aumenta la presión central.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Ne6",
+"title": "17... Ne6 — Interposición defensiva",
+"explanation": "Las negras colocan el caballo en e6 para bloquear el jaque y ofrecer algo de cobertura al rey. Es una defensa práctica, aunque la pieza queda en una casilla muy sensible. Frentz intenta apagar el fuego con la pieza más cercana.",
+"pros": "Bloquea la línea del jaque y aporta defensa adicional.",
+"cons": "El caballo puede convertirse en objetivo táctico inmediato."
+},
+{
+"san": "Bc4",
+"title": "18. Bc4 — Mejorar el alfil y preparar simplificaciones",
+"explanation": "El alfil se coloca en una diagonal más fuerte, desde donde colabora con la torre y mira casillas sensibles del flanco de dama y del rey. Tartakower reubica su pieza con una idea muy concreta: aumentar la presión y preparar cambios favorables. La coordinación blanca sigue creciendo.",
+"pros": "Mejora la actividad del alfil y mantiene la iniciativa.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Rd8",
+"title": "18... Rd8 — Traer una torre a la defensa",
+"explanation": "Las negras activan por fin una torre, intentando disputar la columna abierta y proteger al rey. Es la respuesta más lógica en una posición donde la coordinación de piezas es vital. Aun así, el blanco sigue manejando el ritmo de la partida.",
+"pros": "Activa una torre y refuerza la defensa central.",
+"cons": "Llega algo tarde y no elimina la presión blanca."
+},
+{
+"san": "Bxe6",
+"title": "19. Bxe6 — Cambiar una ventaja por otra más segura",
+"explanation": "Las blancas no se aferran a la pareja de alfiles: eliminan el caballo bloqueador para simplificar hacia una ventaja más clara. Esta decisión es muy instructiva, porque muestra que conservar una ventaja no siempre es tan importante como transformar la posición en una mejor para ganar. Tartakower cambia dinamismo por seguridad técnica.",
+"pros": "Elimina un defensor importante y facilita el paso a un final favorable.",
+"cons": "Entrega la pareja de alfiles."
+},
+{
+"san": "Rxd1+",
+"title": "19... Rxd1+ — Simplificación forzada",
+"explanation": "Las negras cambian torres para aliviar la presión sobre su rey y sus casillas débiles. En posiciones inferiores, simplificar puede ser un recurso defensivo válido si reduce la iniciativa rival. Frentz intenta llegar a un final más manejable.",
+"pros": "Reduce el número de piezas activas del blanco.",
+"cons": "No resuelve la debilidad estructural ni mejora del todo la posición del rey."
+},
+{
+"san": "Kxd1",
+"title": "20. Kxd1 — El rey blanco entra al final con seguridad",
+"explanation": "Las blancas recapturan con el rey y lo centralizan de paso, algo excelente en el final. El monarca blanco está mucho más seguro y mejor coordinado que su homólogo negro. Tartakower convierte una obligación en una mejora clara de pieza.",
+"pros": "Recupera material y activa el rey en el final.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "fxe6",
+"title": "20... fxe6 — Recaptura con peón y estructura dañada",
+"explanation": "Las negras recuperan el alfil, pero a costa de una estructura deteriorada en el ala de rey y de más casillas débiles. La columna f se abre y el rey negro sigue sin una red sólida de peones. Frentz restablece el material, pero empeora la calidad de su posición.",
+"pros": "Recupera la pieza y mantiene equilibrio material momentáneo.",
+"cons": "Debilita la estructura y deja al rey con menos cobertura."
+},
+{
+"san": "Rxe6+",
+"title": "21. Rxe6+ — Torre activa y jaque a la vez",
+"explanation": "La torre blanca captura en e6 con jaque, gana un peón y se instala en una posición muy activa. Este es un principio esencial de finales: la torre debe ser agresiva, no pasiva. Tartakower aprovecha cada oportunidad para combinar actividad con ganancia material.",
+"pros": "Gana peón, da jaque y maximiza la actividad de la torre.",
+"cons": "La torre queda muy avanzada y exige precisión, aunque está plenamente justificado."
+},
+{
+"san": "Kd8",
+"title": "21... Kd8 — El rey negro busca refugio central",
+"explanation": "Las negras intentan colocar el rey en una casilla desde donde pueda resistir mejor en el final. Sin embargo, sigue siendo un monarca muy expuesto a la actividad de la torre blanca. Frentz sobrevive al jaque, pero no resuelve el problema de fondo.",
+"pros": "Mantiene al rey cerca del centro en el final.",
+"cons": "El rey sigue vulnerable y mal coordinado."
+},
+{
+"san": "Re7",
+"title": "22. Re7 — Torre en séptima, máxima agresividad",
+"explanation": "La torre blanca entra en séptima fila, una posición ideal en finales porque ataca peones, corta al rey y restringe a las piezas rivales. Esta jugada es mucho más fuerte que una defensa pasiva del propio flanco de dama. Tartakower entiende perfectamente el valor de la actividad.",
+"pros": "Domina la séptima, ataca peones y restringe al rey negro.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Bxb2",
+"title": "22... Bxb2 — Contrajuego material en el ala de dama",
+"explanation": "Las negras capturan un peón para generar contrachances y evitar quedar completamente a la defensiva. En finales inferiores, tomar peones laterales y activar piezas suele ser la mejor esperanza. Frentz intenta equilibrar la balanza materialmente.",
+"pros": "Gana un peón y activa el alfil.",
+"cons": "No reduce la gran actividad de la torre blanca."
+},
+{
+"san": "Rxb7",
+"title": "23. Rxb7 — Mantener la torre ganando peones",
+"explanation": "Las blancas siguen utilizando la torre como arma ofensiva principal y capturan otro peón. Además, desde b7 mantienen la presión sobre el flanco de dama y sobre el alfil negro. Tartakower demuestra consistencia técnica: cada jugada mejora o gana algo.",
+"pros": "Gana peón y conserva una torre muy activa.",
+"cons": "La torre se aleja del rey blanco, aunque sin riesgo real inmediato."
+},
+{
+"san": "Bd4",
+"title": "23... Bd4 — Coordinación defensiva del alfil",
+"explanation": "El alfil negro se recoloca a una diagonal muy útil, defendiendo el peón a y controlando al mismo tiempo otras casillas importantes. Es una buena jugada práctica porque intenta multiplicar las funciones de una sola pieza. Frentz encuentra una forma ingeniosa de defenderse.",
+"pros": "Defiende varios puntos a la vez y mejora mucho el alfil.",
+"cons": "No impide que el blanco siga maniobrando con ganancia de tiempo."
+},
+{
+"san": "Bc5",
+"title": "24. Bc5 — Bella maniobra de interferencia",
+"explanation": "Las blancas colocan el alfil en una casilla ideal, renovando la amenaza sobre el peón a y entorpeciendo la coordinación del alfil negro. La jugada es muy instructiva: no ataca de frente, sino que perturba la organización defensiva rival. Tartakower mejora una pieza y crea nuevas amenazas simultáneamente.",
+"pros": "Renueva amenazas, mejora el alfil y dificulta la defensa negra.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Kc8",
+"title": "24... Kc8 — El rey trata de acercarse a la defensa",
+"explanation": "Las negras llevan el rey al ala de dama para apoyar sus peones y liberar algo de carga a las piezas menores. Es una reacción lógica en el final. Aun así, las blancas siguen teniendo la iniciativa estratégica.",
+"pros": "Mejora la posición del rey y lo acerca al sector amenazado.",
+"cons": "El rey queda sujeto a amenazas de torre y alfil muy activas."
+},
+{
+"san": "Rxa7",
+"title": "25. Rxa7 — Cosechar peones con máxima actividad",
+"explanation": "La torre blanca captura el peón a y elimina un importante recurso del flanco de dama negro. Además, se mantiene activa y conserva opciones de ataque lateral. Tartakower convierte su superioridad de actividad en ventaja material creciente.",
+"pros": "Gana otro peón y debilita mucho el flanco de dama negro.",
+"cons": "La torre queda algo alejada del rey blanco, aunque sigue dominando."
+},
+{
+"san": "Kb8",
+"title": "25... Kb8 — El rey persigue, pero llega tarde",
+"explanation": "Las negras intentan acercar el rey a la torre blanca y al ala de dama. Sin embargo, la actividad de las piezas blancas y la distancia no juegan a favor del rey negro. Frentz sigue resistiendo, pero sus piezas están descoordinadas.",
+"pros": "Intenta centralizar o acercar el rey a la acción.",
+"cons": "No cambia el hecho de que el blanco mantiene la iniciativa total."
+},
+{
+"san": "Bxd4",
+"title": "26. Bxd4 — Simplificación exacta antes del contragolpe",
+"explanation": "Las blancas capturan el alfil negro y simplifican todavía más la posición. Aunque el negro podrá recuperar la pieza luego, el blanco gana tiempos muy valiosos para capturar más peones. Tartakower entiende la importancia del tiempo en el final tanto como la del material.",
+"pros": "Elimina una pieza activa y gana tiempos útiles antes de la recaptura negra.",
+"cons": "Permite una recaptura posterior que restablecerá el equilibrio de piezas."
+},
+{
+"san": "Rd8",
+"title": "26... Rd8 — La torre negra busca recuperar material",
+"explanation": "Las negras activan la torre con una amenaza muy concreta: recuperar el alfil blanco en d4. Es la reacción más fuerte disponible. Frentz intenta transformar la simplificación en un final menos malo.",
+"pros": "Activa la torre y amenaza recuperar material.",
+"cons": "Llega con retraso y deja a las blancas tiempo para ganar peones adicionales."
+},
+{
+"san": "Rxh7",
+"title": "27. Rxh7 — Aprovechar el tiempo al máximo",
+"explanation": "Antes de perder el alfil de d4, las blancas capturan el peón h7 y aumentan aún más la ventaja material. Es una decisión muy práctica: cuando una pieza va a caer, conviene obtener el máximo rendimiento antes. Tartakower combina cálculo con sentido técnico.",
+"pros": "Gana otro peón y amplía la ventaja material antes de la recaptura negra.",
+"cons": "La torre queda muy alejada, aunque con gran actividad."
+},
+{
+"san": "Rxd4+",
+"title": "27... Rxd4+ — Recuperación del material con jaque",
+"explanation": "Las negras finalmente recuperan el alfil y lo hacen con jaque, ganando un tiempo útil. Esto reduce la ventaja de piezas, pero no elimina la superioridad material blanca en peones ni la mejor actividad. Frentz consigue la mejor versión posible de la recaptura.",
+"pros": "Recupera la pieza y da jaque, mejorando el ritmo defensivo.",
+"cons": "No corrige la desventaja material en peones ni la actividad superior blanca."
+},
+{
+"san": "Ke2",
+"title": "28. Ke2 — El rey blanco entra en acción",
+"explanation": "Las blancas apartan el rey del jaque y lo colocan en una casilla central útil para el final. En finales de torres, el rey activo es decisivo, y Tartakower ya piensa en apoyar a sus peones del ala de rey. El rey blanco empieza a ser un atacante.",
+"pros": "Centraliza el rey y mejora la coordinación para el final.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Ra4",
+"title": "28... Ra4 — Torre activa buscando contrajuego",
+"explanation": "Las negras colocan la torre en una fila activa, con idea de atacar peones blancos desde el costado. En finales inferiores, la actividad de torre es la principal esperanza de resistencia. Frentz sigue defendiendo con criterios correctos.",
+"pros": "Activa la torre y crea amenazas laterales sobre peones.",
+"cons": "No evita que el blanco ponga en marcha su mayoría del ala de rey."
+},
+{
+"san": "h4",
+"title": "29. h4 — Los peones pasados deben avanzar",
+"explanation": "Las blancas empujan su mayoría del ala de rey, ganando espacio y preparando la creación de peones pasados conectados o muy avanzados. Esta es una decisión modélica: no basta con tener peones de más, hay que ponerlos en marcha. Tartakower inicia el plan ganador más directo.",
+"pros": "Gana espacio, prepara peones pasados y fija la estructura negra.",
+"cons": "Avanza un peón que luego deberá ser sostenido con precisión."
+},
+{
+"san": "Rxa2+",
+"title": "29... Rxa2+ — Contrajuego material del negro",
+"explanation": "Las negras capturan otro peón lateral y tratan de compensar la mayoría blanca con actividad de torre. Es la defensa correcta desde el punto de vista práctico: atacar peones y mantener amenazas. Frentz busca crear suficientes problemas para aspirar a tablas.",
+"pros": "Gana un peón y mantiene activa la torre.",
+"cons": "No frena el avance principal de los peones del ala de rey blanca."
+},
+{
+"san": "Ke3",
+"title": "30. Ke3 — El rey se acerca al sector decisivo",
+"explanation": "Las blancas siguen activando el rey, acercándolo al ala de rey y al centro. El monarca apoyará el avance de peones y ayudará a construir refugios contra jaques laterales. Tartakower juega el final con excelente sentido del rey activo.",
+"pros": "Centraliza el rey y apoya el plan de avance de peones.",
+"cons": "Debe vigilar los jaques de la torre negra, aunque la posición está bajo control."
+},
+{
+"san": "Kc8",
+"title": "30... Kc8 — El rey negro corre hacia el teatro de operaciones",
+"explanation": "Las negras mejoran la posición del rey con idea de acercarlo a los peones pasados blancos. Es una reacción lógica y necesaria. Frentz entiende que, sin rey activo, la defensa sería imposible.",
+"pros": "Centraliza el rey y mejora sus opciones de defensa.",
+"cons": "Aun así, el rey está algo lejos del ala de rey, donde se decidirá la partida."
+},
+{
+"san": "h5",
+"title": "31. h5 — El peón avanza y gana fuerza",
+"explanation": "Las blancas siguen su plan sin distraerse con el contrajuego lateral del negro. El peón h avanza para crear una amenaza de promoción futura y para dar más cobertura al rey. Tartakower entiende que la carrera de peones debe llevarse con energía.",
+"pros": "Acerca un peón pasado potencial a la coronación y fija más al rival.",
+"cons": "El peón avanzado puede ser un objetivo si la torre negra lograra colocarse detrás, lo que no parece posible a tiempo."
+},
+{
+"san": "Kd8",
+"title": "31... Kd8 — El rey sigue acercándose",
+"explanation": "Las negras continúan mejorando el rey, intentando interceptar a tiempo los peones avanzados blancos. Es una defensa necesaria, aunque el reloj estratégico corre a favor del blanco. Frentz busca una coordinación que llega tarde.",
+"pros": "Acerca el rey a la defensa central y del ala de rey.",
+"cons": "No evita que el peón h siga avanzando con gran fuerza."
+},
+{
+"san": "h6",
+"title": "32. h6 — El peón ya es una amenaza real",
+"explanation": "El peón llega a sexta fila y se convierte en un problema muy serio para las negras. Un peón tan avanzado obliga a la torre y al rey rivales a vigilancia constante. Tartakower transforma su ventaja de peones en una amenaza concreta de promoción.",
+"pros": "Crea un peón peligrosísimo y restringe la libertad defensiva negra.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Ke8",
+"title": "32... Ke8 — Mantener el rey cerca de la promoción",
+"explanation": "Las negras reubican el rey para intentar controlar mejor las casillas de coronación. Es una defensa natural frente a un peón tan avanzado. Sin embargo, el blanco todavía dispone de recursos muy fuertes con torre y rey.",
+"pros": "Aumenta el control sobre las casillas de promoción.",
+"cons": "El rey sigue sometido a la actividad de la torre blanca."
+},
+{
+"san": "Rb7",
+"title": "33. Rb7 — Torre activa detrás del plan ganador",
+"explanation": "La torre blanca se coloca en una casilla excelente, desde donde apoya al peón h, ataca lateralmente y controla la séptima fila. En finales de torres, la coordinación entre torre activa y peón pasado es fundamental. Tartakower fortalece todas sus amenazas a la vez.",
+"pros": "Mejora la torre, apoya el peón pasado y mantiene gran actividad.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Kf8",
+"title": "33... Kf8 — El rey negro busca la defensa final",
+"explanation": "Las negras llevan el rey a una casilla desde donde espera controlar mejor el peón h y ayudar a la torre. Es una defensa lógica, pero muy exigida. Frentz trata de mantenerse a distancia de la promoción.",
+"pros": "Mejora la posición defensiva del rey.",
+"cons": "No cambia la superioridad de la torre blanca ni la fuerza del peón."
+},
+{
+"san": "h7",
+"title": "34. h7 — A un paso de coronar",
+"explanation": "El peón blanco llega a séptima fila, donde se convierte en una amenaza inmediata y casi decisiva. Ahora las negras quedan atadas por completo a la vigilancia de la casilla h8. Tartakower ha llevado su plan hasta el punto crítico.",
+"pros": "Amenaza coronación inmediata y paraliza a la defensa negra.",
+"cons": "El peón necesita apoyo constante, aunque lo tiene."
+},
+{
+"san": "Ra3+",
+"title": "34... Ra3+ — Jaque lateral como último recurso",
+"explanation": "Las negras recurren al recurso típico de los finales de torre: los jaques laterales para alejar al rey enemigo del peón pasado. Es una defensa correcta en concepto. Frentz intenta mantener viva la partida mediante actividad de torre.",
+"pros": "Da jaque y busca descoordinar al rey blanco.",
+"cons": "No impide por sí mismo la promoción si el blanco encuentra el refugio adecuado."
+},
+{
+"san": "Kf4",
+"title": "35. Kf4 — El rey encuentra el camino ganador",
+"explanation": "Las blancas avanzan el rey a una casilla activa y segura, manteniendo el apoyo al peón h y preparándose para construir refugio contra futuros jaques. Esta es la coronación de todo el plan técnico: rey activo, torre activa y peón pasado en séptima. Por eso las negras abandonan: la promoción o la ganancia decisiva de material ya no puede evitarse.",
+"pros": "Centraliza el rey, apoya la coronación y neutraliza el contrajuego de la torre negra.",
+"cons": "Ninguna significativa."
+}
+]
+}

@@ -1,0 +1,602 @@
+{
+"info": {
+"title": "Menchik vs. Capablanca, Hastings 1930",
+"white": "Menchik Vera",
+"black": "Capablanca Jose Raul",
+"event": "Hastings 3031",
+"date": "1930, ronda 9",
+"result": "0-1",
+"description": "Esta partida es un ejemplo clásico de cómo una ventaja de desarrollo y de control de columnas abiertas puede transformarse en un final técnicamente ganado. Capablanca castiga con gran precisión los tiempos perdidos de las blancas en la apertura y luego demuestra una técnica magistral en el final."
+},
+"pgn": "1. d4 Nf6 2. Nf3 b6 3. e3 Bb7 4. Bd3 c5 5. O-O Nc6 6. c3 e6 7. Ne5 d6 8. Nxc6 Bxc6 9. Qe2 Be7 10. Bb5 Qd7 11. Bxc6 Qxc6 12. Nd2 O-O 13. dxc5 dxc5 14. e4 Rad8 15. e5 Nd5 16. Nf3 Rd7 17. Rd1 Rfd8 18. Bd2 b5 19. Kf1 Nb6 20. Bf4 h6 21. Rxd7 Rxd7 22. Rd1 Rxd1+ 23. Qxd1 Qe4 24. Bg3 Qc4+ 25. Qe2 Qxe2+ 26. Kxe2 Na4 27. Kd2 Nxb2 28. Kc2 Nc4 29. Nd2 Nxd2 30. Kxd2 c4 31. Bf4 a6 32. Be3 Kf8 33. Bb6 Ke8 34. Ke3 Kd7 35. Kd4 Kc6 36. Ba7 f5 37. a4 g6 38. f4 h5 39. axb5+ Kxb5 40. g3 a5 41. Ke3 Bc5+ 42. Bxc5 Kxc5",
+"analysis": [
+{
+"san": "d4",
+"title": "1. d4 — Apertura de peón dama",
+"explanation": "Las blancas ocupan el centro de inmediato y abren la diagonal del alfil de casillas negras. Es una jugada que suele conducir a posiciones estratégicas, donde el control de espacio y la estructura de peones son fundamentales. También prepara un desarrollo armónico sin comprometer aún la estructura.",
+"pros": "Gana espacio central, abre líneas de desarrollo y da una base sólida al medio juego.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Nf6",
+"title": "1... Nf6 — Desarrollo flexible",
+"explanation": "Las negras desarrollan una pieza hacia una casilla natural y controlan e4 y d5. Esta respuesta evita comprometer el centro con peones demasiado pronto y deja abiertas varias defensas indias o esquemas hipermodernos. También prepara el enroque corto.",
+"pros": "Desarrolla con lógica, controla casillas centrales y mantiene flexibilidad.",
+"cons": "No ocupa el centro directamente con peones."
+},
+{
+"san": "Nf3",
+"title": "2. Nf3 — Desarrollo natural",
+"explanation": "El caballo sale a su mejor casilla, refuerza d4 y controla e5. Además, prepara el enroque y mantiene abiertas varias configuraciones de apertura. Es una jugada muy sana y coherente con el estilo posicional de 1.d4.",
+"pros": "Desarrolla pieza, apoya el centro y facilita el enroque.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "b6",
+"title": "2... b6 — Fiancheto del alfil dama",
+"explanation": "Las negras anuncian la intención de desarrollar el alfil en b7, desde donde presionará el centro, especialmente e4. Es una idea hipermoderna: en vez de ocupar el centro con peones, se ataca a distancia. También prepara una estructura flexible y resistente.",
+"pros": "Prepara el fiancheto, presiona el centro y mantiene planes variados.",
+"cons": "Es algo lenta y no disputa el centro de forma inmediata."
+},
+{
+"san": "e3",
+"title": "3. e3 — Consolidación central",
+"explanation": "Las blancas refuerzan d4 y abren la diagonal del alfil de f1. Es una jugada sólida que prepara un desarrollo tranquilo, aunque menos ambicioso que e4. También mantiene la estructura compacta y reduce riesgos tempranos.",
+"pros": "Refuerza el centro, abre líneas y mantiene una estructura segura.",
+"cons": "Limita temporalmente al alfil de c1 y renuncia por ahora a una ocupación más amplia del centro."
+},
+{
+"san": "Bb7",
+"title": "3... Bb7 — Alfil activo en gran diagonal",
+"explanation": "El alfil se coloca en la gran diagonal a8-h1, donde ejercerá presión sobre el centro y el flanco de rey. En estas estructuras, el alfil en b7 suele apoyar rupturas como ...c5 o ...e5. La pieza queda muy bien ubicada para el medio juego.",
+"pros": "Desarrolla activamente, presiona e4 y coordina bien con ...c5.",
+"cons": "Puede chocar contra una cadena de peones blanca si el centro queda cerrado."
+},
+{
+"san": "Bd3",
+"title": "4. Bd3 — Desarrollo hacia el centro",
+"explanation": "Las blancas sitúan el alfil en una diagonal útil, mirando hacia h7 y apoyando una eventual expansión central con e4. También es una casilla típica en sistemas de peón dama por su influencia central y ofensiva. El alfil colabora bien con un eventual Qe2.",
+"pros": "Desarrolla activamente, apoya e4 y mira al enroque rival.",
+"cons": "Puede convertirse en objetivo de cambios si las negras buscan simplificar."
+},
+{
+"san": "c5",
+"title": "4... c5 — Presión inmediata al centro",
+"explanation": "Las negras atacan la base del centro blanco y buscan igualar espacio con actividad. Esta ruptura es muy temática: cuestiona d4 y prepara un juego dinámico en columnas semiabiertas. También ayuda a justificar la colocación del alfil en b7.",
+"pros": "Disputa el centro, gana espacio lateral y puede abrir líneas activas para las piezas.",
+"cons": "Si el blanco mantiene el centro con precisión, las negras pueden quedar con un peón lateral avanzado."
+},
+{
+"san": "O-O",
+"title": "5. O-O — Rey seguro y desarrollo completado",
+"explanation": "Las blancas priorizan la seguridad del rey antes de definir el centro. Es un principio clásico: asegurar al monarca y luego empezar las operaciones centrales o de flanco. Además, conecta una de las torres con el resto del dispositivo.",
+"pros": "Asegura al rey y mejora la coordinación general.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Nc6",
+"title": "5... Nc6 — Más presión sobre d4",
+"explanation": "El caballo se desarrolla con naturalidad y aumenta el control sobre el centro. También apoya la ruptura ...e5 en algunas líneas y refuerza la presión sobre d4. Las negras van acumulando piezas activas con gran economía de tiempos.",
+"pros": "Desarrolla pieza, presiona el centro y coordina con el resto del ejército.",
+"cons": "Puede ser cambiado, lo que alteraría la estructura de control central."
+},
+{
+"san": "c3",
+"title": "6. c3 — Refuerzo del peón d4",
+"explanation": "Las blancas consolidan el centro y preparan una estructura de tipo peón dama muy estable. También dejan abierta la opción de e4 más adelante sin exponer tanto d4. Sin embargo, la jugada tiene un coste: el caballo de b1 ya no tendrá c3 como casilla natural.",
+"pros": "Sostiene d4 y da solidez estructural.",
+"cons": "Resta una casilla útil al caballo dama y puede volver el juego algo pasivo."
+},
+{
+"san": "e6",
+"title": "6... e6 — Sólida preparación central",
+"explanation": "Las negras refuerzan la casilla d5, liberan al alfil de f8 y completan una estructura muy sana. La posición negra queda lista para enrocarse y para luchar por las columnas centrales cuando se abran. Es una continuación muy clásica y flexible.",
+"pros": "Refuerza el centro, prepara el alfil y el enroque.",
+"cons": "Encierra temporalmente al alfil de c8."
+},
+{
+"san": "Ne5",
+"title": "7. Ne5 — Maniobra activa pero costosa",
+"explanation": "Las blancas adelantan el caballo con la idea de cambiar piezas y reducir la tensión. El problema es que en la apertura mover una pieza ya desarrollada por segunda vez suele implicar una pérdida de tiempo. Aquí, la intención estratégica existe, pero el balance entre idea y tiempo no es favorable.",
+"pros": "Busca simplificar y ocupa una casilla activa en el centro.",
+"cons": "Pierde un tiempo de desarrollo y permite al negro mejorar su despliegue con ganancia relativa."
+},
+{
+"san": "d6",
+"title": "7... d6 — Pregunta directa al caballo",
+"explanation": "Las negras atacan el caballo de e5 y fortalecen aún más su centro. La jugada obliga a las blancas a decidir y, al mismo tiempo, abre la diagonal del alfil de c8 en el futuro. Es una reacción sobria y eficiente frente a la incursión blanca.",
+"pros": "Gana un tiempo sobre el caballo, refuerza e5 y consolida la posición.",
+"cons": "Puede dejar la estructura algo rígida si el centro se bloquea."
+},
+{
+"san": "Nxc6",
+"title": "8. Nxc6 — Simplificación inmediata",
+"explanation": "Las blancas cambian el caballo activo por una pieza desarrollada del rival para reducir tensión. La idea es comprensible si se busca una posición más tranquila, pero el resultado práctico favorece a las negras, que recapturan desarrollando otra pieza. El cambio reduce piezas, pero no mejora el problema principal del blanco: su atraso de desarrollo.",
+"pros": "Simplifica la posición y elimina un caballo bien colocado.",
+"cons": "Ayuda al desarrollo negro y renuncia a una pieza central activa."
+},
+{
+"san": "Bxc6",
+"title": "8... Bxc6 — Recaptura desarrollando",
+"explanation": "El negro recupera la pieza con el alfil y la coloca en una diagonal muy útil. Este tipo de recaptura es ideal: conserva la estructura de peones y mejora una pieza. Además, el alfil en c6 coordina bien con la presión sobre g2 y el centro.",
+"pros": "Recupera material, desarrolla una pieza y mantiene una estructura sana.",
+"cons": "El alfil puede convertirse en objetivo si el blanco logra e4-e5."
+},
+{
+"san": "Qe2",
+"title": "9. Qe2 — Preparación del centro y coordinación",
+"explanation": "La dama apoya e4 y conecta de forma más directa con el alfil de d3. También despeja d1 para una torre y mantiene flexibilidad sobre el flanco de rey. Es una jugada útil, aunque algo lenta si se compara con desarrollar una pieza menor.",
+"pros": "Prepara e4, mejora la coordinación y apoya potenciales ideas ofensivas.",
+"cons": "Desarrolla la dama pronto, lo que puede exponerla a futuros tiempos."
+},
+{
+"san": "Be7",
+"title": "9... Be7 — Desarrollo tranquilo y completo",
+"explanation": "Las negras desarrollan el alfil a una casilla segura, donde ayuda al enroque y deja libre el paso a las torres. La pieza también puede participar en cambios favorables si el blanco insiste en simplificar. Es una jugada muy sana en una posición donde el negro ya tiene buena coordinación.",
+"pros": "Prepara el enroque y completa el desarrollo armónico.",
+"cons": "Es algo menos activa que otras casillas, aunque muy sólida."
+},
+{
+"san": "Bb5",
+"title": "10. Bb5 — Clavada útil pero otro tiempo extra",
+"explanation": "Las blancas trasladan nuevamente su alfil ya desarrollado, intentando incomodar a la dama o al caballo negro y provocar cambios. La idea de presionar sobre c6 y la diagonal es razonable, pero otra vez se invierte un tiempo en una pieza ya movida. Mientras tanto, algunas piezas blancas siguen sin salir.",
+"pros": "Crea una molestia táctica y puede inducir simplificaciones.",
+"cons": "Pierde tiempo de desarrollo y retrasa la movilización del flanco dama."
+},
+{
+"san": "Qd7",
+"title": "10... Qd7 — Defensa elegante y coordinada",
+"explanation": "La dama protege el alfil de c6 y permite responder al cambio en c6 sin perder armonía. Además, conecta las torres y prepara el enroque con una coordinación muy limpia. Es una defensa activa, no meramente pasiva.",
+"pros": "Defiende con precisión, conecta las torres y mantiene la iniciativa de desarrollo.",
+"cons": "La dama ocupa una casilla donde luego puede ser objeto de simplificación."
+},
+{
+"san": "Bxc6",
+"title": "11. Bxc6 — Nuevo cambio para aliviar tensión",
+"explanation": "Las blancas cambian otro par de piezas, fieles a su plan de simplificación. Sin embargo, al hacerlo, eliminan uno de sus alfiles y permiten a la dama negra entrar activamente en juego. La simplificación no corrige el desequilibrio principal: el negro sigue mejor desarrollado.",
+"pros": "Reduce material y elimina una pieza negra activa.",
+"cons": "Entrega el alfil y facilita una recaptura activa de la dama negra."
+},
+{
+"san": "Qxc6",
+"title": "11... Qxc6 — La dama ocupa un puesto central útil",
+"explanation": "La dama recaptura y se centraliza con seguridad. Desde c6 presiona el centro, vigila diagonales y participa activamente en los futuros planes sobre la columna d. Es un buen ejemplo de dama activa respaldada por una estructura sólida.",
+"pros": "Recupera material, centraliza la dama y aumenta la presión posicional.",
+"cons": "La dama puede convertirse en objetivo si se abren líneas demasiado pronto."
+},
+{
+"san": "Nd2",
+"title": "12. Nd2 — Desarrollo tardío del caballo",
+"explanation": "Por fin el caballo de b1 sale al juego y apoya e4 y c4. La jugada también libera la torre de a1 en el futuro y mejora la coordinación general. Aun así, el desarrollo blanco ha sido más lento de lo deseable, y el negro ya está listo para operaciones más activas.",
+"pros": "Desarrolla pieza, apoya e4 y mejora la conexión interna de las piezas.",
+"cons": "Llega algo tarde respecto al despliegue negro."
+},
+{
+"san": "O-O",
+"title": "12... O-O — Seguridad y lista la artillería",
+"explanation": "El negro enroca y culmina una apertura muy eficiente. Ahora sus torres pueden ir a las columnas centrales, especialmente a la d, que pronto será importante. Con el rey seguro, las negras están listas para explotar su ventaja de desarrollo.",
+"pros": "Asegura al rey y conecta plenamente las torres.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "dxc5",
+"title": "13. dxc5 — Aclaración central discutible",
+"explanation": "Las blancas capturan en c5 y simplifican la tensión de peones. La jugada parece cómoda, pero abre la columna d, lo que beneficiará claramente a las torres negras mejor desarrolladas. A veces una simplificación estructural favorece al bando con mayor actividad, y eso ocurre aquí.",
+"pros": "Aclara la estructura y elimina la presión inmediata sobre d4.",
+"cons": "Abre una columna importante para el negro y reduce el potencial central blanco."
+},
+{
+"san": "dxc5",
+"title": "13... dxc5 — Recaptura que abre la columna d",
+"explanation": "Las negras recuperan el peón y dejan la columna d semiabierta, ideal para sus torres. También mantienen una estructura sana y consolidan su control central. Esta recaptura encaja perfectamente con su ventaja de desarrollo.",
+"pros": "Recupera material, abre la columna d y mejora el juego de torres.",
+"cons": "Crea un peón en c5 que en algunos finales podría ser objetivo, aunque aquí no es un problema."
+},
+{
+"san": "e4",
+"title": "14. e4 — Expansión central por fin lograda",
+"explanation": "Las blancas consiguen el avance temático e4, ganando más espacio y liberando piezas. Es una idea lógica para competir por el centro, aunque llega en un momento en que el negro ya tiene mejor coordinación. La jugada mejora la posición blanca, pero no iguala completamente la actividad rival.",
+"pros": "Gana espacio, fortalece el centro y abre líneas para las piezas.",
+"cons": "Puede dejar casillas débiles y requerir defensa precisa del peón."
+},
+{
+"san": "Rad8",
+"title": "14... Rad8 — Torre a la columna abierta",
+"explanation": "Capablanca coloca inmediatamente una torre en la columna d, donde ejercerá presión sobre la posición blanca. Esta es la recompensa por haber favorecido la apertura de esa columna. La torre ocupa una casilla excelente desde la que coordinará con su compañera.",
+"pros": "Activa la torre en la mejor columna disponible y aumenta la presión central.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "e5",
+"title": "15. e5 — Ganar espacio y liberar piezas",
+"explanation": "Las blancas avanzan el peón para ganar terreno y evitar que el caballo o la dama negra presionen tan fácilmente ese punto. Además, el peón en e5 deja libre al caballo f3 de la tarea de proteger e4. Es una jugada activa, aunque también fija la estructura y restringe al propio alfil de casillas negras.",
+"pros": "Gana espacio, expulsa ideas negras y libera funciones defensivas.",
+"cons": "Cierra la diagonal de su alfil de f4/e3 y puede crear casillas débiles detrás del peón."
+},
+{
+"san": "Nd5",
+"title": "15... Nd5 — Caballo centralizado",
+"explanation": "El caballo se instala en una casilla fuerte, desde donde controla f4, e3 y c3. En posiciones con centro algo cerrado, un caballo en d5 suele ser muy valioso. Además, obstaculiza la coordinación blanca y apunta a maniobras tácticas futuras.",
+"pros": "Centraliza una pieza, gana influencia y aumenta la presión posicional.",
+"cons": "Puede ser objetivo de cambios si el blanco logra reorganizarse."
+},
+{
+"san": "Nf3",
+"title": "16. Nf3 — Repliegue lógico del caballo",
+"explanation": "El caballo vuelve a una casilla más segura y flexible, donde apoya e5, g5 y d4. Desde f3 también ayuda a la defensa del rey y del centro. Sin embargo, el hecho de que el caballo haya ido y vuelto refleja la falta de economía de tiempos del blanco.",
+"pros": "Reorganiza la pieza y refuerza el centro y el rey.",
+"cons": "Confirma una pérdida de tiempos en la apertura."
+},
+{
+"san": "Rd7",
+"title": "16... Rd7 — Preparación de doblaje",
+"explanation": "La torre se desplaza para permitir que la otra ocupe d8 o para doblarse en la columna abierta. Esta maniobra es simple, fuerte y muy instructiva: primero se conquista una columna, luego se duplican torres en ella. El negro juega con un plan claro y sin debilidades.",
+"pros": "Prepara doblar torres y aumenta el control de la columna d.",
+"cons": "La torre ocupa una casilla algo pasiva temporalmente, aunque con un objetivo muy claro."
+},
+{
+"san": "Rd1",
+"title": "17. Rd1 — Competir por la columna abierta",
+"explanation": "Las blancas reaccionan de forma correcta y ponen una torre en la columna crítica. Cuando el rival domina una columna abierta, disputarla suele ser obligatorio. Aun así, el negro llegará antes y mejor coordinado a la lucha por esa vía.",
+"pros": "Contesta el plan negro y mejora la actividad de la torre.",
+"cons": "La torre entra en una lucha donde el negro ya tiene ventaja de preparación."
+},
+{
+"san": "Rfd8",
+"title": "17... Rfd8 — Doblaje perfecto de torres",
+"explanation": "Las negras completan el doblaje y ejercen máxima presión sobre la columna d. Este tipo de coordinación suele traducirse en dominio espacial y táctico, porque cualquier cambio beneficia al bando mejor desarrollado. Capablanca convierte una pequeña ventaja de actividad en una presión muy concreta.",
+"pros": "Domina la columna abierta, coordina las torres y aumenta la presión táctica y estratégica.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Bd2",
+"title": "18. Bd2 — Desarrollo necesario pero modesto",
+"explanation": "Las blancas finalmente desarrollan el alfil de c1, conectan mejor sus piezas y dan soporte a la torre de d1. La jugada es prudente, pero revela una postura defensiva. En posiciones incómodas, a veces la mejor jugada es simplemente completar el desarrollo y esperar una ocasión mejor.",
+"pros": "Completa el desarrollo y mejora la coordinación defensiva.",
+"cons": "No plantea problemas al rival y deja la iniciativa enteramente al negro."
+},
+{
+"san": "b5",
+"title": "18... b5 — Expansión en el flanco de dama",
+"explanation": "Las negras ganan espacio y preparan una posible casilla de maniobra para el caballo en b6. Además, el avance restringe piezas blancas y puede apoyar la creación de un puesto avanzado en c4 o a4. Es una jugada típica de mejora posicional antes de pasar a acciones más concretas.",
+"pros": "Gana espacio, restringe al blanco y prepara maniobras activas del caballo.",
+"cons": "Avanza peones en el flanco y crea algunas casillas débiles potenciales, aunque bien controladas."
+},
+{
+"san": "Kf1",
+"title": "19. Kf1 — Reagrupación del rey",
+"explanation": "Las blancas retiran el rey de la primera fila, probablemente anticipando cambios de torres y buscando una mejor coordinación en el final. También libera g1 para una torre en algunas variantes. Sin embargo, es una jugada lenta en una posición donde el negro ya impone el ritmo.",
+"pros": "Mejora la seguridad relativa del rey de cara a simplificaciones.",
+"cons": "Consume un tiempo sin desarrollar contrajuego."
+},
+{
+"san": "Nb6",
+"title": "19... Nb6 — Caballo rumbo a mejores casillas",
+"explanation": "El caballo se reubica para buscar c4 o a4, dos puestos avanzados muy molestos. Esta es una maniobra muy instructiva: una pieza bien centralizada puede incluso mejorar más si encuentra una casilla aún más estable. El negro no se precipita; mejora su posición paso a paso.",
+"pros": "Prepara un puesto avanzado fuerte y aumenta la flexibilidad estratégica.",
+"cons": "Abandona momentáneamente d5, una casilla muy activa."
+},
+{
+"san": "Bf4",
+"title": "20. Bf4 — Alfil a una diagonal más activa",
+"explanation": "Las blancas activan el alfil, apuntando a e5 y c7 en algunas líneas, y mejoran la coordinación de piezas menores. Es una jugada razonable que busca salir de la pasividad. Aun así, el alfil no dispone de muchos objetivos concretos en una posición bastante cerrada.",
+"pros": "Mejora la pieza y la coloca en una diagonal más útil.",
+"cons": "No cambia el balance general ni neutraliza el plan negro."
+},
+{
+"san": "h6",
+"title": "20... h6 — Casilla de escape y restricción",
+"explanation": "Antes de seguir con el plan del flanco de dama, las negras crean una casilla de escape para el rey y previenen ideas blancas de piezas en g5. Este pequeño movimiento profiláctico es muy típico de Capablanca: primero elimina detalles tácticos, luego avanza sin contratiempos. Además, limita la actividad de caballo y alfil blancos.",
+"pros": "Da una casilla de escape al rey y restringe piezas enemigas.",
+"cons": "Debilita ligeramente casillas oscuras del flanco de rey, aunque sin consecuencias aquí."
+},
+{
+"san": "Rxd7",
+"title": "21. Rxd7 — Cambio simplificador",
+"explanation": "Las blancas deciden reducir la presión cambiando una de las torres negras activas. En principio, simplificar puede parecer deseable frente a una posición incómoda. Pero si el rival tiene mejor colocación de piezas, muchos cambios solo facilitan convertir esa ventaja en el final.",
+"pros": "Reduce la presión inmediata de una torre muy activa.",
+"cons": "Facilita la transición a un final favorable al negro."
+},
+{
+"san": "Rxd7",
+"title": "21... Rxd7 — Recaptura manteniendo el control",
+"explanation": "El negro recaptura con la otra torre y conserva el dominio de la columna d. La simplificación no ha resuelto nada para las blancas: la actividad negra persiste. Además, la torre restante sigue en una casilla excelente.",
+"pros": "Mantiene la actividad y el control de la columna abierta.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Rd1",
+"title": "22. Rd1 — Última disputa por la columna",
+"explanation": "Las blancas intentan seguir compitiendo por la columna d, con la esperanza de forzar más simplificaciones. Es una reacción natural y probablemente necesaria. Sin embargo, la coordinación negra sigue siendo superior y el cambio resultante favorecerá al bando activo.",
+"pros": "Busca neutralizar la presión y forzar simplificaciones adicionales.",
+"cons": "La iniciativa sigue del lado negro."
+},
+{
+"san": "Rxd1+",
+"title": "22... Rxd1+ — Cambio favorable con jaque",
+"explanation": "Las negras cambian torres en el momento justo y, además, lo hacen dando jaque, lo que mejora el tempo de la maniobra. Tras las simplificaciones, el negro quedará con mejor estructura activa y una dama muy bien colocada. Este es un ejemplo de cambio que no solo simplifica, sino que mejora la posición resultante.",
+"pros": "Simplifica en condiciones favorables y mantiene la iniciativa.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Qxd1",
+"title": "23. Qxd1 — Recaptura obligada",
+"explanation": "La dama blanca debe recuperar la torre para evitar perder material. Tras ello, la posición entra en una fase donde la actividad de la dama negra será muy importante. La recaptura es forzada, pero deja a las blancas con piezas algo expuestas.",
+"pros": "Mantiene el equilibrio material inmediato y evita males mayores.",
+"cons": "La dama puede quedar sometida a presión táctica y el final favorece al negro."
+},
+{
+"san": "Qe4",
+"title": "23... Qe4 — Centralización dominante de la dama",
+"explanation": "La dama negra se instala en una casilla potentísima, desde donde ataca f4 y crea amenazas tácticas concretas con jaques y captura de peones. Esta jugada es el punto culminante de la fase de dominación posicional: la actividad se transforma en amenazas directas. La dama negra coordina ataque y ganancia material a la vez.",
+"pros": "Centraliza la dama, crea amenazas múltiples y fuerza una defensa pasiva.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Bg3",
+"title": "24. Bg3 — Defensa prudente del alfil",
+"explanation": "El alfil se retira para evitar tácticas y mantener protegida la estructura. La jugada también intenta reducir la fuerza de la amenaza ...Qxf4. Es una defensa necesaria, aunque pasiva, porque las blancas ya juegan a contener daños.",
+"pros": "Salva la pieza y reduce la presión táctica inmediata.",
+"cons": "Cede iniciativa y deja al negro seguir maniobrando con libertad."
+},
+{
+"san": "Qc4+",
+"title": "24... Qc4+ — Jaque activo y precisión técnica",
+"explanation": "La dama negra aprovecha su actividad para dar jaque y obligar al rey blanco a una defensa incómoda. Además, se reubica manteniendo la amenaza de entrar en casillas débiles del flanco dama. El negro convierte la presión estática en ganancia concreta de tiempo y coordinación.",
+"pros": "Da jaque, gana tiempo y mejora la penetración de la dama.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Qe2",
+"title": "25. Qe2 — Interposición forzada",
+"explanation": "Las blancas bloquean el jaque con la dama, buscando además ofrecer un cambio de damas que alivie la presión. En posiciones inferiores, cambiar damas suele ser un recurso práctico. Pero aquí el final resultante seguirá siendo favorable al negro por su mejor estructura y actividad.",
+"pros": "Elimina el jaque y busca simplificar la posición.",
+"cons": "Conduce a un final desfavorable."
+},
+{
+"san": "Qxe2+",
+"title": "25... Qxe2+ — Simplificación exacta",
+"explanation": "Capablanca acepta el cambio de damas porque sabe que el final le favorece. Esta decisión muestra gran confianza en la evaluación: no busca complicaciones innecesarias, sino una ventaja técnica manejable. Tras el cambio, su caballo y su mayoría de peones serán superiores.",
+"pros": "Entra en un final favorable y elimina posibles recursos tácticos blancos.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Kxe2",
+"title": "26. Kxe2 — Rey blanco hacia el final",
+"explanation": "El rey recaptura, como corresponde en un final. Ahora la figura del rey activo será importante, aunque el blanco llega a esta fase con piezas peor colocadas. La recaptura es obligada y coherente con la nueva etapa de la partida.",
+"pros": "Centraliza el rey y mantiene el equilibrio material inmediato.",
+"cons": "El rey sigue un poco limitado por la actividad de las piezas negras."
+},
+{
+"san": "Na4",
+"title": "26... Na4 — Caballo en casilla invasiva",
+"explanation": "El caballo salta a a4, desde donde ataca b2 y presiona las casillas del flanco dama. Es una maniobra típica de caballo hacia un puesto avanzado lateral que crea amenazas muy concretas. La pieza negra encuentra debilidades que el blanco no puede cubrir cómodamente.",
+"pros": "Amenaza peones, crea puntos de penetración y explota debilidades estructurales.",
+"cons": "El caballo queda en el borde, aunque en una casilla muy efectiva."
+},
+{
+"san": "Kd2",
+"title": "27. Kd2 — Intento de centralización y defensa",
+"explanation": "El rey blanco se acerca al flanco dama para ayudar a defender los peones vulnerables. Es una decisión lógica en el final: el rey debe actuar como pieza activa. No obstante, llega un paso tarde frente a la actividad del caballo negro.",
+"pros": "Mejora la actividad del rey y busca defender b2.",
+"cons": "No alcanza a evitar las amenazas negras."
+},
+{
+"san": "Nxb2",
+"title": "27... Nxb2 — Ganancia limpia de peón",
+"explanation": "El caballo captura el peón de b2 y obtiene una ventaja material tangible. Esta ganancia no nace de una táctica aislada, sino de una secuencia lógica basada en mejor coordinación y presión constante. El negro ya empieza a cosechar los frutos de su superioridad posicional previa.",
+"pros": "Gana un peón y crea un final materialmente favorable.",
+"cons": "El caballo puede quedar algo alejado, aunque con rutas de regreso seguras."
+},
+{
+"san": "Kc2",
+"title": "28. Kc2 — Persecución del caballo y reagrupación",
+"explanation": "El rey intenta acercarse al caballo invasor y recuperar algo de actividad defensiva. También protege casillas del ala de dama y mejora su influencia sobre el centro. Es una reacción práctica, aunque el caballo negro ya tiene salida.",
+"pros": "Activa al rey y presiona indirectamente al caballo enemigo.",
+"cons": "No recupera el peón perdido ni neutraliza la iniciativa negra."
+},
+{
+"san": "Nc4",
+"title": "28... Nc4 — Caballo centralizado tras la incursión",
+"explanation": "Después de capturar en b2, el caballo vuelve a una casilla central excelente. Desde c4 controla muchas casillas, ataca e5 y b2 en algunas líneas, y además dificulta la movilidad blanca. Es un ejemplo clásico de incursión exitosa con retirada a una base segura.",
+"pros": "Conserva la ventaja material y mejora aún más la pieza.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Nd2",
+"title": "29. Nd2 — Ofreciendo simplificación",
+"explanation": "Las blancas buscan cambiar el caballo activo negro, lo que sería muy deseable en una posición inferior. El caballo de f3 finalmente encuentra una función clara en el final. Cambiar una pieza tan fuerte sería un alivio estratégico importante.",
+"pros": "Intenta eliminar la mejor pieza negra y reducir la presión.",
+"cons": "La recaptura resultante no soluciona todos los problemas estructurales."
+},
+{
+"san": "Nxd2",
+"title": "29... Nxd2 — Cambio favorable para el defensor activo",
+"explanation": "Las negras aceptan el cambio porque el final resultante les sigue beneficiando. Con ventaja de peón y mejor estructura, simplificar es la decisión más técnica. Capablanca elimina además una de las pocas piezas blancas con potencial defensivo.",
+"pros": "Reduce el contrajuego blanco y entra en un final aún más claro.",
+"cons": "Renuncia a una pieza muy activa, aunque la transición es favorable."
+},
+{
+"san": "Kxd2",
+"title": "30. Kxd2 — Rey blanco centralizado",
+"explanation": "El rey recaptura y llega al centro, algo normalmente positivo en el final. Sin embargo, la estructura blanca tiene limitaciones y el alfil no disfruta de gran libertad. La centralización existe, pero no basta por sí sola para igualar.",
+"pros": "Activa el rey y mantiene el material dentro de una diferencia mínima.",
+"cons": "El rey sigue atado a debilidades y no puede generar iniciativa propia."
+},
+{
+"san": "c4",
+"title": "30... c4 — Fijación y restricción",
+"explanation": "Las negras avanzan el peón para ganar espacio, fijar peones blancos y limitar el radio del alfil enemigo. En finales de alfiles, la ubicación de los peones respecto al color del alfil rival es crucial. Aquí el peón en c4 estrecha la movilidad blanca y prepara la creación de un peón pasado en el flanco dama.",
+"pros": "Gana espacio, restringe al alfil blanco y fija la estructura en términos favorables.",
+"cons": "Fija también al propio peón, aunque estratégicamente compensa de sobra."
+},
+{
+"san": "Bf4",
+"title": "31. Bf4 — Activación del alfil",
+"explanation": "Las blancas intentan mejorar el alfil y presionar la estructura negra desde una diagonal más activa. También se insinúan ideas sobre h6 o e5 según evolucione el final. Es una jugada natural para buscar recursos dinámicos en una posición inferior.",
+"pros": "Mejora la pieza y busca actividad en un final difícil.",
+"cons": "El alfil sigue bastante condicionado por la estructura cerrada."
+},
+{
+"san": "a6",
+"title": "31... a6 — Consolidación sin avaricia",
+"explanation": "Las negras refuerzan el flanco dama, previenen entradas y preparan futuras expansiones con ...a5. Es una jugada profiláctica y técnica: en vez de lanzarse a capturar de forma dudosa, Capablanca mejora la estructura primero. Así evita contrajuego innecesario.",
+"pros": "Consolida la mayoría del flanco dama y prepara nuevas ganancias de espacio.",
+"cons": "Es una jugada lenta, aunque completamente justificada."
+},
+{
+"san": "Be3",
+"title": "32. Be3 — Reubicación defensiva",
+"explanation": "El alfil cambia de diagonal buscando una mejor defensa de los peones y mayor libertad futura. También puede ayudar a controlar el avance de la mayoría negra. Sin embargo, la pieza sigue chocando con la estructura propia y no logra actividad plena.",
+"pros": "Mejora algo la defensa y reorienta el alfil hacia casillas más útiles.",
+"cons": "No crea amenazas reales ni cambia el signo del final."
+},
+{
+"san": "Kf8",
+"title": "32... Kf8 — Rey negro hacia el centro",
+"explanation": "El rey negro inicia su marcha al centro, un principio esencial en finales. Con damas fuera del tablero, el rey se convierte en una pieza activa más y debe participar en la conversión de la ventaja. La maniobra es tranquila y muy técnica.",
+"pros": "Centraliza el rey y apoya la transición a un final ganador.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Bb6",
+"title": "33. Bb6 — Alfil en diagonal larga",
+"explanation": "Las blancas ubican el alfil en una casilla desde la cual controla mejor el flanco dama y molesta algunas ideas negras. También intenta mantenerse activo, porque la pasividad total sería fatal. Es una jugada útil, aunque insuficiente para equilibrar.",
+"pros": "Activa el alfil y vigila casillas del ala de dama.",
+"cons": "El alfil puede quedar mal coordinado si los peones negros avanzan con precisión."
+},
+{
+"san": "Ke8",
+"title": "33... Ke8 — Paso metódico del rey",
+"explanation": "El rey sigue acercándose a los sectores decisivos sin apresurarse. En finales técnicos, cada paso del rey cuenta porque sostiene rupturas y avances de peones. El negro mejora la posición sin conceder nada.",
+"pros": "Continúa la centralización y refuerza el plan ganador.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Ke3",
+"title": "34. Ke3 — Rey blanco busca contrajuego",
+"explanation": "Las blancas también centralizan al rey, intentando acercarse a los peones negros y sostener los propios. En finales, la actividad del rey es indispensable, incluso en posiciones inferiores. El problema es que el negro ya está mejor situado para imponer su mayoría.",
+"pros": "Activa al rey y aumenta la resistencia práctica.",
+"cons": "No genera contrajuego concreto."
+},
+{
+"san": "Kd7",
+"title": "34... Kd7 — Rey en ruta hacia la mayoría",
+"explanation": "El rey negro entra aún más en el centro y se acerca al flanco dama, donde está la mayoría que decidirá la partida. También ayuda a sostener los peones avanzados y a controlar rupturas. La coordinación rey-peones empieza a ser superior de manera evidente.",
+"pros": "Mejora el rey y prepara el avance decisivo de la mayoría.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Kd4",
+"title": "35. Kd4 — Máxima actividad del rey blanco",
+"explanation": "El rey blanco ocupa una casilla central avanzada, intentando compensar con actividad la desventaja material. Este es el mejor enfoque práctico: crear la mayor incomodidad posible al rival. Sin embargo, la estructura blanca sigue siendo demasiado rígida para acompañar al rey.",
+"pros": "Máxima centralización y mejor capacidad defensiva.",
+"cons": "El rey puede quedar expuesto a maniobras del alfil negro y avances de peones."
+},
+{
+"san": "Kc6",
+"title": "35... Kc6 — Rey negro frente al ala de dama",
+"explanation": "El rey llega al sector clave y apoya directamente los peones de ese flanco. Con esto, el negro combina superioridad material, mejor estructura y rey activo. Es la clase de acumulación de ventajas que define los finales técnicos.",
+"pros": "Apoya la mayoría de peones y domina el sector decisivo.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Ba7",
+"title": "36. Ba7 — Mantener el alfil activo",
+"explanation": "Las blancas buscan una diagonal más larga para su alfil, tratando de controlar casillas críticas del flanco dama. También evitan algunos temas tácticos inmediatos. Aun así, la pieza sigue sin encontrar un papel realmente agresivo.",
+"pros": "Conserva actividad relativa y vigila el avance de peones negros.",
+"cons": "El alfil permanece algo desconectado del rey y de la defensa del centro."
+},
+{
+"san": "f5",
+"title": "36... f5 — Ruptura restrictiva y muy fuerte",
+"explanation": "Las negras avanzan el peón f para fijar aún más la estructura blanca y dejar sin movimientos cómodos al rival. Esta jugada también prepara ...g5 o ...h4 en algunas líneas y restringe al rey blanco. Es un ejemplo excelente de zugzwang progresivo: se van agotando las jugadas útiles del adversario.",
+"pros": "Gana espacio, restringe al blanco y mejora la estructura ofensiva del negro.",
+"cons": "Coloca un peón en casillas del color opuesto al alfil negro, aunque aquí la coordinación global lo compensa."
+},
+{
+"san": "a4",
+"title": "37. a4 — Intento de crear contrajuego",
+"explanation": "Las blancas rompen en el flanco dama para no quedar totalmente paralizadas. A veces, en finales inferiores, avanzar peones es la única forma de generar casillas y decisiones nuevas. Aquí la jugada es casi una necesidad práctica más que una esperanza real.",
+"pros": "Busca contrajuego y evita una pasividad absoluta.",
+"cons": "Puede facilitar la creación de un peón pasado negro tras los cambios."
+},
+{
+"san": "g6",
+"title": "37... g6 — Consolidación antes del avance final",
+"explanation": "Las negras refuerzan la estructura del flanco de rey y preparan ...h5 sin debilidades. También limitan saltos del rey blanco y aseguran casillas clave. La técnica consiste en mejorar todo el tablero antes de abrir una nueva fase.",
+"pros": "Consolida el flanco de rey y prepara más restricción.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "f4",
+"title": "38. f4 — Cierre y resistencia",
+"explanation": "Las blancas avanzan el peón para fijar la estructura y buscar alguna base defensiva estable. También intentan ganar un tempo sobre la estructura negra. No obstante, este avance deja más casillas débiles y fija peones en colores que no ayudan demasiado a su alfil.",
+"pros": "Gana algo de espacio y busca frenar avances negros.",
+"cons": "Fija más debilidades y puede dejar al rey blanco con menos flexibilidad."
+},
+{
+"san": "h5",
+"title": "38... h5 — Más restricción, menos libertad",
+"explanation": "El negro continúa apretando la posición blanca y limita ideas de g4 o h4 del rival. Cada peón negro avanzado cumple una función concreta de restricción. La ventaja negra no se basa en táctica, sino en dejar al adversario sin jugadas útiles.",
+"pros": "Restringe el flanco de rey blanco y consolida el plan de avance.",
+"cons": "Avanza peones del ala de rey, aunque sin debilidades reales en esta posición."
+},
+{
+"san": "axb5+",
+"title": "39. axb5+ — Cambio forzado para aclarar el ala de dama",
+"explanation": "Las blancas capturan para intentar reducir la mayoría negra y crear opciones de bloqueo. El jaque añadido da cierto valor práctico a la secuencia. Aun así, tras la recaptura, el rey negro quedará muy bien situado y el peón a seguirá siendo peligroso.",
+"pros": "Aclara la estructura y trata de reducir la mayoría negra.",
+"cons": "No elimina el potencial de peón pasado del negro."
+},
+{
+"san": "Kxb5",
+"title": "39... Kxb5 — El rey captura y domina",
+"explanation": "El rey negro recaptura, centraliza aún más su papel y se convierte en escolta ideal de los peones del flanco dama. En los finales, un rey activo puede ser más fuerte que una pieza menor pasiva. Aquí la recaptura mejora todo el dispositivo negro.",
+"pros": "Recupera el peón, activa aún más el rey y apoya el avance de la mayoría.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "g3",
+"title": "40. g3 — Intento de sostener casillas claras",
+"explanation": "Las blancas refuerzan f4 y h4, además de darle al rey algunas casillas de espera. Es una jugada defensiva comprensible cuando se intenta prolongar la resistencia. Sin embargo, también fija peones en un esquema poco flexible.",
+"pros": "Refuerza la estructura del flanco de rey y crea una red defensiva básica.",
+"cons": "Aporta poca actividad y fija más debilidades."
+},
+{
+"san": "a5",
+"title": "40... a5 — Creación del peón pasado lejano",
+"explanation": "Las negras avanzan su peón del flanco dama y lo acercan al estatus de peón pasado peligroso. Este tipo de peón es especialmente fuerte porque obliga al rey enemigo a vigilar un sector lejano. El avance resume toda la lógica del final negro.",
+"pros": "Crea un peón muy avanzado y obliga a la defensa blanca a dispersarse.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Ke3",
+"title": "41. Ke3 — El rey intenta sostenerlo todo",
+"explanation": "Las blancas mejoran ligeramente la posición del rey con la esperanza de controlar simultáneamente ambos flancos. En la práctica, esa tarea ya es demasiado difícil. Aun así, la centralización es la mejor forma de ofrecer resistencia en finales.",
+"pros": "Mantiene al rey activo y con opciones de defensa en ambos sectores.",
+"cons": "No alcanza a frenar el plan negro por sí sola."
+},
+{
+"san": "Bc5+",
+"title": "41... Bc5+ — Jaque decisivo y simplificación ganadora",
+"explanation": "El alfil negro da jaque desde una casilla excelente y fuerza una simplificación favorable. Además, controla casillas de escape y prepara el cambio de alfiles, tras el cual el final de peones será trivialmente ganado. Es una jugada técnica y precisa, no espectacular pero sí concluyente.",
+"pros": "Da jaque, fuerza simplificación y conduce a un final de peones ganado.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Bxc5",
+"title": "42. Bxc5 — Cambio obligado de alfiles",
+"explanation": "Las blancas capturan porque mantener los alfiles en el tablero no ofrece una defensa real y el jaque debe resolverse. El cambio es forzado, pero el final resultante es desesperado por la mayoría negra y la posición del rey. A veces el defensor elige la línea más simple aun sabiendo que sigue perdida.",
+"pros": "Elimina el jaque inmediato y simplifica la posición.",
+"cons": "Conduce a un final de peones perdido."
+},
+{
+"san": "Kxc5",
+"title": "42... Kxc5 — Rey negro gana el final de peones",
+"explanation": "El rey recaptura y entra en un final de peones claramente favorable al negro. Su monarca está mejor colocado, su peón pasado del flanco dama es más avanzado y la estructura blanca está demasiado fija para resistir. Con esta recaptura, la conversión técnica queda prácticamente decidida.",
+"pros": "Entra en un final de peones ganado con rey activo y peón pasado avanzado.",
+"cons": "Ninguna significativa."
+}
+]
+}

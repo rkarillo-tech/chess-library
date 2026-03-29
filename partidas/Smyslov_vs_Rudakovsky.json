@@ -1,0 +1,427 @@
+{
+"info": {
+"title": "Smyslov vs. Rudakovsky, Moscow 1945",
+"white": "Smyslov Vassily",
+"black": "Rudakovsky Iosif",
+"event": "Moscow RUS",
+"date": "1945",
+"result": "1-0",
+"description": "Esta partida es un modelo clásico de cómo atacar en la Scheveningen cuando las blancas consiguen dominar el centro y abrir líneas contra el rey enemigo. Smyslov combina desarrollo armónico, control de la casilla d5 y un oportuno sacrificio en f6 para transformar ventajas estratégicas en un ataque decisivo."
+},
+"pgn": "1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Be2 Be7 7. O-O O-O 8. Be3 Nc6 9. f4 Qc7 10. Qe1 Nxd4 11. Bxd4 e5 12. Be3 Be6 13. f5 Bc4 14. Bxc4 Qxc4 15. Bg5 Rfe8 16. Bxf6 Bxf6 17. Nd5 Bd8 18. c3 b5 19. b3 Qc5+ 20. Kh1 Rc8 21. Rf3 Kh8 22. f6 gxf6 23. Qh4 Rg8 24. Nxf6 Rg7 25. Rg3 Bxf6 26. Qxf6 Rcg8 27. Rd1 d5 28. Rxg7 Rxg7 29. Rxd5 Qf8 30. Rd8 1-0",
+"analysis": [
+{
+"san": "e4",
+"title": "1. e4 — Ocupación inmediata del centro",
+"explanation": "Las blancas abren la partida reclamando espacio central y liberando de inmediato al alfil de f1 y a la dama. Es la jugada más directa para buscar iniciativa desde el primer momento. Además, prepara un desarrollo rápido y flexible hacia estructuras abiertas o semiabiertas.",
+"pros": "Gana espacio en el centro, facilita el desarrollo y permite planes activos desde el inicio.",
+"cons": "Puede conducir a posiciones teóricas muy afiladas si las negras responden de forma dinámica."
+},
+{
+"san": "c5",
+"title": "1... c5 — La respuesta siciliana",
+"explanation": "Las negras no copian en el centro, sino que lo atacan desde el flanco con la Defensa Siciliana. Esta elección crea un desequilibrio estructural desde el principio y suele conducir a partidas de lucha. A cambio de ceder momentáneamente algo de espacio, las negras aspiran a un contrajuego muy activo.",
+"pros": "Rompe la simetría, plantea lucha por la iniciativa y prepara presión en la columna c.",
+"cons": "Concede una pequeña ventaja espacial inicial a las blancas y exige buena precisión teórica."
+},
+{
+"san": "Nf3",
+"title": "2. Nf3 — Desarrollo natural y control central",
+"explanation": "El caballo se desarrolla a su mejor casilla, controla e5 y d4 y respalda la expansión central. También prepara la ruptura típica d4 para abrir el juego. Es una jugada flexible que encaja con casi todos los planes agresivos contra la Siciliana.",
+"pros": "Desarrolla pieza, apoya d4 y refuerza el control del centro.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "e6",
+"title": "2... e6 — Preparación sólida de la Scheveningen",
+"explanation": "Las negras refuerzan la casilla d5 y preparan desarrollar el alfil de casillas negras sin comprometer todavía el peón d. Es una construcción flexible que puede transponer a varios esquemas sicilianos. También mantiene la opción de ...d5 en algún momento oportuno.",
+"pros": "Sostiene d5, da flexibilidad al centro y prepara un desarrollo sano.",
+"cons": "Encierra temporalmente al alfil de c8 y puede dejar al negro algo pasivo si no contragolpea a tiempo."
+},
+{
+"san": "d4",
+"title": "3. d4 — Apertura inmediata del centro",
+"explanation": "Las blancas buscan cambiar el peón d por el peón c para obtener superioridad central de peones y piezas activas. Esta ruptura es temática contra la Siciliana y define la estructura abierta del medio juego. Smyslov elige la continuación principal más ambiciosa.",
+"pros": "Abre líneas, gana presencia central y acelera la actividad de las piezas.",
+"cons": "Entrega el peón d, aunque lo hace por compensación posicional bien conocida."
+},
+{
+"san": "cxd4",
+"title": "3... cxd4 — Aceptando el reto central",
+"explanation": "Las negras cambian el peón lateral por el central blanco, tal como dicta la lógica de la Siciliana. Con ello abren la columna c y despejan casillas para sus piezas. También fuerzan al blanco a recapturar con una pieza, exponiéndola a futuros tiempos.",
+"pros": "Abre la columna c, reduce el centro blanco y sigue el plan principal de la defensa.",
+"cons": "Cede a las blancas una buena casilla central para el caballo en d4."
+},
+{
+"san": "Nxd4",
+"title": "4. Nxd4 — Recaptura activa",
+"explanation": "El caballo ocupa el centro, desde donde influye en casillas importantes como b5, c6, e6 y f5. Recapturar con pieza es típico en la Siciliana porque mantiene abiertas las diagonales y permite desarrollo rápido. El caballo centralizado también puede apoyar futuros planes de ataque.",
+"pros": "Centraliza una pieza, mantiene abiertas las líneas y coordina bien con el resto del ejército.",
+"cons": "El caballo puede convertirse en objetivo de ataques con ...Nc6 o ...e5."
+},
+{
+"san": "Nf6",
+"title": "4... Nf6 — Desarrollo con presión sobre e4",
+"explanation": "Las negras desarrollan pieza mientras atacan el peón e4, obligando al blanco a seguir con precisión. Es una maniobra clásica en la Siciliana para combinar desarrollo y contrajuego. También acerca al caballo al control de casillas centrales críticas.",
+"pros": "Desarrolla con amenaza, mejora la coordinación y prepara el enroque.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Nc3",
+"title": "5. Nc3 — Refuerzo del centro",
+"explanation": "Las blancas defienden e4 y aumentan su presencia en d5 y b5. El caballo se coloca en una casilla natural desde donde ayudará tanto al centro como a un eventual ataque en el flanco de rey. Además, mantiene abiertas varias opciones teóricas agresivas.",
+"pros": "Defiende e4, mejora el control central y completa un desarrollo lógico.",
+"cons": "Puede chocar más adelante con el peón c propio si el blanco quisiera avanzarlo."
+},
+{
+"san": "d6",
+"title": "5... d6 — Estructura Scheveningen",
+"explanation": "Las negras consolidan e5 y preparan un desarrollo compacto, típico de la variante Scheveningen. La idea estratégica es resistir la presión blanca en el flanco de rey y responder con contrajuego en el flanco de dama. Es una estructura muy sólida, pero exige energía para no quedar restringido.",
+"pros": "Refuerza el centro, sostiene e5 y completa la estructura clásica de la defensa.",
+"cons": "La casilla d5 puede volverse sensible si las negras no la controlan activamente."
+},
+{
+"san": "Be2",
+"title": "6. Be2 — Desarrollo sobrio y flexible",
+"explanation": "El alfil sale a e2, donde prepara el enroque y evita definiciones prematuras. Desde aquí apoya ideas como f4-f5 y el eventual uso de la dama por e1-g3 o h4. Es un planteamiento calmado que esconde intenciones agresivas.",
+"pros": "Facilita el enroque y mantiene opciones estratégicas abiertas.",
+"cons": "El alfil queda momentáneamente pasivo en comparación con salidas más activas."
+},
+{
+"san": "Be7",
+"title": "6... Be7 — Desarrollo clásico del alfil",
+"explanation": "Las negras preparan el enroque corto y mantienen una estructura compacta. El alfil en e7 también ayuda a controlar casillas importantes del centro y del flanco de rey. Es una jugada natural dentro del esquema Scheveningen.",
+"pros": "Desarrolla, prepara el enroque y refuerza la solidez del rey negro.",
+"cons": "Puede resultar algo pasiva si las negras no generan contrajuego pronto."
+},
+{
+"san": "O-O",
+"title": "7. O-O — Seguridad antes del ataque",
+"explanation": "Smyslov enroca y asegura a su rey antes de emprender acciones más ambiciosas. En ajedrez de ataque bien conducido, primero se completa el desarrollo y después se lanzan los peones o las piezas. Con el rey a salvo, las blancas pueden concentrarse en el flanco opuesto.",
+"pros": "Pone al rey en seguridad y conecta parcialmente las torres.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "O-O",
+"title": "7... O-O — Rey negro a resguardo",
+"explanation": "Las negras siguen el mismo principio y colocan al rey en una zona aparentemente segura. Sin embargo, en la Siciliana el enroque corto puede convertirse en objetivo si el blanco logra abrir columnas o diagonales. Aun así, era el procedimiento normal y correcto.",
+"pros": "Asegura al rey y mejora la coordinación general.",
+"cons": "Fija el rey en el sector donde más tarde llegará el ataque blanco."
+},
+{
+"san": "Be3",
+"title": "8. Be3 — Desarrollo activo del alfil",
+"explanation": "El alfil se desarrolla con vista sobre la diagonal a7-g1 y apoya las ideas centrales y ofensivas del blanco. Desde e3 también coordina con la dama para planes típicos contra el enroque negro. Es una colocación muy habitual en la Scheveningen.",
+"pros": "Desarrolla, apoya el centro y armoniza con un futuro ataque de flanco de rey.",
+"cons": "Puede quedar expuesto a cambios que alivien la defensa negra."
+},
+{
+"san": "Nc6",
+"title": "8... Nc6 — Desarrollo con presión central",
+"explanation": "El caballo sale a una casilla activa, presionando d4 y apoyando potencialmente ...d5. También participa en esquemas típicos donde puede maniobrar hacia c4. La pieza se integra bien en la lucha por las casillas centrales.",
+"pros": "Desarrolla pieza, incrementa presión sobre el centro y prepara maniobras activas.",
+"cons": "Puede ser cambiado o desplazado antes de alcanzar su ideal estratégico."
+},
+{
+"san": "f4",
+"title": "9. f4 — Señal de ataque",
+"explanation": "Las blancas avanzan el peón f para ganar espacio y preparar f5, una ruptura muy temática contra la Scheveningen. Esto anuncia un plan de ataque directo sobre el rey negro. A la vez, el avance sostiene e5 como casilla de restricción y limita opciones negras.",
+"pros": "Gana espacio, apoya un futuro ataque y prepara la ruptura f5.",
+"cons": "Debilita ligeramente el rey blanco y deja la diagonal a7-g1 más sensible."
+},
+{
+"san": "Qc7",
+"title": "9... Qc7 — Dama bien situada en la Siciliana",
+"explanation": "La dama se coloca detrás del peón e y frente a la columna c, donde suele coordinar con torres y alfiles. Además, apoya el eventual ...b5 y vigila el centro. Es una jugada de desarrollo útil, aunque algo lenta si el blanco ya está listo para atacar.",
+"pros": "Conecta ideas de flanco de dama, respalda e5 y coordina con la futura presión por la columna c.",
+"cons": "No frena de inmediato el ataque blanco en el flanco de rey."
+},
+{
+"san": "Qe1",
+"title": "10. Qe1 — Preparación fina del ataque",
+"explanation": "La dama deja libre d1 para la torre y se prepara para ir a g3 o h4, donde apuntará directamente al enroque negro. Este tipo de reagrupación es muy instructiva: una pieza retrocede para mejorar toda la coordinación ofensiva. También mantiene flexibilidad para reaccionar según la estructura.",
+"pros": "Prepara la dama para el ataque, mejora la coordinación y despeja la primera fila.",
+"cons": "Consume un tiempo en una maniobra indirecta."
+},
+{
+"san": "Nxd4",
+"title": "10... Nxd4 — Cambio simplificador discutible",
+"explanation": "Las negras eliminan el caballo central de d4, pero a costa de ayudar a las blancas a activar su alfil y despejar tensiones a su favor. En muchos esquemas Scheveningen, el caballo negro aspira a maniobrar y no a cambiarse tan pronto. El cambio reduce algo la presión negra sobre el centro en lugar de aumentarla.",
+"pros": "Simplifica la posición y elimina una pieza central blanca.",
+"cons": "Cede parte del control estratégico de d5 y ayuda al desarrollo blanco."
+},
+{
+"san": "Bxd4",
+"title": "11. Bxd4 — Recaptura activa del alfil",
+"explanation": "El alfil recaptura y se centraliza en una diagonal excelente. Desde d4 influye en el centro y en el flanco de rey, además de coordinar con la futura expansión f5. Smyslov mejora la actividad de una pieza mientras mantiene intacto su plan de ataque.",
+"pros": "Activa el alfil, conserva la iniciativa y mantiene presión central.",
+"cons": "El alfil puede convertirse en objetivo de avances o cambios."
+},
+{
+"san": "e5",
+"title": "11... e5 — Golpe central ambicioso",
+"explanation": "Las negras atacan el alfil y ganan espacio, intentando disputar la iniciativa antes de quedar bajo ataque. Estratégicamente, este avance también crea debilidad en d5, porque los peones negros ya no pueden controlar esa casilla con peones. Es una jugada activa, pero concesiva a largo plazo.",
+"pros": "Gana espacio, molesta una pieza blanca y busca contrajuego inmediato.",
+"cons": "Debilita la casilla d5 y fija una estructura que puede favorecer a las blancas."
+},
+{
+"san": "Be3",
+"title": "12. Be3 — Repliegue útil y sin pérdida de plan",
+"explanation": "El alfil vuelve a una casilla natural sin romper la armonía del dispositivo blanco. Desde e3 sigue apoyando el ataque en el flanco de rey y controlando casillas centrales. Es un buen ejemplo de retirada activa: cede terreno aparente, pero conserva influencia.",
+"pros": "Mantiene la coordinación ofensiva y preserva el alfil de casillas blancas.",
+"cons": "El alfil retrocede y el negro gana algo de espacio."
+},
+{
+"san": "Be6",
+"title": "12... Be6 — Desarrollo con intención de cambio",
+"explanation": "Las negras desarrollan el alfil y preparan posibles cambios para aliviar la presión. En apariencia es lógico, pero también puede facilitar a las blancas obtener mejores casillas para sus piezas. Además, no resuelve del todo el problema estratégico de la casilla d5.",
+"pros": "Desarrolla una pieza y propone simplificaciones defensivas.",
+"cons": "Puede favorecer los planes blancos si los cambios dejan débiles casillas clave."
+},
+{
+"san": "f5",
+"title": "13. f5 — Ganancia de espacio y tiempo",
+"explanation": "Este avance es muy fuerte porque gana espacio en el flanco de rey y obliga al alfil negro a definirse. Además, restringe piezas negras y acentúa la iniciativa blanca. En posiciones con enroques opuestos no siempre es correcto empujar así, pero con ambos reyes en corto y dominio central blanco, aquí es potentísimo.",
+"pros": "Gana espacio, restringe al negro y acelera el ataque al obtener un tiempo sobre el alfil.",
+"cons": "Fija el peón en f5, que más tarde podría convertirse en objetivo si el ataque no prospera."
+},
+{
+"san": "Bc4",
+"title": "13... Bc4 — Cambio defensivo insuficiente",
+"explanation": "El alfil busca actividad y propone un cambio, pero abandona una función importante en el control de d5. En muchas posiciones defensivas, cambiar piezas activas del rival es útil, pero aquí el precio estratégico es alto. Las negras alivian una molestia inmediata, aunque empeoran su coordinación defensiva.",
+"pros": "Activa el alfil y busca simplificar una posición incómoda.",
+"cons": "Pierde un defensor importante de d5 y ayuda al blanco a consolidar su ventaja estratégica."
+},
+{
+"san": "Bxc4",
+"title": "14. Bxc4 — Cambio favorable para el atacante",
+"explanation": "Smyslov acepta el cambio porque entiende que el alfil negro valía más defensivamente que el suyo ofensivamente. Al eliminar ese alfil, debilita aún más las casillas oscuras y el control negro del centro. Es una decisión muy instructiva: no siempre el atacante evita cambios; acepta los que favorecen su plan.",
+"pros": "Reduce defensores enemigos y refuerza el dominio de d5 y de las casillas oscuras.",
+"cons": "Entrega su alfil de casillas blancas, una pieza útil en el ataque."
+},
+{
+"san": "Qxc4",
+"title": "14... Qxc4 — La dama recaptura",
+"explanation": "La dama recupera material y centraliza parcialmente, pero queda expuesta a futuros tiempos por parte de las piezas blancas. En posiciones con el rey bajo amenaza, la dama a menudo preferiría tareas defensivas más cercanas al monarca. Aquí cumple una función necesaria, aunque no ideal.",
+"pros": "Recupera la pieza, mantiene la igualdad material y coloca la dama en una casilla activa.",
+"cons": "La dama puede ser atacada y no contribuye mucho a la defensa del rey."
+},
+{
+"san": "Bg5",
+"title": "15. Bg5 — Desarrollo con idea táctica",
+"explanation": "El alfil sale con ganancia de coordinación y apunta indirectamente a f6, una pieza clave del enroque negro. Además, dificulta a las negras reorganizarse con comodidad. La jugada aumenta la presión sin apresurarse a sacrificar.",
+"pros": "Mejora una pieza, apunta a f6 y mantiene la iniciativa blanca.",
+"cons": "El alfil puede ser cuestionado más adelante por ...h6 o cambios tácticos."
+},
+{
+"san": "Rfe8",
+"title": "15... Rfe8 — Torre al centro, pero tarde",
+"explanation": "Las negras ponen una torre en la columna e, con la idea de reforzar e5 y mejorar la coordinación. Es una jugada lógica de desarrollo, aunque no aborda plenamente el peligro que se está gestando en el flanco de rey. En posiciones críticas, una mejora general puede resultar demasiado lenta.",
+"pros": "Activa la torre y refuerza el centro negro.",
+"cons": "No corrige las debilidades estratégicas ni frena directamente el ataque blanco."
+},
+{
+"san": "Bxf6",
+"title": "16. Bxf6 — Eliminando un defensor clave",
+"explanation": "Las blancas cambian voluntariamente su alfil por el caballo de f6 para debilitar la estructura y la defensa del rey negro. El caballo era una pieza importante en el control central y en la protección del enroque. Este tipo de cambio es muy típico cuando se prepara un ataque directo.",
+"pros": "Reduce defensores del rey negro y favorece futuras rupturas tácticas.",
+"cons": "Entrega el par de alfiles y cede una pieza activa."
+},
+{
+"san": "Bxf6",
+"title": "16... Bxf6 — Recaptura obligada",
+"explanation": "El alfil recupera la pieza y mantiene el equilibrio material. Sin embargo, al ocupar f6 queda algo más expuesto a maniobras tácticas y el negro pierde la elasticidad que daba el caballo. La recaptura era natural, pero no resuelve los problemas de fondo.",
+"pros": "Mantiene el material equilibrado y desarrolla una pieza hacia el centro.",
+"cons": "El alfil en f6 puede ser blanco de ataques y no sustituye plenamente la función defensiva del caballo."
+},
+{
+"san": "Nd5",
+"title": "17. Nd5 — Dominio del puesto avanzado",
+"explanation": "El caballo salta a d5, una casilla magnífica que resume toda la estrategia blanca previa. Desde allí presiona c7, e7 y f6, y además resulta muy difícil de expulsar porque los peones negros ya no pueden hacerlo. Cuando un atacante conquista un puesto avanzado central así, el ataque suele surgir casi por inercia.",
+"pros": "Instala una pieza poderosa en el centro, aumenta la presión táctica y consolida la iniciativa.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Bd8",
+"title": "17... Bd8 — Repliegue defensivo",
+"explanation": "Las negras retroceden el alfil para proteger casillas sensibles y evitar tácticas inmediatas. Es una jugada defensiva, pero también refleja que la actividad negra se ha reducido mucho. Cuando una pieza desarrollada debe volver a casa, normalmente el rival ha impuesto su plan.",
+"pros": "Refuerza algunas casillas defensivas y evita amenazas directas inmediatas.",
+"cons": "Pierde tiempos, pasiviza el alfil y deja la iniciativa por completo al blanco."
+},
+{
+"san": "c3",
+"title": "18. c3 — Consolidación del centro",
+"explanation": "Las blancas refuerzan d4 y, sobre todo, preparan la expansión con b3 sin dejar huecos innecesarios. También controlan la casilla d4 y dan una vía de escape al rey en algunas líneas. Es una jugada tranquila, pero muy propia de un ataque bien preparado: primero consolidar, luego golpear.",
+"pros": "Consolida el centro, controla casillas útiles y prepara expansión en el flanco de dama.",
+"cons": "Resta una casilla natural al caballo blanco de b1, aunque eso ya no importa en esta partida."
+},
+{
+"san": "b5",
+"title": "18... b5 — Contrajuego típico pero tardío",
+"explanation": "Las negras intentan al fin activar el flanco de dama, como suele hacerse en la Scheveningen. La idea estratégica es distraer al blanco y ganar espacio en el sector opuesto al ataque enemigo. Sin embargo, llega con retraso: el blanco ya ha consolidado su dominio central.",
+"pros": "Gana espacio en el flanco de dama y busca el contrajuego temático de la defensa.",
+"cons": "Es lento respecto a las amenazas sobre el rey negro y crea nuevas debilidades en casillas oscuras."
+},
+{
+"san": "b3",
+"title": "19. b3 — Expulsión útil de la dama",
+"explanation": "Smyslov gana espacio y ataca la dama negra, obligándola a reubicarse. Además, refuerza c4 y prepara dejar su estructura muy sólida en el flanco de dama. Esta jugada muestra cómo el ataque también se apoya en medidas posicionales simples.",
+"pros": "Gana un tiempo sobre la dama, fortalece la estructura y mejora el control de casillas.",
+"cons": "Avanza peones frente al rey dama, aunque aquí no hay peligro real por ese sector."
+},
+{
+"san": "Qc5+",
+"title": "19... Qc5+ — Jaque de recurso",
+"explanation": "La dama se aparta del ataque y da un jaque intermedio para incomodar algo al rey blanco. Este tipo de jaques suelen buscar un pequeño desorden o ganar un tiempo útil. Aquí, sin embargo, el efecto es más cosmético que profundo.",
+"pros": "Introduce un jaque útil y reubica la dama en una casilla activa.",
+"cons": "No altera la valoración estratégica y la dama sigue lejos de la defensa del rey."
+},
+{
+"san": "Kh1",
+"title": "20. Kh1 — Profilaxis elegante",
+"explanation": "El rey se aparta de la diagonal y deja a las piezas blancas plena libertad para actuar. Es una jugada típica de preparación de ataque: quitarse de posibles jaques y tácticas antes de abrir líneas. Además, hace más fuerte cualquier futura maniobra de torre por la tercera fila.",
+"pros": "Evita jaques molestos, mejora la seguridad del rey y favorece la coordinación ofensiva.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Rc8",
+"title": "20... Rc8 — Torre a la columna semiabierta",
+"explanation": "Las negras sitúan una torre en la columna c, coherente con la estructura siciliana. Buscan presión lateral y cierta actividad de piezas pesadas. Aun así, la torre no influye en el sector donde se decidirá la partida.",
+"pros": "Activa la torre y aprovecha una columna natural de juego.",
+"cons": "Llega tarde para compensar el peligro sobre el rey negro."
+},
+{
+"san": "Rf3",
+"title": "21. Rf3 — La torre entra en el ataque",
+"explanation": "Esta maniobra es muy instructiva: la torre se levanta por la tercera fila para ir a g3 o h3 y presionar el enroque. En posiciones cerradas o semiabiertas, las torres a menudo atacan lateralmente de esta manera. Es una señal clara de que el asalto al rey negro está listo.",
+"pros": "Activa la torre ofensivamente, prepara Rg3 o Rh3 y multiplica las amenazas contra el rey.",
+"cons": "Aleja la torre de la defensa de la primera fila, aunque aquí el blanco controla totalmente la situación."
+},
+{
+"san": "Kh8",
+"title": "21... Kh8 — Espera pasiva",
+"explanation": "Las negras apartan al rey de posibles jaques en la diagonal o en la columna g. Es una precaución razonable, pero no cambia la naturaleza de la posición. Cuando el defensor solo puede esperar, normalmente el atacante ya tiene ventaja seria.",
+"pros": "Reduce algunos motivos tácticos inmediatos relacionados con jaques sobre g8 o h7.",
+"cons": "Es pasiva y no frena la ruptura blanca que está por llegar."
+},
+{
+"san": "f6",
+"title": "22. f6 — Sacrificio temático de ruptura",
+"explanation": "Smyslov entrega el peón para abrir líneas contra el rey negro, una idea clásica de ataque. La fuerza de la jugada no está en el material, sino en desorganizar la cadena de peones que protegía al monarca. Cuando el rival tiene menos piezas defendiendo y menos control central, estas rupturas suelen ser decisivas.",
+"pros": "Abre líneas, rompe la estructura del enroque y acelera el ataque de forma concreta.",
+"cons": "Entrega un peón y se compromete a jugar con precisión táctica."
+},
+{
+"san": "gxf6",
+"title": "22... gxf6 — Aceptación forzada con debilidad estructural",
+"explanation": "Las negras capturan porque permitir que el peón blanco permanezca en f6 sería aún peor. Sin embargo, al hacerlo destruyen la cobertura de su rey y abren la columna g y diagonales muy peligrosas. La estructura del enroque queda gravemente dañada.",
+"pros": "Elimina el peón avanzado y mantiene el material a favor del negro momentáneamente.",
+"cons": "Abre líneas críticas contra su propio rey y crea debilidades permanentes."
+},
+{
+"san": "Qh4",
+"title": "23. Qh4 — La dama apunta al mate",
+"explanation": "La dama llega a una casilla ideal desde la que amenaza entrar por h7 o h6 según las circunstancias. También coordina de manera directa con la torre que puede ir a g3. Es una jugada simple pero extremadamente venenosa porque concentra piezas alrededor del rey negro.",
+"pros": "Intensifica las amenazas de mate y mejora la coordinación con las torres.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Rg8",
+"title": "23... Rg8 — Defensa obligada de la columna g",
+"explanation": "Las negras colocan una torre en g8 para reforzar el punto g7 y evitar un colapso inmediato. Es una defensa natural frente a la presión por la columna abierta. Aun así, la torre queda atada a tareas defensivas y la posición sigue siendo muy delicada.",
+"pros": "Refuerza g7 y da una respuesta concreta a las amenazas directas.",
+"cons": "Es una defensa pasiva y sobrecargada; la torre puede convertirse en objetivo táctico."
+},
+{
+"san": "Nxf6",
+"title": "24. Nxf6 — Eliminación de un defensor y amenaza directa",
+"explanation": "El caballo entra en f6 con gran fuerza, capturando un defensor y amenazando ideas decisivas sobre h7. La pieza se incrusta en la zona del rey y aumenta el número de atacantes. Es un salto táctico basado en la superior coordinación blanca.",
+"pros": "Elimina un defensor, instala una pieza activa en el corazón del enroque y crea amenazas inmediatas.",
+"cons": "El caballo puede ser cambiado, aunque el cambio favorece el ataque blanco."
+},
+{
+"san": "Rg7",
+"title": "24... Rg7 — Refuerzo desesperado",
+"explanation": "La torre se coloca en g7 para proteger h7 y oponerse a la invasión de las piezas blancas. El negro intenta construir una barrera defensiva en la séptima fila. Sin embargo, la acumulación de piezas defensivas en pocas casillas suele indicar que la posición ya está al borde del colapso.",
+"pros": "Defiende h7 y ofrece una resistencia táctica inmediata.",
+"cons": "La torre queda clavada a funciones defensivas y puede ser explotada por sacrificios o sobrecarga."
+},
+{
+"san": "Rg3",
+"title": "25. Rg3 — Máxima coordinación sobre la columna g",
+"explanation": "La torre completa la maniobra iniciada en f3 y se suma al ataque por la columna g. Ahora las amenazas sobre h7 y g7 se multiplican, y la defensa negra queda saturada. Es un ejemplo perfecto de cómo las torres pueden incorporarse lateralmente al asalto final.",
+"pros": "Añade un atacante decisivo, aumenta la presión táctica y crea amenazas de mate muy concretas.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Bxf6",
+"title": "25... Bxf6 — Cambio necesario bajo presión",
+"explanation": "Las negras eliminan al caballo invasor porque dejarlo en f6 sería insostenible. Es una reacción forzada para reducir el número de atacantes. No obstante, el cambio abre la puerta a que la dama blanca ocupe f6 con aún más potencia.",
+"pros": "Reduce temporalmente la fuerza atacante y elimina una pieza muy peligrosa.",
+"cons": "Cede la casilla f6 a la dama blanca y no resuelve la crisis del rey."
+},
+{
+"san": "Qxf6",
+"title": "26. Qxf6 — Dama centralizada en plena ofensiva",
+"explanation": "La dama recaptura y se instala en una casilla dominante desde donde ataca g7, d6 y h8. La ventaja del blanco ahora es tanto táctica como estratégica: todas sus piezas juegan contra el rey enemigo. La coordinación dama-torre-torre es aquí ejemplar.",
+"pros": "Mantiene la iniciativa, centraliza la dama y renueva amenazas de mate y de invasión.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Rcg8",
+"title": "26... Rcg8 — Doble torre defensiva",
+"explanation": "Las negras llevan la segunda torre a g8 para intentar sostener la columna crítica por acumulación de fuerzas. Defensivamente tiene lógica: cuando una columna decide la partida, hay que reforzarla. Pero la necesidad de poner dos torres en tareas pasivas revela la gravedad de la posición.",
+"pros": "Aumenta la defensa de la columna g y resiste tácticamente un poco más.",
+"cons": "La coordinación negra es completamente defensiva y deja otros sectores desatendidos."
+},
+{
+"san": "Rd1",
+"title": "27. Rd1 — La reserva entra en juego",
+"explanation": "La última pieza blanca que faltaba se activa y apunta a d6 y d8. En ataques bien conducidos, incorporar la pieza de reserva suele ser el toque final antes de la combinación ganadora. La torre no solo amenaza capturas, sino también temas de clavada y mate en la octava fila.",
+"pros": "Suma una nueva pieza al ataque, crea amenazas por la columna d y mejora al máximo la coordinación blanca.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "d5",
+"title": "27... d5 — Intento de contragolpe central",
+"explanation": "Las negras buscan abrir el centro o al menos crear contrajuego para desviar la atención del flanco de rey. Es una idea clásica de defensa: responder al ataque de ala con acción en el centro. Pero llega demasiado tarde, cuando la coordinación blanca ya es superior.",
+"pros": "Intenta crear contrajuego y abrir líneas para las piezas negras.",
+"cons": "No frena las amenazas inmediatas y deja nuevos puntos vulnerables."
+},
+{
+"san": "Rxg7",
+"title": "28. Rxg7 — Sacrificio de eliminación preciso",
+"explanation": "Smyslov cambia en g7 con excelente sentido del orden de jugadas para debilitar la defensa y despejar la ruta de la otra torre. El objetivo no es ganar material, sino destruir la muralla final alrededor del rey. En ataques de mate, eliminar al defensor clave suele valer más que cualquier peón o calidad.",
+"pros": "Destruye defensores, abre la séptima fila y fuerza una secuencia favorable al blanco.",
+"cons": "Entrega una torre por el momento, aunque la compensación táctica es decisiva."
+},
+{
+"san": "Rxg7",
+"title": "28... Rxg7 — Recaptura forzada",
+"explanation": "Las negras deben recapturar para no quedar inmediatamente perdidas por mate o por material. La torre entra en g7, pero ahora queda clavable y vulnerable a nuevas tácticas sobre la columna d y la octava fila. A veces una recaptura obligada empeora aún más la coordinación defensiva.",
+"pros": "Recupera material y evita el colapso instantáneo.",
+"cons": "Coloca la torre en una situación táctica muy incómoda y deja a la dama sobrecargada."
+},
+{
+"san": "Rxd5",
+"title": "29. Rxd5 — Entrada con amenaza múltiple",
+"explanation": "La torre blanca captura en d5, eliminando el intento de contrajuego negro y penetrando con fuerza. Desde allí prepara Td8, ideas de mate y temas de clavada contra la dama o la torre. Es una jugada que combina limpieza táctica y máxima actividad.",
+"pros": "Elimina el contrajuego central, gana actividad decisiva y prepara la invasión final.",
+"cons": "Ninguna significativa."
+},
+{
+"san": "Qf8",
+"title": "29... Qf8 — Último intento de sostener la octava",
+"explanation": "La dama retrocede para proteger d8 y tratar de contener las amenazas de invasión. Es una defensa de emergencia, motivada por la inminente entrada de la torre blanca en la octava fila. Sin embargo, la dama queda atada y susceptible a clavadas definitivas.",
+"pros": "Cubre momentáneamente casillas críticas y prolonga la resistencia.",
+"cons": "La dama queda pasiva y sobrecargada, sin capacidad real de contrajuego."
+},
+{
+"san": "Rd8",
+"title": "30. Rd8 — Clavada decisiva y final técnico",
+"explanation": "La torre entra en d8 y crea una clavada decisiva sobre la dama negra, que ya no puede moverse sin perder material o permitir mate. La coordinación blanca domina todas las vías de escape y la posición negra se derrumba de manera forzada. Es el remate lógico de una partida construida sobre control central, ruptura oportuna y ataque bien coordinado.",
+"pros": "Decide la partida de inmediato, clava la dama y culmina la invasión blanca.",
+"cons": "Ninguna significativa."
+}
+]
+}

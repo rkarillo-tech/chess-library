@@ -1,0 +1,806 @@
+{
+  "format": "chess-analyzer/2",
+  "info": {
+    "title": "La Partida Inmortal",
+    "white": "Adolf Anderssen",
+    "black": "Lionel Kieseritzky",
+    "event": "Partida amistosa durante el torneo de Londres 1851",
+    "site": "Simpson's Divan, Londres",
+    "date": "21/06/1851",
+    "result": "1-0",
+    "opening": "Gambito de Rey, Gambito del Alfil",
+    "eco": "C33",
+    "description": "Partida amistosa jugada en Londres durante el primer gran torneo internacional. En 1855 Ernst Falkbeer la bautizó como «la partida inmortal». Anderssen entrega un alfil, las dos torres y la dama para dar mate con tres piezas menores. Los motores actuales encuentran errores en ambos bandos, y precisamente por eso es una lección perfecta sobre tiempo, desarrollo y verificación."
+  },
+  "pgn": "1. e4 e5 2. f4 exf4 3. Bc4 Qh4+ 4. Kf1 b5 5. Bxb5 Nf6 6. Nf3 Qh6 7. d3 Nh5 8. Nh4 Qg5 9. Nf5 c6 10. g4 Nf6 11. Rg1 cxb5 12. h4 Qg6 13. h5 Qg5 14. Qf3 Ng8 15. Bxf4 Qf6 16. Nc3 Bc5 17. Nd5 Qxb2 18. Bd6 Bxg1 19. e5 Qxa1+ 20. Ke2 Na6 21. Nxg7+ Kd8 22. Qf6+ Nxf6 23. Be7#",
+  "lessons": [
+    "La iniciativa y el desarrollo pueden valer más que mucho material: Anderssen da mate con un ejército mucho menor.",
+    "Un rey sin enroque y con las piezas sin desarrollar es vulnerable aunque su bando tenga ventaja material.",
+    "Sacar la dama pronto cuesta tiempos: Kieseritzky la mueve ocho veces y nunca desarrolla su flanco de dama.",
+    "Las piezas menores coordinadas dan mate: dos caballos y un alfil bastan si las propias piezas encierran al rey.",
+    "Verifica las combinaciones famosas: Stockfish prefiere 18.Re1 a 18.Bd6, y con 20...Ba6 las negras evitaban el mate."
+  ],
+  "analysis": [
+    {
+      "san": "e4",
+      "title": "El peón de rey",
+      "explanation": "Anderssen ocupa el centro y abre las diagonales de su alfil de f1 y de la dama, como era habitual en la época romántica.",
+      "pros": "Control central y desarrollo rápido.",
+      "cons": "El peón de e4 puede ser atacado.",
+      "phase": "apertura",
+      "concepts": [
+        "Centro"
+      ],
+      "eval": 0.3
+    },
+    {
+      "san": "e5",
+      "title": "Respuesta simétrica",
+      "explanation": "Kieseritzky disputa el centro con su propio peón de rey.",
+      "pros": "Igualdad central.",
+      "cons": "El peón de e5 será el objetivo del gambito.",
+      "phase": "apertura",
+      "concepts": [
+        "Centro"
+      ],
+      "eval": 0.3
+    },
+    {
+      "san": "f4",
+      "title": "¡Gambito de Rey!",
+      "explanation": "Anderssen ofrece el peón de f para desviar el de e5 y construir un centro con d4, además de abrir la columna f contra f7. Era la apertura de moda en el siglo XIX. Los motores la consideran ligeramente favorable a las negras, pero en la práctica conduce a posiciones muy afiladas.",
+      "pros": "Abre la columna f y prepara el dominio del centro.",
+      "cons": "Debilita la diagonal e1-h4 y la protección del rey.",
+      "key": true,
+      "phase": "apertura",
+      "concepts": [
+        "Gambito",
+        "Columna abierta",
+        "Centro"
+      ],
+      "arrows": [
+        "Rf4e5",
+        "Gd2d4"
+      ],
+      "eval": -0.7
+    },
+    {
+      "san": "exf4",
+      "title": "Aceptar el gambito",
+      "explanation": "Kieseritzky toma el peón. El peón de f4 estorba al alfil de c1 y controla e3 y g3.",
+      "pros": "Peón de ventaja.",
+      "cons": "Las blancas ganan tiempo para desarrollarse.",
+      "phase": "apertura",
+      "concepts": [
+        "Gambito"
+      ],
+      "eval": -0.6
+    },
+    {
+      "san": "Bc4",
+      "title": "El Gambito del Alfil",
+      "explanation": "En lugar del habitual 3.Nf3, Anderssen saca el alfil hacia f7. Acepta que la dama negra dé jaque en h4 a cambio de un desarrollo muy rápido.",
+      "pros": "Apunta a f7 y desarrolla una pieza.",
+      "cons": "Permite 3...Qh4+.",
+      "phase": "apertura",
+      "concepts": [
+        "Desarrollo",
+        "Ataque al rey"
+      ],
+      "arrows": [
+        "Gc4f7"
+      ],
+      "eval": -0.5
+    },
+    {
+      "san": "Qh4+",
+      "title": "Jaque que impide el enroque",
+      "explanation": "La dama aprovecha la diagonal e1-h4 que abrió 2.f4. El rey blanco tendrá que ir a f1 y perderá el derecho a enrocar para siempre.",
+      "pros": "Las blancas no podrán enrocar.",
+      "cons": "La dama sale muy pronto y será un blanco para Nf3, h4 y compañía.",
+      "phase": "apertura",
+      "concepts": [
+        "Jaque",
+        "Enroque"
+      ],
+      "arrows": [
+        "Rh4e1"
+      ],
+      "eval": -0.6
+    },
+    {
+      "san": "Kf1",
+      "title": "El rey a f1",
+      "explanation": "Es la jugada normal en esta línea. El rey no corre peligro inmediato en f1 y la dama negra deberá retirarse cuando salga el caballo a f3.",
+      "pros": "Sale del jaque sin debilitar más la posición.",
+      "cons": "Sin enroque, la torre de h1 tardará en entrar en juego.",
+      "phase": "apertura",
+      "concepts": [
+        "Seguridad del rey",
+        "Enroque"
+      ],
+      "eval": -0.6
+    },
+    {
+      "san": "b5",
+      "title": "El contragambito Bryan",
+      "explanation": "Kieseritzky, especialista en esta línea, entrega un peón para desviar el alfil de la diagonal hacia f7. Stockfish considera mejores 4...d5 o 4...Nf6: el peón se pierde sin compensación clara.",
+      "pros": "Gana un tiempo sobre el alfil.",
+      "cons": "Peón de menos y debilidad en el flanco de dama.",
+      "symbol": "?!",
+      "phase": "apertura",
+      "concepts": [
+        "Gambito",
+        "Desviación"
+      ],
+      "arrows": [
+        "Rb5c4"
+      ],
+      "lines": [
+        {
+          "title": "Más sólido: 4...d5",
+          "start": "before",
+          "moves": "d5 Nf3 Qh5 Bxd5 g5",
+          "comment": "Las negras devuelven el peón central para desarrollarse y mantener el de f4."
+        }
+      ],
+      "eval": 0.2
+    },
+    {
+      "san": "Bxb5",
+      "title": "Aceptar el peón",
+      "explanation": "Anderssen acepta. El alfil abandona la diagonal de f7, pero las blancas quedan con un peón de más y el desarrollo intacto.",
+      "pros": "Gana un peón.",
+      "cons": "El alfil queda lejos del flanco de rey.",
+      "phase": "apertura",
+      "concepts": [
+        "Material"
+      ],
+      "eval": -0.1
+    },
+    {
+      "san": "Nf6",
+      "title": "Desarrollo con ataque",
+      "explanation": "El caballo se desarrolla y ataca e4. Es la jugada más natural de la posición.",
+      "pros": "Desarrolla y presiona e4.",
+      "cons": "Ninguna significativa.",
+      "phase": "apertura",
+      "concepts": [
+        "Desarrollo"
+      ],
+      "arrows": [
+        "Rf6e4"
+      ],
+      "eval": 0.2
+    },
+    {
+      "san": "Nf3",
+      "title": "Desarrollo con tiempo",
+      "explanation": "El caballo ataca la dama de h4 y defiende h2. Otra pieza blanca que se desarrolla obligando al rival a perder un tiempo.",
+      "pros": "Gana un tiempo sobre la dama.",
+      "cons": "Ninguna.",
+      "phase": "apertura",
+      "concepts": [
+        "Desarrollo",
+        "Tiempo"
+      ],
+      "arrows": [
+        "Rf3h4"
+      ],
+      "eval": 0.3
+    },
+    {
+      "san": "Qh6",
+      "title": "La dama se retira",
+      "explanation": "Desde h6 la dama sostiene f4 y vigila la diagonal c1-h6. Es su segunda jugada: las negras acumulan movimientos de dama mientras sus piezas siguen en casa.",
+      "pros": "Mantiene el peón de f4.",
+      "cons": "Otro tiempo invertido en la dama.",
+      "phase": "apertura",
+      "concepts": [
+        "Tiempo"
+      ],
+      "eval": 0.3
+    },
+    {
+      "san": "d3",
+      "title": "Sostener e4",
+      "explanation": "Defiende e4 y abre la diagonal del alfil de c1 hacia f4. Stockfish prefiere el más ambicioso 7.d4.",
+      "pros": "Estructura sólida y alfil liberado.",
+      "cons": "Algo pasiva.",
+      "phase": "apertura",
+      "concepts": [
+        "Centro"
+      ],
+      "eval": -0.3
+    },
+    {
+      "san": "Nh5",
+      "title": "Defender f4 desde el borde",
+      "explanation": "El caballo defiende f4 y amenaza ...Ng3+, pero se aleja del centro. 7...Nc6 era más natural.",
+      "pros": "Defiende f4 y amenaza Ng3+.",
+      "cons": "Un caballo en el borde tiene poca influencia.",
+      "symbol": "?!",
+      "phase": "apertura",
+      "concepts": [
+        "Caballo en el borde"
+      ],
+      "arrows": [
+        "Rh5g3"
+      ],
+      "eval": 0.6
+    },
+    {
+      "san": "Nh4",
+      "title": "Rumbo a f5",
+      "explanation": "Anderssen lleva el caballo hacia f5, una casilla magnífica junto al rey negro. Stockfish prefiere 8.Rg1, que prepara g4 sin retirar el caballo del centro.",
+      "pros": "El caballo llegará a f5.",
+      "cons": "De momento el caballo está en el borde y la dama negra ganará otro tiempo.",
+      "symbol": "?!",
+      "phase": "apertura",
+      "concepts": [
+        "Puesto avanzado"
+      ],
+      "arrows": [
+        "Gh4f5"
+      ],
+      "eval": -0.7
+    },
+    {
+      "san": "Qg5",
+      "title": "La dama, otra vez",
+      "explanation": "La dama ataca el caballo de h4. Es su tercera jugada; las negras siguen sin desarrollar alfiles ni torres.",
+      "pros": "Obliga al caballo a moverse.",
+      "cons": "La dama sigue siendo un blanco.",
+      "phase": "apertura",
+      "concepts": [
+        "Tiempo"
+      ],
+      "arrows": [
+        "Rg5h4"
+      ],
+      "eval": -0.7
+    },
+    {
+      "san": "Nf5",
+      "title": "El caballo dominante",
+      "explanation": "El caballo se instala en f5: ataca g7 y vigila d6, e7 y h6, casillas que rodean al rey negro. Desde aquí participará en el mate final.",
+      "pros": "Pieza muy activa cerca del rey enemigo.",
+      "cons": "Puede ser atacado con ...g6.",
+      "phase": "apertura",
+      "concepts": [
+        "Puesto avanzado",
+        "Ataque al rey"
+      ],
+      "arrows": [
+        "Gf5g7",
+        "Gf5d6"
+      ],
+      "eval": -0.7
+    },
+    {
+      "san": "c6",
+      "title": "Atacar el alfil",
+      "explanation": "Expulsa al alfil de b5, pero es otra jugada que no desarrolla piezas. Stockfish prefería 9...g6, echando al caballo de f5.",
+      "pros": "Ataca el alfil.",
+      "cons": "Retrasa aún más el desarrollo.",
+      "symbol": "?!",
+      "phase": "apertura",
+      "concepts": [
+        "Desarrollo",
+        "Tiempo"
+      ],
+      "arrows": [
+        "Rc6b5"
+      ],
+      "lines": [
+        {
+          "title": "Mejor: 9...g6",
+          "start": "before",
+          "moves": "g6 h4 Qf6 Nc3 Bb7",
+          "comment": "Las negras expulsan al caballo de f5 y desarrollan con normalidad."
+        }
+      ],
+      "eval": 0.3
+    },
+    {
+      "san": "g4",
+      "title": "Ataque antes que material",
+      "explanation": "Anderssen deja el alfil atacado y empuja g4 contra el caballo. Es el espíritu romántico: tiempo y ataque antes que material. Los motores la consideran arriesgada; 10.Ba4 mantenía el equilibrio y 10...g6! habría castigado la idea.",
+      "pros": "Gana tiempo sobre el caballo y abre líneas.",
+      "cons": "Debilita el flanco de rey blanco y deja el alfil en el aire.",
+      "symbol": "!?",
+      "key": true,
+      "phase": "medio juego",
+      "concepts": [
+        "Iniciativa",
+        "Sacrificio"
+      ],
+      "arrows": [
+        "Rg4h5"
+      ],
+      "question": "¿Por qué Anderssen no salva el alfil de b5?",
+      "answer": "Porque prefiere ganar tiempo contra el caballo de h5 y abrir el flanco de rey: para él, la iniciativa valía más que el alfil.",
+      "lines": [
+        {
+          "title": "La refutación: 10...g6!",
+          "start": "after",
+          "moves": "g6 Rg1 gxf5 gxh5 Qh4",
+          "comment": "El caballo de f5 cae y el contraataque negro llega primero."
+        }
+      ],
+      "eval": -1.3
+    },
+    {
+      "san": "Nf6",
+      "title": "Retirada",
+      "explanation": "El caballo vuelve a f6: dos jugadas para regresar a la misma casilla. Era mejor 10...g6!, contraatacando al caballo de f5.",
+      "pros": "Pone el caballo a salvo.",
+      "cons": "Pérdida de tiempo.",
+      "symbol": "?!",
+      "phase": "medio juego",
+      "concepts": [
+        "Tiempo"
+      ],
+      "eval": -0.7
+    },
+    {
+      "san": "Rg1",
+      "title": "La torre en la columna g",
+      "explanation": "La torre protege g4 y prepara h4 para expulsar a la dama. Stockfish confirma que es lo mejor: Anderssen ya no se preocupa por el alfil de b5.",
+      "pros": "Activa la torre y prepara h4.",
+      "cons": "Ninguna.",
+      "symbol": "!",
+      "phase": "medio juego",
+      "concepts": [
+        "Columna semiabierta"
+      ],
+      "arrows": [
+        "Gg1g4"
+      ],
+      "eval": -0.6
+    },
+    {
+      "san": "cxb5",
+      "title": "El error que nadie vio",
+      "explanation": "Codicioso y natural: las negras ganan el alfil. Pero 11...h5! habría dado la ventaja a las negras. Tras la captura, la dama negra queda acorralada en el flanco de rey y Anderssen gana un tiempo tras otro.",
+      "pros": "Gana una pieza.",
+      "cons": "Deja que las blancas jueguen h4 y h5 con tiempo sobre la dama.",
+      "symbol": "??",
+      "key": true,
+      "phase": "medio juego",
+      "concepts": [
+        "Material",
+        "Tiempo"
+      ],
+      "question": "¿Qué recibe Anderssen a cambio del alfil?",
+      "answer": "Tiempo: con h4 y h5 expulsará a la dama, y Qf3, Bxf4, Nc3 y Nd5 entrarán con amenazas mientras las negras no desarrollan.",
+      "lines": [
+        {
+          "title": "La defensa correcta: 11...h5!",
+          "start": "before",
+          "moves": "h5 h4 Qg6 Ba4 d5 Bxf4 hxg4",
+          "comment": "Las negras abren la columna h; Stockfish las prefiere ligeramente."
+        }
+      ],
+      "eval": 1.9
+    },
+    {
+      "san": "h4",
+      "title": "Acosar a la dama",
+      "explanation": "El peón ataca la dama de g5. La dama negra apenas tiene casillas y cada retirada es un tiempo más para las blancas.",
+      "pros": "Gana tiempo y espacio.",
+      "cons": "Ninguna.",
+      "symbol": "!",
+      "phase": "medio juego",
+      "concepts": [
+        "Tiempo",
+        "Iniciativa"
+      ],
+      "arrows": [
+        "Rh4g5"
+      ],
+      "eval": 1.8
+    },
+    {
+      "san": "Qg6",
+      "title": "Retirada obligada",
+      "explanation": "Es la única casilla razonable. El peón de h4 seguirá avanzando.",
+      "pros": "Salva la dama.",
+      "cons": "Las negras siguen sin desarrollarse.",
+      "phase": "medio juego",
+      "concepts": [
+        "Tiempo"
+      ],
+      "eval": 1.8
+    },
+    {
+      "san": "h5",
+      "title": "Otra vez con tiempo",
+      "explanation": "El peón vuelve a atacar la dama. Las blancas ganan espacio en el flanco de rey sin perder un solo tiempo.",
+      "pros": "Más espacio, más tiempo.",
+      "cons": "Peones muy avanzados, pero las negras no pueden aprovecharlo.",
+      "phase": "medio juego",
+      "concepts": [
+        "Tiempo",
+        "Espacio"
+      ],
+      "arrows": [
+        "Rh5g6"
+      ],
+      "eval": 1.9
+    },
+    {
+      "san": "Qg5",
+      "title": "La dama vuelve a g5",
+      "explanation": "Es la quinta jugada de dama de Kieseritzky. Ninguna pieza de su flanco de dama se ha movido.",
+      "pros": "La dama sigue activa.",
+      "cons": "Desarrollo muy atrasado.",
+      "phase": "medio juego",
+      "concepts": [
+        "Tiempo"
+      ],
+      "eval": 1.9
+    },
+    {
+      "san": "Qf3",
+      "title": "La dama blanca entra en juego",
+      "explanation": "La dama se coloca en f3 y prepara 15.Bxf4 con un nuevo ataque a la dama negra. Stockfish confirma que es la mejor jugada.",
+      "pros": "Coordina la dama con el alfil de c1.",
+      "cons": "Ninguna.",
+      "phase": "medio juego",
+      "concepts": [
+        "Desarrollo",
+        "Coordinación"
+      ],
+      "arrows": [
+        "Rc1f4"
+      ],
+      "question": "¿Qué amenazan las blancas?",
+      "answer": "15.Bxf4, recuperando el peón del gambito y atacando otra vez la dama negra.",
+      "eval": 1.9
+    },
+    {
+      "san": "Ng8",
+      "title": "El caballo vuelve a casa",
+      "explanation": "El caballo regresa a g8 para dejar la casilla f6 a la dama. Es la cuarta jugada de este caballo y vuelve a su casilla inicial. Stockfish prefería 14...Bb7, desarrollando por fin.",
+      "pros": "Prepara ...Qf6.",
+      "cons": "Desarrollo nulo: seis piezas negras siguen en su casilla inicial.",
+      "symbol": "?!",
+      "phase": "medio juego",
+      "concepts": [
+        "Tiempo",
+        "Desarrollo"
+      ],
+      "eval": 2.7
+    },
+    {
+      "san": "Bxf4",
+      "title": "Recuperar el peón con tiempo",
+      "explanation": "El alfil captura el peón del gambito y ataca la dama. Las blancas tienen desarrollo superior y ataque, y el material está casi equilibrado.",
+      "pros": "Recupera material con tiempo.",
+      "cons": "Ninguna.",
+      "phase": "medio juego",
+      "concepts": [
+        "Tiempo"
+      ],
+      "arrows": [
+        "Rf4g5"
+      ],
+      "eval": 2.9
+    },
+    {
+      "san": "Qf6",
+      "title": "La dama a f6",
+      "explanation": "La dama se refugia en f6, desde donde apunta a b2. Es la mejor casilla disponible.",
+      "pros": "Ataca b2 y defiende el flanco de rey.",
+      "cons": "Sigue sin desarrollar el resto de piezas.",
+      "phase": "medio juego",
+      "concepts": [
+        "Defensa"
+      ],
+      "arrows": [
+        "Rf6b2"
+      ],
+      "eval": 2.9
+    },
+    {
+      "san": "Nc3",
+      "title": "Completar el desarrollo",
+      "explanation": "El último caballo sale con destino d5. Todas las piezas blancas salvo la torre de a1 participan; seis piezas negras siguen en su casilla inicial.",
+      "pros": "Desarrollo completo y amenaza Nd5.",
+      "cons": "Deja el peón de b2 sin defensa.",
+      "phase": "medio juego",
+      "concepts": [
+        "Desarrollo"
+      ],
+      "arrows": [
+        "Gc3d5"
+      ],
+      "eval": 2.8
+    },
+    {
+      "san": "Bc5",
+      "title": "Desarrollo tardío",
+      "explanation": "Por fin sale un alfil, atacando la torre de g1. Stockfish prefería 16...g5 para expulsar al alfil de f4; tras 16...Bc5 las blancas tienen ventaja decisiva.",
+      "pros": "Desarrolla y ataca la torre.",
+      "cons": "Llega tarde; no defiende al rey.",
+      "symbol": "?",
+      "phase": "medio juego",
+      "concepts": [
+        "Desarrollo"
+      ],
+      "arrows": [
+        "Rc5g1"
+      ],
+      "lines": [
+        {
+          "title": "Mejor: 16...g5",
+          "start": "before",
+          "moves": "g5 Bg3 Na6",
+          "comment": "Expulsa al alfil de f4 y gana tiempo para desarrollarse."
+        }
+      ],
+      "eval": 4.5
+    },
+    {
+      "san": "Nd5",
+      "title": "El caballo al centro",
+      "explanation": "El caballo ataca la dama y amenaza Nc7+, horquilla de rey y torre. Es espectacular, aunque Stockfish encuentra algo aún más preciso, 17.d4.",
+      "pros": "Ataca la dama y controla c7 y e7.",
+      "cons": "Deja b2 sin defensa.",
+      "symbol": "!",
+      "key": true,
+      "phase": "medio juego",
+      "concepts": [
+        "Ataque doble",
+        "Puesto avanzado"
+      ],
+      "arrows": [
+        "Rd5f6",
+        "Rd5c7"
+      ],
+      "lines": [
+        {
+          "title": "Más preciso: 17.d4",
+          "start": "before",
+          "moves": "d4 Bf8 Be5 Qc6 Nxg7+",
+          "comment": "El peón expulsa al alfil y abre la diagonal; Stockfish valora la posición como ganada."
+        }
+      ],
+      "eval": 3.1
+    },
+    {
+      "san": "Qxb2",
+      "title": "Contragolpe",
+      "explanation": "La dama come b2 y amenaza la torre de a1 con jaque. Stockfish la considera la mejor jugada: las negras ya estaban perdidas y buscan contrajuego.",
+      "pros": "Gana un peón y ataca la torre.",
+      "cons": "La dama se aleja todavía más de su rey.",
+      "phase": "medio juego",
+      "concepts": [
+        "Material"
+      ],
+      "arrows": [
+        "Rb2a1"
+      ],
+      "eval": 3.3
+    },
+    {
+      "san": "Bd6",
+      "title": "La jugada legendaria",
+      "explanation": "Anderssen deja colgadas las dos torres: la de g1 la ataca el alfil de c5 y la de a1, la dama. A cambio, el alfil corta la retirada del rey. Durante un siglo se le dio «!!». Stockfish muestra que 18.Re1 ganaba con más sencillez y que, tras 18...Qxa1+ 19.Ke2 Qb2!, la ventaja blanca se reduce mucho.",
+      "pros": "Encierra al rey negro y prepara una red de mate.",
+      "cons": "Objetivamente inferior a 18.Re1.",
+      "symbol": "!?",
+      "key": true,
+      "phase": "medio juego",
+      "concepts": [
+        "Sacrificio",
+        "Red de mate"
+      ],
+      "arrows": [
+        "Rc5g1",
+        "Rb2a1"
+      ],
+      "squares": [
+        "Re7",
+        "Rf8"
+      ],
+      "question": "¿Para qué sirve el alfil en d6?",
+      "answer": "Controla e7 y f8: le quita al rey negro sus casillas de escape y prepara el mate.",
+      "lines": [
+        {
+          "title": "Más sencillo: 18.Re1",
+          "start": "before",
+          "moves": "Re1 Bb7 d4 Bf8 Bd6",
+          "comment": "Las blancas defienden y conservan un ataque ganador sin regalar material."
+        },
+        {
+          "title": "La defensa de los motores",
+          "start": "after",
+          "moves": "Qxa1+ Ke2 Qb2 Kd2 Bxg1 e5 Ba6",
+          "comment": "Con la dama en b2 defendiendo la segunda fila, las blancas siguen mejor, pero sin mate inmediato."
+        }
+      ],
+      "eval": 0.6
+    },
+    {
+      "san": "Bxg1",
+      "title": "La primera torre",
+      "explanation": "Kieseritzky gana una torre, pero 18...Qxa1+ 19.Ke2 Qb2! era más resistente, con la dama vigilando la segunda fila.",
+      "pros": "Gana una torre.",
+      "cons": "El alfil de g1 queda fuera de juego.",
+      "symbol": "?",
+      "phase": "medio juego",
+      "concepts": [
+        "Material"
+      ],
+      "eval": 3.5
+    },
+    {
+      "san": "e5",
+      "title": "Encerrar a la dama",
+      "explanation": "Con un avance de peón Anderssen corta la gran diagonal: la dama negra de b2 ya no puede defender g7. Amenaza Nxg7+ seguido de Bc7#. Stockfish prefiere 19.Re1, pero ambas jugadas ganan.",
+      "pros": "Corta la defensa de g7 y amenaza mate.",
+      "cons": "Permite que caiga también la torre de a1.",
+      "symbol": "!",
+      "key": true,
+      "phase": "medio juego",
+      "concepts": [
+        "Red de mate",
+        "Bloqueo"
+      ],
+      "squares": [
+        "Re5",
+        "Rg7"
+      ],
+      "question": "¿Qué amenazan ahora las blancas?",
+      "answer": "Nxg7+ Kd8 y Bc7#: mate en dos jugadas.",
+      "eval": 2.4
+    },
+    {
+      "san": "Qxa1+",
+      "title": "La segunda torre",
+      "explanation": "Las negras se llevan la otra torre con jaque. Materialmente van ganando con mucha diferencia, pero ni la dama ni el alfil de g1 defienden a su rey.",
+      "pros": "Ventaja material enorme.",
+      "cons": "Ninguna pieza negra protege al rey.",
+      "phase": "medio juego",
+      "concepts": [
+        "Material"
+      ],
+      "eval": 3.3
+    },
+    {
+      "san": "Ke2",
+      "title": "El rey se aparta",
+      "explanation": "El rey sale del jaque y queda a salvo: ninguna pieza negra puede alcanzarlo a tiempo. La amenaza Nxg7+ y Bc7# sigue en pie.",
+      "pros": "Rey seguro y amenaza intacta.",
+      "cons": "Ninguna.",
+      "phase": "medio juego",
+      "concepts": [
+        "Seguridad del rey"
+      ],
+      "eval": 3.4
+    },
+    {
+      "san": "Na6",
+      "title": "El error decisivo",
+      "explanation": "El caballo defiende c7 y evita Nxg7+ Kd8 Bc7#. Pero deja otro mate: 21.Nxg7+ Kd8 22.Qf6+!! Nxf6 23.Be7#. La única defensa era 20...Ba6!, que libera la casilla c8 para el rey; las blancas seguirían mejor, pero sin mate.",
+      "pros": "Cubre c7.",
+      "cons": "Permite un mate en tres.",
+      "symbol": "??",
+      "key": true,
+      "phase": "medio juego",
+      "concepts": [
+        "Defensa",
+        "Red de mate"
+      ],
+      "squares": [
+        "Gc7",
+        "Rc8"
+      ],
+      "question": "¿Qué pieza negra le quitará a su propio rey la última casilla de escape?",
+      "answer": "El alfil de c8. Con 20...Ba6 el rey podría huir a c8.",
+      "lines": [
+        {
+          "title": "La defensa: 20...Ba6!",
+          "start": "before",
+          "moves": "Ba6 Nc7+ Kd8 Nxa6",
+          "comment": "El rey ya tendría la casilla c8; las blancas siguen mejor, pero la partida continúa."
+        }
+      ],
+      "eval": "#3"
+    },
+    {
+      "san": "Nxg7+",
+      "title": "Primer jaque",
+      "explanation": "El caballo de f5 come en g7 con jaque. El rey solo tiene una casilla: d8, porque el alfil de d6 cubre e7 y f8.",
+      "pros": "Fuerza la posición del rey.",
+      "cons": "Ninguna.",
+      "symbol": "!",
+      "key": true,
+      "phase": "medio juego",
+      "concepts": [
+        "Jaque",
+        "Red de mate"
+      ],
+      "arrows": [
+        "Rg7e8"
+      ],
+      "squares": [
+        "Gd8"
+      ],
+      "eval": "#2"
+    },
+    {
+      "san": "Kd8",
+      "title": "Única jugada",
+      "explanation": "Forzada: es la única jugada legal.",
+      "pros": "Ninguna.",
+      "cons": "El rey entra en la red.",
+      "phase": "medio juego",
+      "concepts": [
+        "Red de mate"
+      ],
+      "eval": "#2"
+    },
+    {
+      "san": "Qf6+",
+      "title": "Sacrificio de dama",
+      "explanation": "La dama se entrega en f6 con jaque. Si 22...Ne7, 23.Qxe7#; si 22...Nxf6, 23.Be7#. Anderssen dará mate tras haber entregado las dos torres, un alfil y la dama.",
+      "pros": "Mate forzado.",
+      "cons": "Ninguno.",
+      "symbol": "!!",
+      "key": true,
+      "phase": "medio juego",
+      "concepts": [
+        "Sacrificio de dama",
+        "Desviación",
+        "Mate"
+      ],
+      "squares": [
+        "Re7"
+      ],
+      "lines": [
+        {
+          "title": "Si 22...Ne7",
+          "start": "after",
+          "moves": "Ne7 Qxe7#",
+          "comment": "También es mate."
+        }
+      ],
+      "eval": "#1"
+    },
+    {
+      "san": "Nxf6",
+      "title": "Captura",
+      "explanation": "Cualquier jugada pierde. El caballo come la dama y deja la casilla e7 libre para el alfil.",
+      "pros": "Gana la dama.",
+      "cons": "Mate en una.",
+      "phase": "medio juego",
+      "concepts": [
+        "Desviación"
+      ],
+      "eval": "#1"
+    },
+    {
+      "san": "Be7#",
+      "title": "Mate con tres piezas menores",
+      "explanation": "El alfil da jaque desde e7, protegido por el caballo de d5. El rey no puede ir a c7 (caballo de d5) ni a e8 (caballo de g7), y su propio alfil de c8 y el peón de d7 le quitan las casillas restantes. Tres piezas menores contra un ejército entero.",
+      "pros": "Jaque mate.",
+      "cons": "Ninguno.",
+      "key": true,
+      "phase": "medio juego",
+      "concepts": [
+        "Mate",
+        "Coordinación"
+      ],
+      "squares": [
+        "Gc7",
+        "Ge8",
+        "Rc8",
+        "Rd7"
+      ],
+      "eval": "#1"
+    }
+  ]
+}

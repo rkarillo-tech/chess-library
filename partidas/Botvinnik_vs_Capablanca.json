@@ -1,6 +1,9 @@
 {
  "format": "chess-analyzer/2",
  "info": {
+  "temas": ["Peón pasado", "Sacrificio y combinación", "Estructura de peones"],
+  "coleccion": "maestros",
+  "nivel": "avanzado",
   "title": "Botvinnik contra Capablanca: el peón pasado",
   "white": "Mikhail Botvinnik",
   "black": "José Raúl Capablanca",

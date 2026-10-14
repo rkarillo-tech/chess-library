@@ -1,6 +1,9 @@
 {
  "format": "chess-analyzer/2",
  "info": {
+  "temas": ["Casillas débiles y puestos avanzados", "Defensa y contraataque", "Sacrificio y combinación"],
+  "coleccion": "maestros",
+  "nivel": "avanzado",
   "title": "La partida 24: Kasparov campeón del mundo",
   "white": "Anatoly Karpov",
   "black": "Garry Kasparov",

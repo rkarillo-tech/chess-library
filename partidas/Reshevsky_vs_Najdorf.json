@@ -1,5 +1,8 @@
 {
 "info": {
+"temas": ["Casillas débiles y puestos avanzados", "Peón pasado", "Ataque al rey"],
+"coleccion": "maestros",
+"nivel": "avanzado",
 "title": "Reshevsky vs Najdorf, Dallas 1957 — Caballo en d6, peones pasados conectados y ataque de precisión",
 "white": "Reshevsky Samuel Herman",
 "black": "Najdorf Miguel",

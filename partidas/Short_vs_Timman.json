@@ -1,6 +1,9 @@
 {
  "format": "chess-analyzer/2",
  "info": {
+  "temas": ["Ataque al rey", "Casillas débiles y puestos avanzados", "Columnas y séptima fila"],
+  "coleccion": "maestros",
+  "nivel": "intermedio",
   "title": "El paseo del rey de Short",
   "white": "Nigel Short",
   "black": "Jan Timman",

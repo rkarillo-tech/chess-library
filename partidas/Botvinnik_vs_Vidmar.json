@@ -1,0 +1,685 @@
+{
+ "format": "chess-analyzer/2",
+ "info": {
+  "title": "Botvinnik y el peón aislado",
+  "white": "Mikhail Botvinnik",
+  "black": "Milan Vidmar",
+  "event": "Torneo de Nottingham",
+  "site": "Nottingham",
+  "date": "1936",
+  "result": "1-0",
+  "opening": "Gambito de Dama rehusado (estructura de peón aislado)",
+  "eco": "",
+  "description": "La partida modelo del ataque con peón aislado de dama: el caballo en e5, la dama que se traslada a h3, la ruptura f4-f5 y un sacrificio en f7 que aprovecha la clavada del alfil de b3. Vidmar resiste hasta que dos imprecisiones (16...Nbxd5? y 19...Qd6?) permiten el remate."
+ },
+ "pgn": "1. c4 e6 2. Nf3 d5 3. d4 Nf6 4. Nc3 Be7 5. Bg5 O-O 6. e3 Nbd7 7. Bd3 c5 8. O-O cxd4 9. exd4 dxc4 10. Bxc4 Nb6 11. Bb3 Bd7 12. Qd3 Nbd5 13. Ne5 Bc6 14. Rad1 Nb4 15. Qh3 Bd5 16. Nxd5 Nbxd5 17. f4 Rc8 18. f5 exf5 19. Rxf5 Qd6 20. Nxf7 Rxf7 21. Bxf6 Bxf6 22. Rxd5 Qc6 23. Rd6 Qe8 24. Rd7 1-0",
+ "lessons": [
+  "El peón aislado de dama da espacio y casillas fuertes (e5 y c5): el bando que lo tiene debe jugar activo y atacar antes de que se convierta en una debilidad.",
+  "El defensor quiere cambiar piezas y bloquear en d5; el atacante evita los cambios que alivian y busca el rey.",
+  "La ruptura f4-f5 abre la columna f y la diagonal b3-g8 a la vez: así el ataque llega a f7.",
+  "Una clavada en diagonal (Bb3 contra f7 y g8) convierte un sacrificio en f7 en ganancia de material.",
+  "En posiciones de ataque las imprecisiones defensivas se pagan caro: 16...Nfxd5 y 19...Rc7 aguantaban."
+ ],
+ "analysis": [
+  {
+   "san": "c4",
+   "title": "Apertura Inglesa",
+   "explanation": "Botvinnik empieza con 1.c4: controla d5 sin comprometer todavía el peón de d. Pronto transpondrá al Gambito de Dama.",
+   "pros": "Flexible.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.2
+  },
+  {
+   "san": "e6",
+   "title": "Respuesta flexible",
+   "explanation": "Las negras preparan ...d5 sin decidir aún la estructura.",
+   "pros": "Prepara ...d5.",
+   "cons": "Encierra el alfil de c8.",
+   "phase": "apertura",
+   "eval": 0.3
+  },
+  {
+   "san": "Nf3",
+   "title": "Desarrollo del caballo",
+   "explanation": "El caballo controla e5 y d4.",
+   "pros": "Desarrollo natural.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.3
+  },
+  {
+   "san": "d5",
+   "title": "Centro negro",
+   "explanation": "Las negras ocupan el centro con ...d5.",
+   "pros": "Lucha por el centro.",
+   "cons": "El peón de d5 recibirá presión de c4.",
+   "phase": "apertura",
+   "eval": 0.3
+  },
+  {
+   "san": "d4",
+   "title": "Gambito de Dama",
+   "explanation": "Con 3.d4 la partida transpone al Gambito de Dama rehusado.",
+   "pros": "Centro clásico.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.2
+  },
+  {
+   "san": "Nf6",
+   "title": "Defensa de d5",
+   "explanation": "El caballo defiende d5 y se desarrolla.",
+   "pros": "Desarrollo con defensa.",
+   "cons": "Puede ser clavado por Bg5.",
+   "phase": "apertura",
+   "eval": 0.2
+  },
+  {
+   "san": "Nc3",
+   "title": "Más presión sobre d5",
+   "explanation": "Tercera pieza que vigila d5.",
+   "pros": "Desarrollo.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.3
+  },
+  {
+   "san": "Be7",
+   "title": "Alfil a e7",
+   "explanation": "Sólido: prepara el enroque y anticipa la clavada Bg5.",
+   "pros": "Seguridad.",
+   "cons": "Algo pasivo.",
+   "phase": "apertura",
+   "eval": 0.3
+  },
+  {
+   "san": "Bg5",
+   "title": "La clavada clásica",
+   "explanation": "El alfil clava el caballo de f6, defensor de d5.",
+   "pros": "Presión sobre d5.",
+   "cons": "El alfil puede ser hostigado con ...h6.",
+   "phase": "apertura",
+   "eval": 0.2
+  },
+  {
+   "san": "O-O",
+   "title": "Enroque",
+   "explanation": "Las negras ponen el rey a salvo.",
+   "pros": "Rey seguro.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.2
+  },
+  {
+   "san": "e3",
+   "title": "Estructura sólida",
+   "explanation": "El peón de e3 sostiene d4 y abre la diagonal del alfil de f1.",
+   "pros": "Solidez.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.2
+  },
+  {
+   "san": "Nbd7",
+   "title": "Defensa Ortodoxa",
+   "explanation": "El caballo de b8 va a d7: apoya ...c5 o ...e5.",
+   "pros": "Desarrollo típico.",
+   "cons": "Tapa el alfil de c8.",
+   "phase": "apertura",
+   "eval": 0.2
+  },
+  {
+   "san": "Bd3",
+   "title": "Alfil apuntando a h7",
+   "explanation": "El alfil mira al enroque negro.",
+   "pros": "Desarrollo activo.",
+   "cons": "Puede perder un tiempo si ...dxc4.",
+   "phase": "apertura",
+   "eval": 0.1
+  },
+  {
+   "san": "c5",
+   "title": "Ataque al centro",
+   "explanation": "Las negras golpean d4 con ...c5. Tras los cambios, uno de los dos bandos acabará con un peón aislado.",
+   "pros": "Liberación.",
+   "cons": "Abre el juego cuando las blancas están mejor desarrolladas.",
+   "phase": "apertura",
+   "eval": 0.3
+  },
+  {
+   "san": "O-O",
+   "title": "Enroque",
+   "explanation": "Botvinnik termina el desarrollo del flanco de rey.",
+   "pros": "Rey seguro.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.1
+  },
+  {
+   "san": "cxd4",
+   "title": "Cambio en d4",
+   "explanation": "Las negras cambian en el centro.",
+   "pros": "Simplifica.",
+   "cons": "Facilita la estructura de peón aislado.",
+   "phase": "apertura",
+   "eval": 0.2
+  },
+  {
+   "san": "exd4",
+   "title": "Recaptura con el peón",
+   "explanation": "Al recapturar con el peón de e se forma la estructura de peón aislado en cuanto las negras cambien en c4.",
+   "pros": "Mantiene el peón en el centro.",
+   "cons": "El peón de d4 quedará aislado.",
+   "phase": "apertura",
+   "eval": 0.2
+  },
+  {
+   "san": "dxc4",
+   "title": "Nace el peón aislado",
+   "explanation": "Con ...dxc4 el peón de d4 queda sin vecinos en las columnas c y e: es un peón aislado de dama.",
+   "pros": "Gana un tiempo con el alfil.",
+   "cons": "Da a las blancas juego activo de piezas.",
+   "phase": "apertura",
+   "concepts": [
+    "Peón aislado"
+   ],
+   "eval": 0.2
+  },
+  {
+   "san": "Bxc4",
+   "title": "Juego activo",
+   "explanation": "El alfil recupera el peón. Con peón aislado, las blancas tienen espacio, casillas fuertes en e5 y c5 y facilidad para atacar; a largo plazo el peón puede ser una debilidad.",
+   "pros": "Piezas activas.",
+   "cons": "El peón de d4 necesitará apoyo.",
+   "phase": "apertura",
+   "concepts": [
+    "Peón aislado",
+    "Actividad"
+   ],
+   "eval": 0.1
+  },
+  {
+   "san": "Nb6",
+   "title": "Hacia d5",
+   "explanation": "El caballo ataca el alfil y apunta a d5, la casilla de bloqueo delante del peón aislado.",
+   "pros": "Busca el bloqueo.",
+   "cons": "Se aleja del flanco de rey.",
+   "phase": "apertura",
+   "eval": 0.2
+  },
+  {
+   "san": "Bb3",
+   "title": "Diagonal a2-g8",
+   "explanation": "El alfil se retira a b3, desde donde presiona d5 y, más adelante, f7.",
+   "pros": "Diagonal clave.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "arrows": [
+    "Gb3f7"
+   ],
+   "eval": 0.2
+  },
+  {
+   "san": "Bd7",
+   "title": "Alfil a d7",
+   "explanation": "El alfil se dirige a c6 para vigilar d5.",
+   "pros": "Refuerza el bloqueo.",
+   "cons": "Algo pasivo.",
+   "phase": "medio juego",
+   "eval": 0.3
+  },
+  {
+   "san": "Qd3",
+   "title": "La dama se activa",
+   "explanation": "La dama prepara Ne5 y Rad1, y mira al flanco de rey.",
+   "pros": "Prepara el ataque.",
+   "cons": "Stockfish prefería 12.Ne5 directamente.",
+   "phase": "medio juego",
+   "eval": 0.2
+  },
+  {
+   "san": "Nbd5",
+   "title": "Bloqueo en d5",
+   "explanation": "El caballo se instala en d5, la casilla ideal delante del peón aislado.",
+   "pros": "Bloqueo sólido.",
+   "cons": "Deja el flanco de rey con menos defensores.",
+   "phase": "medio juego",
+   "concepts": [
+    "Bloqueo",
+    "Peón aislado"
+   ],
+   "eval": 0.4
+  },
+  {
+   "san": "Ne5",
+   "title": "Puesto avanzado en e5",
+   "explanation": "El caballo ocupa e5, la casilla fuerte que regala el peón aislado. Es la mejor jugada (+0,4).",
+   "pros": "Pieza dominante.",
+   "cons": "Ninguna significativa.",
+   "key": true,
+   "phase": "medio juego",
+   "concepts": [
+    "Casilla fuerte",
+    "Peón aislado"
+   ],
+   "arrows": [
+    "Ge5f7",
+    "Ge5c6"
+   ],
+   "eval": 0.4
+  },
+  {
+   "san": "Bc6",
+   "title": "Refuerzo de d5",
+   "explanation": "El alfil defiende d5 por segunda vez.",
+   "pros": "Bloqueo firme.",
+   "cons": "Pasivo.",
+   "phase": "medio juego",
+   "eval": 0.4
+  },
+  {
+   "san": "Rad1",
+   "title": "Torre a d1",
+   "explanation": "La torre respalda el peón de d4.",
+   "pros": "Protege d4.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 0.4
+  },
+  {
+   "san": "Nb4",
+   "title": "Caballo a b4",
+   "explanation": "El caballo ataca la dama de d3 y gana un tiempo, pero se aleja del rey.",
+   "pros": "Gana un tiempo.",
+   "cons": "El flanco de rey pierde un defensor.",
+   "phase": "medio juego",
+   "arrows": [
+    "Rb4d3"
+   ],
+   "eval": 0.5
+  },
+  {
+   "san": "Qh3",
+   "title": "La dama al flanco de rey",
+   "explanation": "La dama se traslada a h3, donde presiona h7 y e6.",
+   "pros": "Ataque al rey.",
+   "cons": "Se aleja del centro.",
+   "phase": "medio juego",
+   "eval": 0.6
+  },
+  {
+   "san": "Bd5",
+   "title": "Cambio de alfiles",
+   "explanation": "El alfil ofrece el cambio en d5 para quitar piezas atacantes.",
+   "pros": "Busca simplificar.",
+   "cons": "Cede la pareja de alfiles.",
+   "phase": "medio juego",
+   "eval": 0.6
+  },
+  {
+   "san": "Nxd5",
+   "title": "Cambio en d5",
+   "explanation": "Botvinnik acepta el cambio y obliga a recapturar.",
+   "pros": "Elimina el alfil defensor.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 0.5
+  },
+  {
+   "san": "Nbxd5",
+   "title": "La recaptura equivocada",
+   "explanation": "Vidmar toma con el caballo de b4. Stockfish prefería 16...Nfxd5, que permitía cambiar el alfil de g5 (17.Bxe7 Qxe7) y aliviar la presión. Ahora el caballo de f6 queda bajo la clavada de g5 y el avance f4-f5 llega con fuerza: la evaluación pasa de +0,5 a +1,8.",
+   "pros": "Mantiene el bloqueo en d5.",
+   "cons": "Deja sin resolver la clavada de f6.",
+   "symbol": "?",
+   "key": true,
+   "phase": "medio juego",
+   "concepts": [
+    "Error",
+    "Clavada"
+   ],
+   "eval": 1.8
+  },
+  {
+   "san": "f4",
+   "title": "¡Ruptura f4!",
+   "explanation": "El peón se lanza hacia f5: abrirá la columna f y la diagonal del alfil de b3 contra e6 y f7.",
+   "pros": "Abre líneas hacia el rey.",
+   "cons": "Debilita e3.",
+   "symbol": "!",
+   "key": true,
+   "phase": "medio juego",
+   "concepts": [
+    "Ruptura",
+    "Ataque al rey"
+   ],
+   "arrows": [
+    "Gf4f5"
+   ],
+   "eval": 1.9
+  },
+  {
+   "san": "Rc8",
+   "title": "Contrajuego en la columna c",
+   "explanation": "Vidmar busca contrajuego en la columna c, pero no detiene f5.",
+   "pros": "Activa la torre.",
+   "cons": "Llega tarde.",
+   "phase": "medio juego",
+   "eval": 2.4
+  },
+  {
+   "san": "f5",
+   "title": "Ataque a e6",
+   "explanation": "El peón ataca e6 y abre líneas.",
+   "pros": "Abre la posición.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "arrows": [
+    "Gf5e6"
+   ],
+   "eval": 2.5
+  },
+  {
+   "san": "exf5",
+   "title": "Captura en f5",
+   "explanation": "La captura abre la diagonal del alfil de b3, que ya apunta a f7.",
+   "pros": "Gana un peón.",
+   "cons": "Abre el camino al ataque.",
+   "phase": "medio juego",
+   "eval": 2.8
+  },
+  {
+   "san": "Rxf5",
+   "title": "La torre se une",
+   "explanation": "La torre entra en f5 y apunta a f6 y d5.",
+   "pros": "Ataque.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 3.3
+  },
+  {
+   "san": "Qd6",
+   "title": "El error decisivo",
+   "explanation": "Stockfish prefería 19...Rc7 (+3,1). Con 19...Qd6 llega el sacrificio en f7 y la evaluación pasa a +5,2.",
+   "pros": "Activa la dama.",
+   "cons": "Permite 20.Nxf7.",
+   "symbol": "?",
+   "phase": "medio juego",
+   "concepts": [
+    "Error"
+   ],
+   "eval": 5.2
+  },
+  {
+   "san": "Nxf7",
+   "title": "¡Sacrificio en f7!",
+   "explanation": "El caballo se entrega en f7 y ataca la dama de d6. Tras 20...Rxf7 21.Bxf6 Bxf6 22.Rxd5 el caballo de d5 cae, porque está clavado por el alfil de b3 contra la torre de f7 y el rey.",
+   "pros": "Gana material.",
+   "cons": "Ninguna significativa.",
+   "symbol": "!",
+   "key": true,
+   "phase": "medio juego",
+   "concepts": [
+    "Sacrificio",
+    "Clavada"
+   ],
+   "arrows": [
+    "Gf7d6",
+    "Gb3d5"
+   ],
+   "question": "Tras 20...Rxf7 21.Bxf6 Bxf6, ¿qué pieza negra queda indefensa?",
+   "answer": "El caballo de d5: está clavado por el alfil de b3 en la diagonal b3-g8, y 22.Rxd5 lo gana. Si 22...Qxd5 23.Bxd5 gana la dama.",
+   "lines": [
+    {
+     "title": "La combinación",
+     "start": "after",
+     "moves": "Rxf7 Bxf6 Bxf6 Rxd5",
+     "comment": "El caballo clavado cae y las blancas quedan con una pieza de ventaja."
+    }
+   ],
+   "eval": 5.2
+  },
+  {
+   "san": "Rxf7",
+   "title": "Acepta el sacrificio",
+   "explanation": "Vidmar captura. 20...Qc7 tampoco salvaba (+5,7).",
+   "pros": "Recupera material.",
+   "cons": "La torre de f7 queda clavada.",
+   "phase": "medio juego",
+   "eval": 5.3
+  },
+  {
+   "san": "Bxf6",
+   "title": "Elimina el defensor",
+   "explanation": "El alfil cambia el caballo de f6, que defendía d5.",
+   "pros": "Prepara Rxd5.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 5.2
+  },
+  {
+   "san": "Bxf6",
+   "title": "Recaptura",
+   "explanation": "21...Nxf6 22.Rxf6 gxf6 23.Qxc8+ tampoco salvaba.",
+   "pros": "Recupera la pieza.",
+   "cons": "d5 queda sin defensa suficiente.",
+   "phase": "medio juego",
+   "eval": 5.7
+  },
+  {
+   "san": "Rxd5",
+   "title": "Cae el caballo",
+   "explanation": "La torre gana el caballo clavado. 22...Qxd5? 23.Bxd5 ganaría la dama.",
+   "pros": "Pieza de ventaja.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "arrows": [
+    "Gd5d6"
+   ],
+   "eval": 5.6
+  },
+  {
+   "san": "Qc6",
+   "title": "La dama se aparta",
+   "explanation": "La dama sale de la diagonal y busca contrajuego por la columna c.",
+   "pros": "Evita perder la dama.",
+   "cons": "No resuelve la clavada de f7.",
+   "phase": "medio juego",
+   "eval": 5.7
+  },
+  {
+   "san": "Rd6",
+   "title": "Ataque a la dama",
+   "explanation": "La torre ataca la dama con tiempo.",
+   "pros": "Gana un tiempo.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "arrows": [
+    "Rd6c6"
+   ],
+   "eval": 5.7
+  },
+  {
+   "san": "Qe8",
+   "title": "Defensa de f7",
+   "explanation": "La dama vuelve a e8 para proteger la torre clavada de f7.",
+   "pros": "Defiende f7.",
+   "cons": "Pasiva.",
+   "phase": "medio juego",
+   "eval": 6.6
+  },
+  {
+   "san": "Rd7",
+   "title": "¡Rd7!",
+   "explanation": "La torre llega a la séptima y ataca por segunda vez la torre clavada de f7. Si 24...Qxd7 25.Qxd7 las negras pierden la dama. Vidmar abandona (+6,5).",
+   "pros": "Gana material decisivo.",
+   "cons": "Ninguna significativa.",
+   "symbol": "!",
+   "key": true,
+   "phase": "medio juego",
+   "concepts": [
+    "Clavada",
+    "Séptima fila"
+   ],
+   "arrows": [
+    "Rd7f7",
+    "Rb3f7"
+   ],
+   "eval": 6.4
+  }
+ ],
+ "scan": {
+  "by": "Stockfish 17.1",
+  "evals": [
+   29,
+   25,
+   29,
+   33,
+   24,
+   25,
+   29,
+   25,
+   28,
+   14,
+   23,
+   22,
+   15,
+   13,
+   21,
+   11,
+   17,
+   15,
+   14,
+   15,
+   26,
+   23,
+   28,
+   24,
+   43,
+   44,
+   44,
+   32,
+   57,
+   55,
+   60,
+   47,
+   184,
+   186,
+   232,
+   244,
+   292,
+   313,
+   531,
+   525,
+   518,
+   530,
+   565,
+   570,
+   570,
+   573,
+   654,
+   636
+  ],
+  "best": [
+   "e2e4",
+   "e7e5",
+   "b1c3",
+   "d7d5",
+   "d2d4",
+   "g8f6",
+   "g2g3",
+   "f8b4",
+   "c1f4",
+   "h7h6",
+   "e2e3",
+   "b8d7",
+   "a1c1",
+   "d5c4",
+   "c4d5",
+   "h7h6",
+   "e3d4",
+   "d5c4",
+   "d3c4",
+   "a7a6",
+   "c4b3",
+   "c8d7",
+   "f3e5",
+   "f6d5",
+   "f3e5",
+   "d7c6",
+   "a1d1",
+   "f6d7",
+   "d3h3",
+   "c6d5",
+   "b3a4",
+   "f6d5",
+   "f2f4",
+   "a7a5",
+   "f4f5",
+   "e6f5",
+   "f1f5",
+   "c8c7",
+   "g5f6",
+   "f8f7",
+   "g5f6",
+   "d5f6",
+   "f5d5",
+   "d6c6",
+   "d5d6",
+   "c6d6",
+   "d6d7",
+   null
+  ],
+  "pv": [
+   "e2e4 c7c5 g1f3 d7d6 d2d4 c5d4 f3d4 e7e5",
+   "e7e5 g2g3 d7d5 c4d5 g8f6 f1g2 f6d5 g1f3",
+   "b1c3 d7d5 d2d4 g8f6 c1g5 c7c5 c4d5 c5d4",
+   "d7d5 d2d4 g8f6 g2g3 c7c5 f1g2 c5d4 e1g1",
+   "d2d4 g8f6 b1c3 f8b4 e2e3 e8g8 c1d2 b7b6",
+   "g8f6 b1c3 c7c5 c4d5 c5d4 d1d4 e6d5 e2e4",
+   "g2g3 f8b4 c1d2 a7a5 f1g2 e8g8 d1c2 b4e7",
+   "f8b4 c1g5 h7h6 g5f6 d8f6 e2e3 c7c5 c4d5",
+   "c1f4",
+   "h7h6 g5h4 e8g8 e2e3 b7b6 a1c1 c8b7 h4f6",
+   "e2e3",
+   "b8d7 a1c1",
+   "a1c1 h7h6",
+   "d5c4 d3c4 h7h6 g5h4 b7b6 e1g1 c8b7 h4g3",
+   "c4d5 f6d5 g5e7 d5e7 e1g1 c5d4 f3d4 d7f6",
+   "h7h6 g5f4",
+   "e3d4 d5c4 d3c4 h7h6 g5h4 b7b6 d1e2 c8b7",
+   "d5c4 d3c4 h7h6 g5h4 b7b6 f1e1 c8b7 d1e2",
+   "d3c4 h7h6 g5h4 b7b6 d4d5 f6d5 c4d5 e6d5",
+   "a7a6 a2a4 h7h6 g5h4 b7b6 d1e2 c8b7 a1d1",
+   "c4b3 c8d7 f3e5 f6d5 g5c1 a8c8 d1d3 d7c6",
+   "c8d7 f3e5 d7c6 f1e1 h7h6 g5f4 b6d5 e5c6",
+   "f3e5",
+   "f6d5 g5e7 d5e7 a1d1 b6d5 c3d5 e7d5 b3d5",
+   "f3e5 d7c6 d3h3 f6e8 f2f4 e8c7 h3g3 c7b5",
+   "d7c6 d3h3 f6e8 f2f4 e8d6 b3d5 c6d5 g5e7",
+   "a1d1 a7a5 d3h3 d5c3 b2c3 c6e4 h3h4 e4g6",
+   "f6d7 e5c6 b7c6 g5c1 a7a5 g2g3 d8b6 f1e1",
+   "d3h3 c6d5 b3a4 d5c6 e5c6 b4c6 a4c2 c6b4",
+   "c6d5 c3d5 f6d5 g5e7 d8e7 f2f4 a8d8 f4f5",
+   "b3a4 d5c6 a4b3 c6d5 c3d5 f6d5 g5e7 d8e7",
+   "f6d5 g5e7 d8e7 f2f4 a8d8 f4f5 e6f5 f1f5",
+   "f2f4 a7a5 a2a4 d8d6 f4f5 e6f5 h3f5 h7h6",
+   "a7a5 a2a4 a8a6 f4f5 e6f5 h3f5 h7h6 g5c1",
+   "f4f5 e6f5 f1f5 a7a5 a2a4 c8c7 d1f1 d5b4",
+   "e6f5 f1f5 c8c7 d1f1 d8d6 g1h1 a7a5 h3f3",
+   "f1f5 d8e8 d1f1 c8d8 h3h4 a7a5 f5f3 d8d6",
+   "c8c7 d1f1 g7g6 g5h6 d8c8 h6f8 g6f5 f8h6",
+   "g5f6 d5f6 e5f7 f8f7 f5f6 g7f6 h3c8 e7d8",
+   "f8f7 g5f6 d5f6 f5f6 g7f6 h3c8 g8g7 b3f7",
+   "g5f6 d5f6 f5f6 g7f6 h3c8 e7d8 b3f7 g8f7",
+   "d5f6 f5f6 g7f6 h3c8 g8g7 b3f7 g7f7 c8b7",
+   "f5d5 d6c6 d5d6 c6d6 h3c8 d6d8 c8b7 d8e8",
+   "d6c6 d5d6 c6d6 h3c8 d6f8 c8b7 f8e8 g1h1",
+   "d5d6 c6d6 h3c8 d6d8 c8b7 d8e8 g1h1 g8f8",
+   "c6d6 h3c8 d6d8 c8b7 d8e8 g1h1 g8f8 b3f7",
+   "d6d7 g8h8 d7f7 b7b6 g1h1 f6d4 b3a4 e8g8",
+   ""
+  ]
+ }
+}

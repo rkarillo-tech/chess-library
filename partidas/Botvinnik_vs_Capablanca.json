@@ -1,0 +1,1099 @@
+{
+ "format": "chess-analyzer/2",
+ "info": {
+  "title": "Botvinnik contra Capablanca: el peón pasado",
+  "white": "Mikhail Botvinnik",
+  "black": "José Raúl Capablanca",
+  "event": "Torneo AVRO, ronda 11",
+  "site": "Países Bajos",
+  "date": "22/11/1938",
+  "result": "1-0",
+  "opening": "Defensa Nimzo-India, Variante Rubinstein",
+  "eco": "E40",
+  "description": "Botvinnik deja que Capablanca gane un peón en el flanco de dama y, a cambio, avanza en el centro con e4-e5 y f4-f5 hasta crear un peón pasado en e6. La combinación 30.Ba3!! desvía la dama negra y el peón corona por la fuerza. Una de las partidas más instructivas sobre el peón pasado y la iniciativa central."
+ },
+ "pgn": "1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 d5 5. a3 Bxc3+ 6. bxc3 c5 7. cxd5 exd5 8. Bd3 O-O 9. Ne2 b6 10. O-O Ba6 11. Bxa6 Nxa6 12. Bb2 Qd7 13. a4 Rfe8 14. Qd3 c4 15. Qc2 Nb8 16. Rae1 Nc6 17. Ng3 Na5 18. f3 Nb3 19. e4 Qxa4 20. e5 Nd7 21. Qf2 g6 22. f4 f5 23. exf6 Nxf6 24. f5 Rxe1 25. Rxe1 Re8 26. Re6 Rxe6 27. fxe6 Kg7 28. Qf4 Qe8 29. Qe5 Qe7 30. Ba3 Qxa3 31. Nh5+ gxh5 32. Qg5+ Kf8 33. Qxf6+ Kg8 34. e7 Qc1+ 35. Kf2 Qd2+ 36. Kg3 Qd3+ 37. Kh4 Qe4+ 38. Kxh5 Qe2+ 39. Kh4 Qe4+ 40. g4 Qe1+ 41. Kh5 1-0",
+ "lessons": [
+  "Con la pareja de alfiles y el centro móvil (c3, d4, e3), el plan es e3-e4 apoyado por f3: el centro avanza y gana espacio.",
+  "El juego en un flanco puede valer menos que la iniciativa en el centro: Capablanca gana el peón de a4 mientras Botvinnik prepara e5, f4 y f5.",
+  "Un peón pasado en la sexta fila (e6) ata a las piezas rivales y prepara combinaciones de desviación.",
+  "30.Ba3!! enseña la desviación: si la dama deja de vigilar e7, el peón corona; si no lo deja, pierde la casilla f6.",
+  "Antes de lanzar el ataque final hay que calcular los jaques del rival: el rey blanco escapa por g3, h4 y h5 hasta que los jaques se acaban."
+ ],
+ "analysis": [
+  {
+   "san": "d4",
+   "title": "Peón de dama",
+   "explanation": "Botvinnik abre con el peón de dama.",
+   "pros": "Centro.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.3
+  },
+  {
+   "san": "Nf6",
+   "title": "Caballo a f6",
+   "explanation": "Capablanca controla e4.",
+   "pros": "Flexible.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.3
+  },
+  {
+   "san": "c4",
+   "title": "Peón c4",
+   "explanation": "Las blancas ganan espacio en el flanco de dama.",
+   "pros": "Espacio.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.2
+  },
+  {
+   "san": "e6",
+   "title": "e6",
+   "explanation": "Las negras preparan ...Bb4 o ...d5.",
+   "pros": "Flexible.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.2
+  },
+  {
+   "san": "Nc3",
+   "title": "Caballo a c3",
+   "explanation": "Las blancas permiten la Nimzo-India.",
+   "pros": "Desarrollo.",
+   "cons": "Puede ser clavado.",
+   "phase": "apertura",
+   "eval": 0.2
+  },
+  {
+   "san": "Bb4",
+   "title": "Nimzo-India",
+   "explanation": "El alfil clava el caballo de c3, que defiende e4.",
+   "pros": "Lucha por e4.",
+   "cons": "Puede tener que cambiarse por el caballo.",
+   "phase": "apertura",
+   "eval": 0.2
+  },
+  {
+   "san": "e3",
+   "title": "Variante Rubinstein",
+   "explanation": "Desarrollo sólido: prepara Bd3 y Ne2.",
+   "pros": "Solidez.",
+   "cons": "Encierra el alfil de c1.",
+   "phase": "apertura",
+   "eval": 0.2
+  },
+  {
+   "san": "d5",
+   "title": "Centro con d5",
+   "explanation": "Las negras ocupan el centro.",
+   "pros": "Centro.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.2
+  },
+  {
+   "san": "a3",
+   "title": "a3",
+   "explanation": "Botvinnik pregunta al alfil: acepta peones doblados a cambio de la pareja de alfiles.",
+   "pros": "Gana la pareja de alfiles.",
+   "cons": "Peones doblados.",
+   "phase": "apertura",
+   "eval": 0.2
+  },
+  {
+   "san": "Bxc3+",
+   "title": "Cambio en c3",
+   "explanation": "Capablanca cambia el alfil.",
+   "pros": "Dobla los peones blancos.",
+   "cons": "Cede la pareja de alfiles.",
+   "phase": "apertura",
+   "eval": 0.2
+  },
+  {
+   "san": "bxc3",
+   "title": "Recaptura con el peón",
+   "explanation": "Las blancas tienen peones doblados en c, pero un centro sólido y dos alfiles.",
+   "pros": "Pareja de alfiles y centro.",
+   "cons": "Peones doblados.",
+   "phase": "apertura",
+   "eval": 0.3
+  },
+  {
+   "san": "c5",
+   "title": "Ataque a c4",
+   "explanation": "Las negras presionan el centro blanco.",
+   "pros": "Presión.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.4
+  },
+  {
+   "san": "cxd5",
+   "title": "Cambio en d5",
+   "explanation": "Las blancas definen la estructura.",
+   "pros": "Aclara el centro.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.3
+  },
+  {
+   "san": "exd5",
+   "title": "Recaptura con el peón",
+   "explanation": "Las negras recapturan con el peón de e: estructura con d5 sólido.",
+   "pros": "Centro sólido.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.3
+  },
+  {
+   "san": "Bd3",
+   "title": "Alfil a d3",
+   "explanation": "El alfil apunta al flanco de rey.",
+   "pros": "Desarrollo activo.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.3
+  },
+  {
+   "san": "O-O",
+   "title": "Enroque",
+   "explanation": "Capablanca pone el rey a salvo.",
+   "pros": "Rey seguro.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.4
+  },
+  {
+   "san": "Ne2",
+   "title": "Caballo a e2",
+   "explanation": "El caballo va a e2 para permitir f3 y e4 más adelante.",
+   "pros": "Prepara f3 y e4.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.4
+  },
+  {
+   "san": "b6",
+   "title": "b6",
+   "explanation": "Las negras preparan ...Ba6 para cambiar el alfil bueno de las blancas.",
+   "pros": "Prepara ...Ba6.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.3
+  },
+  {
+   "san": "O-O",
+   "title": "Enroque",
+   "explanation": "Las blancas ponen el rey a salvo.",
+   "pros": "Rey seguro.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.3
+  },
+  {
+   "san": "Ba6",
+   "title": "Alfil a a6",
+   "explanation": "Capablanca ofrece cambiar los alfiles de casillas blancas.",
+   "pros": "Cambia el alfil atacante.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.3
+  },
+  {
+   "san": "Bxa6",
+   "title": "Cambio de alfiles",
+   "explanation": "Botvinnik acepta el cambio; Stockfish prefería mantenerlo con 11.f3.",
+   "pros": "Simplifica.",
+   "cons": "Pierde el alfil atacante.",
+   "phase": "apertura",
+   "eval": 0.3
+  },
+  {
+   "san": "Nxa6",
+   "title": "Recaptura",
+   "explanation": "El caballo queda en a6, provisionalmente fuera de juego.",
+   "pros": "Recupera la pieza.",
+   "cons": "Caballo en el borde.",
+   "phase": "apertura",
+   "eval": 0.4
+  },
+  {
+   "san": "Bb2",
+   "title": "Alfil a b2",
+   "explanation": "El alfil espera detrás de los peones; más tarde saldrá por a3.",
+   "pros": "Desarrollo.",
+   "cons": "Pasivo por ahora.",
+   "phase": "apertura",
+   "eval": 0.1
+  },
+  {
+   "san": "Qd7",
+   "title": "Dama a d7",
+   "explanation": "La dama apunta a a4 y b5.",
+   "pros": "Desarrollo.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.1
+  },
+  {
+   "san": "a4",
+   "title": "a4",
+   "explanation": "El peón evita ...Qb5 y ...Qa4, aunque quedará débil.",
+   "pros": "Espacio.",
+   "cons": "Peón débil.",
+   "phase": "medio juego",
+   "eval": -0.2
+  },
+  {
+   "san": "Rfe8",
+   "title": "Torre a e8",
+   "explanation": "Las negras toman la columna e.",
+   "pros": "Columna semiabierta.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 0.1
+  },
+  {
+   "san": "Qd3",
+   "title": "Dama a d3",
+   "explanation": "La dama apunta al flanco de rey.",
+   "pros": "Desarrollo.",
+   "cons": "Stockfish prefería 14.c4.",
+   "phase": "medio juego",
+   "eval": -0.3
+  },
+  {
+   "san": "c4",
+   "title": "¡c4!",
+   "explanation": "Capablanca cierra el flanco de dama: gana espacio y crea un puesto avanzado en b3. A cambio, las blancas tienen las manos libres en el centro.",
+   "pros": "Espacio y casilla b3.",
+   "cons": "Libera a las blancas para e3-e4.",
+   "phase": "medio juego",
+   "concepts": [
+    "Estructura de peones"
+   ],
+   "eval": -0.4
+  },
+  {
+   "san": "Qc2",
+   "title": "Dama a c2",
+   "explanation": "La dama vuelve a c2.",
+   "pros": "Seguridad.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": -0.3
+  },
+  {
+   "san": "Nb8",
+   "title": "Caballo a b8",
+   "explanation": "El caballo busca la ruta c6-a5-b3. Stockfish prefería 15...Nc7.",
+   "pros": "Reagrupación.",
+   "cons": "Lento.",
+   "symbol": "?!",
+   "phase": "medio juego",
+   "concepts": [
+    "Imprecisión"
+   ],
+   "eval": 0.4
+  },
+  {
+   "san": "Rae1",
+   "title": "Torre a e1",
+   "explanation": "La torre apoya el avance e3-e4.",
+   "pros": "Prepara e4.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 0.3
+  },
+  {
+   "san": "Nc6",
+   "title": "Caballo a c6",
+   "explanation": "El caballo continúa hacia a5.",
+   "pros": "Reagrupación.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 0.3
+  },
+  {
+   "san": "Ng3",
+   "title": "Caballo a g3",
+   "explanation": "El caballo se coloca en g3 para apoyar e4 y vigilar f5 y h5.",
+   "pros": "Prepara e4.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 0.4
+  },
+  {
+   "san": "Na5",
+   "title": "Caballo a a5",
+   "explanation": "Capablanca sigue con su plan en el flanco de dama. Stockfish prefería 17...Ne4, que frenaba e4: tras ...Na5 la evaluación sube a +1,8.",
+   "pros": "Busca b3.",
+   "cons": "Permite e4.",
+   "symbol": "?",
+   "phase": "medio juego",
+   "concepts": [
+    "Error"
+   ],
+   "eval": 1.8
+  },
+  {
+   "san": "f3",
+   "title": "f3",
+   "explanation": "Botvinnik prepara e4.",
+   "pros": "Prepara e4.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 2.0
+  },
+  {
+   "san": "Nb3",
+   "title": "Caballo a b3",
+   "explanation": "El caballo llega a b3, su puesto avanzado.",
+   "pros": "Pieza activa.",
+   "cons": "Lejos del flanco de rey.",
+   "phase": "medio juego",
+   "eval": 2.0
+  },
+  {
+   "san": "e4",
+   "title": "¡e4!",
+   "explanation": "El centro avanza: Botvinnik deja el peón de a4 para ganar tiempo en el centro.",
+   "pros": "Iniciativa central.",
+   "cons": "Entrega el peón de a4.",
+   "symbol": "!",
+   "key": true,
+   "phase": "medio juego",
+   "concepts": [
+    "Centro",
+    "Iniciativa"
+   ],
+   "arrows": [
+    "Ge4d5"
+   ],
+   "eval": 1.9
+  },
+  {
+   "san": "Qxa4",
+   "title": "Captura en a4",
+   "explanation": "Capablanca gana un peón en el flanco de dama.",
+   "pros": "Gana un peón.",
+   "cons": "La dama se aleja del rey.",
+   "phase": "medio juego",
+   "eval": 2.3
+  },
+  {
+   "san": "e5",
+   "title": "e5",
+   "explanation": "El peón expulsa el caballo de f6.",
+   "pros": "Espacio.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 2.1
+  },
+  {
+   "san": "Nd7",
+   "title": "Caballo a d7",
+   "explanation": "El caballo se retira a d7.",
+   "pros": "Evita la pérdida.",
+   "cons": "Pasivo.",
+   "phase": "medio juego",
+   "eval": 2.2
+  },
+  {
+   "san": "Qf2",
+   "title": "Dama a f2",
+   "explanation": "La dama apoya f4 y vigila el flanco de rey.",
+   "pros": "Prepara f4.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 1.8
+  },
+  {
+   "san": "g6",
+   "title": "g6",
+   "explanation": "Capablanca controla f5 y h5 para frenar el avance f4-f5.",
+   "pros": "Profilaxis.",
+   "cons": "Debilita las casillas oscuras.",
+   "phase": "medio juego",
+   "eval": 1.8
+  },
+  {
+   "san": "f4",
+   "title": "f4",
+   "explanation": "Botvinnik prepara f5.",
+   "pros": "Prepara f5.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 1.7
+  },
+  {
+   "san": "f5",
+   "title": "f5",
+   "explanation": "Capablanca bloquea el avance.",
+   "pros": "Frena f5.",
+   "cons": "Permite la captura al paso.",
+   "phase": "medio juego",
+   "eval": 1.5
+  },
+  {
+   "san": "exf6",
+   "title": "Captura al paso",
+   "explanation": "23.exf6 es una captura al paso: el peón de e5 captura el de f5 como si hubiera avanzado una sola casilla.",
+   "pros": "Abre la columna e y la f.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Captura al paso"
+   ],
+   "eval": 1.5
+  },
+  {
+   "san": "Nxf6",
+   "title": "Recaptura con el caballo",
+   "explanation": "El caballo recaptura en f6.",
+   "pros": "Recupera.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 2.0
+  },
+  {
+   "san": "f5",
+   "title": "¡f5!",
+   "explanation": "El peón sigue avanzando y abre líneas contra el rey negro.",
+   "pros": "Ataque al rey.",
+   "cons": "Ninguna significativa.",
+   "symbol": "!",
+   "phase": "medio juego",
+   "concepts": [
+    "Ataque al rey"
+   ],
+   "arrows": [
+    "Gf5g6"
+   ],
+   "eval": 2.2
+  },
+  {
+   "san": "Rxe1",
+   "title": "Cambio de torres",
+   "explanation": "Capablanca cambia una torre.",
+   "pros": "Simplifica.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 2.1
+  },
+  {
+   "san": "Rxe1",
+   "title": "Recaptura",
+   "explanation": "La torre de f1 pasa a e1.",
+   "pros": "Columna e.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 1.9
+  },
+  {
+   "san": "Re8",
+   "title": "Torre a e8",
+   "explanation": "Las negras disputan la columna e.",
+   "pros": "Disputa la columna.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 2.3
+  },
+  {
+   "san": "Re6",
+   "title": "¡Re6!",
+   "explanation": "La torre entra en e6 y ataca el caballo de f6. Tras el cambio nacerá un peón pasado en e6.",
+   "pros": "Gana espacio y tiempo.",
+   "cons": "Ninguna significativa.",
+   "symbol": "!",
+   "key": true,
+   "phase": "medio juego",
+   "concepts": [
+    "Peón pasado"
+   ],
+   "arrows": [
+    "Re6f6"
+   ],
+   "eval": 2.9
+  },
+  {
+   "san": "Rxe6",
+   "title": "Cambio de torres",
+   "explanation": "Capablanca cambia.",
+   "pros": "Simplifica.",
+   "cons": "Crea un peón pasado blanco.",
+   "phase": "medio juego",
+   "eval": 3.2
+  },
+  {
+   "san": "fxe6",
+   "title": "Peón pasado en e6",
+   "explanation": "El peón de e6 está a dos casillas de coronar y ata a las piezas negras.",
+   "pros": "Peón pasado.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Peón pasado"
+   ],
+   "eval": 3.2
+  },
+  {
+   "san": "Kg7",
+   "title": "Rey a g7",
+   "explanation": "El rey defiende f6 y h6.",
+   "pros": "Defensa.",
+   "cons": "Pasivo.",
+   "phase": "medio juego",
+   "eval": 3.2
+  },
+  {
+   "san": "Qf4",
+   "title": "Dama a f4",
+   "explanation": "La dama apunta a c7 y e5.",
+   "pros": "Pieza activa.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 3.8
+  },
+  {
+   "san": "Qe8",
+   "title": "Dama a e8",
+   "explanation": "La dama bloquea el peón de e6 desde atrás.",
+   "pros": "Bloqueo.",
+   "cons": "Pasiva.",
+   "phase": "medio juego",
+   "eval": 3.7
+  },
+  {
+   "san": "Qe5",
+   "title": "Dama a e5",
+   "explanation": "La dama se centraliza. Stockfish prefería 29.Qc7+.",
+   "pros": "Dama central.",
+   "cons": "Permite una defensa mejor.",
+   "phase": "medio juego",
+   "concepts": [
+    "Imprecisión"
+   ],
+   "eval": 1.7
+  },
+  {
+   "san": "Qe7",
+   "title": "Dama a e7",
+   "explanation": "La dama bloquea e7. Stockfish prefería 29...h5; tras ...Qe7 llega 30.Ba3!!",
+   "pros": "Bloquea el peón.",
+   "cons": "Se pone en la diagonal del alfil.",
+   "symbol": "?",
+   "phase": "medio juego",
+   "concepts": [
+    "Error"
+   ],
+   "eval": 4.7
+  },
+  {
+   "san": "Ba3",
+   "title": "¡¡Ba3!!",
+   "explanation": "El alfil ataca la dama de e7. Si la dama abandona la diagonal, el peón avanza; si la toma con 30...Qxa3, llega 31.Nh5+!.",
+   "pros": "Desviación.",
+   "cons": "Entrega el alfil.",
+   "symbol": "!!",
+   "key": true,
+   "phase": "medio juego",
+   "concepts": [
+    "Desviación",
+    "Peón pasado"
+   ],
+   "arrows": [
+    "Ga3e7"
+   ],
+   "question": "Si 30...Qxa3, ¿cómo continúan las blancas?",
+   "answer": "31.Nh5+! gxh5 32.Qg5+ Kf8 33.Qxf6+ Kg8 34.e7 y el peón corona.",
+   "lines": [
+    {
+     "title": "La combinación",
+     "start": "after",
+     "moves": "Qxa3 Nh5+ gxh5 Qg5+ Kf8 Qxf6+ Kg8 e7",
+     "comment": "El caballo se entrega en h5 y el peón de e corona."
+    }
+   ],
+   "eval": 4.6
+  },
+  {
+   "san": "Qxa3",
+   "title": "Captura del alfil",
+   "explanation": "Capablanca acepta. 30...Qe8 resistía algo más, pero también perdía (+5,0).",
+   "pros": "Gana el alfil.",
+   "cons": "Abre el camino del peón de e.",
+   "phase": "medio juego",
+   "eval": 6.1
+  },
+  {
+   "san": "Nh5+",
+   "title": "¡Nh5+!",
+   "explanation": "Otro sacrificio: el caballo da jaque y desvía el peón de g6.",
+   "pros": "Desvío.",
+   "cons": "Entrega el caballo.",
+   "symbol": "!",
+   "key": true,
+   "phase": "medio juego",
+   "concepts": [
+    "Sacrificio",
+    "Desviación"
+   ],
+   "arrows": [
+    "Gh5g7",
+    "Gh5f6"
+   ],
+   "eval": 6.6
+  },
+  {
+   "san": "gxh5",
+   "title": "Captura del caballo",
+   "explanation": "Capablanca captura.",
+   "pros": "Gana el caballo.",
+   "cons": "Abre el rey.",
+   "phase": "medio juego",
+   "eval": 6.6
+  },
+  {
+   "san": "Qg5+",
+   "title": "Jaque",
+   "explanation": "La dama da jaque en g5.",
+   "pros": "Jaque.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 7.0
+  },
+  {
+   "san": "Kf8",
+   "title": "Rey a f8",
+   "explanation": "El rey va a f8.",
+   "pros": "Evita el mate.",
+   "cons": "Delante del peón.",
+   "phase": "medio juego",
+   "eval": 7.1
+  },
+  {
+   "san": "Qxf6+",
+   "title": "Captura del caballo",
+   "explanation": "La dama toma el caballo con jaque.",
+   "pros": "Gana material.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 7.2
+  },
+  {
+   "san": "Kg8",
+   "title": "Rey a g8",
+   "explanation": "El rey vuelve a g8.",
+   "pros": "Evita el mate.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 7.3
+  },
+  {
+   "san": "e7",
+   "title": "¡e7!",
+   "explanation": "El peón llega a e7 y amenaza coronar.",
+   "pros": "Coronación.",
+   "cons": "Ninguna significativa.",
+   "symbol": "!",
+   "key": true,
+   "phase": "final",
+   "concepts": [
+    "Peón pasado",
+    "Coronación"
+   ],
+   "arrows": [
+    "Ge7e8"
+   ],
+   "eval": 7.4
+  },
+  {
+   "san": "Qc1+",
+   "title": "Jaques",
+   "explanation": "Capablanca busca el jaque perpetuo.",
+   "pros": "Busca tablas.",
+   "cons": "No hay perpetuo.",
+   "phase": "final",
+   "eval": 7.5
+  },
+  {
+   "san": "Kf2",
+   "title": "Rey a f2",
+   "explanation": "El rey empieza a escapar de los jaques.",
+   "pros": "Escapa.",
+   "cons": "Ninguna significativa.",
+   "phase": "final",
+   "eval": 7.6
+  },
+  {
+   "san": "Qd2+",
+   "title": "Jaque",
+   "explanation": "Otro jaque desde d2.",
+   "pros": "Busca tablas.",
+   "cons": "Ninguna significativa.",
+   "phase": "final",
+   "eval": 7.8
+  },
+  {
+   "san": "Kg3",
+   "title": "Rey a g3",
+   "explanation": "El rey sigue hacia el flanco de rey.",
+   "pros": "Escapa.",
+   "cons": "Ninguna significativa.",
+   "phase": "final",
+   "eval": 7.7
+  },
+  {
+   "san": "Qd3+",
+   "title": "Jaque",
+   "explanation": "Otro jaque desde d3.",
+   "pros": "Busca tablas.",
+   "cons": "Ninguna significativa.",
+   "phase": "final",
+   "eval": 8.7
+  },
+  {
+   "san": "Kh4",
+   "title": "Rey a h4",
+   "explanation": "El rey se acerca a h5.",
+   "pros": "Escapa.",
+   "cons": "Ninguna significativa.",
+   "phase": "final",
+   "eval": "#12"
+  },
+  {
+   "san": "Qe4+",
+   "title": "Jaque",
+   "explanation": "La dama da jaque desde e4.",
+   "pros": "Busca tablas.",
+   "cons": "Ninguna significativa.",
+   "phase": "final",
+   "eval": "#12"
+  },
+  {
+   "san": "Kxh5",
+   "title": "Captura en h5",
+   "explanation": "El rey toma el peón de h5.",
+   "pros": "Gana un peón.",
+   "cons": "Ninguna significativa.",
+   "phase": "final",
+   "eval": "#11"
+  },
+  {
+   "san": "Qe2+",
+   "title": "Jaque",
+   "explanation": "Otro jaque desde e2.",
+   "pros": "Busca tablas.",
+   "cons": "Ninguna significativa.",
+   "phase": "final",
+   "eval": "#11"
+  },
+  {
+   "san": "Kh4",
+   "title": "Rey a h4",
+   "explanation": "El rey vuelve a h4.",
+   "pros": "Escapa.",
+   "cons": "Ninguna significativa.",
+   "phase": "final",
+   "eval": "#10"
+  },
+  {
+   "san": "Qe4+",
+   "title": "Jaque",
+   "explanation": "La dama vuelve a e4.",
+   "pros": "Busca tablas.",
+   "cons": "Ninguna significativa.",
+   "phase": "final",
+   "eval": "#8"
+  },
+  {
+   "san": "g4",
+   "title": "g4",
+   "explanation": "El peón tapa la diagonal.",
+   "pros": "Cubre el jaque.",
+   "cons": "Ninguna significativa.",
+   "phase": "final",
+   "eval": "#7"
+  },
+  {
+   "san": "Qe1+",
+   "title": "Último jaque",
+   "explanation": "El último jaque desde e1.",
+   "pros": "Busca tablas.",
+   "cons": "Ninguna significativa.",
+   "phase": "final",
+   "eval": "#7"
+  },
+  {
+   "san": "Kh5",
+   "title": "Fin de los jaques",
+   "explanation": "El rey llega a h5 y las negras no tienen más jaques útiles. El peón corona; Capablanca abandona.",
+   "pros": "Gana la partida.",
+   "cons": "Ninguna significativa.",
+   "phase": "final",
+   "concepts": [
+    "Peón pasado",
+    "Rey activo"
+   ],
+   "eval": 8.7
+  }
+ ],
+ "scan": {
+  "by": "Stockfish 17.1",
+  "evals": [
+   33,
+   25,
+   22,
+   18,
+   26,
+   20,
+   17,
+   18,
+   22,
+   21,
+   22,
+   30,
+   32,
+   36,
+   29,
+   24,
+   39,
+   29,
+   31,
+   37,
+   43,
+   34,
+   33,
+   8,
+   4,
+   -19,
+   9,
+   -32,
+   -33,
+   -42,
+   31,
+   27,
+   39,
+   30,
+   178,
+   191,
+   199,
+   190,
+   224,
+   214,
+   218,
+   168,
+   177,
+   169,
+   151,
+   163,
+   207,
+   219,
+   165,
+   209,
+   263,
+   314,
+   327,
+   331,
+   337,
+   367,
+   335,
+   179,
+   483,
+   504,
+   639,
+   665,
+   675,
+   710,
+   710,
+   721,
+   732,
+   739,
+   746,
+   766,
+   791,
+   792,
+   902,
+   "#12",
+   "#13",
+   "#11",
+   "#11",
+   "#10",
+   "#8",
+   "#7",
+   "#7",
+   873
+  ],
+  "best": [
+   "e2e4",
+   "g8f6",
+   "g1f3",
+   "e7e6",
+   "g1f3",
+   "f8b4",
+   "g1f3",
+   "e8g8",
+   "d1a4",
+   "b4e7",
+   "b2c3",
+   "c7c5",
+   "c4d5",
+   "e6d5",
+   "f1d3",
+   "e8g8",
+   "g1e2",
+   "b7b6",
+   "e1g1",
+   "c8a6",
+   "f2f3",
+   "b8a6",
+   "d1d3",
+   "c5c4",
+   "d1d3",
+   "a8c8",
+   "c3c4",
+   "c5c4",
+   "d3c2",
+   "a6c7",
+   "a1e1",
+   "b8c6",
+   "e2g3",
+   "f6e4",
+   "f2f3",
+   "a5b3",
+   "e3e4",
+   "d5e4",
+   "e4e5",
+   "b3c5",
+   "f3f4",
+   "g7g6",
+   "h2h4",
+   "f7f5",
+   "g3h1",
+   "d7f6",
+   "f4f5",
+   "e8e1",
+   "f1e1",
+   "a8f8",
+   "e1e6",
+   "g8f7",
+   "f5e6",
+   "g8g7",
+   "f2f4",
+   "a4e8",
+   "f4c7",
+   "h7h5",
+   "b2a3",
+   "e7e8",
+   "g3h5",
+   "g6h5",
+   "e5g5",
+   "g7f8",
+   "g5f6",
+   "f8g8",
+   "f6g5",
+   "a3e7",
+   "g1f2",
+   "c1d2",
+   "f2f1",
+   "d2e1",
+   "g3h4",
+   "d3e4",
+   "h4h5",
+   "e4e2",
+   "g2g4",
+   "e2e1",
+   "g2g4",
+   "h7h6",
+   "h4h5",
+   null
+  ],
+  "pv": [
+   "e2e4 c7c5 g1f3 d7d6 b1c3 g8f6 d2d4 c5d4",
+   "g8f6 g1f3 d7d5 c2c4 e7e6 b1c3 c7c5 c4d5",
+   "g1f3 d7d5",
+   "e7e6 b1c3 f8b4 e2e3 e8g8 f1d3 d7d5 c4d5",
+   "g1f3 d7d5 b1c3 f8b4 c1g5 h7h6 g5f6 d8f6",
+   "f8b4 e2e3 e8g8 c1d2 d7d5 g1f3 b4e7 a1c1",
+   "g1f3 e8g8 c1d2 c7c5 e2e3 c5d4 f3d4 b7b6",
+   "e8g8",
+   "d1a4 b8c6 c1d2 e8g8 a2a3 b4c3 d2c3 c6e7",
+   "b4e7 g1f3 e8g8 f1d3 d5c4 d3c4 c7c5 e1g1",
+   "b2c3 e8g8 c4d5 e6d5 f1d3 b7b6 g1e2 c7c5",
+   "c7c5 c4d5 e6d5 f1d3 e8g8 g1e2 b7b6 e1g1",
+   "c4d5 e6d5 f1d3 e8g8 g1e2 b7b6 e1g1 c8a6",
+   "e6d5 f1d3 e8g8 g1e2 f8e8 e1g1 b8c6 f2f3",
+   "f1d3 e8g8 g1e2 b7b6 e1g1 c8a6 d3a6 b8a6",
+   "e8g8 g1e2 b7b6 e1g1 c8a6 d3a6 b8a6 d1d3",
+   "g1e2",
+   "b7b6 e1g1 c8a6 d3a6 b8a6 d1d3 a6c7 d4c5",
+   "e1g1 c8a6 d3a6 b8a6 d1d3 a6c7 d4c5 b6c5",
+   "c8a6 d3a6 b8a6 d1d3 a6c7 d4c5 b6c5 c3c4",
+   "f2f3",
+   "b8a6",
+   "d1d3 a6c7 d4c5 b6c5 c3c4 a8b8 f1d1 f6g4",
+   "c5c4 f2f3 f8e8 b2c1 e8e6 a3a4 a6c7 g2g4",
+   "d1d3 c5c4",
+   "a8c8 d1d3 c5c4 d3d2 f8e8 f2f3 c8c6 f1e1",
+   "c3c4 d5c4 d1c1 a6b4 c1c4 d7d5 c4d5 f6d5",
+   "c5c4 d3c2",
+   "d3c2 a6c7 b2c1 a7a5 f2f3 b6b5 a4b5 d7b5",
+   "a6c7 h2h3 h7h5 b2c1 a7a5 c1d2 b6b5 f1b1",
+   "a1e1 b8c6",
+   "b8c6 e2g3 f6e4 g3h5 d7f5 h5f4 g7g5 f4e2",
+   "e2g3",
+   "f6e4 g3e4 d5e4 f2f3 d7d5 f3e4 e8e4",
+   "f2f3 a5b3 e3e4 g8h8 e4e5 f6g8 g3f5 d7a4",
+   "a5b3 e3e4 g8h8 e4e5 f6g8 g3f5 f7f6 f3f4",
+   "e3e4 g8h8 e4e5 f6g8 g3f5 d7a4 f5d6 e8e7",
+   "d5e4 f3e4 e8e6 g3f5 d7a4 e4e5 f6d5 c2e2",
+   "e4e5 f6d7 e1e3 b3c5 c2e2 c5d3 f3f4 g8h8",
+   "b3c5 c2d2 c5d3 e5f6 e8e1 f1e1 a4c6 d2g5",
+   "f3f4 b3c5 c2f5 c5d3 e1e2 e8f8 f5g4 g8h8",
+   "g7g6 h2h4 a4c6 b2a3 f7f6 f3f4 f6f5 a3d6",
+   "h2h4 a4c6 b2a3 b6b5 h4h5 f7f5 h5g6 c6g6",
+   "f7f5 g3h1 g8h8 g2g4 a4c6 g4f5 g6f5 h1g3",
+   "g3h1 d7f8 g2g4 f8e6 h1g3 e6g7 f2g2 g8h8",
+   "d7f6 f4f5",
+   "f4f5 e8e1 f1e1 a8f8 h2h4 f8f7 f5g6 h7g6",
+   "e8e1 f1e1 a8f8 h2h4 f6e4 g3e4 d5e4 e1e4",
+   "f1e1 a8f8",
+   "a8f8",
+   "e1e6 e8e6 f5e6 g8g7 f2f4 a4e8 f4c7 g7g8",
+   "g8f7 e6f6",
+   "f5e6 g8g7 f2f4 h7h6 f4c7 g7h8 c7f7 f6g8",
+   "g8g7 f2f4 a4e8 f4c7 g7g8 c7e5 g8g7 b2a3",
+   "f2f4 a4e8 f4c7 g7g8 c7e5 g8g7 b2a3 b3a5",
+   "a4e8 f4c7 g7g8 c7e5 e8f8 b2a3 f8a3 e5f6",
+   "f4c7 g7g8 c7e5 f6g4 e5d5 g4f6 d5e5 f6g4",
+   "h7h5 e5c7 g7g8 c7d6 b3a5 b2c1 h5h4 c1g5",
+   "b2a3 e7e8 e5c7 g7g8 a3e7 g8g7 e7d8 g7f8",
+   "e7e8 e5c7 g7h6 a3e7 h6g7 e7d8 g7f8 d8f6",
+   "g3h5 g6h5 e5g5 g7h8 g5f6 h8g8 e6e7 a3c1",
+   "g6h5 e5g5 g7h8 g5f6 h8g8 e6e7 a3c1 g1f2",
+   "e5g5 g7h8 g5f6 h8g8 e6e7 a3e7 f6e7 b6b5",
+   "g7f8 g5f6 f8g8 e6e7 a3e7 f6e7 b6b5 g1f2",
+   "g5f6 f8g8 e6e7 a3c1 g1f2 c1c2 f2g3 c2c3",
+   "f8g8 e6e7 a3e7 f6e7 a7a5 g1f2 h5h4 e7d8",
+   "f6g5 g8f8 g5f6 f8g8 e6e7 a3e7 f6e7 a7a6",
+   "a3e7 f6e7 h5h4 e7g5 g8f8 g5d5 h4h3 g2h3",
+   "g1f2 c1d2 f2g3 d2e1 g3h3 e1e7 f6e7 a7a5",
+   "c1d2 f2g3 d2e1 g3h3 e1e7 f6e7 b6b5 e7e8",
+   "f2f1 d2d3 f1f2 d3d2 f2g3 d2e1 g3h3 e1e7",
+   "d2e1 g3h3 e1e7 f6e7 b3c1 e7g5 g8f7 g5c1",
+   "g3h4 d3e4 h4h5 e4e2 h5h4 e2e1 g2g3 e1e7",
+   "d3e4 h4h5 e4e2 h5h4 e2e1 g2g3 h7h6 h4h5",
+   "h4h5 e4e2 h5h4 e2e1 g2g3 h7h6 f6g6 g8h8",
+   "e4e2 h5h4 e2e1 g2g3 h7h6 h4h5 e1e2 g3g4",
+   "g2g4 e2h2 h5g5 h2d2 g5f5 d2d3 f5e6 d3e4",
+   "e2e1 g2g3 h7h6 h4h5 e1e2 g3g4 b3d4 f6g6",
+   "g2g4 h7h5 h4h5 b3c5 f6g6 e4g6 h5g6 c5d7",
+   "h7h6 h4h5 e4e1 f6g6 g8h8 e7e8q e1e8 g6e8",
+   "h4h5 h7h6 f6g6 g8h8 e7e8q e1e8 g6e8 h8g7",
+   ""
+  ]
+ }
+}

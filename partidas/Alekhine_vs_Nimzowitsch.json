@@ -1,0 +1,864 @@
+{
+ "format": "chess-analyzer/2",
+ "info": {
+  "title": "El cañón de Alekhine",
+  "white": "Alexander Alekhine",
+  "black": "Aron Nimzowitsch",
+  "event": "Torneo de San Remo",
+  "site": "San Remo",
+  "date": "1930",
+  "result": "1-0",
+  "opening": "Defensa Francesa, Variante Winawer",
+  "eco": "C17",
+  "description": "Alekhine conquista la columna c, triplica en ella dama y torres (el «cañón de Alekhine») y deja a Nimzowitsch, el gran teórico de la profilaxis, sin una sola jugada útil. La partida termina sin capturas espectaculares: las negras abandonan en una posición de parálisis total."
+ },
+ "pgn": "1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. Bd2 Ne7 6. Nb5 Bxd2+ 7. Qxd2 O-O 8. c3 b6 9. f4 Ba6 10. Nf3 Qd7 11. a4 Nbc6 12. b4 cxb4 13. cxb4 Bb7 14. Nd6 f5 15. a5 Nc8 16. Nxb7 Qxb7 17. a6 Qf7 18. Bb5 N8e7 19. O-O h6 20. Rfc1 Rfc8 21. Rc2 Qe8 22. Rac1 Rab8 23. Qe3 Rc7 24. Rc3 Qd7 25. R1c2 Kf8 26. Qc1 Rbc8 27. Ba4 b5 28. Bxb5 Ke8 29. Ba4 Kd8 30. h4 h5 31. Kh2 g6 32. g3 1-0",
+ "lessons": [
+  "Una columna abierta se gana con piezas pesadas: Alekhine coloca Rc2, Rc3 y Qc1 en fila (el «cañón de Alekhine»).",
+  "Un caballo en un puesto avanzado protegido por un peón (Nd6, apoyado por e5) obliga al rival a desprenderse de piezas buenas.",
+  "Los avances de peones del flanco de dama (b4, a5-a6) crean casillas débiles permanentes (b7, c6) que fijan al rival.",
+  "Cuando el rival está paralizado no hace falta precipitarse: las jugadas de espera (30.h4, 31.Kh2, 32.g3) lo ponen en zugzwang.",
+  "Una clavada (Ba4 contra c6 y d7) combinada con la amenaza b5 gana una pieza que el rival no puede proteger."
+ ],
+ "analysis": [
+  {
+   "san": "e4",
+   "title": "Peón de rey",
+   "explanation": "Alekhine abre con el peón de rey.",
+   "pros": "Centro y desarrollo.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.3
+  },
+  {
+   "san": "e6",
+   "title": "Defensa Francesa",
+   "explanation": "Nimzowitsch elige la Francesa, que prepara ...d5 con una estructura sólida.",
+   "pros": "Solidez.",
+   "cons": "Encierra el alfil de c8.",
+   "phase": "apertura",
+   "eval": 0.4
+  },
+  {
+   "san": "d4",
+   "title": "Centro completo",
+   "explanation": "Las blancas ocupan el centro con dos peones.",
+   "pros": "Centro amplio.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.4
+  },
+  {
+   "san": "d5",
+   "title": "Ataque al centro",
+   "explanation": "Las negras desafían e4.",
+   "pros": "Lucha central.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.5
+  },
+  {
+   "san": "Nc3",
+   "title": "Defensa de e4",
+   "explanation": "El caballo protege e4.",
+   "pros": "Desarrollo con defensa.",
+   "cons": "Puede ser clavado.",
+   "phase": "apertura",
+   "eval": 0.4
+  },
+  {
+   "san": "Bb4",
+   "title": "Variante Winawer",
+   "explanation": "El alfil clava el caballo de c3: la Winawer, una línea muy combativa.",
+   "pros": "Presión sobre e4.",
+   "cons": "Puede tener que cambiarse por el caballo.",
+   "phase": "apertura",
+   "eval": 0.6
+  },
+  {
+   "san": "e5",
+   "title": "Avance a e5",
+   "explanation": "Las blancas cierran el centro y ganan espacio en el flanco de rey.",
+   "pros": "Espacio.",
+   "cons": "La cadena d4-e5 será atacada con ...c5 y ...f6.",
+   "phase": "apertura",
+   "eval": 0.6
+  },
+  {
+   "san": "c5",
+   "title": "Ataque a la base",
+   "explanation": "Nimzowitsch golpea d4, la base de la cadena de peones.",
+   "pros": "Contraataque típico.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.6
+  },
+  {
+   "san": "Bd2",
+   "title": "Alfil a d2",
+   "explanation": "Alekhine desclava el caballo y evita doblar sus peones.",
+   "pros": "Mantiene la estructura.",
+   "cons": "Algo lento: Stockfish prefería 5.a3.",
+   "phase": "apertura",
+   "eval": 0.3
+  },
+  {
+   "san": "Ne7",
+   "title": "Caballo a e7",
+   "explanation": "El caballo va a e7 para apoyar ...Nf5 o ...Nbc6.",
+   "pros": "Desarrollo.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.3
+  },
+  {
+   "san": "Nb5",
+   "title": "Caballo a b5",
+   "explanation": "El caballo se dirige a d6 o c7 y obliga a decidir al alfil.",
+   "pros": "Pieza activa.",
+   "cons": "Stockfish prefería 6.a3.",
+   "phase": "apertura",
+   "eval": 0.0
+  },
+  {
+   "san": "Bxd2+",
+   "title": "Cambio de alfiles",
+   "explanation": "Las negras cambian su alfil por el de d2.",
+   "pros": "Simplifica.",
+   "cons": "Cede el alfil de casillas oscuras.",
+   "phase": "apertura",
+   "eval": 0.0
+  },
+  {
+   "san": "Qxd2",
+   "title": "Recaptura con la dama",
+   "explanation": "La dama recaptura y queda bien colocada.",
+   "pros": "Desarrollo.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.1
+  },
+  {
+   "san": "O-O",
+   "title": "Enroque",
+   "explanation": "Las negras ponen el rey a salvo.",
+   "pros": "Rey seguro.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.0
+  },
+  {
+   "san": "c3",
+   "title": "Refuerzo de d4",
+   "explanation": "El peón de c3 sostiene d4.",
+   "pros": "Estructura sólida.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": -0.1
+  },
+  {
+   "san": "b6",
+   "title": "Prepara ...Ba6",
+   "explanation": "Nimzowitsch quiere cambiar su alfil malo con ...Ba6. Stockfish prefería 8...Bd7 o ...a6; tras ...b6 la evaluación sube a +0,6.",
+   "pros": "Plan de cambio del alfil malo.",
+   "cons": "Debilita c6.",
+   "symbol": "?!",
+   "phase": "apertura",
+   "concepts": [
+    "Imprecisión"
+   ],
+   "eval": 0.6
+  },
+  {
+   "san": "f4",
+   "title": "Refuerzo de e5",
+   "explanation": "El peón de f4 asegura e5 para siempre.",
+   "pros": "Cadena sólida.",
+   "cons": "Debilita e3 y la diagonal g1-a7.",
+   "phase": "apertura",
+   "eval": 0.7
+  },
+  {
+   "san": "Ba6",
+   "title": "Alfil a a6",
+   "explanation": "El alfil busca cambiarse por el de f1.",
+   "pros": "Sigue el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.5
+  },
+  {
+   "san": "Nf3",
+   "title": "Caballo a f3",
+   "explanation": "Desarrollo que defiende d4 y e5.",
+   "pros": "Desarrollo.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.5
+  },
+  {
+   "san": "Qd7",
+   "title": "Dama a d7",
+   "explanation": "La dama vigila b5 y c6. Stockfish prefería 10...Nbc6.",
+   "pros": "Presión sobre b5.",
+   "cons": "Lenta.",
+   "phase": "apertura",
+   "eval": 1.1
+  },
+  {
+   "san": "a4",
+   "title": "Avance a4",
+   "explanation": "El peón protege el caballo de b5 y prepara b4.",
+   "pros": "Espacio.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 1.3
+  },
+  {
+   "san": "Nbc6",
+   "title": "Caballo a c6",
+   "explanation": "El caballo presiona d4 y b4.",
+   "pros": "Desarrollo.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 1.0
+  },
+  {
+   "san": "b4",
+   "title": "¡b4!",
+   "explanation": "Alekhine abre la columna c para sus torres y quita a las negras la casilla c5.",
+   "pros": "Columna c abierta.",
+   "cons": "Debilita c4.",
+   "symbol": "!",
+   "key": true,
+   "phase": "apertura",
+   "concepts": [
+    "Columna abierta",
+    "Espacio"
+   ],
+   "arrows": [
+    "Gb4c5"
+   ],
+   "eval": 1.0
+  },
+  {
+   "san": "cxb4",
+   "title": "Cambio en b4",
+   "explanation": "Las negras cambian y la columna c queda abierta.",
+   "pros": "Libera la tensión.",
+   "cons": "Abre la columna c.",
+   "phase": "apertura",
+   "eval": 0.9
+  },
+  {
+   "san": "cxb4",
+   "title": "Recaptura",
+   "explanation": "Ahora la columna c es la autopista de la partida.",
+   "pros": "Columna abierta.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 1.0
+  },
+  {
+   "san": "Bb7",
+   "title": "Alfil a b7",
+   "explanation": "El alfil se retira a b7, donde queda encerrado tras su propio peón de d5.",
+   "pros": "Evita el cambio.",
+   "cons": "Alfil malo.",
+   "phase": "apertura",
+   "eval": 1.2
+  },
+  {
+   "san": "Nd6",
+   "title": "Caballo a d6",
+   "explanation": "El caballo llega a d6, un puesto avanzado protegido por e5. Ataca el alfil de b7.",
+   "pros": "Puesto avanzado.",
+   "cons": "Ninguna significativa.",
+   "key": true,
+   "phase": "medio juego",
+   "concepts": [
+    "Casilla fuerte"
+   ],
+   "arrows": [
+    "Gd6b7"
+   ],
+   "eval": 1.0
+  },
+  {
+   "san": "f5",
+   "title": "f5",
+   "explanation": "Nimzowitsch cierra el flanco de rey para frenar f5 blanco.",
+   "pros": "Cierra el ataque blanco.",
+   "cons": "Debilita e6 y g6.",
+   "phase": "medio juego",
+   "eval": 1.6
+  },
+  {
+   "san": "a5",
+   "title": "Avance a5",
+   "explanation": "El peón amenaza axb6 y ataca la estructura del flanco de dama.",
+   "pros": "Presión en el flanco de dama.",
+   "cons": "Stockfish prefería 15.h4.",
+   "phase": "medio juego",
+   "eval": 1.0
+  },
+  {
+   "san": "Nc8",
+   "title": "Contra el caballo",
+   "explanation": "Nimzowitsch quiere cambiar el caballo de d6. Stockfish prefería 15...a6: tras ...Nc8 la evaluación sube de +1,1 a +2,7.",
+   "pros": "Ataca d6.",
+   "cons": "Permite Nxb7 y a6.",
+   "symbol": "?",
+   "phase": "medio juego",
+   "concepts": [
+    "Error"
+   ],
+   "eval": 2.7
+  },
+  {
+   "san": "Nxb7",
+   "title": "Cambio en b7",
+   "explanation": "Alekhine cambia el alfil de b7.",
+   "pros": "Elimina el alfil.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 2.8
+  },
+  {
+   "san": "Qxb7",
+   "title": "Recaptura con la dama",
+   "explanation": "La dama queda en b7, en la gran diagonal cerrada.",
+   "pros": "Recupera la pieza.",
+   "cons": "La dama será atacada por a6.",
+   "phase": "medio juego",
+   "eval": 2.9
+  },
+  {
+   "san": "a6",
+   "title": "¡a6!",
+   "explanation": "El peón expulsa a la dama y fija para siempre la casilla b7 y la debilidad de c6.",
+   "pros": "Gana un tiempo y espacio.",
+   "cons": "Ninguna significativa.",
+   "symbol": "!",
+   "phase": "medio juego",
+   "concepts": [
+    "Espacio",
+    "Casilla débil"
+   ],
+   "arrows": [
+    "Ga6b7"
+   ],
+   "eval": 2.9
+  },
+  {
+   "san": "Qf7",
+   "title": "Dama a f7",
+   "explanation": "La dama se aparta al flanco de rey.",
+   "pros": "Evita la pérdida de tiempo.",
+   "cons": "Pasiva.",
+   "phase": "medio juego",
+   "eval": 3.0
+  },
+  {
+   "san": "Bb5",
+   "title": "Alfil a b5",
+   "explanation": "El alfil se coloca en b5, apunta a c6 y e8 y presiona el caballo.",
+   "pros": "Pieza activa.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "arrows": [
+    "Gb5c6"
+   ],
+   "eval": 2.9
+  },
+  {
+   "san": "N8e7",
+   "title": "Reagrupación",
+   "explanation": "El caballo vuelve a e7 para defender c6.",
+   "pros": "Defensa de c6.",
+   "cons": "Pasivo.",
+   "phase": "medio juego",
+   "eval": 3.0
+  },
+  {
+   "san": "O-O",
+   "title": "Enroque",
+   "explanation": "Alekhine enroca y prepara la toma de la columna c.",
+   "pros": "Rey seguro.",
+   "cons": "Stockfish prefería 19.Kf2.",
+   "phase": "medio juego",
+   "eval": 2.5
+  },
+  {
+   "san": "h6",
+   "title": "h6",
+   "explanation": "Las negras dan aire al rey.",
+   "pros": "Seguridad.",
+   "cons": "Debilita g6.",
+   "phase": "medio juego",
+   "eval": 3.0
+  },
+  {
+   "san": "Rfc1",
+   "title": "Torre a c1",
+   "explanation": "La torre ocupa la columna c.",
+   "pros": "Columna abierta.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 3.0
+  },
+  {
+   "san": "Rfc8",
+   "title": "Torre a c8",
+   "explanation": "Las negras disputan la columna c.",
+   "pros": "Defensa.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 2.9
+  },
+  {
+   "san": "Rc2",
+   "title": "Torre a c2",
+   "explanation": "La torre prepara el doblaje.",
+   "pros": "Prepara el doblaje.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 3.0
+  },
+  {
+   "san": "Qe8",
+   "title": "Dama a e8",
+   "explanation": "La dama se acerca a la defensa de c6.",
+   "pros": "Defensa.",
+   "cons": "Pasiva.",
+   "phase": "medio juego",
+   "eval": 3.6
+  },
+  {
+   "san": "Rac1",
+   "title": "Doblaje",
+   "explanation": "Las dos torres blancas ya están en la columna c.",
+   "pros": "Torres dobladas.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Columna abierta"
+   ],
+   "eval": 3.6
+  },
+  {
+   "san": "Rab8",
+   "title": "Torre a b8",
+   "explanation": "La torre de a8 busca contrajuego en la columna b.",
+   "pros": "Activa la torre.",
+   "cons": "Sin objetivos.",
+   "phase": "medio juego",
+   "eval": 3.9
+  },
+  {
+   "san": "Qe3",
+   "title": "Dama a e3",
+   "explanation": "La dama se dirige a c1 por e3.",
+   "pros": "Reagrupación.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 3.4
+  },
+  {
+   "san": "Rc7",
+   "title": "Torre a c7",
+   "explanation": "Las negras refuerzan la columna c.",
+   "pros": "Defensa.",
+   "cons": "Pasiva.",
+   "phase": "medio juego",
+   "eval": 3.9
+  },
+  {
+   "san": "Rc3",
+   "title": "Torre a c3",
+   "explanation": "La torre sube a c3 para dejar sitio a la otra torre y a la dama.",
+   "pros": "Prepara el triple.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 3.8
+  },
+  {
+   "san": "Qd7",
+   "title": "Dama a d7",
+   "explanation": "La dama defiende c6 y c7.",
+   "pros": "Defensa.",
+   "cons": "Queda en la diagonal del alfil de b5.",
+   "phase": "medio juego",
+   "eval": 4.1
+  },
+  {
+   "san": "R1c2",
+   "title": "Torre a c2",
+   "explanation": "Las dos torres en c3 y c2: falta la dama.",
+   "pros": "Prepara el triple.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 3.9
+  },
+  {
+   "san": "Kf8",
+   "title": "Rey a f8",
+   "explanation": "El rey se acerca al centro para ayudar a defender.",
+   "pros": "Defensa.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 4.2
+  },
+  {
+   "san": "Qc1",
+   "title": "¡El cañón de Alekhine!",
+   "explanation": "La dama se coloca detrás de las torres en c1: dama y torres alineadas en la columna c. Es el famoso «cañón de Alekhine».",
+   "pros": "Máxima presión en la columna c.",
+   "cons": "Ninguna significativa.",
+   "symbol": "!",
+   "key": true,
+   "phase": "medio juego",
+   "concepts": [
+    "Columna abierta",
+    "Cañón de Alekhine"
+   ],
+   "arrows": [
+    "Rc1c6"
+   ],
+   "eval": 3.9
+  },
+  {
+   "san": "Rbc8",
+   "title": "Torre a c8",
+   "explanation": "Las negras también triplican, pero sus piezas son defensivas.",
+   "pros": "Defensa.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 4.2
+  },
+  {
+   "san": "Ba4",
+   "title": "Alfil a a4",
+   "explanation": "El alfil se retira a a4, desde donde clava el caballo de c6 contra la dama de d7.",
+   "pros": "Clavada.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Clavada"
+   ],
+   "arrows": [
+    "Ra4c6"
+   ],
+   "eval": 4.1
+  },
+  {
+   "san": "b5",
+   "title": "Peón b5",
+   "explanation": "Nimzowitsch entrega un peón para aliviar la clavada.",
+   "pros": "Busca contrajuego.",
+   "cons": "Pierde un peón.",
+   "phase": "medio juego",
+   "eval": 4.6
+  },
+  {
+   "san": "Bxb5",
+   "title": "Captura del peón",
+   "explanation": "Alekhine gana el peón y vuelve a clavar el caballo.",
+   "pros": "Peón de más.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 4.6
+  },
+  {
+   "san": "Ke8",
+   "title": "Rey a e8",
+   "explanation": "El rey sale de la diagonal para descargar la dama.",
+   "pros": "Defensa.",
+   "cons": "Pasivo.",
+   "phase": "medio juego",
+   "eval": 4.7
+  },
+  {
+   "san": "Ba4",
+   "title": "Alfil a a4",
+   "explanation": "El alfil vuelve a a4 y renueva la clavada.",
+   "pros": "Clavada.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "arrows": [
+    "Ra4c6"
+   ],
+   "eval": 4.7
+  },
+  {
+   "san": "Kd8",
+   "title": "Rey a d8",
+   "explanation": "El rey va a d8 para defender c7 y c8.",
+   "pros": "Defensa.",
+   "cons": "El rey queda en la línea de la clavada.",
+   "phase": "medio juego",
+   "eval": 5.2
+  },
+  {
+   "san": "h4",
+   "title": "Jugada de espera",
+   "explanation": "Alekhine no tiene prisa: juega h4 para quitar casillas a las negras y dejarlas sin jugadas útiles.",
+   "pros": "Gana espacio.",
+   "cons": "Stockfish prefería 30.Rc5, también ganadora.",
+   "phase": "medio juego",
+   "concepts": [
+    "Jugada de espera",
+    "Zugzwang"
+   ],
+   "eval": 4.9
+  },
+  {
+   "san": "h5",
+   "title": "h5",
+   "explanation": "Las negras bloquean el peón.",
+   "pros": "Frena h5.",
+   "cons": "Debilita g5.",
+   "phase": "medio juego",
+   "eval": 5.9
+  },
+  {
+   "san": "Kh2",
+   "title": "Rey a h2",
+   "explanation": "Otra jugada de espera: el rey se coloca fuera de cualquier jaque.",
+   "pros": "Seguridad.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 6.1
+  },
+  {
+   "san": "g6",
+   "title": "g6",
+   "explanation": "Las negras ya no tienen jugadas que no pierdan algo.",
+   "pros": "Mueve un peón.",
+   "cons": "Debilita f6.",
+   "phase": "medio juego",
+   "eval": 6.8
+  },
+  {
+   "san": "g3",
+   "title": "Zugzwang",
+   "explanation": "Con 32.g3 Alekhine espera de nuevo. Las negras no pueden mover sus piezas sin perder material: si el caballo de c6 se mueve, Bxd7 gana la dama; si la dama se mueve, Bxc6. Además amenaza b5 contra el caballo clavado. Nimzowitsch abandona (+5,3).",
+   "pros": "Paraliza a las negras.",
+   "cons": "Ninguna significativa.",
+   "key": true,
+   "phase": "medio juego",
+   "concepts": [
+    "Zugzwang",
+    "Clavada"
+   ],
+   "arrows": [
+    "Ra4c6",
+    "Gb4b5"
+   ],
+   "question": "Las blancas no amenazan nada inmediato. ¿Por qué abandona Nimzowitsch?",
+   "answer": "Porque está en zugzwang: cualquier movimiento de pieza deja algo indefenso, y las blancas amenazan b5 para ganar el caballo clavado de c6.",
+   "eval": 5.3
+  }
+ ],
+ "scan": {
+  "by": "Stockfish 17.1",
+  "evals": [
+   37,
+   34,
+   43,
+   35,
+   48,
+   38,
+   58,
+   63,
+   64,
+   38,
+   34,
+   0,
+   0,
+   10,
+   12,
+   -10,
+   45,
+   64,
+   33,
+   70,
+   116,
+   116,
+   114,
+   96,
+   105,
+   93,
+   106,
+   107,
+   161,
+   111,
+   256,
+   308,
+   293,
+   283,
+   279,
+   299,
+   301,
+   256,
+   297,
+   288,
+   304,
+   310,
+   367,
+   377,
+   386,
+   365,
+   378,
+   365,
+   390,
+   411,
+   395,
+   412,
+   419,
+   406,
+   465,
+   457,
+   488,
+   464,
+   528,
+   499,
+   610,
+   598,
+   682,
+   532
+  ],
+  "best": [
+   "e2e4",
+   "e7e5",
+   "d2d4",
+   "d7d5",
+   "b1c3",
+   "g8f6",
+   "e4e5",
+   "c7c5",
+   "a2a3",
+   "g8e7",
+   "a2a3",
+   "b4d2",
+   "d1d2",
+   "e8g8",
+   "f2f4",
+   "c8d7",
+   "f2f4",
+   "b8c6",
+   "g1f3",
+   "b8c6",
+   "a2a4",
+   "f7f5",
+   "b2b4",
+   "c5b4",
+   "c3b4",
+   "e7g6",
+   "b5d6",
+   "a7a5",
+   "h2h4",
+   "a7a6",
+   "d6b7",
+   "d7b7",
+   "a5a6",
+   "b7f7",
+   "f1b5",
+   "c8e7",
+   "e1f2",
+   "f8c8",
+   "a1c1",
+   "f8c8",
+   "a1a2",
+   "c6d8",
+   "a1c1",
+   "c8c7",
+   "c2c3",
+   "c8c7",
+   "c2c3",
+   "g8h7",
+   "e3d2",
+   "g8h7",
+   "e3c1",
+   "b8c8",
+   "b5a4",
+   "f8g8",
+   "a4b5",
+   "d7e8",
+   "b5a4",
+   "e8f7",
+   "c3c5",
+   "d8e8",
+   "f3g5",
+   "d8e8",
+   "f3g5",
+   null
+  ],
+  "pv": [
+   "e2e4 e7e5 g1f3 b8c6 b1c3 g8f6 d2d4 e5d4",
+   "e7e5 g1f3 b8c6 d2d4 e5d4 f3d4 g8f6 d4c6",
+   "d2d4 d7d5 b1c3 g8f6 c1g5 d5e4 c3e4 f8e7",
+   "d7d5 b1c3 g8f6 c1g5 d5e4 c3e4 b8d7 g1f3",
+   "b1c3 g8f6 e4e5 f6d7 f2f4 c7c5 g1f3 d8b6",
+   "g8f6 c1g5 d5e4 c3e4 f8e7 g5f6 e7f6 g1f3",
+   "e4e5 c7c5 a2a3 b4c3 b2c3 d8c7 a3a4 g8e7",
+   "c7c5 a2a3",
+   "a2a3 b4c3",
+   "g8e7 a2a3 b4c3 d2c3 b8c6 f2f4 c5d4 c3d4",
+   "a2a3 b4c3 b2c3 b8c6 g1f3 e8g8 f1e2 e7f5",
+   "b4d2 d1d2 e8g8 f2f4 c8d7 d4c5 d7b5 f1b5",
+   "d1d2 e8g8 f2f4 c8d7 b5d6 d8b6 e1c1 c5c4",
+   "e8g8 f2f4 c8d7 d4c5 d7b5 f1b5 a7a6 b5d3",
+   "f2f4 c8d7 d4c5 d7b5 f1b5 a7a6 b5d3 a6a5",
+   "c8d7 d4c5 d7b5 f1b5 b8d7 b5d7 d8d7 f2f4",
+   "f2f4 c8a6 g1f3 b8c6 f1e2 c5d4 b5d4 a6e2",
+   "b8c6 b5d6 c8d7 g1f3 e7c8 d6c8 a8c8 f1e2",
+   "g1f3 b8c6",
+   "b8c6 f1d3 c5c4 d3h7 g8h7 f3g5 h7g8 b5d6",
+   "a2a4 b8c6 f1d3 f7f5 b2b4 c5b4 c3b4 f8c8",
+   "f7f5 b2b3 b8c6 b3b4 c5b4 c3b4 a6b7 b5d6",
+   "b2b4",
+   "c5b4 c3b4 e7g6 f1d3 a6b5 a4b5 c6e7 e1g1",
+   "c3b4 e7g6 a1c1 a8c8 h2h4 h7h5 b5d6 a6f1",
+   "e7g6 a1c1 a8c8 h2h4 h7h5 b5d6 a6f1 h1f1",
+   "b5d6 a7a5 b4b5 c6b4 g2g4 f7f5 g4f5 e7f5",
+   "a7a5 b4b5 c6b4 g2g4 f7f5 g4f5 e7f5 f1h3",
+   "h2h4 h7h6 h4h5 e7c8 d6b7 d7b7 f1e2 a7a5",
+   "a7a6 e1f2",
+   "d6b7 d7b7 a5a6 b7f7 f1b5 c8e7 f3g5 f7h5",
+   "d7b7 a5a6 b7f7 f1b5 c8e7 e1f2 f8c8 a1c1",
+   "a5a6 b7f7 a1c1 c8e7 e1f2 f8c8 f1b5 c6d8",
+   "b7f7 a1c1 c8e7 e1f2 f8c8 f1b5 c6d8 b5d7",
+   "f1b5 c8e7 a1c1 f8c8 e1f2 c6d8 b5d7 c8c4",
+   "c8e7 a1c1 f8c8 e1f2 c6d8 b5d7 c8c4 f3g5",
+   "e1f2 f8c8 a1c1 c6d8 b5d7 c8c1 h1c1 e7g6",
+   "f8c8 a1c1 c6d8 f3g5 f7g6 b5d7 c8c4 h2h4",
+   "a1c1 f8c8 c1c2 c6d8 f1c1 c8c2 c1c2 e7g6",
+   "f8c8 c1c2 c6d8 a1c1 c8c2 c1c2 e7g6 h2h4",
+   "a1a2 c6d8 a2c2 c8c2 c1c2 e7g6 h2h4 f7e7",
+   "c6d8 a1c1 c8c2 c1c2 e7g6 g2g3 f7e7 f3e1",
+   "a1c1 c8c7 c2c3 a8c8 c1c2 e7g6 h2h3 g6h8",
+   "c8c7 c2c3 a8c8 c1c2 e8g6 d2c1 g6g4 h2h3",
+   "c2c3 c8c7 c1c2 b8c8 d2c1 g8h8 b5a4 h8g8",
+   "c8c7 c2c3 b8c8 c1c2 c6b4 c3c7 b4c2 e3b3",
+   "c2c3 b8c8 c1c2 e8g6 e3c1 g6g4 b5c6 e7g6",
+   "g8h7 c1c2 b8c8 h2h3 e8d7 e3c1 h7g8 b5a4",
+   "e3d2 b8c8 c1c2 g8f8 d2c1 f8e8 h2h3 e8d8",
+   "g8h7 e3c1 b8c8 b5f1 b6b5 f1b5 c8b8 b5c6",
+   "e3c1 b8c8 h2h3 d7e8 b5e2 e8d8 b4b5 c6b4",
+   "b8c8 b5a4 d7e8 b4b5 c6b4 c3c7 b4c2 c7c2",
+   "b5a4 f8g8 b4b5 c6d4 c3c7 d4f3 g2f3 c8c7",
+   "f8g8 g1h1 d7e8 b4b5 c6b4 c3c7 b4c2 c1c2",
+   "a4b5 f8g8 b5f1 c8b8 b4b5 b8b6 c1e1 d7c8",
+   "d7e8 b5f1 c8b8 b4b5 b8b6 c1e1 e8b8 c3c5",
+   "b5a4 e8f7 g1h1 d7e8 h2h3 f7g8 c3c5 g8h7",
+   "e8f7 h2h3 f7g8 g1h1 d7e8 h1h2 g8f7 c3c5",
+   "c3c5 d7e8 b4b5 c8b8 b5c6 g7g5 f4g5 h6g5",
+   "d8e8 b4b5 c8b8 c2b2 d7c8 b5c6 b8b2 c1b2",
+   "f3g5 d8e8 g1h2 e8f8 b4b5 f8g8 b5c6 d7e8",
+   "d8e8 f3g5 e8f8 b4b5 f8g8 b5c6 d7e8 g5e6",
+   "f3g5 d8e8 b4b5 e8f8 b5c6 d7e8 g5e6 f8g8",
+   ""
+  ]
+ }
+}

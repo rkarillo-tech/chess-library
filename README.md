@@ -36,11 +36,12 @@ Al abrir la aplicación desde GitHub Pages, todo lo que haya en `partidas/` se c
 
 ## Publicar en Cloudflare (con acceso restringido)
 
-La app también se publica en Cloudflare Workers como sitio estático, lo que permite tener el repositorio privado y proteger la web con Cloudflare Access (solo entran los correos que autorices).
+La app también se publica en Cloudflare Workers como sitio estático, lo que permite tener el repositorio privado y proteger la web con usuario y contraseña.
 
 - Proyecto de Workers importado desde este repositorio, con nombre `chess-library` (debe coincidir con `name` en `wrangler.jsonc`).
 - Comando de compilación: `node scripts/build.js`. Regenera `partidas/index.json` (también con `partidas/mias/`) y prepara la carpeta `dist/` con los archivos de la web.
 - Comando de publicación: `npx wrangler deploy` (el predeterminado).
+- Acceso con usuario y contraseña: `src/worker.js` pide credenciales antes de servir la web. Se configuran en Cloudflare, en **Settings → Variables and Secrets**, como secretos `APP_USER` y `APP_PASSWORD`. Los accesos quedan anotados en la pestaña **Observability** del Worker.
 
 Fuera de GitHub Pages la app lee la lista de partidas de `partidas/index.json`, por eso el comando de compilación es necesario para que aparezcan las partidas nuevas.
 

@@ -1,0 +1,1326 @@
+{
+ "format": "chess-analyzer/2",
+ "info": {
+  "title": "La partida 24: Kasparov campeón del mundo",
+  "white": "Anatoly Karpov",
+  "black": "Garry Kasparov",
+  "event": "Campeonato del Mundo, partida 24",
+  "site": "Moscú",
+  "date": "09/11/1985",
+  "result": "0-1",
+  "opening": "Defensa Siciliana, Variante Taimanov (5.Nb5)",
+  "eco": "B44",
+  "description": "Con el marcador igualado a 12-12 en el último encuentro, Kasparov necesitaba ganar con negras para arrebatar el título a Karpov. Lo logró con un caballo imbatible en d3, el contraataque en el centro y una serie final de golpes tácticos que dejó a Karpov sin defensa. A los 22 años se convirtió en el campeón del mundo más joven de la historia."
+ },
+ "pgn": "1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nb5 d6 6. c4 Nf6 7. N1c3 a6 8. Na3 d5 9. cxd5 exd5 10. exd5 Nb4 11. Be2 Bc5 12. O-O O-O 13. Bf3 Bf5 14. Bg5 Re8 15. Qd2 b5 16. Rad1 Nd3 17. Nab1 h6 18. Bh4 b4 19. Na4 Bd6 20. Bg3 Rc8 21. b3 g5 22. Bxd6 Qxd6 23. g3 Nd7 24. Bg2 Qf6 25. a3 a5 26. axb4 axb4 27. Qa2 Bg6 28. d6 g4 29. Qd2 Kg7 30. f3 Qxd6 31. fxg4 Qd4+ 32. Kh1 Nf6 33. Rf4 Ne4 34. Qxd3 Nf2+ 35. Rxf2 Bxd3 36. Rfd2 Qe3 37. Rxd3 Rc1 38. Nb2 Qf2 39. Nd2 Rxd1+ 40. Nxd1 Re1+ 0-1",
+ "lessons": [
+  "Un caballo avanzado y bien protegido vale una torre: 16...Nd3! se instala en una casilla que las blancas no pueden atacar con ventaja, porque está apoyado por el alfil de f5.",
+  "Retirar piezas al borde (17.Nab1?) pierde el control del tablero: 17.d6! mantenía el equilibrio con juego dinámico.",
+  "El ritmo en una Siciliana: cuando las blancas se retrasan en el flanco de dama, las negras ganan espacio con ...b5-b4 y ...g5.",
+  "Los golpes tácticos finales (34...Nf2+!, 35...Bxd3, 37...Rc1!) convierten una ventaja posicional en material.",
+  "En una partida decisiva, mantener el equilibrio psicológico importa: Kasparov jugó con calma y sin riesgos innecesarios mientras Karpov cometía imprecisiones acumuladas (15.Qd2?!, 17.Nab1?, 24.Bg2?!, 30.f3?!)."
+ ],
+ "analysis": [
+  {
+   "san": "e4",
+   "title": "Peón a e4",
+   "explanation": "El peón avanza a e4. Evaluación tras la jugada: +0.3.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "concepts": [
+    "Estructura de peones"
+   ],
+   "eval": 0.3
+  },
+  {
+   "san": "c5",
+   "title": "La Siciliana",
+   "explanation": "Kasparov responde con la Siciliana, su arma de combate principal: lucha asimétrica por el centro desde el primer momento.",
+   "pros": "Asimetría y contrajuego.",
+   "cons": "Cede espacio inicialmente.",
+   "phase": "apertura",
+   "concepts": [
+    "Centro",
+    "Estructura de peones"
+   ],
+   "eval": 0.2
+  },
+  {
+   "san": "Nf3",
+   "title": "Caballo a f3",
+   "explanation": "El caballo se coloca en f3. Evaluación tras la jugada: +0.3.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "concepts": [
+    "Desarrollo"
+   ],
+   "eval": 0.3
+  },
+  {
+   "san": "e6",
+   "title": "Peón a e6",
+   "explanation": "El peón avanza a e6. Evaluación tras la jugada: +0.4.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "concepts": [
+    "Estructura de peones"
+   ],
+   "eval": 0.4
+  },
+  {
+   "san": "d4",
+   "title": "Peón a d4",
+   "explanation": "El peón avanza a d4. Evaluación tras la jugada: +0.4.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "concepts": [
+    "Estructura de peones"
+   ],
+   "eval": 0.4
+  },
+  {
+   "san": "cxd4",
+   "title": "Captura",
+   "explanation": "El peón captura en d4 (se lleva un peón). Evaluación tras la jugada: +0.5.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "concepts": [
+    "Captura",
+    "Material"
+   ],
+   "eval": 0.5
+  },
+  {
+   "san": "Nxd4",
+   "title": "Captura",
+   "explanation": "El caballo captura en d4 (se lleva un peón). Evaluación tras la jugada: +0.5.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "concepts": [
+    "Captura",
+    "Material"
+   ],
+   "eval": 0.5
+  },
+  {
+   "san": "Nc6",
+   "title": "Caballo a c6",
+   "explanation": "El caballo se coloca en c6. Evaluación tras la jugada: +0.5.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "concepts": [
+    "Desarrollo"
+   ],
+   "eval": 0.5
+  },
+  {
+   "san": "Nb5",
+   "title": "Caballo a b5",
+   "explanation": "El caballo se coloca en b5. Evaluación tras la jugada: +0.2.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "concepts": [
+    "Desarrollo"
+   ],
+   "eval": 0.2
+  },
+  {
+   "san": "d6",
+   "title": "Peón a d6",
+   "explanation": "El peón avanza a d6. Evaluación tras la jugada: +0.2.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "concepts": [
+    "Estructura de peones"
+   ],
+   "eval": 0.2
+  },
+  {
+   "san": "c4",
+   "title": "Peón a c4",
+   "explanation": "El peón avanza a c4. Evaluación tras la jugada: +0.2.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "concepts": [
+    "Estructura de peones"
+   ],
+   "eval": 0.2
+  },
+  {
+   "san": "Nf6",
+   "title": "Caballo a f6",
+   "explanation": "El caballo se coloca en f6. Evaluación tras la jugada: +0.2.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "concepts": [
+    "Desarrollo"
+   ],
+   "eval": 0.2
+  },
+  {
+   "san": "N1c3",
+   "title": "Caballo a c3",
+   "explanation": "El caballo se coloca en c3. Evaluación tras la jugada: +0.2.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "concepts": [
+    "Desarrollo"
+   ],
+   "eval": 0.2
+  },
+  {
+   "san": "a6",
+   "title": "Peón a a6",
+   "explanation": "El peón avanza a a6. Evaluación tras la jugada: +0.2.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "concepts": [
+    "Estructura de peones"
+   ],
+   "eval": 0.2
+  },
+  {
+   "san": "Na3",
+   "title": "Caballo a a3",
+   "explanation": "El caballo se coloca en a3. Evaluación tras la jugada: +0.2.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "concepts": [
+    "Desarrollo"
+   ],
+   "eval": 0.2
+  },
+  {
+   "san": "d5",
+   "title": "Ruptura central",
+   "explanation": "Kasparov golpea en el centro con ...d5 para liberar su juego. Es la ruptura típica de esta variante de la Siciliana.",
+   "pros": "Libera la posición y activa las piezas.",
+   "cons": "Crea un peón aislado posible.",
+   "phase": "apertura",
+   "concepts": [
+    "Ruptura central",
+    "Centro"
+   ],
+   "eval": 0.4
+  },
+  {
+   "san": "cxd5",
+   "title": "Captura",
+   "explanation": "El peón captura en d5 (se lleva un peón). Evaluación tras la jugada: +0.4.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "concepts": [
+    "Captura",
+    "Material"
+   ],
+   "eval": 0.4
+  },
+  {
+   "san": "exd5",
+   "title": "Captura",
+   "explanation": "El peón captura en d5 (se lleva un peón). Evaluación tras la jugada: +0.4.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "concepts": [
+    "Captura",
+    "Material"
+   ],
+   "eval": 0.4
+  },
+  {
+   "san": "exd5",
+   "title": "Captura",
+   "explanation": "El peón captura en d5 (se lleva un peón). Evaluación tras la jugada: +0.4.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "concepts": [
+    "Captura",
+    "Material"
+   ],
+   "eval": 0.4
+  },
+  {
+   "san": "Nb4",
+   "title": "Caballo a b4",
+   "explanation": "El caballo se coloca en b4. Evaluación tras la jugada: +0.5.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "concepts": [
+    "Desarrollo"
+   ],
+   "eval": 0.5
+  },
+  {
+   "san": "Be2",
+   "title": "Alfil a e2",
+   "explanation": "El alfil se coloca en e2. Evaluación tras la jugada: +0.2.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "concepts": [
+    "Desarrollo"
+   ],
+   "eval": 0.2
+  },
+  {
+   "san": "Bc5",
+   "title": "Alfil a c5",
+   "explanation": "El alfil se coloca en c5. Evaluación tras la jugada: +0.3.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "concepts": [
+    "Desarrollo"
+   ],
+   "eval": 0.3
+  },
+  {
+   "san": "O-O",
+   "title": "Enroque",
+   "explanation": "Las blancas enrocan y ponen el rey a salvo, conectando las torres. Evaluación tras la jugada: +0.4.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "concepts": [
+    "Seguridad del rey"
+   ],
+   "eval": 0.4
+  },
+  {
+   "san": "O-O",
+   "title": "Enroque",
+   "explanation": "Las negras enrocan y ponen el rey a salvo, conectando las torres. Evaluación tras la jugada: +0.4.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "concepts": [
+    "Seguridad del rey"
+   ],
+   "eval": 0.4
+  },
+  {
+   "san": "Bf3",
+   "title": "Alfil a f3",
+   "explanation": "El alfil se coloca en f3. Evaluación tras la jugada: +0.3.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Pieza activa"
+   ],
+   "eval": 0.3
+  },
+  {
+   "san": "Bf5",
+   "title": "Alfil a f5",
+   "explanation": "El alfil se coloca en f5. Evaluación tras la jugada: +0.4.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Pieza activa"
+   ],
+   "eval": 0.4
+  },
+  {
+   "san": "Bg5",
+   "title": "Alfil a g5",
+   "explanation": "El alfil se coloca en g5. Evaluación tras la jugada: +0.2.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Pieza activa"
+   ],
+   "eval": 0.2
+  },
+  {
+   "san": "Re8",
+   "title": "Torre a e8",
+   "explanation": "La torre se coloca en e8. Evaluación tras la jugada: +0.4.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Pieza activa"
+   ],
+   "eval": 0.4
+  },
+  {
+   "san": "Qd2",
+   "title": "La dama a d2",
+   "explanation": "Karpov coloca la dama en d2 y prepara Rad1, pero ignora ...Nd3. Stockfish prefería 15.Nc4 (≈+0,4); tras la dama la valoración pasa a ≈-0,4.",
+   "pros": "Prepara Rad1 y conecta torres.",
+   "cons": "Permite ...b5 y ...Nd3.",
+   "symbol": "?!",
+   "phase": "medio juego",
+   "concepts": [
+    "Desarrollo",
+    "Dama"
+   ],
+   "eval": -0.4
+  },
+  {
+   "san": "b5",
+   "title": "Espacio en el flanco de dama",
+   "explanation": "Kasparov avanza ...b5 para ganar espacio y preparar ...b4 contra los caballos blancos.",
+   "pros": "Gana espacio y prepara ...Nd3.",
+   "cons": "Debilita c6 y la estructura.",
+   "phase": "medio juego",
+   "concepts": [
+    "Espacio",
+    "Estructura de peones"
+   ],
+   "arrows": [
+    "Gb5b4"
+   ],
+   "eval": -0.3
+  },
+  {
+   "san": "Rad1",
+   "title": "Torre a d1",
+   "explanation": "La torre se coloca en d1. Evaluación tras la jugada: -0.6.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Pieza activa"
+   ],
+   "eval": -0.6
+  },
+  {
+   "san": "Nd3",
+   "title": "¡Nd3!",
+   "explanation": "El caballo se instala en d3, protegido por el alfil de f5: ataca b2 y f2 y es prácticamente intocable. Stockfish lo valora en ≈-0,4 y a partir de aquí Kasparov lleva la iniciativa.",
+   "pros": "Pieza activa e inatacable.",
+   "cons": "El caballo puede quedar aislado si pierde apoyo.",
+   "symbol": "!",
+   "key": true,
+   "phase": "medio juego",
+   "concepts": [
+    "Pieza activa",
+    "Casilla fuerte"
+   ],
+   "arrows": [
+    "Gd3f2",
+    "Gd3b2"
+   ],
+   "question": "La dama blanca ataca el caballo de d3. ¿Por qué no puede capturarlo?",
+   "answer": "Porque está protegido por el alfil de f5: 17.Qxd3? Bxd3 pierde la dama por un caballo.",
+   "eval": -0.4
+  },
+  {
+   "san": "Nab1",
+   "title": "Retirada pasiva",
+   "explanation": "Karpov retira el caballo de a3 a b1. Stockfish prefería 17.d6! (≈-0,3) con juego dinámico; tras Nab1? la evaluación pasa a ≈-1,8.",
+   "pros": "Defiende c3 y b2.",
+   "cons": "Pierde tiempo y deja ...Nd3 sin molestias.",
+   "symbol": "?",
+   "key": true,
+   "phase": "medio juego",
+   "concepts": [
+    "Error",
+    "Retirada"
+   ],
+   "lines": [
+    {
+     "title": "17.d6! era mejor",
+     "start": "before",
+     "moves": "d6 Qxd6 Bxf6 Qxf6 Bxa8 Rxa8 Nc2 Nxb2 Nd5",
+     "comment": "Las blancas mantienen la lucha con juego dinámico."
+    }
+   ],
+   "eval": -1.8
+  },
+  {
+   "san": "h6",
+   "title": "Peón a h6",
+   "explanation": "El peón avanza a h6. Evaluación tras la jugada: -1.6.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Estructura de peones"
+   ],
+   "eval": -1.6
+  },
+  {
+   "san": "Bh4",
+   "title": "Alfil a h4",
+   "explanation": "El alfil se coloca en h4. Evaluación tras la jugada: -1.7.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Pieza activa"
+   ],
+   "eval": -1.7
+  },
+  {
+   "san": "b4",
+   "title": "El peón ataca el caballo",
+   "explanation": "El peón de b4 ataca el caballo de c3 y desplaza a las piezas blancas.",
+   "pros": "Gana espacio y tiempo.",
+   "cons": "Debilita c4.",
+   "phase": "medio juego",
+   "concepts": [
+    "Espacio",
+    "Ataque"
+   ],
+   "arrows": [
+    "Gb4c3"
+   ],
+   "eval": -1.8
+  },
+  {
+   "san": "Na4",
+   "title": "Caballo a a4",
+   "explanation": "El caballo se coloca en a4. Evaluación tras la jugada: -1.8.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Pieza activa"
+   ],
+   "eval": -1.8
+  },
+  {
+   "san": "Bd6",
+   "title": "Alfil a d6",
+   "explanation": "El alfil se coloca en d6. Evaluación tras la jugada: -1.7.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Pieza activa"
+   ],
+   "eval": -1.7
+  },
+  {
+   "san": "Bg3",
+   "title": "Alfil a g3",
+   "explanation": "El alfil se coloca en g3. Evaluación tras la jugada: -1.7.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Pieza activa"
+   ],
+   "eval": -1.7
+  },
+  {
+   "san": "Rc8",
+   "title": "Torre a c8",
+   "explanation": "La torre se coloca en c8. Evaluación tras la jugada: -1.9.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Pieza activa"
+   ],
+   "eval": -1.9
+  },
+  {
+   "san": "b3",
+   "title": "Peón a b3",
+   "explanation": "El peón avanza a b3. Evaluación tras la jugada: -1.9.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Estructura de peones"
+   ],
+   "eval": -1.9
+  },
+  {
+   "san": "g5",
+   "title": "Contra el alfil de h4",
+   "explanation": "El peón de g5 ataca el alfil de h4 y gana más espacio en el flanco de rey. Es la mejor jugada (≈-1,8).",
+   "pros": "Expulsa al alfil.",
+   "cons": "Debilita el rey.",
+   "phase": "medio juego",
+   "concepts": [
+    "Ataque",
+    "Estructura de peones"
+   ],
+   "arrows": [
+    "Gg5h4"
+   ],
+   "eval": -2.1
+  },
+  {
+   "san": "Bxd6",
+   "title": "Captura",
+   "explanation": "El alfil captura en d6 (se lleva un alfil). Evaluación tras la jugada: -2.0.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Captura",
+    "Material"
+   ],
+   "eval": -2.0
+  },
+  {
+   "san": "Qxd6",
+   "title": "Captura",
+   "explanation": "La dama captura en d6 (se lleva un alfil). Evaluación tras la jugada: -2.0.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Captura",
+    "Material"
+   ],
+   "eval": -2.0
+  },
+  {
+   "san": "g3",
+   "title": "Peón a g3",
+   "explanation": "El peón avanza a g3. Evaluación tras la jugada: -1.9.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Estructura de peones"
+   ],
+   "eval": -1.9
+  },
+  {
+   "san": "Nd7",
+   "title": "Caballo a d7",
+   "explanation": "El caballo se coloca en d7. Stockfish prefería Bg6 (evaluación -2.03). Evaluación tras la jugada: -1.4.",
+   "pros": "Plan razonable.",
+   "cons": "Concede ventaja según el motor.",
+   "symbol": "?!",
+   "phase": "medio juego",
+   "concepts": [
+    "Pieza activa"
+   ],
+   "eval": -1.4
+  },
+  {
+   "san": "Bg2",
+   "title": "Alfil a g2",
+   "explanation": "El alfil se coloca en g2. Stockfish prefería Nb2 (evaluación -1.54). Evaluación tras la jugada: -2.7.",
+   "pros": "Plan razonable.",
+   "cons": "Concede ventaja según el motor.",
+   "symbol": "?!",
+   "phase": "medio juego",
+   "concepts": [
+    "Pieza activa"
+   ],
+   "eval": -2.7
+  },
+  {
+   "san": "Qf6",
+   "title": "Dama a f6",
+   "explanation": "La dama se coloca en f6. Evaluación tras la jugada: -2.8.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Pieza activa"
+   ],
+   "eval": -2.8
+  },
+  {
+   "san": "a3",
+   "title": "Peón a a3",
+   "explanation": "El peón avanza a a3. Evaluación tras la jugada: -3.0.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Estructura de peones"
+   ],
+   "eval": -3.0
+  },
+  {
+   "san": "a5",
+   "title": "Peón a a5",
+   "explanation": "El peón avanza a a5. Evaluación tras la jugada: -2.9.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Estructura de peones"
+   ],
+   "eval": -2.9
+  },
+  {
+   "san": "axb4",
+   "title": "Captura",
+   "explanation": "El peón captura en b4 (se lleva un peón). Evaluación tras la jugada: -3.0.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Captura",
+    "Material"
+   ],
+   "eval": -3.0
+  },
+  {
+   "san": "axb4",
+   "title": "Captura",
+   "explanation": "El peón captura en b4 (se lleva un peón). Evaluación tras la jugada: -3.0.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Captura",
+    "Material"
+   ],
+   "eval": -3.0
+  },
+  {
+   "san": "Qa2",
+   "title": "Dama a a2",
+   "explanation": "La dama se coloca en a2. Evaluación tras la jugada: -3.2.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Pieza activa"
+   ],
+   "eval": -3.2
+  },
+  {
+   "san": "Bg6",
+   "title": "Alfil a g6",
+   "explanation": "El alfil se coloca en g6. Stockfish prefería g4 (evaluación -3.31). Evaluación tras la jugada: -2.7.",
+   "pros": "Plan razonable.",
+   "cons": "Concede ventaja según el motor.",
+   "phase": "medio juego",
+   "concepts": [
+    "Pieza activa"
+   ],
+   "eval": -2.7
+  },
+  {
+   "san": "d6",
+   "title": "Peón a d6",
+   "explanation": "El peón avanza a d6. Stockfish prefería Bh3 (evaluación -2.33). Evaluación tras la jugada: -3.0.",
+   "pros": "Plan razonable.",
+   "cons": "Concede ventaja según el motor.",
+   "symbol": "?!",
+   "phase": "medio juego",
+   "concepts": [
+    "Estructura de peones"
+   ],
+   "eval": -3.0
+  },
+  {
+   "san": "g4",
+   "title": "Peón a g4",
+   "explanation": "El peón avanza a g4. Evaluación tras la jugada: -3.0.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Estructura de peones"
+   ],
+   "eval": -3.0
+  },
+  {
+   "san": "Qd2",
+   "title": "Dama a d2",
+   "explanation": "La dama se coloca en d2. Evaluación tras la jugada: -2.6.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Pieza activa"
+   ],
+   "eval": -2.6
+  },
+  {
+   "san": "Kg7",
+   "title": "Rey a g7",
+   "explanation": "El rey se coloca en g7. Evaluación tras la jugada: -3.1.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Rey"
+   ],
+   "eval": -3.1
+  },
+  {
+   "san": "f3",
+   "title": "Peón a f3",
+   "explanation": "El peón avanza a f3. Stockfish prefería h3 (evaluación -2.85). Evaluación tras la jugada: -4.2.",
+   "pros": "Plan razonable.",
+   "cons": "Concede ventaja según el motor.",
+   "symbol": "?!",
+   "phase": "medio juego",
+   "concepts": [
+    "Estructura de peones"
+   ],
+   "eval": -4.2
+  },
+  {
+   "san": "Qxd6",
+   "title": "Captura",
+   "explanation": "La dama captura en d6 (se lleva un peón). Evaluación tras la jugada: -4.2.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Captura",
+    "Material"
+   ],
+   "eval": -4.2
+  },
+  {
+   "san": "fxg4",
+   "title": "Captura",
+   "explanation": "El peón captura en g4 (se lleva un peón). Stockfish prefería Qb2+ (evaluación -4.32). Evaluación tras la jugada: -5.0.",
+   "pros": "Plan razonable.",
+   "cons": "Concede ventaja según el motor.",
+   "phase": "medio juego",
+   "concepts": [
+    "Captura",
+    "Material"
+   ],
+   "eval": -5.0
+  },
+  {
+   "san": "Qd4+",
+   "title": "Jaque",
+   "explanation": "La dama se coloca en d4. Da jaque. Evaluación tras la jugada: -5.1.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Pieza activa",
+    "Jaque"
+   ],
+   "eval": -5.1
+  },
+  {
+   "san": "Kh1",
+   "title": "Rey a h1",
+   "explanation": "El rey se coloca en h1. Evaluación tras la jugada: -5.1.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Rey"
+   ],
+   "eval": -5.1
+  },
+  {
+   "san": "Nf6",
+   "title": "Caballo a f6",
+   "explanation": "El caballo se coloca en f6. Evaluación tras la jugada: -5.3.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Pieza activa"
+   ],
+   "eval": -5.3
+  },
+  {
+   "san": "Rf4",
+   "title": "Torre a f4",
+   "explanation": "La torre se coloca en f4. Evaluación tras la jugada: -5.6.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Pieza activa"
+   ],
+   "eval": -5.6
+  },
+  {
+   "san": "Ne4",
+   "title": "¡Ne4!",
+   "explanation": "Kasparov prepara ...Nf2+ con tenedor sobre el rey y la torre de d1.",
+   "pros": "Amenaza ...Nf2+ con ganancia de material.",
+   "cons": "Ninguna significativa.",
+   "symbol": "!",
+   "key": true,
+   "phase": "medio juego",
+   "concepts": [
+    "Amenaza táctica",
+    "Ataque doble"
+   ],
+   "arrows": [
+    "Ge4f2"
+   ],
+   "eval": -5.5
+  },
+  {
+   "san": "Qxd3",
+   "title": "Captura",
+   "explanation": "La dama captura en d3 (se lleva un caballo). Evaluación tras la jugada: -5.9.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Captura",
+    "Material"
+   ],
+   "eval": -5.9
+  },
+  {
+   "san": "Nf2+",
+   "title": "¡Nf2+!",
+   "explanation": "El caballo da jaque a la vez que ataca la torre de d1. Después de 35.Rxf2 Bxd3 las negras ganan la dama a cambio de una torre.",
+   "pros": "Gana la dama.",
+   "cons": "Ninguna significativa.",
+   "symbol": "!",
+   "key": true,
+   "phase": "medio juego",
+   "concepts": [
+    "Tenedor",
+    "Desviación"
+   ],
+   "arrows": [
+    "Gf2h1",
+    "Gf2d1"
+   ],
+   "eval": -5.8
+  },
+  {
+   "san": "Rxf2",
+   "title": "Captura",
+   "explanation": "La torre captura en f2 (se lleva un caballo). Evaluación tras la jugada: -6.0.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Captura",
+    "Material"
+   ],
+   "eval": -6.0
+  },
+  {
+   "san": "Bxd3",
+   "title": "Captura",
+   "explanation": "El alfil captura en d3 (se lleva un dama). Evaluación tras la jugada: -6.0.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Captura",
+    "Material"
+   ],
+   "eval": -6.0
+  },
+  {
+   "san": "Rfd2",
+   "title": "Torre a d2",
+   "explanation": "La torre se coloca en d2. Evaluación tras la jugada: -6.1.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Pieza activa"
+   ],
+   "eval": -6.1
+  },
+  {
+   "san": "Qe3",
+   "title": "Dama a e3",
+   "explanation": "La dama se coloca en e3. Evaluación tras la jugada: -6.1.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Pieza activa"
+   ],
+   "eval": -6.1
+  },
+  {
+   "san": "Rxd3",
+   "title": "Captura",
+   "explanation": "La torre captura en d3 (se lleva un alfil). Evaluación tras la jugada: -6.2.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Captura",
+    "Material"
+   ],
+   "eval": -6.2
+  },
+  {
+   "san": "Rc1",
+   "title": "¡Rc1!",
+   "explanation": "La torre entra en c1 amenazando ...Rxd1+ y ...Qe1+. Con esta jugada la posición blanca se desmorona: la evaluación es ≈-6,1.",
+   "pros": "Amenaza decisiva.",
+   "cons": "Ninguna significativa.",
+   "symbol": "!",
+   "key": true,
+   "phase": "medio juego",
+   "concepts": [
+    "Táctica",
+    "Torres"
+   ],
+   "arrows": [
+    "Gc1d1"
+   ],
+   "eval": -6.1
+  },
+  {
+   "san": "Nb2",
+   "title": "Caballo a b2",
+   "explanation": "El caballo se coloca en b2. Stockfish prefería h3 (evaluación -6.07). Evaluación tras la jugada: mate en 5.",
+   "pros": "Plan razonable.",
+   "cons": "Concede ventaja según el motor.",
+   "symbol": "?!",
+   "phase": "medio juego",
+   "concepts": [
+    "Pieza activa"
+   ],
+   "eval": "#-5"
+  },
+  {
+   "san": "Qf2",
+   "title": "Dama a f2",
+   "explanation": "La dama se coloca en f2. Evaluación tras la jugada: mate en 4.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Pieza activa"
+   ],
+   "eval": "#-4"
+  },
+  {
+   "san": "Nd2",
+   "title": "Caballo a d2",
+   "explanation": "El caballo se coloca en d2. Evaluación tras la jugada: mate en 2.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Pieza activa"
+   ],
+   "eval": "#-2"
+  },
+  {
+   "san": "Rxd1+",
+   "title": "Jaque",
+   "explanation": "La torre captura en d1 (se lleva un torre). Da jaque. Evaluación tras la jugada: mate en 3.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Captura",
+    "Material",
+    "Jaque"
+   ],
+   "eval": "#-3"
+  },
+  {
+   "san": "Nxd1",
+   "title": "Captura",
+   "explanation": "El caballo captura en d1 (se lleva un torre). Evaluación tras la jugada: mate en 3.",
+   "pros": "Jugada coherente con el plan.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Captura",
+    "Material"
+   ],
+   "eval": "#-3"
+  },
+  {
+   "san": "Re1+",
+   "title": "Fin de la partida",
+   "explanation": "40...Re1+ y Karpov se rinde: tras 41.Nf1 Rxf1+ 42.Bxf1 Qxf1# el mate es inevitable. Kasparov gana la partida y el título mundial.",
+   "pros": "Gana la partida y el título.",
+   "cons": "Fin.",
+   "key": true,
+   "phase": "medio juego",
+   "concepts": [
+    "Final",
+    "Mate"
+   ],
+   "lines": [
+    {
+     "title": "Mate posible",
+     "start": "after",
+     "moves": "Nf1 Rxf1+ Bxf1 Qxf1#",
+     "comment": "El mate final."
+    }
+   ],
+   "eval": "#-2"
+  }
+ ],
+ "scan": {
+  "by": "Stockfish 17.1",
+  "evals": [
+   39,
+   32,
+   30,
+   28,
+   41,
+   38,
+   47,
+   49,
+   50,
+   21,
+   24,
+   17,
+   26,
+   21,
+   22,
+   22,
+   37,
+   40,
+   29,
+   45,
+   45,
+   23,
+   50,
+   28,
+   31,
+   31,
+   36,
+   22,
+   38,
+   -34,
+   -29,
+   -62,
+   -30,
+   -179,
+   -158,
+   -171,
+   -172,
+   -179,
+   -170,
+   -191,
+   -176,
+   -180,
+   -200,
+   -200,
+   -176,
+   -203,
+   -154,
+   -270,
+   -290,
+   -291,
+   -294,
+   -283,
+   -294,
+   -331,
+   -233,
+   -310,
+   -274,
+   -300,
+   -285,
+   -399,
+   -432,
+   -515,
+   -514,
+   -526,
+   -520,
+   -546,
+   -558,
+   -586,
+   -590,
+   -591,
+   -602,
+   -609,
+   -601,
+   -608,
+   -607,
+   "#-5",
+   "#-4",
+   "#-2",
+   "#-3",
+   "#-3",
+   "#-2"
+  ],
+  "best": [
+   "e2e4",
+   "e7e5",
+   "g1f3",
+   "b8c6",
+   "d2d4",
+   "c5d4",
+   "f3d4",
+   "b8c6",
+   "b1c3",
+   "d7d6",
+   "c2c4",
+   "g8f6",
+   "b5c3",
+   "a7a6",
+   "b5a3",
+   "b7b6",
+   "e4d5",
+   "e6d5",
+   "e4d5",
+   "c6b4",
+   "f1c4",
+   "b4d5",
+   "c1e3",
+   "f6d5",
+   "e2f3",
+   "c8f5",
+   "c1e3",
+   "h7h6",
+   "a3c4",
+   "b7b5",
+   "d5d6",
+   "d8d6",
+   "d5d6",
+   "b5b4",
+   "g5h4",
+   "b5b4",
+   "c3e2",
+   "c5d6",
+   "h4g3",
+   "g7g5",
+   "a2a3",
+   "g7g5",
+   "g3d6",
+   "d8d6",
+   "g2g3",
+   "f5g6",
+   "a4b2",
+   "d6f6",
+   "a2a3",
+   "a6a5",
+   "d5d6",
+   "a5b4",
+   "d2a2",
+   "g5g4",
+   "g2h3",
+   "h6h5",
+   "a2d2",
+   "g8g7",
+   "h2h3",
+   "f6d6",
+   "d2b2",
+   "d6d4",
+   "g1h1",
+   "d7f6",
+   "d2f4",
+   "f6e4",
+   "h2h4",
+   "e4f2",
+   "f4f2",
+   "g6d3",
+   "f2d2",
+   "d4e3",
+   "g4g5",
+   "c8c1",
+   "h2h3",
+   "e3f2",
+   "g2f1",
+   "e8e2",
+   "b2d1",
+   "e8e1",
+   null
+  ],
+  "pv": [
+   "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6",
+   "e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1",
+   "g1f3 b8c6",
+   "b8c6 d2d4 c5d4 f3d4 g8f6 b1c3 e7e5 d4b5",
+   "d2d4 c5d4",
+   "c5d4",
+   "f3d4 b8c6 b1c3 d8c7 c1e3 a7a6 d1d2 f8e7",
+   "b8c6 b1c3",
+   "b1c3 d8c7 c1e3 a7a6 d1d2 b7b5 d4c6 d7c6",
+   "d7d6 c2c4 g8f6 b1c3 a7a6 b5a3 b7b6 f1e2",
+   "c2c4 g8f6 b1c3 a7a6 b5a3 f8e7 f1e2 b7b6",
+   "g8f6 b1c3 a7a6 b5a3 d8a5 d1d2 a5c7 a3c2",
+   "b5c3",
+   "a7a6 b5a3 d8a5 c1d2 f8e7 f1e2 e8g8 a3c2",
+   "b5a3 d8a5 c1d2 f8e7 f1e2 e8g8 a3c2 a5c7",
+   "b7b6 f1e2 c8b7 c1e3 f8e7 e1g1 e8g8 d1b3",
+   "e4d5",
+   "e6d5 e4d5 c6b4 f1c4 f8d6 e1g1 e8g8 c1g5",
+   "e4d5 c6b4 f1c4 f8d6 e1g1 e8g8 c1g5 b7b5",
+   "c6b4 f1c4 f8d6 e1g1 e8g8 c1g5 b7b5 c4b3",
+   "f1c4 f8d6 e1g1 e8g8 c1g5 b7b5 c4b3 h7h6",
+   "b4d5 e1g1 f8a3 c3d5 e8g8 e2f3 f6d5 f3d5",
+   "c1e3 c5e3 d1a4 c8d7 a4b4 d8b6 b4b6 e3b6",
+   "f6d5",
+   "e2f3 c8f5 c1e3 c5e3 f2e3 d8b6 d1d2 a8d8",
+   "c8f5 c1e3",
+   "c1e3 c5e3",
+   "h7h6 g5f6 d8f6 c3e4 f5e4 f3e4 a8e8",
+   "a3c4 b4d3 d1d2 h7h6 c4e3 f5g6 g5h4 d8b6",
+   "b7b5",
+   "d5d6 a8b8 g5f6 d8f6 d6d7 e8d8 c3e4 f5e4",
+   "d8d6",
+   "d5d6 d8d6 g5f6 d6f6 f3a8 e8a8 a3c2 d3b2",
+   "b5b4 c3e2 d8b6 e2g3 f5g6 g5f6 b6f6 f3h5",
+   "g5h4 b5b4 c3a4 c5a7 a2a3 a6a5 b2b3 g7g5",
+   "b5b4 c3a4 c5a7 b2b3 g7g5 h4g3 g5g4 d2h6",
+   "c3e2 d8b6 e2c1 d3e5 c1b3 e5f3 g2f3 f6d7",
+   "c5d6 h4g3 a8c8 a2a3 a6a5 a3b4 a5b4 b2b3",
+   "h4g3",
+   "g7g5 a2a3 a6a5 b2b3 a8c8 a3b4 a5b4 h2h3",
+   "a2a3 a6a5 a3b4 a5b4 b2b3 g7g5 h2h3 f6e4",
+   "g7g5 h2h3",
+   "g3d6 d8d6 h2h3 d3e5 d2d4 e5f3 g2f3 f5h3",
+   "d8d6 g2g3 g5g4 f3g2 f6d5 a2a3 a6a5 a3b4",
+   "g2g3 g5g4 f3g2 f6d5 a2a3 a6a5 a3b4 a5b4",
+   "f5g6 a4b2 d3e5 f3g2 f6e4 d2d4 e4c3 b1c3",
+   "a4b2 d6f6 b2c4 d7e5 c4e5 d3e5 f3g2 f5d3",
+   "d6f6 a2a3 a6a5 a3b4 a5b4 d5d6 e8e6 h2h3",
+   "a2a3 a6a5 a3b4 a5b4 h2h3 h6h5 g1h2 h5h4",
+   "a6a5 g2h1 g5g4 d5d6 e8e6 h1g2 g8g7 g1h1",
+   "d5d6 e8e6 h2h3 h6h5 g2h1 h5h4 h1g2 g8g7",
+   "a5b4 h2h3 h6h5 f2f4 g5f4 f1f3 d7e5 f3f4",
+   "d2a2 g5g4 b1d2 e8e2 a2b1 d3f2 f1f2 e2f2",
+   "g5g4 g1h1 h6h5 a2d2 d7e5 d5d6 h5h4 h1g1",
+   "g2h3 c8d8 h3g2 g8g7 h2h3 d8c8 a2d2 g6f5",
+   "h6h5 h2h3 h5h4 g3h4 g5g4 h4h5 g4h3 g2b7",
+   "a2d2 g6f5 f2f3 f6d6 f3g4 d6d4 g1h1 f5g6",
+   "g8g7 h2h3 d7e5 d6d7 e5d7 h3g4 c8d8 d2a2",
+   "h2h3 d7e5 d6d7 e5d7 h3g4 c8d8 d2a2 e8e7",
+   "f6d6 d2b2 g7g8 f3g4 e8e6 b2d2 d6d4 g1h1",
+   "d2b2 g7g8 f3g4 e8e6 g4g5 h6g5 g2h3 d3b2",
+   "d6d4 g1h1 d7f6 h2h3 f6e4 g2e4 d4e4 h1g1",
+   "g1h1 d7f6 h2h3 f6e4 d2d3 e4f2 f1f2 g6d3",
+   "d7f6 f1f4 f6e4 d2d3 e4f2 f4f2 g6d3 f2d2",
+   "d2f4 f6e4 d1d3 d4d3 a4b2 d3b3 b2d1 b3d3",
+   "f6e4 d2d3 e4f2 f4f2 g6d3 f2d2 d4e3 d2d3",
+   "h2h4 e4g3 h1h2 d4f4 d2f4 d3f4 h2g3 f4g2",
+   "e4f2 f4f2 g6d3 f2d2 d4e3 d2d3 c8c1 h2h3",
+   "f4f2 g6d3 f2d2 d4e3 a4b2 e3e1 g2f1 d3f1",
+   "g6d3 f2b2 d4e3 b1d2 c8c2 b2c2 d3c2 d2f1",
+   "f2d2 d4e3 d2d3 c8c1 h2h3 c1b1 d1b1 e3d3",
+   "d4e3 d2d3 c8c1 h2h3 c1b1 h1h2 b1d1 d3d1",
+   "g4g5 d3e2 g5h6 g7h8 d1g1 c8d8 h6h7 e2b5",
+   "c8c1 d3e3 c1d1 g2f1 e8e3 h1g2 e3b3 g4g5",
+   "h2h3 c1b1 h1h2 b1d1 d3d1 e3f2 d1f1 f2c2",
+   "e3f2 g2f1 e8e1 d1e1 c1e1 b1d2 e1f1 d2f1",
+   "g2f1 e8e1 d1e1 c1e1 b1d2 e1f1 d2f1 f2f1",
+   "e8e2 d1c1 f2g2",
+   "b2d1 e8e1 d2f1 e1f1 g2f1 f2f1",
+   "e8e1 d2f1 e1f1 g2f1 f2f1",
+   ""
+  ]
+ }
+}

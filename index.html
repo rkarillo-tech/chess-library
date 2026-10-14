@@ -1699,7 +1699,7 @@ async function syncGitHub(manual) {
   setLib(lib);
   save(KEYS.sync, { t: Date.now(), n: fresh.length });
   H.syncing = false;
-  H.sync = { type: 'ok', msg: `${fresh.length} partida${fresh.length !== 1 ? 's' : ''} sincronizada${fresh.length !== 1 ? 's' : ''} desde GitHub` };
+  H.sync = { type: 'ok', msg: `${fresh.length} partida${fresh.length !== 1 ? 's' : ''} sincronizada${fresh.length !== 1 ? 's' : ''} desde ${gh ? 'GitHub' : 'la carpeta partidas/'}` };
   if (!V.game) renderHome();
 }
 

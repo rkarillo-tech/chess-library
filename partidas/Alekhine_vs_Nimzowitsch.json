@@ -1,6 +1,9 @@
 {
  "format": "chess-analyzer/2",
  "info": {
+  "temas": ["Columnas y séptima fila", "Casillas débiles y puestos avanzados", "Profilaxis y zugzwang"],
+  "coleccion": "maestros",
+  "nivel": "avanzado",
   "title": "El cañón de Alekhine",
   "white": "Alexander Alekhine",
   "black": "Aron Nimzowitsch",

@@ -1,6 +1,9 @@
 {
  "format": "chess-analyzer/2",
  "info": {
+  "temas": ["Sacrificio y combinación", "Ataque al rey"],
+  "coleccion": "maestros",
+  "nivel": "avanzado",
   "title": "La Inmortal de Kasparov",
   "white": "Garry Kasparov",
   "black": "Veselin Topalov",

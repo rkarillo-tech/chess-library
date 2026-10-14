@@ -1,6 +1,9 @@
 {
  "format": "chess-analyzer/2",
  "info": {
+  "temas": ["Peón aislado", "Ataque al rey", "Sacrificio y combinación"],
+  "coleccion": "maestros",
+  "nivel": "intermedio",
   "title": "Botvinnik y el peón aislado",
   "white": "Mikhail Botvinnik",
   "black": "Milan Vidmar",

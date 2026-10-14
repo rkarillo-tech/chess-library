@@ -1,6 +1,9 @@
 {
  "format": "chess-analyzer/2",
  "info": {
+  "temas": ["Profilaxis y zugzwang", "Casillas débiles y puestos avanzados", "Sacrificio y combinación"],
+  "coleccion": "maestros",
+  "nivel": "avanzado",
   "title": "La Inmortal del Zugzwang",
   "white": "Friedrich Sämisch",
   "black": "Aron Nimzowitsch",

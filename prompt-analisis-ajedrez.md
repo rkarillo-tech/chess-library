@@ -21,7 +21,7 @@ PARTIDA (PGN):
 
 ## Cómo trabajar, en este orden
 1. Reproduce la partida y comprueba que todas las jugadas son legales. Si puedes ejecutar código, usa python-chess para leer el PGN, obtener el SAN exacto de cada jugada y verificar variantes, flechas y casillas. Si dispones de un motor (Stockfish), úsalo para las valoraciones y para encontrar las mejores alternativas.
-2. Identifica la apertura (nombre y código ECO), los planes de cada bando, los 4-8 momentos clave (sacrificios, errores, cambios de valoración) y entre 3 y 6 lecciones generales.
+2. Identifica la apertura (nombre y código ECO), los temas principales de la partida, los planes de cada bando, los 4-8 momentos clave (sacrificios, errores, cambios de valoración) y entre 3 y 6 lecciones generales.
 3. Anota cada media jugada.
 
 ## Qué escribir en cada jugada
@@ -51,6 +51,8 @@ Ejemplo de la estructura. Solo se muestran dos entradas de "analysis" (1.e4 y 2.
     "result": "1-0",
     "opening": "Gambito de Rey, Gambito del Alfil",
     "eco": "C33",
+    "temas": ["Sacrificio y combinación", "Ataque al rey", "Apertura y desarrollo"],
+    "nivel": "basico",
     "description": "Dos o tres frases sobre por qué merece la pena estudiar esta partida."
   },
   "pgn": "1. e4 e5 2. f4 exf4 3. Bc4 Qh4+ ...",
@@ -90,6 +92,8 @@ Ejemplo de la estructura. Solo se muestran dos entradas de "analysis" (1.e4 y 2.
 }
 
 ## Significado de cada campo
+- "temas" (en "info"): de 1 a 3 temas principales de la partida, del más al menos importante, elegidos SOLO de esta lista: Ataque al rey, Sacrificio y combinación, Apertura y desarrollo, Peón pasado, Peón aislado, Estructura de peones, Columnas y séptima fila, Casillas débiles y puestos avanzados, Profilaxis y zugzwang, Defensa y contraataque, Técnica de final.
+- "nivel" (en "info"): "basico", "intermedio" o "avanzado", según lo difícil que sea seguir la partida para un jugador de club.
 - Obligatorios: "san", "title", "explanation", "pros", "cons".
 - "san": la jugada en notación algebraica inglesa (K, Q, R, B, N), exactamente como en el PGN, sin número de jugada y sin símbolos ! o ?.
 - "title": título corto, sin número de jugada ni la propia jugada.
@@ -109,3 +113,18 @@ Ejemplo de la estructura. Solo se muestran dos entradas de "analysis" (1.e4 y 2.
 - Todo el texto en español. JSON válido: comillas dobles, sin comas finales, sin comentarios.
 - Antes de responder, revisa que el número de entradas de "analysis" coincide con el número de medias jugadas del PGN.
 ```
+
+## Si la partida es tuya
+
+Cuando en la aplicación eliges **«Sí, jugué con blancas/negras»** al pegar el PGN, el prompt añade al final este bloque (también puedes añadirlo a mano, indicando tu color):
+
+```
+## Es una partida del propio alumno
+Esta partida la jugó el alumno con blancas. Anótala como lo haría su entrenador personal:
+- Sé honesto con sus errores y aciertos, sin suavizarlos: dónde se perdió (o se ganó) la ventaja, qué amenaza pasó por alto y qué debía preguntarse en ese momento.
+- Clasifica cada error importante: táctico (no vio una amenaza o una combinación), estratégico (plan equivocado), de apertura o de técnica en el final.
+- Las lecciones deben ser de 3 a 5 consejos concretos para sus próximas partidas.
+- En "info" escribe "coleccion": "mias" y "miColor": "w". Como título, una frase que resuma la lección principal de la partida.
+```
+
+Guarda el `.json` resultante en `partidas/mias/` para que aparezca en la sección **Mis partidas**.

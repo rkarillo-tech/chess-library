@@ -1,5 +1,8 @@
 {
 "info": {
+"temas": ["Peón aislado", "Técnica de final", "Casillas débiles y puestos avanzados"],
+"coleccion": "maestros",
+"nivel": "avanzado",
 "title": "Lasker vs. Tarrasch, San Petersburgo 1914",
 "white": "Lasker Emanuel",
 "black": "Tarrasch Siegbert",

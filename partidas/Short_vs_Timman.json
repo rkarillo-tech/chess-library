@@ -1,0 +1,928 @@
+{
+ "format": "chess-analyzer/2",
+ "info": {
+  "title": "El paseo del rey de Short",
+  "white": "Nigel Short",
+  "black": "Jan Timman",
+  "event": "Torneo de Tilburg, ronda 4",
+  "site": "Tilburg",
+  "date": "21/10/1991",
+  "result": "1-0",
+  "opening": "Defensa Alekhine, Variante Moderna",
+  "eco": "B04",
+  "description": "Con la dama en f6 y una torre en d7 las negras quedan atadas, y Short decide que la pieza que falta para el mate es su propio rey: Kh2, Kg3, Kf4 y Kg5, rumbo a h6 para apoyar Qg7#. Uno de los paseos del rey más famosos de la historia, en pleno medio juego y con damas en el tablero."
+ },
+ "pgn": "1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. Nf3 g6 5. Bc4 Nb6 6. Bb3 Bg7 7. Qe2 Nc6 8. O-O O-O 9. h3 a5 10. a4 dxe5 11. dxe5 Nd4 12. Nxd4 Qxd4 13. Re1 e6 14. Nd2 Nd5 15. Nf3 Qc5 16. Qe4 Qb4 17. Bc4 Nb6 18. b3 Nxc4 19. bxc4 Re8 20. Rd1 Qc5 21. Qh4 b6 22. Be3 Qc6 23. Bh6 Bh8 24. Rd8 Bb7 25. Rad1 Bg7 26. R8d7 Rf8 27. Bxg7 Kxg7 28. R1d4 Rae8 29. Qf6+ Kg8 30. h4 h5 31. Kh2 Rc8 32. Kg3 Rce8 33. Kf4 Bc8 34. Kg5 1-0",
+ "lessons": [
+  "Si el rival está totalmente atado, el rey puede ser una pieza de ataque, incluso con damas en el tablero.",
+  "Cambiar el alfil del fianchetto (27.Bxg7) deja las casillas oscuras alrededor del rey sin defensa: Qf6 se vuelve una pieza dominante.",
+  "Las torres en la séptima (Rd7) atan a las piezas rivales a la defensa de f7.",
+  "Antes del golpe final hay que quitar el contrajuego: 30.h4 y el rey en g3-f4 eliminan los jaques y abren el camino a g5 y h6.",
+  "Una casilla débil delante del enroque (g7) basta para el mate cuando dama y rey cooperan."
+ ],
+ "analysis": [
+  {
+   "san": "e4",
+   "title": "Peón de rey",
+   "explanation": "Short abre con el peón de rey.",
+   "pros": "Centro.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.3
+  },
+  {
+   "san": "Nf6",
+   "title": "Defensa Alekhine",
+   "explanation": "Timman provoca el avance de los peones blancos para atacarlos después.",
+   "pros": "Provoca debilidades.",
+   "cons": "Cede el centro.",
+   "phase": "apertura",
+   "eval": 0.7
+  },
+  {
+   "san": "e5",
+   "title": "Ataque al caballo",
+   "explanation": "El peón expulsa el caballo y gana espacio.",
+   "pros": "Espacio.",
+   "cons": "El peón de e5 será objetivo.",
+   "phase": "apertura",
+   "eval": 0.7
+  },
+  {
+   "san": "Nd5",
+   "title": "Caballo a d5",
+   "explanation": "El caballo se coloca en el centro.",
+   "pros": "Pieza central.",
+   "cons": "Puede ser hostigado con c4.",
+   "phase": "apertura",
+   "eval": 0.8
+  },
+  {
+   "san": "d4",
+   "title": "Centro",
+   "explanation": "Las blancas sostienen e5 con d4.",
+   "pros": "Centro sólido.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.6
+  },
+  {
+   "san": "d6",
+   "title": "Ataque a e5",
+   "explanation": "Las negras empiezan a atacar el centro.",
+   "pros": "Contraataque.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.6
+  },
+  {
+   "san": "Nf3",
+   "title": "Variante Moderna",
+   "explanation": "Desarrollo tranquilo que sostiene e5.",
+   "pros": "Desarrollo.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.6
+  },
+  {
+   "san": "g6",
+   "title": "Fianchetto",
+   "explanation": "El alfil irá a g7 para presionar e5 y d4.",
+   "pros": "Presión central.",
+   "cons": "Debilita f6 y h6.",
+   "phase": "apertura",
+   "eval": 0.8
+  },
+  {
+   "san": "Bc4",
+   "title": "Alfil a c4",
+   "explanation": "El alfil ataca el caballo de d5.",
+   "pros": "Desarrollo con tiempo.",
+   "cons": "Stockfish prefería 5.c4.",
+   "phase": "apertura",
+   "eval": 0.8
+  },
+  {
+   "san": "Nb6",
+   "title": "Caballo a b6",
+   "explanation": "El caballo ataca el alfil.",
+   "pros": "Gana un tiempo.",
+   "cons": "Se aleja del centro.",
+   "phase": "apertura",
+   "eval": 0.9
+  },
+  {
+   "san": "Bb3",
+   "title": "Alfil a b3",
+   "explanation": "El alfil queda en la diagonal a2-g8.",
+   "pros": "Diagonal activa.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.8
+  },
+  {
+   "san": "Bg7",
+   "title": "Alfil a g7",
+   "explanation": "Completa el fianchetto.",
+   "pros": "Presión sobre e5.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.9
+  },
+  {
+   "san": "Qe2",
+   "title": "Dama a e2",
+   "explanation": "La dama defiende e5 y prepara el enroque.",
+   "pros": "Defensa central.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.7
+  },
+  {
+   "san": "Nc6",
+   "title": "Caballo a c6",
+   "explanation": "Más presión sobre d4 y e5.",
+   "pros": "Presión central.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.6
+  },
+  {
+   "san": "O-O",
+   "title": "Enroque",
+   "explanation": "Las blancas ponen el rey a salvo.",
+   "pros": "Rey seguro.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.7
+  },
+  {
+   "san": "O-O",
+   "title": "Enroque",
+   "explanation": "Las negras también enrocan.",
+   "pros": "Rey seguro.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.6
+  },
+  {
+   "san": "h3",
+   "title": "Profilaxis",
+   "explanation": "h3 impide ...Bg4, que clavaría el caballo de f3.",
+   "pros": "Evita la clavada.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "concepts": [
+    "Profilaxis"
+   ],
+   "eval": 0.8
+  },
+  {
+   "san": "a5",
+   "title": "a5",
+   "explanation": "Las negras amenazan ...a4 contra el alfil de b3.",
+   "pros": "Gana espacio.",
+   "cons": "Debilita b5 y b6.",
+   "phase": "apertura",
+   "eval": 0.9
+  },
+  {
+   "san": "a4",
+   "title": "a4",
+   "explanation": "Las blancas frenan el peón.",
+   "pros": "Fija a5.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.6
+  },
+  {
+   "san": "dxe5",
+   "title": "Cambio en e5",
+   "explanation": "Las negras liberan el centro.",
+   "pros": "Simplifica.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.7
+  },
+  {
+   "san": "dxe5",
+   "title": "Recaptura",
+   "explanation": "Las blancas mantienen un peón en e5, que da espacio y quita f6 y d6.",
+   "pros": "Espacio.",
+   "cons": "El peón necesitará defensa.",
+   "phase": "apertura",
+   "eval": 0.7
+  },
+  {
+   "san": "Nd4",
+   "title": "Caballo a d4",
+   "explanation": "El caballo invade d4 para cambiarse.",
+   "pros": "Ataca la dama.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "arrows": [
+    "Gd4e2"
+   ],
+   "eval": 0.7
+  },
+  {
+   "san": "Nxd4",
+   "title": "Cambio de caballos",
+   "explanation": "Short cambia en d4.",
+   "pros": "Simplifica.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "eval": 0.8
+  },
+  {
+   "san": "Qxd4",
+   "title": "Dama a d4",
+   "explanation": "La dama negra se centraliza.",
+   "pros": "Dama activa.",
+   "cons": "Puede ser hostigada.",
+   "phase": "apertura",
+   "eval": 0.9
+  },
+  {
+   "san": "Re1",
+   "title": "Torre a e1",
+   "explanation": "La torre protege e5.",
+   "pros": "Defensa.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 0.9
+  },
+  {
+   "san": "e6",
+   "title": "e6",
+   "explanation": "Las negras abren la diagonal del alfil de c8 y vigilan d5 y f5.",
+   "pros": "Solidez.",
+   "cons": "Debilita f6 y d6.",
+   "phase": "medio juego",
+   "eval": 1.3
+  },
+  {
+   "san": "Nd2",
+   "title": "Caballo a d2",
+   "explanation": "El caballo va a f3 por d2.",
+   "pros": "Reagrupación.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 1.0
+  },
+  {
+   "san": "Nd5",
+   "title": "Caballo a d5",
+   "explanation": "El caballo negro vuelve a d5.",
+   "pros": "Pieza central.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 1.5
+  },
+  {
+   "san": "Nf3",
+   "title": "Caballo a f3",
+   "explanation": "El caballo protege e5 y mira g5.",
+   "pros": "Pieza activa.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 1.5
+  },
+  {
+   "san": "Qc5",
+   "title": "Dama a c5",
+   "explanation": "La dama se retira a c5.",
+   "pros": "Seguridad.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 1.7
+  },
+  {
+   "san": "Qe4",
+   "title": "Dama a e4",
+   "explanation": "La dama blanca se centraliza y prepara Qh4.",
+   "pros": "Dama central.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 1.3
+  },
+  {
+   "san": "Qb4",
+   "title": "Dama a b4",
+   "explanation": "La dama negra busca el cambio.",
+   "pros": "Busca simplificar.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 1.4
+  },
+  {
+   "san": "Bc4",
+   "title": "Alfil a c4",
+   "explanation": "El alfil ataca el caballo de d5.",
+   "pros": "Gana un tiempo.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "arrows": [
+    "Gc4d5"
+   ],
+   "eval": 1.6
+  },
+  {
+   "san": "Nb6",
+   "title": "Caballo a b6",
+   "explanation": "El caballo ataca el alfil.",
+   "pros": "Ataca el alfil.",
+   "cons": "Se aleja del flanco de rey.",
+   "phase": "medio juego",
+   "eval": 1.5
+  },
+  {
+   "san": "b3",
+   "title": "b3",
+   "explanation": "El peón protege el alfil.",
+   "pros": "Defensa.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 1.6
+  },
+  {
+   "san": "Nxc4",
+   "title": "Cambio en c4",
+   "explanation": "Las negras cambian el alfil.",
+   "pros": "Elimina el alfil.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 1.6
+  },
+  {
+   "san": "bxc4",
+   "title": "Recaptura",
+   "explanation": "El peón recaptura y controla d5.",
+   "pros": "Controla d5.",
+   "cons": "Peones doblados.",
+   "phase": "medio juego",
+   "eval": 1.5
+  },
+  {
+   "san": "Re8",
+   "title": "Torre a e8",
+   "explanation": "La torre prepara ...Bd7 y protege e6.",
+   "pros": "Defensa.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 1.4
+  },
+  {
+   "san": "Rd1",
+   "title": "Torre a d1",
+   "explanation": "La torre toma la columna d abierta.",
+   "pros": "Columna abierta.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Columna abierta"
+   ],
+   "eval": 1.6
+  },
+  {
+   "san": "Qc5",
+   "title": "Dama a c5",
+   "explanation": "La dama vuelve a c5. Stockfish prefería 20...h6.",
+   "pros": "Ataca c2.",
+   "cons": "Deja al rey con menos defensores.",
+   "symbol": "?!",
+   "phase": "medio juego",
+   "concepts": [
+    "Imprecisión"
+   ],
+   "eval": 2.3
+  },
+  {
+   "san": "Qh4",
+   "title": "Dama a h4",
+   "explanation": "La dama blanca llega a h4 y apunta a h7 y a las casillas oscuras.",
+   "pros": "Ataque al rey.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 1.7
+  },
+  {
+   "san": "b6",
+   "title": "b6",
+   "explanation": "Las negras preparan ...Bb7.",
+   "pros": "Desarrollo.",
+   "cons": "Debilita c6.",
+   "phase": "medio juego",
+   "eval": 1.6
+  },
+  {
+   "san": "Be3",
+   "title": "Alfil a e3",
+   "explanation": "El alfil apunta a h6 para cambiar el alfil de g7.",
+   "pros": "Prepara Bh6.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 1.7
+  },
+  {
+   "san": "Qc6",
+   "title": "Dama a c6",
+   "explanation": "La dama defiende la diagonal larga.",
+   "pros": "Defensa.",
+   "cons": "Pasiva.",
+   "phase": "medio juego",
+   "eval": 2.1
+  },
+  {
+   "san": "Bh6",
+   "title": "Alfil a h6",
+   "explanation": "El alfil ofrece el cambio del alfil de g7, el defensor de las casillas oscuras.",
+   "pros": "Ataca las casillas oscuras.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Casillas débiles"
+   ],
+   "arrows": [
+    "Gh6g7"
+   ],
+   "eval": 2.6
+  },
+  {
+   "san": "Bh8",
+   "title": "Alfil a h8",
+   "explanation": "Timman evita el cambio.",
+   "pros": "Conserva el alfil.",
+   "cons": "Pasivo.",
+   "phase": "medio juego",
+   "eval": 2.7
+  },
+  {
+   "san": "Rd8",
+   "title": "¡Rd8!",
+   "explanation": "La torre entra en d8 y ataca a la vez la torre de e8 y el alfil de c8.",
+   "pros": "Invade la octava fila.",
+   "cons": "Ninguna significativa.",
+   "symbol": "!",
+   "key": true,
+   "phase": "medio juego",
+   "concepts": [
+    "Torres",
+    "Invasión"
+   ],
+   "eval": 2.9
+  },
+  {
+   "san": "Bb7",
+   "title": "Alfil a b7",
+   "explanation": "El alfil se desarrolla con tiempo.",
+   "pros": "Desarrollo.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 3.1
+  },
+  {
+   "san": "Rad1",
+   "title": "Doblaje",
+   "explanation": "La otra torre se suma a la columna d.",
+   "pros": "Torres dobladas.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 2.9
+  },
+  {
+   "san": "Bg7",
+   "title": "Alfil a g7",
+   "explanation": "El alfil vuelve a g7 para defender el flanco de rey.",
+   "pros": "Defensa.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 3.3
+  },
+  {
+   "san": "R8d7",
+   "title": "Torre en la séptima",
+   "explanation": "La torre baja a d7 y ataca f7.",
+   "pros": "Séptima fila.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Séptima fila"
+   ],
+   "arrows": [
+    "Rd7f7"
+   ],
+   "eval": 3.7
+  },
+  {
+   "san": "Rf8",
+   "title": "Torre a f8",
+   "explanation": "La torre defiende f7. Stockfish prefería 26...Qe4.",
+   "pros": "Defiende f7.",
+   "cons": "Pasiva.",
+   "symbol": "?!",
+   "phase": "medio juego",
+   "concepts": [
+    "Imprecisión"
+   ],
+   "eval": 5.2
+  },
+  {
+   "san": "Bxg7",
+   "title": "Cambio del defensor",
+   "explanation": "Short cambia el alfil de g7: las casillas oscuras alrededor del rey negro quedan sin defensor.",
+   "pros": "Debilita el enroque.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Casillas débiles"
+   ],
+   "eval": 5.2
+  },
+  {
+   "san": "Kxg7",
+   "title": "Recaptura",
+   "explanation": "El rey recaptura.",
+   "pros": "Recupera la pieza.",
+   "cons": "Rey expuesto.",
+   "phase": "medio juego",
+   "eval": 5.3
+  },
+  {
+   "san": "R1d4",
+   "title": "Torre a d4",
+   "explanation": "La otra torre se prepara para Rf4 o Rh4.",
+   "pros": "Pieza activa.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "eval": 5.4
+  },
+  {
+   "san": "Rae8",
+   "title": "Torre a e8",
+   "explanation": "Las negras protegen e6 y f7 de forma indirecta.",
+   "pros": "Defensa.",
+   "cons": "Pasiva.",
+   "phase": "medio juego",
+   "eval": 5.7
+  },
+  {
+   "san": "Qf6+",
+   "title": "Dama a f6",
+   "explanation": "La dama entra con jaque en f6. Stockfish prefería 29.Qg5, pero Qf6 deja a las negras completamente atadas.",
+   "pros": "Domina las casillas oscuras.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Casillas débiles"
+   ],
+   "arrows": [
+    "Gf6g7"
+   ],
+   "eval": 4.3
+  },
+  {
+   "san": "Kg8",
+   "title": "Rey a g8",
+   "explanation": "El rey vuelve a g8. 29...Kh6?? perdía por 30.Rh4#.",
+   "pros": "Evita el mate.",
+   "cons": "Rey atado.",
+   "phase": "medio juego",
+   "eval": 5.0
+  },
+  {
+   "san": "h4",
+   "title": "h4",
+   "explanation": "Short gana espacio en el flanco de rey y prepara el paseo del rey por g3, f4 y g5. Stockfish prefería 30.Qf4, pero el plan de Short es igual de ganador y mucho más bonito.",
+   "pros": "Prepara el paseo del rey.",
+   "cons": "Da a las negras un poco de contrajuego.",
+   "symbol": "!?",
+   "phase": "medio juego",
+   "concepts": [
+    "Plan"
+   ],
+   "eval": 2.8
+  },
+  {
+   "san": "h5",
+   "title": "h5",
+   "explanation": "Las negras frenan h5.",
+   "pros": "Frena el peón.",
+   "cons": "Deja g5 libre.",
+   "phase": "medio juego",
+   "eval": 3.2
+  },
+  {
+   "san": "Kh2",
+   "title": "¡Rey a h2!",
+   "explanation": "Comienza el paseo del rey: Kh2-g3-f4-g5-h6, para apoyar Qg7#.",
+   "pros": "Seguridad y ataque.",
+   "cons": "Ninguna significativa.",
+   "key": true,
+   "phase": "medio juego",
+   "concepts": [
+    "Rey activo"
+   ],
+   "eval": 3.1
+  },
+  {
+   "san": "Rc8",
+   "title": "Torre a c8",
+   "explanation": "Las negras preparan ...c5. Stockfish prefería 31...Bc8, que resistía más.",
+   "pros": "Busca contrajuego.",
+   "cons": "Demasiado lenta.",
+   "symbol": "?",
+   "phase": "medio juego",
+   "concepts": [
+    "Error"
+   ],
+   "eval": 5.5
+  },
+  {
+   "san": "Kg3",
+   "title": "Rey a g3",
+   "explanation": "El rey sigue su camino.",
+   "pros": "Avance del rey.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Rey activo"
+   ],
+   "eval": 6.6
+  },
+  {
+   "san": "Rce8",
+   "title": "Torre a e8",
+   "explanation": "La torre vuelve a e8: las negras no tienen plan.",
+   "pros": "Defensa.",
+   "cons": "Pierde tiempo.",
+   "phase": "medio juego",
+   "eval": 9.0
+  },
+  {
+   "san": "Kf4",
+   "title": "Rey a f4",
+   "explanation": "El rey llega a f4. La evaluación ya es decisiva (+11).",
+   "pros": "Avance del rey.",
+   "cons": "Ninguna significativa.",
+   "symbol": "!",
+   "key": true,
+   "phase": "medio juego",
+   "concepts": [
+    "Rey activo"
+   ],
+   "eval": 11.2
+  },
+  {
+   "san": "Bc8",
+   "title": "Alfil a c8",
+   "explanation": "Las negras atacan la torre de d7.",
+   "pros": "Ataca la torre.",
+   "cons": "Llega tarde.",
+   "phase": "medio juego",
+   "eval": "#6"
+  },
+  {
+   "san": "Kg5",
+   "title": "¡Kg5!",
+   "explanation": "El rey llega a g5 y amenaza Kh6 seguido de Qg7#. Si 34...Bxd7 35.Kh6 y el mate es imparable. Timman abandona.",
+   "pros": "Mate imparable.",
+   "cons": "Ninguna significativa.",
+   "symbol": "!",
+   "key": true,
+   "phase": "medio juego",
+   "concepts": [
+    "Rey activo",
+    "Mate"
+   ],
+   "arrows": [
+    "Gg5h6",
+    "Gf6g7"
+   ],
+   "question": "La torre de d7 está atacada por el alfil de c8. ¿Por qué no importa?",
+   "answer": "Porque tras 34...Bxd7 35.Kh6 la amenaza Qg7# no se puede parar: el rey blanco protege g7 y h7.",
+   "lines": [
+    {
+     "title": "Si 34...Bxd7",
+     "start": "after",
+     "moves": "Bxd7 Kh6",
+     "comment": "Qg7# es imparable."
+    }
+   ],
+   "eval": "#5"
+  }
+ ],
+ "scan": {
+  "by": "Stockfish 17.1",
+  "evals": [
+   31,
+   36,
+   63,
+   63,
+   73,
+   68,
+   63,
+   57,
+   83,
+   73,
+   82,
+   77,
+   72,
+   59,
+   76,
+   62,
+   71,
+   75,
+   88,
+   79,
+   80,
+   79,
+   57,
+   85,
+   80,
+   87,
+   126,
+   94,
+   152,
+   140,
+   169,
+   126,
+   158,
+   153,
+   155,
+   166,
+   149,
+   144,
+   149,
+   138,
+   221,
+   193,
+   180,
+   162,
+   213,
+   269,
+   296,
+   289,
+   299,
+   325,
+   345,
+   389,
+   471,
+   547,
+   547,
+   533,
+   562,
+   447,
+   467,
+   271,
+   324,
+   340,
+   578,
+   629,
+   927,
+   1169,
+   "#6",
+   "#5"
+  ],
+  "best": [
+   "d2d4",
+   "e7e5",
+   "e4e5",
+   "f6d5",
+   "d2d4",
+   "d7d6",
+   "g1f3",
+   "d6e5",
+   "c2c4",
+   "c7c6",
+   "c4b3",
+   "f8g7",
+   "a2a4",
+   "b8c6",
+   "b1c3",
+   "d6e5",
+   "h2h3",
+   "d6e5",
+   "a2a4",
+   "d6e5",
+   "d4e5",
+   "c6d4",
+   "f3d4",
+   "d8d4",
+   "f1e1",
+   "c8d7",
+   "c2c3",
+   "d4c5",
+   "d2f3",
+   "d4b6",
+   "c2c3",
+   "d5e7",
+   "b3c4",
+   "c8d7",
+   "b2b3",
+   "b6c4",
+   "b3c4",
+   "f8e8",
+   "e1d1",
+   "h7h6",
+   "a1a3",
+   "b7b6",
+   "c1e3",
+   "c5f8",
+   "e3h6",
+   "g7h8",
+   "d1d8",
+   "c8d7",
+   "a1d1",
+   "a8d8",
+   "d8d7",
+   "c6e4",
+   "h6g7",
+   "g8g7",
+   "d1d4",
+   "a8b8",
+   "h4g5",
+   "g7g8",
+   "f6f4",
+   "h7h5",
+   "f6f4",
+   "b7c8",
+   "h2g3",
+   "c6d7",
+   "g3f4",
+   "c6c4",
+   "f4g5",
+   null
+  ],
+  "pv": [
+   "d2d4 g8f6 c2c4 e7e6 b1c3 d7d5 c4d5 f6d5",
+   "e7e5 g1f3",
+   "e4e5 f6d5 d2d4 d7d6 c2c4 d5b6 e5d6 c7d6",
+   "f6d5 c2c4 d5b6 d2d4 d7d6 e5d6 c7d6 b1c3",
+   "d2d4 d7d6 c2c4 d5b6 f2f4 d6e5 f4e5 c8f5",
+   "d7d6 c2c4 d5b6 e5d6 e7d6 b1c3 f8e7 f1d3",
+   "g1f3",
+   "d6e5 f3e5 g7g6 c2c4 d5b6 b1c3 f8g7 c1e3",
+   "c2c4 d5b6 e5d6 c7d6 h2h3 f8g7 b1c3 e8g8",
+   "c7c6 e5d6 d8d6 e1g1 f8g7 h2h3 e8g8 a2a4",
+   "c4b3 f8g7 a2a4 a7a5 e5d6 d8d6 c2c4 c7c5",
+   "f8g7 d1e2 b8c6 a2a4 d6e5 d4e5 c8g4 b3f7",
+   "a2a4 a7a5 d1e2 d6e5 d4e5 b8c6 e1g1 c6d4",
+   "b8c6 b1c3 e8g8 h2h3 d6e5 d4e5 c8e6 e1g1",
+   "b1c3 e8g8 h2h3 a7a5 a2a4 d6e5 d4e5 c8e6",
+   "d6e5",
+   "h2h3 c8f5 a2a4 d6e5 d4e5 c6d4 f3d4 d8d4",
+   "d6e5 d4e5 c8f5 a2a4 c6d4 f3d4 d8d4 a4a5",
+   "a2a4 d6e5 d4e5 c6d4 f3d4 d8d4 f1e1 c8d7",
+   "d6e5 d4e5 c6d4 f3d4 d8d4 f1e1 c8d7 c2c3",
+   "d4e5 c6d4 f3d4 d8d4 f1e1 c8d7 c2c3 d4c5",
+   "c6d4 f3d4 d8d4 f1e1 c8d7 c2c3 d4c5 e5e6",
+   "f3d4 d8d4 f1e1 c8d7 c2c3 d4c5 e5e6 d7e6",
+   "d8d4 f1e1",
+   "f1e1 c8d7 c2c3 d4c5 b1d2 d7c6 d2f3 c6f3",
+   "c8d7 c2c3 d4c5 b1d2 d7c6 d2f3 c6f3 e2f3",
+   "c2c3 d4c5",
+   "d4c5 d2f3 c8d7 c1e3 c5b4 e3d2 b4c5 c2c3",
+   "d2f3 d4b4 c1d2 b4c5 h3h4 h7h5 c2c3 c8d7",
+   "d4b6 h3h4 h7h6 h4h5 c8d7 e2d3 d7e8 a1a3",
+   "c2c3 b7b6 h3h4 h7h5 c1g5 c8a6 e2e4 b6b5",
+   "d5e7 c2c3 c8d7 e4d3 e7d5 h3h4 h7h5 c1g5",
+   "b3c4 d5b6 b2b3 b6c4 b3c4 f8e8 e1d1 b4c5",
+   "c8d7 c2c3 b4c5 b2b3 f8e8 c1a3 c5b6 e4h4",
+   "b2b3 b6c4 b3c4 b4e7 c1g5 f7f6 e5f6 g7f6",
+   "b6c4 b3c4 b4c3 a1a3 f7f5 e4h4 c3c2 c1h6",
+   "b3c4 f8e8 e1d1 h7h6 a1a3 b4e7 a3d3 f7f5",
+   "f8e8 e1d1 h7h6 h3h4 b4e7 c1a3 f7f5 e4d3",
+   "e1d1 b4c5 d1d3 h7h6 e4f4 b7b6 c1a3 c5c6",
+   "h7h6 a1a3 b4e7 a3d3 f7f5 e5f6 e7f6 c1f4",
+   "a1a3 f7f5 e4h4 c5f8 a3d3 b7b6 c1g5 h7h6",
+   "b7b6 c1e3 c5f8 f3g5 h7h5 g5e4 c8b7 e4f6",
+   "c1e3 c5f8 f3g5 h7h6 g5e4 c8b7 e4f6 g7f6",
+   "c5f8 f3g5 h7h6 g5e4 c8b7 e4f6 g7f6 e5f6",
+   "e3h6 g7h8 d1d8 c8b7 a1d1 a8d8 d1d8 f7f6",
+   "g7h8 d1d8 c8d7 d8a8 c6a8 a1d1 a8c8 f3h2",
+   "d1d8 c8b7 a1d1 a8d8 d1d8 f7f6 e5f6 e6e5",
+   "c8d7 d8a8 c6a8 a1d1 d7c6 f3h2 c6g2 d1d3",
+   "a1d1 h8g7 d8d7 e8f8 h6g7 g8g7 d1d4 a8e8",
+   "a8d8 d1d8 f7f6 e5f6 e6e5 h6g5 h7h5 h4e4",
+   "d8d7 c6e4 d7f7 g7h8 h6f4 g6g5 h4g4 a8c8",
+   "c6e4 d7f7 g7h8 h6f4 g6g5 h4g4 a8c8 d1d7",
+   "h6g7 g8g7 d1d4 a8c8 h4g5 h7h6 g5f6 g7g8",
+   "g8g7 d1d4 a8e8 h4g5 c6d7 d4d7 b7c6 d7d4",
+   "d1d4 a8e8 h4g5 h7h6 g5f6 g7g8 f3h4 c6e4",
+   "a8b8 h4g5 h7h6 g5f6 g7g8 f3h4 c6e4 d4e4",
+   "h4g5 c6d7 d4d7 g7g8 g1h2 h7h6 g5f6 b7c6",
+   "g7g8 f6f4 c6a4 f3g5 a4c6 f2f3 c6c5 f4f6",
+   "f6f4 c6a4 f3g5 a4a1 g1h2 b7c6 d7c7 a5a4",
+   "h7h5 c2c3 b7c8 f3g5 c6d7 d4d7 c8d7 g2g4",
+   "f6f4 g8g7 f4f6 g7g8 c2c3 b7c8 f3g5 c8d7",
+   "b7c8 f3g5 c8d7 d4f4 c6a8 g5f7 f8f7 f6f7",
+   "h2g3 b7a8 c2c3 c6d7 d4d7 a8c6 d7e7 c8e8",
+   "c6d7 d4d7 b7c6 d7e7 c8e8 e7c7 c6f3 g2f3",
+   "g3f4 e8e7 d7e7 b6b5 a4b5 c6f3 g2f3 a5a4",
+   "c6c4 d4c4 b7c6 f4g5 g8h7 c4c6 e8b8 f6g6",
+   "f4g5 g8h7 d7f7 f8f7 f6f7 h7h8 g5h6 c6d7",
+   ""
+  ]
+ }
+}

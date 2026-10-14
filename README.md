@@ -34,15 +34,15 @@ chess-library/
 
 Al abrir la aplicación desde GitHub Pages, todo lo que haya en `partidas/` se carga solo. Si alojas la app en otro sitio, añade `partidas/index.json` con `{"games": ["archivo1.json", "archivo2.pgn", "mias/mi-partida.json"]}`.
 
-## Publicar en Cloudflare Pages (con acceso restringido)
+## Publicar en Cloudflare (con acceso restringido)
 
-La app también funciona en Cloudflare Pages, que permite tener el repositorio privado y proteger la web con Cloudflare Access (solo entran los correos que autorices).
+La app también se publica en Cloudflare Workers como sitio estático, lo que permite tener el repositorio privado y proteger la web con Cloudflare Access (solo entran los correos que autorices).
 
-- Proyecto de Pages conectado a este repositorio, sin framework.
-- Comando de compilación: `node scripts/build-index.js` (regenera `partidas/index.json` con todas las partidas, también las de `partidas/mias/`).
-- Directorio de salida: `/`.
+- Proyecto de Workers importado desde este repositorio, con nombre `chess-library` (debe coincidir con `name` en `wrangler.jsonc`).
+- Comando de compilación: `node scripts/build.js`. Regenera `partidas/index.json` (también con `partidas/mias/`) y prepara la carpeta `dist/` con los archivos de la web.
+- Comando de publicación: `npx wrangler deploy` (el predeterminado).
 
-Fuera de GitHub Pages la app lee la lista de partidas de `partidas/index.json`, así que ese comando es necesario para que aparezcan las partidas nuevas.
+Fuera de GitHub Pages la app lee la lista de partidas de `partidas/index.json`, por eso el comando de compilación es necesario para que aparezcan las partidas nuevas.
 
 ## Organizar la biblioteca
 

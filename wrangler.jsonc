@@ -1,0 +1,10 @@
+// Configuración para publicar la app en Cloudflare Workers (sitio estático).
+// Cloudflare ejecuta primero el comando de compilación (node scripts/build.js), que prepara dist/,
+// y después «npx wrangler deploy», que publica esa carpeta.
+{
+  "name": "chess-library",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./dist"
+  }
+}

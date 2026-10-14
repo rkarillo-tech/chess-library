@@ -1,0 +1,733 @@
+{
+ "format": "chess-analyzer/2",
+ "info": {
+  "title": "Deep Blue contra Kasparov, partida 6",
+  "white": "Deep Blue",
+  "black": "Garry Kasparov",
+  "event": "Match Deep Blue – Kasparov (revancha), partida 6",
+  "site": "Nueva York",
+  "date": "11/05/1997",
+  "result": "1-0",
+  "opening": "Defensa Caro-Kann, Variante Karpov",
+  "eco": "B17",
+  "description": "La última partida del match de 1997, en la que Kasparov cayó en 19 jugadas. Fue la primera vez que un ordenador derrotó en un match con ritmo de torneo a un campeón del mundo en activo. Más allá del simbolismo, es un caso de libro de una trampa teórica en la apertura: un sacrificio de caballo conocido en e6 y un rey negro que nunca encuentra refugio."
+ },
+ "pgn": "1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nd7 5. Ng5 Ngf6 6. Bd3 e6 7. N1f3 h6 8. Nxe6 Qe7 9. O-O fxe6 10. Bg6+ Kd8 11. Bf4 b5 12. a4 Bb7 13. Re1 Nd5 14. Bg3 Kc8 15. axb5 cxb5 16. Qd3 Bc6 17. Bf5 exf5 18. Rxe7 Bxe7 19. c4 1-0",
+ "lessons": [
+  "Un solo error en el orden de jugadas puede arruinar una apertura: 7...h6? permite el sacrificio 8.Nxe6! que la teoría ya conocía; 7...Bd6 era lo correcto.",
+  "Un rey en el centro sin enroque pierde el hilo: tras 10.Bg6+ Kd8 las negras ya no logran coordinar torres ni alfil de c8.",
+  "Los sacrificios posicionales no siempre buscan ganar material: 8.Nxe6 y 17.Bf5 entregan piezas para desarmar la defensa y dejar a las piezas negras sin coordinación.",
+  "Una dama activa contra piezas descoordinadas basta: tras 18.Rxe7 Bxe7 19.c4 el material estaba casi igualado (26 contra 27), pero las negras tienen cuatro piezas menores atadas.",
+  "La preparación en la apertura importa tanto como el cálculo: la trampa 8.Nxe6 estaba en los libros de teoría y Kasparov no la tenía presente en ese momento."
+ ],
+ "analysis": [
+  {
+   "san": "e4",
+   "title": "El peón de rey",
+   "explanation": "Las blancas ocupan el centro y abren las diagonales del alfil de f1 y de la dama.",
+   "pros": "Control central y desarrollo rápido.",
+   "cons": "El peón de e4 puede ser atacado.",
+   "phase": "apertura",
+   "concepts": [
+    "Centro"
+   ],
+   "eval": 0.3
+  },
+  {
+   "san": "c6",
+   "title": "La Defensa Caro-Kann",
+   "explanation": "Las negras preparan ...d5 apoyando con el peón de c6, y mantienen libre el alfil de casillas blancas, algo que la Defensa Francesa no permite.",
+   "pros": "Estructura sólida y alfil de c8 libre.",
+   "cons": "Cede algo de espacio en el centro.",
+   "phase": "apertura",
+   "concepts": [
+    "Estructura de peones"
+   ],
+   "eval": 0.3
+  },
+  {
+   "san": "d4",
+   "title": "El centro clásico",
+   "explanation": "Las blancas ocupan el centro con dos peones.",
+   "pros": "Centro amplio.",
+   "cons": "El peón de d4 puede ser un objetivo.",
+   "phase": "apertura",
+   "concepts": [
+    "Centro"
+   ],
+   "eval": 0.3
+  },
+  {
+   "san": "d5",
+   "title": "Ruptura central",
+   "explanation": "Las negras atacan el centro blanco con el peón de d5.",
+   "pros": "Disputa el centro.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "concepts": [
+    "Ruptura central",
+    "Centro"
+   ],
+   "arrows": [
+    "Rd5e4"
+   ],
+   "eval": 0.4
+  },
+  {
+   "san": "Nc3",
+   "title": "Defensa de e4",
+   "explanation": "El caballo defiende e4 y se prepara para recuperar el peón. Es la variante principal.",
+   "pros": "Desarrollo y defensa.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "concepts": [
+    "Desarrollo",
+    "Defensa"
+   ],
+   "arrows": [
+    "Gc3e4"
+   ],
+   "eval": 0.4
+  },
+  {
+   "san": "dxe4",
+   "title": "Recuperar el peón",
+   "explanation": "Las negras capturan el peón y abren la diagonal del alfil de c8.",
+   "pros": "Peón ganado temporalmente.",
+   "cons": "Cede el centro.",
+   "phase": "apertura",
+   "concepts": [
+    "Material"
+   ],
+   "eval": 0.5
+  },
+  {
+   "san": "Nxe4",
+   "title": "El caballo en e4",
+   "explanation": "El caballo recupera el peón y se coloca en un punto fuerte desde el que controla f6, d6 y g5.",
+   "pros": "Pieza central y activa.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "concepts": [
+    "Centro",
+    "Pieza activa"
+   ],
+   "arrows": [
+    "Re4f6",
+    "Re4d6",
+    "Re4g5"
+   ],
+   "eval": 0.3
+  },
+  {
+   "san": "Nd7",
+   "title": "La Variante Karpov",
+   "explanation": "Las negras preparan ...Ngf6 para cambiar el caballo de e4 sin dañar su estructura de peones. Es la línea favorita de Karpov.",
+   "pros": "Evita peones doblados en f6.",
+   "cons": "El caballo de b8 bloquea la dama.",
+   "phase": "apertura",
+   "concepts": [
+    "Desarrollo",
+    "Defensa"
+   ],
+   "arrows": [
+    "Gd7f6"
+   ],
+   "eval": 0.4
+  },
+  {
+   "san": "Ng5",
+   "title": "Ng5: una amenaza afilada",
+   "explanation": "Las blancas lanzan el caballo contra f7 y h7 sin esperar a la dama. Es una variante agresiva que Deep Blue tenía bien preparada.",
+   "pros": "Amenaza f7 y h7; ataca el flanco de rey.",
+   "cons": "El caballo está lejos de la defensa.",
+   "key": true,
+   "phase": "apertura",
+   "concepts": [
+    "Ataque al rey",
+    "Pieza activa"
+   ],
+   "arrows": [
+    "Rg5f7",
+    "Rg5h7"
+   ],
+   "question": "¿Qué casillas ataca el caballo de g5 y cuál es su objetivo?",
+   "answer": "Ataca f7 y h7. Si se juega Bd3 y Qe2, f7 y h7 serán blancos de ataque, y el caballo de g5 sostiene los sacrificios en e6.",
+   "lines": [
+    {
+     "title": "La alternativa clásica: 5.Bc4",
+     "start": "before",
+     "moves": "Bc4 Ngf6 Ng5 e6 Qe2 Nb6",
+     "comment": "Las blancas desarrollan el alfil con tiempo contra f7 sin sacrificar nada."
+    }
+   ],
+   "eval": 0.3
+  },
+  {
+   "san": "Ngf6",
+   "title": "Desarrollo natural",
+   "explanation": "Las negras desarrollan el caballo de g8, que vigila e4 y d5, y evitan así los peones doblados que provocaría Nxf6+.",
+   "pros": "Desarrollo del segundo caballo.",
+   "cons": "No resuelve la presión del caballo de g5.",
+   "phase": "apertura",
+   "concepts": [
+    "Desarrollo"
+   ],
+   "eval": 0.5
+  },
+  {
+   "san": "Bd3",
+   "title": "El alfil a d3",
+   "explanation": "El alfil se coloca en d3, apuntando a h7, y prepara Qe2 o N1f3 para reforzar el ataque.",
+   "pros": "Desarrollo con presión sobre h7.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "concepts": [
+    "Desarrollo",
+    "Diagonal abierta"
+   ],
+   "arrows": [
+    "Gd3h7"
+   ],
+   "eval": 0.5
+  },
+  {
+   "san": "e6",
+   "title": "Cierra la diagonal",
+   "explanation": "Las negras liberan el alfil de f8 y cierran la casilla e6, lo que impide Ne6. Es lo habitual en esta variante.",
+   "pros": "Libera el alfil de f8 y cierra e6.",
+   "cons": "El alfil de c8 queda encerrado y e6 pasa a ser un objetivo de sacrificios.",
+   "phase": "apertura",
+   "concepts": [
+    "Estructura de peones",
+    "Defensa"
+   ],
+   "eval": 0.5
+  },
+  {
+   "san": "N1f3",
+   "title": "Segundo caballo al ataque",
+   "explanation": "El segundo caballo refuerza g5 y permite el enroque y Qe2. Ahora el caballo de g5 apunta a e6, f7 y h7, y cualquier pequeño error negro será castigado.",
+   "pros": "Completa el desarrollo y apoya g5.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "concepts": [
+    "Desarrollo",
+    "Ataque al rey"
+   ],
+   "arrows": [
+    "Rg5e6",
+    "Gf3g5"
+   ],
+   "eval": 0.4
+  },
+  {
+   "san": "h6",
+   "title": "El error de la partida",
+   "explanation": "Con 7...h6 las negras intentan expulsar el caballo, pero la teoría ya conocía el sacrificio 8.Nxe6! Lo correcto era 7...Bd6 o 7...Be7. Stockfish no considera 7...h6 un error fatal, pero sí lo bastante para que las blancas tengan ventaja clara (+1,2 frente a +0,4).",
+   "pros": "Intenta expulsar el caballo de g5.",
+   "cons": "Permite 8.Nxe6! con ataque devastador.",
+   "symbol": "?!",
+   "key": true,
+   "phase": "apertura",
+   "concepts": [
+    "Error",
+    "Teoría"
+   ],
+   "arrows": [
+    "Rg5e6",
+    "Rd3g6"
+   ],
+   "question": "¿Qué sacrificio tiene ahora a su disposición Deep Blue?",
+   "answer": "8.Nxe6: el caballo captura en e6 y ataca la dama y el alfil de f8. Tras ...Qe7 y ...fxe6, el alfil de d3 da jaque en g6 y el rey negro pierde el enroque. Kasparov debía jugar 7...Bd6 (según se cuenta, confundió el orden de sus jugadas).",
+   "lines": [
+    {
+     "title": "La buena: 7...Bd6",
+     "start": "before",
+     "moves": "Bd6 Qe2 h6 Ne4 Nxe4 Qxe4",
+     "comment": "Las negras mantienen la igualdad cambiando el caballo atacante."
+    }
+   ],
+   "eval": 1.2
+  },
+  {
+   "san": "Nxe6",
+   "title": "¡Sacrificio de caballo!",
+   "explanation": "El caballo salta a e6 y ataca la dama y el alfil de f8. Es un sacrificio conocido en la teoría: si 8...fxe6 9.Bg6+ Kd8, el rey queda sin enroque. Stockfish ve ventaja blanca superior a un peón en todas las líneas.",
+   "pros": "Ataca la dama y el alfil y descoloca el rey.",
+   "cons": "Entrega una pieza por un peón.",
+   "symbol": "!",
+   "key": true,
+   "phase": "apertura",
+   "concepts": [
+    "Sacrificio",
+    "Ataque doble"
+   ],
+   "arrows": [
+    "Re6d8",
+    "Re6f8"
+   ],
+   "question": "El caballo está atacado dos veces. ¿Por qué no basta con capturarlo?",
+   "answer": "Tras 8...fxe6 9.Bg6+ Kd8 el rey negro pierde el enroque y la torre de h8 queda encerrada: las blancas tienen un ataque duradero a cambio del caballo.",
+   "eval": 1.2
+  },
+  {
+   "san": "Qe7",
+   "title": "La dama toma el caballo",
+   "explanation": "La dama escapa del caballo y presiona el de e6, que ahora está atacado por la dama y el peón de f7. Stockfish prefería 8...fxe6 9.Bg6+ Ke7 (≈+1,2 frente a ≈+1,9 tras 8...Qe7).",
+   "pros": "Ataca el caballo.",
+   "cons": "La dama queda expuesta en e7.",
+   "symbol": "?!",
+   "phase": "apertura",
+   "concepts": [
+    "Captura",
+    "Defensa"
+   ],
+   "arrows": [
+    "Re7e6"
+   ],
+   "eval": 1.9
+  },
+  {
+   "san": "O-O",
+   "title": "Un enroque con tiempo",
+   "explanation": "Las blancas se enrocan en lugar de salvar el caballo: la torre se une al juego y el alfil de d3 apunta a g6.",
+   "pros": "Rey seguro; prepara la recuperación.",
+   "cons": "Deja el caballo de e6 atacado.",
+   "phase": "apertura",
+   "concepts": [
+    "Seguridad del rey",
+    "Tiempo"
+   ],
+   "eval": 1.8
+  },
+  {
+   "san": "fxe6",
+   "title": "Captura forzada",
+   "explanation": "Las negras capturan el caballo. Es lo más natural, pero rompen su estructura y debilitan g6 y e6.",
+   "pros": "Gana el caballo.",
+   "cons": "Abre la diagonal para el alfil blanco.",
+   "phase": "apertura",
+   "concepts": [
+    "Captura forzada"
+   ],
+   "eval": 2.0
+  },
+  {
+   "san": "Bg6+",
+   "title": "Jaque que descoloca al rey",
+   "explanation": "El alfil da jaque desde g6 y obliga al rey a abandonar el enroque: es el verdadero golpe de la combinación.",
+   "pros": "Fuerza el rey a d8.",
+   "cons": "Ninguna significativa.",
+   "key": true,
+   "phase": "medio juego",
+   "concepts": [
+    "Jaque",
+    "Ataque al rey"
+   ],
+   "arrows": [
+    "Rg6e8"
+   ],
+   "eval": 1.9
+  },
+  {
+   "san": "Kd8",
+   "title": "El rey no tiene más remedio",
+   "explanation": "El rey solo puede ir a d8 (10...Qf7 pierde la dama por un alfil). A partir de aquí no hay enroque para las negras y la torre de h8 queda encerrada.",
+   "pros": "Evita pérdida de dama.",
+   "cons": "Rey en el centro, sin enroque.",
+   "phase": "medio juego",
+   "concepts": [
+    "Rey expuesto"
+   ],
+   "eval": 1.8
+  },
+  {
+   "san": "Bf4",
+   "title": "Amenaza sobre c7",
+   "explanation": "El alfil de c1 ataca c7, defendido solo por el rey: el caballo de d7 bloquea la defensa de la dama.",
+   "pros": "Ataca c7 y desarrolla el alfil.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Ataque doble",
+    "Pieza activa"
+   ],
+   "arrows": [
+    "Rf4c7"
+   ],
+   "eval": 1.9
+  },
+  {
+   "san": "b5",
+   "title": "Contrajuego del rey",
+   "explanation": "Las negras buscan contrajuego en el flanco de dama y espacio para el rey. La posición ya era muy difícil.",
+   "pros": "Busca contrajuego y espacio.",
+   "cons": "Debilita c6 y el flanco de dama.",
+   "phase": "medio juego",
+   "concepts": [
+    "Contraataque",
+    "Rey expuesto"
+   ],
+   "arrows": [
+    "Gb5a4"
+   ],
+   "eval": 2.2
+  },
+  {
+   "san": "a4",
+   "title": "Ataque a b5",
+   "explanation": "El peón ataca b5 y abre la columna a, donde la torre blanca de a1 gana actividad.",
+   "pros": "Ataca b5 y abre líneas.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Presión sobre peón",
+    "Tiempo"
+   ],
+   "arrows": [
+    "Ra4b5"
+   ],
+   "eval": 2.3
+  },
+  {
+   "san": "Bb7",
+   "title": "Alfil a la gran diagonal",
+   "explanation": "Las negras sacan el último alfil. Sus torres siguen sin desarrollar.",
+   "pros": "Desarrollo del alfil de c8.",
+   "cons": "Las torres siguen en sus esquinas.",
+   "phase": "medio juego",
+   "concepts": [
+    "Desarrollo",
+    "Diagonal abierta"
+   ],
+   "eval": 2.2
+  },
+  {
+   "san": "Re1",
+   "title": "La torre a la columna e",
+   "explanation": "La torre se coloca en la columna e, apuntando a e6 y la dama de e7, que está detrás del peón.",
+   "pros": "Presión sobre la columna e.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Columna abierta",
+    "Clavada"
+   ],
+   "arrows": [
+    "Re1e6"
+   ],
+   "eval": 2.3
+  },
+  {
+   "san": "Nd5",
+   "title": "El caballo ataca el alfil",
+   "explanation": "El caballo salta a d5 y ataca el alfil de f4, ganando un tiempo. Es una jugada activa y lógica.",
+   "pros": "Ataca el alfil y centraliza.",
+   "cons": "Deja el peón de e6 más débil.",
+   "phase": "medio juego",
+   "concepts": [
+    "Pieza activa",
+    "Contraataque"
+   ],
+   "arrows": [
+    "Rd5f4"
+   ],
+   "eval": 2.3
+  },
+  {
+   "san": "Bg3",
+   "title": "El alfil mantiene la diagonal",
+   "explanation": "El alfil se retira a g3, desde donde sigue vigilando c7 y d6.",
+   "pros": "Alfil seguro y activo.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Retirada",
+    "Diagonal abierta"
+   ],
+   "arrows": [
+    "Gg3c7"
+   ],
+   "eval": 2.1
+  },
+  {
+   "san": "Kc8",
+   "title": "El rey busca refugio",
+   "explanation": "El rey va a c8 para proteger c7 y b7. Es difícil ver otra defensa.",
+   "pros": "Defiende c7 y b7.",
+   "cons": "El rey queda atrapado detrás de los peones del flanco de dama.",
+   "phase": "medio juego",
+   "concepts": [
+    "Seguridad del rey"
+   ],
+   "eval": 2.5
+  },
+  {
+   "san": "axb5",
+   "title": "Abriendo la columna a",
+   "explanation": "Las blancas capturan en b5 y abren la columna a.",
+   "pros": "Abre líneas hacia el rey.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Columna abierta",
+    "Ataque"
+   ],
+   "eval": 2.7
+  },
+  {
+   "san": "cxb5",
+   "title": "Recaptura obligada",
+   "explanation": "Las negras recuperan el peón y abren la columna c, donde su rey vive peligrosamente.",
+   "pros": "Recupera el material.",
+   "cons": "Su rey queda en una columna abierta.",
+   "phase": "medio juego",
+   "concepts": [
+    "Captura"
+   ],
+   "eval": 2.5
+  },
+  {
+   "san": "Qd3",
+   "title": "La dama se centraliza",
+   "explanation": "La dama ataca b5 y prepara Bf5, jugada decisiva. El peón de b5 es débil.",
+   "pros": "Ataca b5 y prepara Bf5.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Dama",
+    "Presión sobre peón"
+   ],
+   "arrows": [
+    "Rd3b5"
+   ],
+   "eval": 2.1
+  },
+  {
+   "san": "Bc6",
+   "title": "Defensa pasiva",
+   "explanation": "El alfil defiende b5 y d5, pero queda bloqueado frente a su propio caballo. 16...Nc7 era más resistente.",
+   "pros": "Defiende b5 y d5.",
+   "cons": "Deja las piezas descoordinadas y la torre de h8 sin salida.",
+   "symbol": "?!",
+   "phase": "medio juego",
+   "concepts": [
+    "Defensa",
+    "Pieza pasiva"
+   ],
+   "arrows": [
+    "Rc6b5"
+   ],
+   "eval": 3.2
+  },
+  {
+   "san": "Bf5",
+   "title": "¡El sacrificio decisivo!",
+   "explanation": "El alfil se ofrece en f5: si 17...exf5, la torre de e1 entra con 18.Rxe7. El sacrificio abre la columna e y destruye la defensa negra. Material casi igualado, pero sin coordinación.",
+   "pros": "Abre la columna e y gana la dama a cambio de una torre y un alfil.",
+   "cons": "Entrega material.",
+   "symbol": "!",
+   "key": true,
+   "phase": "medio juego",
+   "concepts": [
+    "Sacrificio",
+    "Desvío"
+   ],
+   "arrows": [
+    "Rf5e6",
+    "Re1e7"
+   ],
+   "question": "¿Por qué las negras no pueden rechazar el sacrificio?",
+   "answer": "Si no capturan, 18.Bxe6 rompe la defensa y las blancas tienen una gran ventaja; capturar con el peón abre la columna e para la torre contra la dama.",
+   "eval": 2.9
+  },
+  {
+   "san": "exf5",
+   "title": "Captura forzada",
+   "explanation": "Las negras aceptan el alfil: es la única defensa razonable.",
+   "pros": "Gana un alfil.",
+   "cons": "Abre la columna e.",
+   "phase": "medio juego",
+   "concepts": [
+    "Captura forzada"
+   ],
+   "eval": 3.3
+  },
+  {
+   "san": "Rxe7",
+   "title": "La torre captura la dama",
+   "explanation": "La torre captura la dama de e7. Stockfish la valora como la mejor.",
+   "pros": "Gana la dama.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Captura",
+    "Dama"
+   ],
+   "arrows": [
+    "Re7f8"
+   ],
+   "eval": 3.1
+  },
+  {
+   "san": "Bxe7",
+   "title": "Recaptura",
+   "explanation": "El alfil de f8 recupera la torre. 18...Nxe7 era un poco mejor (Stockfish: +3,1 frente a +4,6), pero la posición ya estaba perdida: el material es casi igual y las piezas negras no se coordinan.",
+   "pros": "Recupera la torre.",
+   "cons": "Deja al caballo de d7 sin casillas.",
+   "symbol": "?!",
+   "phase": "medio juego",
+   "concepts": [
+    "Captura",
+    "Material"
+   ],
+   "eval": 4.6
+  },
+  {
+   "san": "c4",
+   "title": "El golpe final",
+   "explanation": "El peón ataca a la vez el caballo de d5 y el peón de b5. Las negras tienen demasiadas piezas atadas y Kasparov se rindió. Fue la primera derrota de un campeón del mundo en activo en un match contra un ordenador.",
+   "pros": "Gana material: 19...bxc4 20.Qxc4 ataca la pieza clavada de c6 y el caballo de d5 (Stockfish: +4,6).",
+   "cons": "Ninguna: las negras se rinden.",
+   "key": true,
+   "phase": "medio juego",
+   "concepts": [
+    "Ataque doble",
+    "Pieza clavada"
+   ],
+   "arrows": [
+    "Rc4d5",
+    "Rc4b5"
+   ],
+   "squares": [
+    "Gd5",
+    "Gb5"
+   ],
+   "eval": 4.6
+  }
+ ],
+ "scan": {
+  "by": "Stockfish 17.1",
+  "evals": [
+   43,
+   34,
+   34,
+   36,
+   36,
+   37,
+   46,
+   36,
+   39,
+   28,
+   44,
+   50,
+   45,
+   39,
+   109,
+   126,
+   191,
+   184,
+   189,
+   179,
+   192,
+   204,
+   236,
+   215,
+   224,
+   231,
+   240,
+   219,
+   256,
+   248,
+   269,
+   204,
+   311,
+   316,
+   310,
+   313,
+   460,
+   456
+  ],
+  "best": [
+   "e2e4",
+   "c7c5",
+   "g1f3",
+   "d7d5",
+   "e4e5",
+   "d5e4",
+   "c3e4",
+   "c8f5",
+   "g1f3",
+   "h7h6",
+   "f1d3",
+   "e7e6",
+   "g1f3",
+   "f8d6",
+   "g5e6",
+   "f7e6",
+   "e1g1",
+   "f7e6",
+   "d3g6",
+   "e8d8",
+   "c1f4",
+   "f6h7",
+   "f1e1",
+   "c8b7",
+   "f1e1",
+   "d8c8",
+   "f4g3",
+   "d5c7",
+   "a4b5",
+   "c6b5",
+   "a1c1",
+   "d5c7",
+   "g6f5",
+   "e6f5",
+   "e1e7",
+   "d5e7",
+   "c2c4",
+   null
+  ],
+  "pv": [
+   "e2e4 c7c5 g1f3 g7g6 b1c3 f8g7 d2d4 c5d4",
+   "c7c5",
+   "g1f3 d7d5",
+   "d7d5 e4e5",
+   "e4e5 c6c5 g1f3 c5d4 d1d4 b8c6 d4f4 e7e6",
+   "d5e4",
+   "c3e4 g8f6 e4f6 e7f6 c2c3 b8a6 f1a6 b7a6",
+   "c8f5 e4g3 f5g6 g1e2 e7e6 e2f4 f8d6 h2h4",
+   "g1f3 g8f6 e4c3 g7g6 a2a4 f8g7 f1c4 d7b6",
+   "h7h6 g5e6 d8b6 e6f8 d7f8 a2a4 g8f6 c2c3",
+   "f1d3 e7e6 d1e2 f8d6 g1f3 h7h6 g5e4 f6e4",
+   "e7e6 g1f3 f8d6 d1e2 h7h6 g5e4 f6e4 e2e4",
+   "g1f3 f8d6",
+   "f8d6 d1e2 h7h6 g5e4 f6e4 e2e4 c6c5 e1g1",
+   "g5e6",
+   "f7e6 d3g6",
+   "e1g1 f7e6 d3g6 e8d8 c1f4 f6d5 f4g3 e7b4",
+   "f7e6 d3g6 e8d8 c1f4 f6h7 f4g3 h7g5 f3h4",
+   "d3g6 e8d8 c1f4 e7b4 a2a3 b4b6 f1e1 f8e7",
+   "e8d8 c1f4 f6h7 f4g3 h7g5 f3h4 d7f6 d1d3",
+   "c1f4 f6d5 f4g3 e7b4 d1e2 b4b2 e2e6 f8e7",
+   "f6h7 f4g3 h7g5 f3h4 d7f6 c2c4 e7d7 d1d3",
+   "f1e1 a7a5 f4g3 a8a6 a2a4 c8b7 a1c1 b5b4",
+   "c8b7",
+   "f1e1 f6d5 f4g3 a7a6 g3h4 d7f6 f3e5 d8c8",
+   "d8c8 f4g3 a7a6 e1e2 c6c5 d1e1 b7d5 a4b5",
+   "f4g3 a7a6 g3h4 d7f6 f3e5 d8c8 c2c3 d5c7",
+   "d5c7 a1c1 e7b4 g6f7 f8e7 c2c3 b4b2 c1b1",
+   "a4b5 c6b5 a1c1 d7b6 d1d3 d5c7 f3e5 b6c4",
+   "c6b5 a1c1 d7b6 d1d3 d5c7 f3e5 b6c4 e5f7",
+   "a1c1 d7b6 d1e2 d5c7 c2c4 b5c4 f3e5 b7d5",
+   "d5c7 a1c1 a7a5 c2c4 b5b4 f3d2 e7d8 c4c5",
+   "g6f5 e6f5 e1e7 d5e7 d4d5 d7c5 d3d4 e7d5",
+   "e6f5 e1e7 d5e7 a1e1 a7a5 h2h4 a8a6 f3e5",
+   "e1e7 d5e7 a1e1 d7b6 f3e5 c8b7 e5f7 e7d5",
+   "d5e7 d3c3 c8d8 a1a6 a8c8 c3a5 d8e8 a6a7",
+   "c2c4 b5c4 d3c4 d5b4 a1e1 h8e8 e1e7 e8e7",
+   ""
+  ]
+ }
+}

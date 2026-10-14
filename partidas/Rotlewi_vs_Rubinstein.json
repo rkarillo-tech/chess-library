@@ -1,0 +1,959 @@
+{
+ "format": "chess-analyzer/2",
+ "info": {
+  "title": "La Inmortal de Rubinstein",
+  "white": "Georg Rotlewi",
+  "black": "Akiba Rubinstein",
+  "event": "Torneo de Łódź",
+  "site": "Łódź",
+  "date": "1907",
+  "result": "0-1",
+  "opening": "Gambito de Dama rehusado, Defensa Tarrasch",
+  "eco": "",
+  "description": "Considerada una de las combinaciones más bellas jamás jugadas en una partida de torneo. Rubinstein, uno de los grandes maestros posicionales de la historia, deja que su rival debilite el flanco de rey y remata con un ataque en el que entrega la dama y dos torres para forzar el mate."
+ },
+ "pgn": "1. d4 d5 2. Nf3 e6 3. e3 c5 4. c4 Nc6 5. Nc3 Nf6 6. dxc5 Bxc5 7. a3 a6 8. b4 Bd6 9. Bb2 O-O 10. Qd2 Qe7 11. Bd3 dxc4 12. Bxc4 b5 13. Bd3 Rd8 14. Qe2 Bb7 15. O-O Ne5 16. Nxe5 Bxe5 17. f4 Bc7 18. e4 Rac8 19. e5 Bb6+ 20. Kh1 Ng4 21. Be4 Qh4 22. g3 Rxc3 23. gxh4 Rd2 24. Qxd2 Bxe4+ 25. Qg2 Rh3 0-1",
+ "lessons": [
+  "Aprovecha cada tiempo perdido: Rotlewi gasta jugadas con la dama (10.Qd2), el alfil (11.Bd3) y los peones (17.f4, 18.e4, 19.e5) y Rubinstein responde a cada una con una pieza más activa.",
+  "Las piezas apuntando al flanco de rey (alfil en la diagonal a7-g1, caballo en g4, dama en h4) bastan para el mate si el rey no tiene defensores cerca.",
+  "El peón de f4 y el de e4 abrieron la diagonal a7-g1: cada avance de peón del bando que se defiende es una debilidad permanente.",
+  "Se puede dejar la dama en prise (22...Rxc3!) si cada captura permite un golpe mayor: 23.Bxc3 Qxh2# y 23.gxh4 Rd2!. Rubinstein acaba entregando la dama y dos torres.",
+  "Piensa en las diagonales largas: el alfil de b7 esperó a que el caballo de c6 se apartara y acabó clavando la dama blanca contra el rey en g2."
+ ],
+ "analysis": [
+  {
+   "san": "d4",
+   "title": "El peón de dama",
+   "explanation": "Las blancas abren con el peón de dama, la apertura más posicional: controla e5 y c5 y libera el alfil de c1.",
+   "pros": "Centro y flexibilidad.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "concepts": [
+    "Centro"
+   ],
+   "eval": 0.2
+  },
+  {
+   "san": "d5",
+   "title": "Respuesta simétrica",
+   "explanation": "Las negras plantan un peón en el centro y bloquean el peón de d4. Es la respuesta más sólida contra 1.d4.",
+   "pros": "Igualdad en el centro.",
+   "cons": "El alfil de c8 queda encerrado de momento.",
+   "phase": "apertura",
+   "concepts": [
+    "Centro"
+   ],
+   "eval": 0.3
+  },
+  {
+   "san": "Nf3",
+   "title": "Desarrollo del caballo",
+   "explanation": "El caballo sale hacia el centro y controla e5 y d4.",
+   "pros": "Desarrollo con control central.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "concepts": [
+    "Desarrollo"
+   ],
+   "arrows": [
+    "Gf3e5"
+   ],
+   "eval": 0.2
+  },
+  {
+   "san": "e6",
+   "title": "Cerrar con el peón de e",
+   "explanation": "Las negras protegen d5 con el peón de e y abren la diagonal del alfil de f8.",
+   "pros": "Estructura sólida; el alfil de f8 queda libre.",
+   "cons": "El alfil de c8 sigue encerrado.",
+   "phase": "apertura",
+   "concepts": [
+    "Estructura de peones"
+   ],
+   "eval": 0.3
+  },
+  {
+   "san": "e3",
+   "title": "Esquema tranquilo",
+   "explanation": "El peón de e3 libera el alfil de f1 y la dama. Es un esquema modesto: las blancas esperan a ver qué hacen las negras.",
+   "pros": "Desarrollo flexible.",
+   "cons": "Encierra el alfil de c1 por ahora.",
+   "phase": "apertura",
+   "concepts": [
+    "Desarrollo"
+   ],
+   "eval": 0.1
+  },
+  {
+   "san": "c5",
+   "title": "Ataque a d4",
+   "explanation": "Las negras atacan el peón de d4 con el de c5: es el planteamiento de la Defensa Tarrasch, que acepta un posible peón aislado en d5 a cambio de actividad.",
+   "pros": "Presión sobre d4.",
+   "cons": "Puede acabar dejando un peón aislado.",
+   "phase": "apertura",
+   "concepts": [
+    "Centro",
+    "Tarrasch"
+   ],
+   "arrows": [
+    "Rc5d4"
+   ],
+   "eval": 0.2
+  },
+  {
+   "san": "c4",
+   "title": "Presión sobre d5",
+   "explanation": "Las blancas atacan el peón de d5 y ofrecen un posible cambio en el centro.",
+   "pros": "Presiona d5.",
+   "cons": "Debilita d4, que ya está bajo ataque.",
+   "phase": "apertura",
+   "concepts": [
+    "Centro",
+    "Presión sobre peón"
+   ],
+   "arrows": [
+    "Rc4d5"
+   ],
+   "eval": 0.1
+  },
+  {
+   "san": "Nc6",
+   "title": "Más presión sobre d4",
+   "explanation": "El caballo de b8 sale y ataca d4 por segunda vez.",
+   "pros": "Desarrollo con presión.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "concepts": [
+    "Desarrollo",
+    "Presión"
+   ],
+   "arrows": [
+    "Rc6d4"
+   ],
+   "eval": 0.2
+  },
+  {
+   "san": "Nc3",
+   "title": "Caballo a c3",
+   "explanation": "El segundo caballo blanco sale a c3 y refuerza el control de d5 y e4.",
+   "pros": "Desarrollo natural.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "concepts": [
+    "Desarrollo"
+   ],
+   "eval": 0.2
+  },
+  {
+   "san": "Nf6",
+   "title": "Segundo caballo",
+   "explanation": "Las negras sacan su segundo caballo, que también apunta a d5.",
+   "pros": "Desarrollo rápido.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "concepts": [
+    "Desarrollo"
+   ],
+   "arrows": [
+    "Gf6d5"
+   ],
+   "eval": 0.2
+  },
+  {
+   "san": "dxc5",
+   "title": "Abrir el centro",
+   "explanation": "Las blancas capturan en c5 para dejar el peón de d5 y no sufrir la presión sobre d4. La posición está equilibrada; Stockfish prefería ligeramente 6.a3.",
+   "pros": "Elimina la presión sobre d4.",
+   "cons": "Permite que el alfil negro se active con tiempo.",
+   "phase": "apertura",
+   "concepts": [
+    "Ruptura central"
+   ],
+   "eval": -0.1
+  },
+  {
+   "san": "Bxc5",
+   "title": "Recuperar el peón",
+   "explanation": "El alfil recupera el peón y se instala en una diagonal activa que apunta a f2.",
+   "pros": "Recupera el material y activa el alfil.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "concepts": [
+    "Desarrollo",
+    "Diagonal abierta"
+   ],
+   "arrows": [
+    "Gc5f2"
+   ],
+   "eval": -0.1
+  },
+  {
+   "san": "a3",
+   "title": "Prepara b4",
+   "explanation": "Las blancas preparan b4 para expulsar al alfil de c5 y ganar espacio en el flanco de dama.",
+   "pros": "Prepara b4.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "concepts": [
+    "Prevención",
+    "Espacio"
+   ],
+   "arrows": [
+    "Ra3b4"
+   ],
+   "eval": 0.0
+  },
+  {
+   "san": "a6",
+   "title": "Prevención y plan",
+   "explanation": "Las negras evitan Nb5 y se preparan para ...b5 y ...dxc4, ganando la partida de tiempos.",
+   "pros": "Evita Nb5 y prepara ...b5.",
+   "cons": "Pierde un tiempo si las blancas aprovechan b4.",
+   "phase": "apertura",
+   "concepts": [
+    "Prevención"
+   ],
+   "eval": 0.2
+  },
+  {
+   "san": "b4",
+   "title": "Ataque al alfil",
+   "explanation": "El peón de b ataca el alfil de c5 y gana espacio. Las negras tendrán que retirarlo.",
+   "pros": "Gana un tiempo y espacio.",
+   "cons": "Debilita c4 y la casilla b3.",
+   "phase": "apertura",
+   "concepts": [
+    "Tiempo",
+    "Espacio"
+   ],
+   "arrows": [
+    "Rb4c5"
+   ],
+   "eval": 0.3
+  },
+  {
+   "san": "Bd6",
+   "title": "El alfil se retira",
+   "explanation": "El alfil se retira a d6 sin perder su diagonal hacia h2. Más tarde esta diagonal será importante.",
+   "pros": "Mantiene el alfil activo.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "concepts": [
+    "Desarrollo",
+    "Diagonal abierta"
+   ],
+   "arrows": [
+    "Gd6h2"
+   ],
+   "eval": 0.2
+  },
+  {
+   "san": "Bb2",
+   "title": "El alfil detrás del caballo",
+   "explanation": "El alfil de c1 llega a b2 y se coloca detrás del caballo de c3, presionando el centro por la diagonal larga.",
+   "pros": "Desarrollo completo del flanco de dama.",
+   "cons": "El caballo de c3 bloquea la diagonal.",
+   "phase": "apertura",
+   "concepts": [
+    "Desarrollo",
+    "Pareja de alfiles"
+   ],
+   "eval": 0.3
+  },
+  {
+   "san": "O-O",
+   "title": "Enroque",
+   "explanation": "Las negras ponen el rey a salvo y conectan las torres.",
+   "pros": "Rey seguro.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "concepts": [
+    "Desarrollo",
+    "Seguridad del rey"
+   ],
+   "eval": 0.3
+  },
+  {
+   "san": "Qd2",
+   "title": "Una dama sin destino",
+   "explanation": "La dama presiona d5 y prepara Rd1. Stockfish prefería el cambio 10.cxd5 exd5 11.Be2, manteniendo la estructura, pero esta jugada no es todavía un error: la posición sigue igualada.",
+   "pros": "Prepara Rd1 y presiona d5.",
+   "cons": "La dama queda en la columna d, donde la torre negra puede molestarla.",
+   "phase": "apertura",
+   "concepts": [
+    "Desarrollo",
+    "Dama"
+   ],
+   "arrows": [
+    "Rd2d5"
+   ],
+   "eval": -0.2
+  },
+  {
+   "san": "Qe7",
+   "title": "Dama a e7",
+   "explanation": "La dama se coloca en e7 para proteger el alfil de d6 y preparar ...Rd8.",
+   "pros": "Coordina las piezas.",
+   "cons": "Ninguna significativa.",
+   "phase": "apertura",
+   "concepts": [
+    "Desarrollo",
+    "Dama"
+   ],
+   "arrows": [
+    "Ge7d6"
+   ],
+   "eval": 0.2
+  },
+  {
+   "san": "Bd3",
+   "title": "Una imprecisión",
+   "explanation": "Las blancas desarrollan con tiempo, pero las negras capturan en c4 y ganan un tiempo. 11.cxd5 exd5 12.Be2 era más sólido.",
+   "pros": "Desarrolla el alfil con ataque a h7.",
+   "cons": "Permite ...dxc4 con ganancia de tiempo.",
+   "symbol": "?!",
+   "phase": "apertura",
+   "concepts": [
+    "Tiempo",
+    "Desarrollo"
+   ],
+   "arrows": [
+    "Rd3h7"
+   ],
+   "eval": -0.8
+  },
+  {
+   "san": "dxc4",
+   "title": "Ganan un tiempo",
+   "explanation": "Las negras capturan el peón de c4 y atacan el alfil de d3, que tendrá que recapturar o retirarse.",
+   "pros": "Gana tiempo y material.",
+   "cons": "Abre la columna c.",
+   "phase": "apertura",
+   "concepts": [
+    "Tiempo",
+    "Material"
+   ],
+   "arrows": [
+    "Rc4d3"
+   ],
+   "eval": -0.7
+  },
+  {
+   "san": "Bxc4",
+   "title": "Recaptura natural",
+   "explanation": "El alfil recupera el peón. 12.Be4 Nxe4 13.Nxe4 era peor (Stockfish: -1,7).",
+   "pros": "Recupera el material.",
+   "cons": "El alfil queda expuesto a ...b5.",
+   "phase": "medio juego",
+   "concepts": [
+    "Material"
+   ],
+   "eval": -0.7
+  },
+  {
+   "san": "b5",
+   "title": "Tiempo con ataque al alfil",
+   "explanation": "Las negras empujan el peón de b para atacar el alfil. Ganan un tiempo más a costa de debilitar c6 y c7.",
+   "pros": "Ataca el alfil y gana espacio.",
+   "cons": "Debilita el flanco de dama.",
+   "phase": "medio juego",
+   "concepts": [
+    "Tiempo",
+    "Espacio"
+   ],
+   "arrows": [
+    "Rb5c4"
+   ],
+   "eval": -0.7
+  },
+  {
+   "san": "Bd3",
+   "title": "El alfil se retira",
+   "explanation": "El alfil se retira a d3, desde donde sigue vigilando el flanco de rey. Stockfish valora la posición un poco mejor para las negras (-0,7).",
+   "pros": "Alfil a salvo, mira hacia h7.",
+   "cons": "Ha perdido un tiempo.",
+   "phase": "medio juego",
+   "concepts": [
+    "Retirada"
+   ],
+   "eval": -0.7
+  },
+  {
+   "san": "Rd8",
+   "title": "La torre en la columna d",
+   "explanation": "La torre se coloca en la columna d, detrás del alfil de d6, que cubre.",
+   "pros": "Torre activa; apoya el avance en el centro.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Columna abierta",
+    "Desarrollo"
+   ],
+   "arrows": [
+    "Gd8d6"
+   ],
+   "eval": -0.6
+  },
+  {
+   "san": "Qe2",
+   "title": "La dama a e2",
+   "explanation": "La dama sale de la columna d para evitar clavadas y prepara el enroque.",
+   "pros": "Evita problemas en la columna d.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Dama"
+   ],
+   "arrows": [
+    "Re2e5"
+   ],
+   "eval": -0.7
+  },
+  {
+   "san": "Bb7",
+   "title": "Alfil a la gran diagonal",
+   "explanation": "El alfil de c8 sale a b7, aún bloqueado por su propio caballo de c6. Cuando este se mueva, el alfil apuntará directo a g2 y h1.",
+   "pros": "Desarrollo del último alfil.",
+   "cons": "Está bloqueado por el caballo de c6.",
+   "phase": "medio juego",
+   "concepts": [
+    "Desarrollo",
+    "Diagonal abierta"
+   ],
+   "arrows": [
+    "Gb7g2"
+   ],
+   "eval": -0.7
+  },
+  {
+   "san": "O-O",
+   "title": "Enroque",
+   "explanation": "Las blancas se enrocan. El rey queda en g1, frente a una posible diagonal abierta en el futuro.",
+   "pros": "Rey seguro y torres conectadas.",
+   "cons": "El rey queda frente al flanco donde las negras van a atacar.",
+   "phase": "medio juego",
+   "concepts": [
+    "Seguridad del rey",
+    "Desarrollo"
+   ],
+   "eval": -0.6
+  },
+  {
+   "san": "Ne5",
+   "title": "Caballo al centro",
+   "explanation": "El caballo salta a e5 y ataca a la vez el caballo de f3 y el alfil de d3. Además abre la diagonal b7-g2 para el alfil de b7.",
+   "pros": "Ataque doble y apertura de diagonal.",
+   "cons": "Ninguna significativa.",
+   "key": true,
+   "phase": "medio juego",
+   "concepts": [
+    "Pieza activa",
+    "Desarrollo"
+   ],
+   "arrows": [
+    "Re5f3",
+    "Re5d3"
+   ],
+   "eval": -0.6
+  },
+  {
+   "san": "Nxe5",
+   "title": "Cambio de caballos",
+   "explanation": "Las blancas cambian el caballo central para eliminar la presión sobre d3 y f3.",
+   "pros": "Elimina la pieza activa del rival.",
+   "cons": "El caballo negro es una pieza muy valiosa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Cambio"
+   ],
+   "arrows": [
+    "Re5d3"
+   ],
+   "eval": -0.6
+  },
+  {
+   "san": "Bxe5",
+   "title": "Recaptura con el alfil",
+   "explanation": "El alfil recupera en e5, centralizado y apuntando hacia h2. El alfil de b7 ya tiene la gran diagonal abierta.",
+   "pros": "Alfil dominante en el centro.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Pieza activa",
+    "Centralización"
+   ],
+   "arrows": [
+    "Ge5h2"
+   ],
+   "eval": -0.6
+  },
+  {
+   "san": "f4",
+   "title": "Debilitar el flanco",
+   "explanation": "Las blancas atacan el alfil con el peón de f, pero debilitan el flanco de rey: e3 y la diagonal a7-g1 quedan sin protección. Stockfish prefería 17.Rfd1.",
+   "pros": "Ataca el alfil de e5.",
+   "cons": "Debilita e3, g1 y la diagonal a7-g1.",
+   "symbol": "?!",
+   "phase": "medio juego",
+   "concepts": [
+    "Debilidad",
+    "Peones"
+   ],
+   "arrows": [
+    "Rf4e5"
+   ],
+   "eval": -1.3
+  },
+  {
+   "san": "Bc7",
+   "title": "Retirada",
+   "explanation": "El alfil se retira a c7, de camino a b6, y las negras tienen ya una ventaja clara según Stockfish.",
+   "pros": "Evita perder el alfil y prepara ...Bb6.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Retirada"
+   ],
+   "eval": -1.3
+  },
+  {
+   "san": "e4",
+   "title": "Otra debilidad",
+   "explanation": "Las blancas buscan espacio central, pero dejan abierta la diagonal a7-g1: ahora ...Bb6+ será jaque. 18.Rad1 o 18.Rac1 eran más prudentes.",
+   "pros": "Gana espacio en el centro.",
+   "cons": "Abre la diagonal g1-a7.",
+   "symbol": "?!",
+   "phase": "medio juego",
+   "concepts": [
+    "Centro",
+    "Debilidad"
+   ],
+   "eval": -1.9
+  },
+  {
+   "san": "Rac8",
+   "title": "Torre detrás del alfil",
+   "explanation": "La torre se coloca en la columna c, detrás del alfil de c7. Cuando este alfil se mueva con jaque, descubrirá el ataque contra el caballo de c3.",
+   "pros": "Prepara una descubierta.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Columna abierta",
+    "Descubierta"
+   ],
+   "arrows": [
+    "Gc8c3"
+   ],
+   "eval": -1.6
+  },
+  {
+   "san": "e5",
+   "title": "Un avance peligroso",
+   "explanation": "Las blancas atacan el caballo de f6, pero ...Bb6+ llega con jaque y descubre el ataque de la torre sobre c3. Stockfish prefería 19.Rf3, aunque la posición ya era difícil.",
+   "pros": "Ataca el caballo de f6.",
+   "cons": "Permite ...Bb6+ con descubierta contra c3.",
+   "symbol": "?",
+   "key": true,
+   "phase": "medio juego",
+   "concepts": [
+    "Error",
+    "Diagonal abierta"
+   ],
+   "arrows": [
+    "Re5f6"
+   ],
+   "eval": -3.3
+  },
+  {
+   "san": "Bb6+",
+   "title": "Jaque con descubierta",
+   "explanation": "El alfil da jaque por la diagonal a7-g1 y, al abandonar c7, deja a la torre de c8 mirando al caballo de c3.",
+   "pros": "Jaque con ataque descubierto.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Jaque",
+    "Descubierta"
+   ],
+   "arrows": [
+    "Rb6g1",
+    "Rc8c3"
+   ],
+   "eval": -3.3
+  },
+  {
+   "san": "Kh1",
+   "title": "Rey a h1",
+   "explanation": "El rey se refugia en la esquina, pero allí es presa fácil de un ataque con ...Ng4 y ...Qh4.",
+   "pros": "Evita pérdida inmediata.",
+   "cons": "El rey queda atrapado en la esquina.",
+   "phase": "medio juego",
+   "concepts": [
+    "Rey expuesto"
+   ],
+   "eval": -3.7
+  },
+  {
+   "san": "Ng4",
+   "title": "El caballo salta a g4",
+   "explanation": "El caballo escapa del peón de e5 y ataca h2. Ahora con ...Qh4 las negras amenazan Qxh2#.",
+   "pros": "Prepara el mate en h2.",
+   "cons": "Ninguna significativa.",
+   "phase": "medio juego",
+   "concepts": [
+    "Ataque al rey",
+    "Pieza activa"
+   ],
+   "arrows": [
+    "Rg4h2",
+    "Rg4e5"
+   ],
+   "eval": -3.6
+  },
+  {
+   "san": "Be4",
+   "title": "Bloquear la gran diagonal",
+   "explanation": "El alfil bloquea la diagonal b7-h1 y ataca el alfil de b7. Era la única forma de no sucumbir de inmediato.",
+   "pros": "Bloquea la diagonal y ofrece cambio.",
+   "cons": "El alfil puede ser capturado con jaque en cualquier momento.",
+   "phase": "medio juego",
+   "concepts": [
+    "Defensa"
+   ],
+   "arrows": [
+    "Re4b7"
+   ],
+   "eval": -3.9
+  },
+  {
+   "san": "Qh4",
+   "title": "La dama a h4",
+   "explanation": "La dama se coloca en h4 y amenaza Qxh2#: el peón de h2 está atacado por la dama y el caballo, y solo defendido por el rey.",
+   "pros": "Amenaza mate en h2.",
+   "cons": "La dama puede ser atacada con g3.",
+   "key": true,
+   "phase": "medio juego",
+   "concepts": [
+    "Ataque al rey",
+    "Mate"
+   ],
+   "arrows": [
+    "Rh4h2"
+   ],
+   "eval": -4.3
+  },
+  {
+   "san": "g3",
+   "title": "Ataque a la dama",
+   "explanation": "El peón ataca la dama. Era lo natural, pero la posición ya estaba perdida: Stockfish daba -4,2 también tras 22.h3.",
+   "pros": "Ataca la dama.",
+   "cons": "Abre la casilla g3 y la columna g.",
+   "symbol": "?!",
+   "phase": "medio juego",
+   "concepts": [
+    "Ataque a la dama",
+    "Defensa"
+   ],
+   "arrows": [
+    "Rg3h4"
+   ],
+   "eval": -6.5
+  },
+  {
+   "san": "Rxc3",
+   "title": "¡Sacrificio de torre!",
+   "explanation": "Rubinstein ignora el ataque a su dama y sacrifica una torre en c3. Ataca el alfil de b2 y mantiene todas sus amenazas sobre h2. Si 23.Bxc3, 23...Qxh2# es mate inmediato.",
+   "pros": "Crea una doble amenaza de mate.",
+   "cons": "Ninguna significativa.",
+   "symbol": "!!",
+   "key": true,
+   "phase": "medio juego",
+   "concepts": [
+    "Sacrificio",
+    "Mate",
+    "Ataque al rey"
+   ],
+   "arrows": [
+    "Rc3b2",
+    "Rh4h2",
+    "Rg4h2"
+   ],
+   "question": "La dama negra está atacada por el peón de g3. ¿Por qué no la mueve Rubinstein?",
+   "answer": "Porque con 22...Rxc3 mantiene la amenaza Qxh2#: si 23.Bxc3, 23...Qxh2# da mate; si 23.gxh4, empieza el segundo sacrificio.",
+   "lines": [
+    {
+     "title": "Si 23.Bxc3?? Qxh2#",
+     "start": "after",
+     "moves": "Bxc3 Qxh2",
+     "comment": "Mate inmediato: el caballo de g4 protege la dama y el rey de h1 no tiene casillas libres."
+    }
+   ],
+   "eval": -6.8
+  },
+  {
+   "san": "gxh4",
+   "title": "La dama capturada",
+   "explanation": "Las blancas capturan la dama con el peón (lo mejor era 23.Bxb7 Rxg3, que tampoco salvaba). Ahora tienen dama y torre de más, pero el rey sigue sin defensa.",
+   "pros": "Gana la dama.",
+   "cons": "Permite el segundo sacrificio.",
+   "symbol": "?!",
+   "phase": "medio juego",
+   "concepts": [
+    "Captura",
+    "Material"
+   ],
+   "eval": "#-8"
+  },
+  {
+   "san": "Rd2",
+   "title": "¡Otra torre!",
+   "explanation": "La torre ataca la dama de e2 y el alfil de b2. Si 24.Qxd2, el alfil de b7 captura en e4 con jaque; si 24.Rf2, 24...Bxe4+ 25.Qxe4 Nxf2+ gana la dama y la partida.",
+   "pros": "Desvía la dama de la defensa del rey y aprovecha la diagonal b7-h1.",
+   "cons": "Ninguna significativa.",
+   "symbol": "!!",
+   "key": true,
+   "phase": "medio juego",
+   "concepts": [
+    "Sacrificio",
+    "Desviación",
+    "Ataque doble"
+   ],
+   "arrows": [
+    "Rd2e2",
+    "Rg4h2"
+   ],
+   "question": "Las blancas tienen dama y torre de más. ¿Qué pretende Rubinstein con 23...Rd2?",
+   "answer": "Ataca la dama de e2; si 24.Qxd2, el alfil toma en e4 con jaque y las negras mantienen todas las amenazas; si 24.Rf2, Bxe4+ 25.Qxe4 Nxf2+ gana.",
+   "eval": "#-7"
+  },
+  {
+   "san": "Qxd2",
+   "title": "La dama captura",
+   "explanation": "La dama toma la torre. Las blancas tienen ya dama y dos torres de más, pero el golpe final está en marcha.",
+   "pros": "Gana otra torre.",
+   "cons": "Cede el control de e4.",
+   "phase": "medio juego",
+   "concepts": [
+    "Captura forzada"
+   ],
+   "eval": "#-5"
+  },
+  {
+   "san": "Bxe4+",
+   "title": "Jaque descubierto",
+   "explanation": "El alfil captura el alfil de e4 con jaque: la diagonal e4-h1 está libre porque el peón de g2 ya avanzó a g3.",
+   "pros": "Gana tiempo con jaque.",
+   "cons": "Ninguna significativa.",
+   "symbol": "!",
+   "phase": "medio juego",
+   "concepts": [
+    "Jaque",
+    "Mate"
+   ],
+   "arrows": [
+    "Re4h1",
+    "Rg4h2"
+   ],
+   "eval": -5.4
+  },
+  {
+   "san": "Qg2",
+   "title": "La única defensa",
+   "explanation": "La dama bloquea el jaque desde g2, pero queda clavada por el alfil de e4. No hay otra opción: 25.Rf3 Bxf3+ 26.Qg2 también perdía.",
+   "pros": "Evita el mate inmediato.",
+   "cons": "Cae en la amenaza decisiva.",
+   "phase": "medio juego",
+   "concepts": [
+    "Defensa"
+   ],
+   "arrows": [
+    "Rg2e4"
+   ],
+   "eval": "#-4"
+  },
+  {
+   "san": "Rh3",
+   "title": "¡La torre a h3!",
+   "explanation": "La torre de c3 se desliza por la tercera fila hasta h3 y amenaza Rxh2#. La dama de g2 está clavada por el alfil de e4 (no puede capturar la torre), y si 26.Qxe4, Rxh2# da mate. Rotlewi se rindió, con dama y dos torres de ventaja.",
+   "pros": "Amenaza mate inmediato en h2.",
+   "cons": "Ninguna: las blancas se rinden.",
+   "symbol": "!!",
+   "key": true,
+   "phase": "final",
+   "concepts": [
+    "Mate",
+    "Sacrificio"
+   ],
+   "arrows": [
+    "Rh3h2",
+    "Rg4h2"
+   ],
+   "squares": [
+    "Rh2"
+   ],
+   "eval": "#-3"
+  }
+ ],
+ "scan": {
+  "by": "Stockfish 17.1",
+  "evals": [
+   32,
+   20,
+   28,
+   25,
+   24,
+   10,
+   15,
+   11,
+   18,
+   16,
+   21,
+   -13,
+   -12,
+   0,
+   29,
+   24,
+   29,
+   25,
+   24,
+   -3,
+   21,
+   -69,
+   -74,
+   -68,
+   -61,
+   -72,
+   -67,
+   -69,
+   -59,
+   -55,
+   -66,
+   -60,
+   -61,
+   -132,
+   -128,
+   -192,
+   -165,
+   -349,
+   -359,
+   -365,
+   -373,
+   -416,
+   -425,
+   -643,
+   -695,
+   "#-8",
+   "#-7",
+   "#-5",
+   "#-4",
+   "#-4",
+   "#-3"
+  ],
+  "best": [
+   "e2e4",
+   "g8f6",
+   "c2c4",
+   "g8f6",
+   "c2c4",
+   "g8f6",
+   "c2c4",
+   "g8f6",
+   "b1c3",
+   "g8f6",
+   "a2a3",
+   "f8c5",
+   "a2a3",
+   "e8g8",
+   "b2b4",
+   "c5d6",
+   "c1b2",
+   "e8g8",
+   "c4d5",
+   "d8e7",
+   "c4d5",
+   "d5c4",
+   "d3c4",
+   "f8d8",
+   "c4d3",
+   "c8b7",
+   "d2e2",
+   "c8b7",
+   "e1g1",
+   "a8c8",
+   "f3e5",
+   "d6e5",
+   "f1d1",
+   "e5c7",
+   "a1d1",
+   "c7b6",
+   "f1f3",
+   "f6g4",
+   "g1h1",
+   "f6g4",
+   "d3e4",
+   "e7h4",
+   "h2h3",
+   "c8c3",
+   "e4b7",
+   "d8d2",
+   "f1f2",
+   "b7e4",
+   "d2g2",
+   "c3h3",
+   null
+  ],
+  "pv": [
+   "e2e4 c7c5 g1f3 b8c6 d2d4 c5d4 f3d4 g7g6",
+   "g8f6 c2c4 e7e6 g1f3 d7d5 b1c3 c7c5 c1g5",
+   "c2c4 e7e6 b1c3 g8f6 c1g5 f8e7 e2e3 h7h6",
+   "g8f6",
+   "c2c4 g8f6",
+   "g8f6 b1d2 c7c5 f1e2 c5d4 e3d4 f8d6 e1g1",
+   "c2c4 g8f6 b1c3 a7a6 d4c5 f8c5 a2a3 d5c4",
+   "g8f6 f1e2 d5c4 e1g1 b8c6 e2c4 a7a6 d4c5",
+   "b1c3 g8f6",
+   "g8f6 a2a3 d5c4 f1c4 a7a6 e1g1 b7b5 c4a2",
+   "a2a3 a7a6 d4c5 d5c4 d1d8 e8d8 c3a4 f6d7",
+   "f8c5 a2a3 e8g8 b2b4 c5d6 c4d5 e6d5 f1e2",
+   "a2a3 e8g8 b2b4 c5d6 c4d5 e6d5 f1e2 a7a5",
+   "e8g8 b2b4 c5d6 c1b2 a7a5 b4b5 c6e5 c3a4",
+   "b2b4 c5d6 c4d5 e6d5 c1b2 e8g8 f1e2 f8e8",
+   "c5d6 c4d5 e6d5 c1b2 e8g8 f1e2 c8e6 e1g1",
+   "c1b2 e8g8 c4d5 e6d5 f1e2 c8e6 e1g1 b7b5",
+   "e8g8 c4d5 e6d5 f1e2 c8e6 e1g1 a8c8 a1c1",
+   "c4d5 e6d5 f1e2 c8e6 e1g1 d8e7 c3a4 b7b5",
+   "d8e7 c4d5 e6d5 c3d5 f6d5 d2d5 f8d8 d5b3",
+   "c4d5 e6d5 c3d5 f6d5 d2d5 a6a5 b4b5 f8d8",
+   "d5c4 d3c4 b7b5 c4d3 c8b7 e1g1 f8d8 d2e2",
+   "d3c4 b7b5 c4d3 c8b7 e1g1 a8d8 h2h3 c6e5",
+   "f8d8 d2e2 b7b5 c4d3 c8b7 e1g1 c6e5 f3e5",
+   "c4d3 f8d8 e1g1 c8b7 h2h3 c6e5 f3e5 d6e5",
+   "c8b7 c3e4",
+   "d2e2 c8b7",
+   "c8b7 e1g1 c6e5 f3e5 d6e5 f1d1 a8c8 a1c1",
+   "e1g1 c6e5 f3e5 d6e5 f1d1 a8c8 a1c1 e5b8",
+   "a8c8 a1c1 c6e5 f3e5 d6e5 h2h3 e5b8 f1d1",
+   "f3e5 d6e5 f1d1 a8c8 a1c1 e5b8 h2h3 h7h6",
+   "d6e5 f1d1",
+   "f1d1 a8c8 a1c1 e5b8 h2h3 h7h6 g1f1 g8f8",
+   "e5c7 a3a4",
+   "a1d1 e6e5 a3a4 e5e4 d3b1 c7b6 d1d8 a8d8",
+   "c7b6 g1h1 h7h5 f1f3 d8d4 a1f1 a8d8 f3h3",
+   "f1f3 c7b6",
+   "f6g4 d3e4 c7b6 g1h1 g4h2 e2h5 b7e4 c3e4",
+   "g1h1 f6g4 d3e4 g4h2 e2h5 b7e4 c3e4 h2f1",
+   "f6g4 d3e4 g4h2 e2h5 b7e4 c3e4 h2f1 a1f1",
+   "d3e4 g4h2 f1c1 h2f1 e2g4 f1e3 g4h3 g7g6",
+   "e7h4 h2h3 c8c3 b2c3 b7e4 e2g4 h4g4 h3g4",
+   "h2h3 c8c3 b2c3 b7e4 e2g4 h4g4 h3g4 d8d3",
+   "c8c3 e4b7 c3g3 b2c3 g3c3 b7f3 g4f2 f1f2",
+   "e4b7 c3g3 a1c1 g3e3 e2g2 e3h3 c1c2 g4e3",
+   "d8d2 e4b7 d2e2 f1f2 e2f2 h1g1 f2b2 g1f1",
+   "f1f2 b7e4 e2e4 g4f2 h1g1 f2e4 g1f1 d2f2",
+   "b7e4 d2g2 c3h3 b2d4 b6d4 f1f2 d4f2 g2e4",
+   "d2g2 c3h3 b2d4 b6d4 f1f2 d4f2 g2e4 h3h2",
+   "c3h3 b2d4 b6d4 f1f2 d4f2 g2e4 h3h2",
+   ""
+  ]
+ }
+}

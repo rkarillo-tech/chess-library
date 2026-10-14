@@ -1,6 +1,9 @@
 {
  "format": "chess-analyzer/2",
  "info": {
+  "temas": ["Sacrificio y combinación", "Ataque al rey", "Apertura y desarrollo"],
+  "coleccion": "maestros",
+  "nivel": "basico",
   "title": "La Siempreviva (Evergreen Game)",
   "white": "Adolf Anderssen",
   "black": "Jean Dufresne",

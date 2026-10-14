@@ -1,6 +1,9 @@
 {
  "format": "chess-analyzer/2",
  "info": {
+  "temas": ["Sacrificio y combinación", "Ataque al rey", "Apertura y desarrollo"],
+  "coleccion": "maestros",
+  "nivel": "intermedio",
   "title": "La Inmortal de Rubinstein",
   "white": "Georg Rotlewi",
   "black": "Akiba Rubinstein",

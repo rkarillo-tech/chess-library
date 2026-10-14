@@ -1,5 +1,8 @@
 {
 "info": {
+"temas": ["Estructura de peones", "Columnas y séptima fila", "Defensa y contraataque"],
+"coleccion": "maestros",
+"nivel": "intermedio",
 "title": "Rosenthal vs. Steinitz, Viena 1873",
 "white": "Rosenthal Samuel",
 "black": "Steinitz Wilhelm",

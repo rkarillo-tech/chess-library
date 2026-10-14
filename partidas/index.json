@@ -1,5 +1,33 @@
 {
   "games": [
-    "anderssen-vs-kieseritzky-1851.json"
+    "Alekhine_vs_Nimzowitsch.json",
+    "Anderssen_vs_Dufresne.json",
+    "Boleslavsky-Isaak_vs_Lisitsin-Georgy.json",
+    "Botvinnik_vs_Capablanca.json",
+    "Botvinnik_vs_Vidmar.json",
+    "Capablanca_vs_Tartakower.json",
+    "Deep-Blue_vs_Kasparov.json",
+    "Domenech_vs_Flohr.json",
+    "Fischer_vs_Berliner.json",
+    "Fischer_vs_Spassky.json",
+    "Karpov_vs_Kasparov.json",
+    "Kasparov_vs_Topalov.json",
+    "Kupferstich_vs_Andreasen.json",
+    "Lasker_vs_Tarrasch.json",
+    "Matisons_vs_Nimzowitsch.json",
+    "Menchik_vs_Capablanca.json",
+    "Petrosian_vs_Korchnoi.json",
+    "Porges_Moritz_vs_Emanuel_Lasker.json",
+    "Reshevsky_vs_Najdorf.json",
+    "Rosenthal_vs_Steinitz.json",
+    "Rotlewi_vs_Rubinstein.json",
+    "Rubinstein_vs_Duras.json",
+    "Saemisch_vs_Nimzowitsch.json",
+    "Short_vs_Timman.json",
+    "Smyslov_vs_Reshevsky.json",
+    "Smyslov_vs_Rudakovsky.json",
+    "Tal-Mihail_vs_Lisitsin-Georgy.json",
+    "Tarrasch_vs_Thorold.json",
+    "Tartakower_vs_Frentz.json"
   ]
 }

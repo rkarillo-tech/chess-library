@@ -1,6 +1,9 @@
 {
  "format": "chess-analyzer/2",
  "info": {
+  "temas": ["Estructura de peones", "Ataque al rey", "Columnas y séptima fila"],
+  "coleccion": "maestros",
+  "nivel": "intermedio",
   "title": "Fischer contra Spassky, partida 6 (Reikiavik 1972)",
   "white": "Robert J. Fischer",
   "black": "Boris Spassky",

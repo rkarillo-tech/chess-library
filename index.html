@@ -1,9 +1,33 @@
 <!DOCTYPE html>
 <!--
-  Chess Analyzer
+  Chess Analyzer · estudio de partidas de ajedrez
+  https://github.com/rkarillo-tech/chess-library
+
+  MIT License
+
   Copyright (c) 2026 Rafael Karino Arillo (rkarillo-tech)
-  Licencia MIT: https://github.com/rkarillo-tech/chess-library/blob/main/LICENSE
-  Stockfish (descargado aparte al activar el motor) tiene licencia GPL.
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in all
+  copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  SOFTWARE.
+
+  Componentes de terceros (no incluidos en este archivo; el navegador los descarga):
+  Stockfish 10 (GPL v3), fuentes Crimson Text, Playfair Display y Noto Sans Symbols 2 (SIL OFL 1.1).
+  Ver «Licencia y créditos» en la aplicación.
 -->
 <html lang="es">
 <head>
@@ -309,6 +333,11 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,te
 .swatch.on{border-color:var(--gold);box-shadow:0 0 0 2px rgba(212,167,69,.35)}
 .pstyle{font-family:var(--font-pieces);font-size:22px;padding:2px 8px;line-height:1.2;border-radius:7px;border:2px solid var(--line);background:#8b6b4a;cursor:pointer}
 .pstyle.on{border-color:var(--gold)}
+.credits{margin-top:14px;text-align:center;font-family:var(--font-ui);font-size:12px;color:var(--ink3)}
+.credits a,.link-inline,.modal p a{color:var(--gold);text-decoration:underline}
+.link-inline{border:0;background:none;padding:0;font:inherit;cursor:pointer}
+.lic-det summary{cursor:pointer;color:var(--gold);font-family:var(--font-ui);font-size:13px;margin:4px 0}
+.lic-text{white-space:pre-wrap;word-break:break-word;font-family:ui-monospace,Consolas,monospace;font-size:12px;line-height:1.55;color:var(--ink2);background:var(--bg2);border:1px solid var(--line);padding:10px 12px;border-radius:8px;max-height:240px;overflow:auto;margin:6px 0}
 .kbd{display:inline-block;min-width:22px;text-align:center;padding:1px 6px;border-radius:5px;border:1px solid var(--line2);background:var(--bg2);font-family:var(--font-ui);font-size:12px;color:var(--ink)}
 .keys{display:grid;grid-template-columns:auto 1fr;gap:6px 12px;align-items:center;font-size:14px;color:var(--ink2)}
 .gloss dt{font-weight:700;color:var(--gold);margin-top:8px}
@@ -1616,6 +1645,7 @@ function renderHome() {
       <button class="btn small ghost" data-act="import-lib">Restaurar copia</button>
       <span style="flex:1"></span><span>Atajos: ← → para navegar · ? ayuda</span>
     </div>
+    <div class="credits">© 2026 Rafael Karino Arillo · <button class="link-inline" data-act="license">Licencia MIT</button> · <a href="https://github.com/rkarillo-tech/chess-library" target="_blank" rel="noopener noreferrer">código fuente</a></div>
   </main>`;
   const s = $('#search');
   s.addEventListener('input', () => { H.query = s.value.trim(); const pos = s.selectionStart; renderHome(); const n = $('#search'); n.focus(); try { n.setSelectionRange(pos, pos); } catch (e) { } });
@@ -2604,8 +2634,30 @@ function openHelp() {
   <span><span class="kbd">R</span></span><span>Mostrar comentario (modo Piensa primero)</span>
   <span><span class="kbd">V</span></span><span>Narración en voz alta</span>
   <span><span class="kbd">Esc</span></span><span>Salir de variante, modo o ventana</span>
-  <span><span class="kbd">S</span> <span class="kbd">?</span></span><span>Ajustes · Ayuda</span></div>`);
+  <span><span class="kbd">S</span> <span class="kbd">?</span></span><span>Ajustes · Ayuda</span></div>
+  ${licenseHtml()}`);
 }
+
+/* ── Licencia y créditos ── */
+const MIT_TEXT = `MIT License
+
+Copyright (c) 2026 Rafael Karino Arillo (rkarillo-tech)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.`;
+function licenseHtml() {
+  return `<h4>Licencia y créditos</h4>
+  <p>Chess Analyzer · © 2026 Rafael Karino Arillo (rkarillo-tech) · <a href="https://github.com/rkarillo-tech/chess-library" target="_blank" rel="noopener noreferrer">github.com/rkarillo-tech/chess-library</a></p>
+  <p>Software libre con licencia MIT: puedes usarlo, copiarlo, modificarlo y distribuirlo, también con fines comerciales, siempre que conserves este aviso de copyright y el texto de la licencia. Se ofrece tal cual, sin garantía de ningún tipo.</p>
+  <details class="lic-det"><summary>Ver el texto de la licencia</summary><pre class="lic-text">${esc(MIT_TEXT)}</pre></details>
+  <h4>Componentes de terceros</h4>
+  <ul><li><b>Stockfish 10</b> — © los autores de Stockfish · GPL v3. Se descarga aparte (jsDelivr o unpkg) solo al activar el motor; no forma parte de este archivo.</li>
+  <li><b>Crimson Text</b>, <b>Playfair Display</b> y <b>Noto Sans Symbols 2</b> — fuentes de Google Fonts con licencia SIL Open Font License 1.1.</li></ul>`;
+}
+function openLicense() { modal(`<h3>Licencia y créditos ${xBtn()}</h3>${licenseHtml().replace(/^<h4>Licencia y créditos<\/h4>/, '')}`); }
 
 /* ── Menú del visor ── */
 function openMenu(btn) {
@@ -2730,6 +2782,7 @@ function onAct(t, e) {
     case 'reset-progress': if (confirm('¿Borrar el progreso y las puntuaciones de entrenamiento de todas las partidas?')) { save(KEYS.prog, {}); toast('Progreso borrado'); } return;
     case 'settings': return openSettings();
     case 'help': return openHelp();
+    case 'license': return openLicense();
     case 'close': return closeModal();
     case 'pref': return applyPrefClick(d.k, d.v);
     case 'pgn-open': return pasteOpen();

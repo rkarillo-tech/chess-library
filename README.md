@@ -72,3 +72,9 @@ El formato está descrito en `prompt-analisis-ajedrez.md`. Los campos obligatori
 - Stockfish 10 (WebAssembly, con alternativa en JavaScript) se descarga desde jsDelivr o unpkg solo al activar el motor. Stockfish es software libre con licencia GPL.
 - Los datos (biblioteca, progreso, preferencias y análisis de motor) se guardan en el navegador de cada dispositivo. Usa «Copia de seguridad» para llevarlos a otro.
 - Las piezas son caracteres Unicode con la fuente Noto Sans Symbols 2 de Google Fonts.
+
+## Licencia
+
+[MIT](LICENSE) © 2026 Rafael Karino Arillo ([rkarillo-tech](https://github.com/rkarillo-tech)).
+Puedes usar, copiar, modificar y distribuir el código libremente, manteniendo el aviso de autoría.
+Stockfish, que la aplicación descarga aparte al activar el motor, conserva su propia licencia GPL.
